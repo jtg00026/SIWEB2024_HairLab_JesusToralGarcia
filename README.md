@@ -105,6 +105,55 @@ Además, se pueden encontrar deficiencias en la usabilidad, como la presencia de
 Por otro lado, en términos de accesibilidad, se puede destacar el buen contraste de colores y la legibilidad de la fuente, pero sería altamente necesario mejorar la usabilidad de ciertos elementos. 
 En resumen, este sitio web a pesar de tener muchos aspectos positivos, podría ofrecer una experiencia más satisfactoria al usuario si se mejoran las áreas mencionadas.
 
+### https://www.barberiapeluqueriafuengirola.com/
+**Aspectos generales:**
+En este caso, esta barbería ofrece un mensaje directo en su página principal, especificando claramente el objetivo del sitio web: “un espacio de peluquería masculina”, por lo que de esta manera el usuario puede identificar de manera directa el sitio web al que ha accedido.
+Como se tiene por único objetivo reservar una cita de manera online, sólo encontramos esta funcionalidad. Además, el look-and-feel y la estética del sitio web acompaña a la actividad que se pretende realizar, por lo que el diseño general es coherente. Aún así, sería conveniente identificar al usuario antes de presentar las funcionalidades, para no interrumpirlo una vez haya reservado su cita.
+Un aspecto muy destacable es su URL, la cual se corresponde con el propio nombre de la barbería, haciendo fácil al usuario recordarla. Sin embargo, las URL de sus páginas internas sufren un cambio con respecto a la de la página principal, lo cual podría derivar en la confusión por parte de ciertos usuarios.
+Por otro lado, la página web aparentemente no parece actualizarse de forma periódica, ya que al tratarse solo de reservas y no contar con apartado de blog o foro donde se pueda ver la actividad, no se puede garantizar que se actualice. Aún así, tienen una sección de “¿Qué dicen nuestros clientes?”, en la que se recogen opiniones de distintos usuarios; sin embargo, no se muestra la fecha de dichas reseñas.
+
+**Identidad e Información:**
+En todo momento, tanto en la página principal como en cualquiera de sus páginas internas, aparece el nombre de la barbería, por lo que la identidad del negocio siempre queda clara. 
+Además, no es sólo que aparezca el nombre de la empresa, si no que se nos muestra su propio logotipo, mostrando a los usuarios el sello de identidad de esta barbería y haciéndoles fácil reconocerla y recordarla. 
+Por otro lado, también se le proporciona al usuario la posibilidad de contactar con el negocio, ya que en varias ocasiones aparece tanto la dirección, como el instagram y un número de teléfono. 
+En este caso, en el momento de iniciar sesión, además de dar la opción de crear una cuenta con un número de teléfono y email, también nos deja iniciar sesión directamente con una cuenta de Facebook o Gmail y en el momento de continuar con el registro, el usuario debe aceptar explícitamente que ha leído y acepta las condiciones de uso del servicio web así como la política de protección de datos y cookies. Además, en la parte inferior de la página principal encontramos los derechos de autor del sitio web, por lo que queda protegido el contenido que se muestra.
+
+**Lenguaje y redacción:**
+Este sitio web destaca por su sencillez en cuanto a los servicios que ofertan ya que a pesar de no mostrar una descripción de cada uno de ellos, el nombre del propio servicio se define así mismo por lo que al usar un lenguaje directo y coloquial, hace que sea sencillo para cualquier tipo de cliente saber el servicio que está reservando. 
+Asimismo se puede destacar que todo está ordenado, con una entrada por idea y organizando los servicios por secciones en función de si se tratan de cortes o barba, entre otros, facilitando la búsqueda a los clientes.
+
+**Rotulado:**
+Los rótulos empleados son muy adecuados con la estética del negocio, mostrando sobriedad y elegancia. 
+Sin embargo, en cuanto a la tipografía que se usa, se han elegido en ciertas ocasiones la fuente “Roboto” o “Google Sans”, letras “open source” que no dan exclusividad; sin embargo, al usar otra tipografía totalmente distinta para la introducción o el propio logotipo de la barbería, se contrarresta este factor. 
+Por otro lado, todas las funcionalidades y títulos son claros y bien legibles, lo que facilitan la navegación por la web.
+
+**Estructura y navegación:**
+La página web destaca por la sencillez ya que en la página principal a pesar de encontrarnos con una breve descripción del negocio, únicamente se puede encontrar una funcionalidad: “cita online”. Sin embargo, un aspecto que se puede mejorar es que no tenemos la opción de volver a la página principal una vez hayamos accedido a la página de reservas más allá de pulsar la propia flecha de retroceder del navegador.
+Un aspecto muy cuidado es, que a pesar de tener tanto una galería en la que se muestran algunos de sus trabajos, enlaces a Google Maps, o a sus redes sociales, no se puede encontrar ninguna página huérfana.
+
+**Layout de la página:**
+La distribución de los elementos en la página principal es uniforme, mostrando en primer plano la funcionalidad más importante de reservar una cita online, y colocando en la parte inferior de la misma el resto de elementos informativos. 
+Asimismo, en el momento de hacer la reserva, tanto las distintas categorías como los distintos servicios ofrecidos, se colocan de forma estratégica en la zona media del espacio, asegurando que los clientes lo puedan visualizar desde el primer momento. Por otro lado, al estar todas las opciones ordenadas ocupando el mismo espacio, se puede asegurar que está distribuido de forma uniforme. 
+A pesar de optar por algo más arriesgado, jugando con un fondo marmolado y una tipografía en blanco para cada uno de los servicios, el contraste de colores es adecuado. 
+Tampoco se sobrecarga ni sobresatura de información las distintas páginas. Además, la interfaz no presenta ruido visual, y el propio diseño junto con la gama de colores usada favorece que la interfaz se vea limpia y clara. 
+
+**Búsqueda:**
+Este sitio web no cuenta con un sistema de búsqueda, el no es estrictamente necesario al contar a lo sumo con 9 servicios.
+**Elementos multimedia:**
+Este aspecto es crucial al ser la página web el medio de proyección del negocio, sin embargo, al entrar al sitio web, en la página principal se puede encontrar como fondo una fotografía del propio negocio, la cual está perfectamente recortada, con la opacidad justa y con una muy buena resolución. Asimismo, en la sección de “Galería” en la que los clientes pueden ver algunos de los trabajos realizados en la barbería, los elementos multimedia usados están correctamente recortadas y editadas, con una gran profesionalidad. 
+Por otro lado, las metáforas empleadas son fácilmente reconocibles y comprensibles por cualquier usuario ya que al haberlas incluido únicamente como valor añadido a los datos de contacto, por ejemplo, facilitan la propia comprensión del texto. 
+Ayuda
+En este sitio web no encontramos ninguna sección de ayuda, preguntas frecuentes o ayudas contextuales en tareas complejas debido a la simplicidad de las funcionalidades que se ofrecen. 
+**Accesibilidad:**
+A pesar de contar con una tipografía bastante grande en ciertas ocasiones, en aspectos generales no se ha tenido en cuenta el aspecto de accesibilidad. Sin embargo, si hacemos zoom manualmente en el navegador, se puede comprobar que tanto la fuente como los elementos visuales se adecúan al ancho de línea. 
+Además, el diseño del sitio web junto con la gama de colores empleada, hace que las personas con alguna deficiencia visual puedan disfrutar de los servicios ofrecidos sin mayor problema aparente. Por otro lado, al haber escogido como fondo un color grisáceo, frente al color oscuro de la tipografía, se favorece que haya un buen contraste. 
+**Control y retroalimentación:**
+Esta interfaz ofrece al usuario total libertad de navegar por ella, así como la posibilidad de conocer en todo momento en qué sección nos encontramos. 
+Por otro lado, en el caso de querer reservar una cita sin haber iniciado sesión previamente, se informa de forma clara que es necesario acceder o crear una cuenta para llevar a cabo tal acción. Además una vez seleccionada la cita deseada, el usuario dispone de tres minutos para confirmar su cita junto con un teléfono de contacto.
+**Conclusiones:**
+En resumen, el sitio web de esta barbería destaca por su sencillez, coherencia en el diseño y la facilidad de uso para los usuarios. Aunque muestra algunas carencias en aspectos como la actualización periódica del contenido o la inclusión de elementos de accesibilidad, en general ofrece una experiencia satisfactoria para los clientes, con una identidad clara, una navegación intuitiva y un diseño atractivo. 
+Sin embargo, se podrían considerar mejoras adicionales, como la implementación de una opción para regresar a la página principal desde cualquier sección o la inclusión de una sección de ayuda o descripción de los servicios ofrecidos para brindar asistencia adicional a los usuarios.
+
 # Fundamentando HairLab: Construccion del Anteproyecto
 ## Anteproyecto de HairLab
 
