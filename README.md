@@ -16,9 +16,52 @@ Jesús Toral García [ jtg00026@red.ujaen.es ]
 ### **Universidad de Jaén - 2024**
 
 # Fundamentando HairLab: Planificación del Proyecto
-## Recogida de información
+## Recogida de información, e Introducción a HairLab
+HairLab consistirá en un sistema hipermedia web; funcionando como una plataforma integral diseñada para revolucionar la forma en que los negocios de peluquería y sus clientes interactúan y gestionan sus servicios.
 
-- En construcción
+## Delimitación y Contextualización del Proyecto
+HairLab ofrecerá una amplia gama de servicios y funcionalidades diseñadas para satisfacer las necesidades específicas tanto de los clientes como de los negocios de peluquería. Estas incluyen:
+
+### Para los Clientes
+HairLab brindará una plataforma a los negocios para garantizar una experiencia de usuario excepcional a los clientes, asegurando que cada interacción sea personalizada, conveniente y satisfactoria:
+
+1. **Reservas Personalizadas**: Los clientes pueden reservar fácilmente servicios de peluquería a través de la plataforma, eligiendo la fecha, el profesional y los servicios deseados de acuerdo a sus preferencias individuales.
+   
+2. **Tienda Online Integrada**: Con acceso a un catálogo completo de productos de belleza y cuidado capilar, los clientes pueden explorar, comparar y comprar productos directamente desde la plataforma, aprovechando ofertas exclusivas que proponga el negocio.
+   
+3. **Wiki de Peluquería**: Una sección educativa y informativa que proporciona a los clientes una comprensión detallada de los servicios ofrecidos, los productos utilizados y los procesos de peluquería, garantizando una experiencia informada y enriquecedora.
+
+### Para los Negocios
+HairLab ofrece herramientas y soluciones avanzadas para los negocios de peluquería, con el objetivo de optimizar sus operaciones, mejorar la gestión del cliente y aumentar la eficiencia:
+
+1. **Gestión Automatizada de Agenda**: Una solución integral que simplifica la gestión de citas y agendas, eliminando la necesidad de registros en papel y garantizando una gestión eficiente del tiempo y los recursos.
+   
+2. **Control de Almacén Integrado**: Con funcionalidades de seguimiento de inventario y gestión de pedidos, HairLab permite a los negocios mantener un control preciso sobre sus existencias y garantizar una oferta continua de productos para sus clientes.
+
+## Objetivos del Sitio Web
+El principal objetivo de HairLab es proporcionar una plataforma integral que mejore la gestión y la experiencia del cliente para los negocios de peluquería y sus clientes. Algunos de los objetivos específicos incluyen:
+- Facilitar el proceso de reserva de servicios de peluquería para los clientes, garantizando una experiencia fluida y personalizada.
+- Ofrecer una experiencia de compra conveniente y segura para los clientes, con acceso a una amplia gama de productos de belleza y accesorios.
+- Brindar información detallada y transparente sobre los servicios y productos ofrecidos por los negocios de peluquería, promoviendo una mayor confianza y satisfacción del cliente.
+- Automatizar y optimizar las operaciones de los negocios de peluquería, simplificando la gestión de agendas, inventarios y pedidos.
+
+## Información de la Organización
+**Nombre**: HairLab
+**Sector**: Sector servicios: Peluquerías, salones de belleza, barberías, entre otros.
+**Personas/Perfiles**: El servicio estará orientado para servir directamente a negocios e indirectamente a sus clientes.
+**Estructura y Personas de Contacto**:
+- **[Nombre del Desarrollador Principal]**: Jesús Toral García / jtg00026@red.ujaen.es
+
+## Sitio Web Existente
+HairLab se encuentra actualmente en fase de desarrollo y no cuenta con un sitio web disponible al público en este momento. Sin embargo, en versiones futuras del proyecto, se contará con un dominio al servicio del publico general.
+
+## Usuarios Potenciales del Sitio Web
+HairLab está dirigido a una amplia variedad de usuarios en la industria de la peluquería y la belleza, incluyendo:
+- Clientes individuales que buscan reservar servicios de peluquería y comprar productos de belleza de forma conveniente y segura.
+- Negocios de peluquería y salones de belleza que desean mejorar su gestión y experiencia del cliente, optimizando sus operaciones y ofreciendo servicios y productos de alta calidad.
+
+## Compromiso con la Innovación
+- En construccion.
 
 # Fundamentando HairLab: Investigación del mercado y competencia
 ## Estudio de Usabilidad
