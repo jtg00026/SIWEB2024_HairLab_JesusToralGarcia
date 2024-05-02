@@ -60,8 +60,6 @@ HairLab está dirigido a una amplia variedad de usuarios en la industria de la p
 - Clientes individuales que buscan reservar servicios de peluquería y comprar productos de belleza de forma conveniente y segura.
 - Negocios de peluquería y salones de belleza que desean mejorar su gestión y experiencia del cliente, optimizando sus operaciones y ofreciendo servicios y productos de alta calidad.
 
-## Compromiso con la Innovación
-- En construccion.
 
 # Fundamentando HairLab: Investigación del mercado y competencia
 ## Estudio de Usabilidad
@@ -200,4 +198,4 @@ Sin embargo, se podrían considerar mejoras adicionales, como la implementación
 # Fundamentando HairLab: Construccion del Anteproyecto
 ## Anteproyecto de HairLab
 
--- En construccion.
+## Titulo
