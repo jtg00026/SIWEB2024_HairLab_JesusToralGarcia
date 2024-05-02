@@ -1,0 +1,32 @@
+[
+    {
+        "idVenta": "V001",
+        "idProducto": "P001",
+        "idAlmacen": "A001",
+        "cantidad": 2
+    },
+    {
+        "idVenta": "V001",
+        "idProducto": "P002",
+        "idAlmacen": "A002",
+        "cantidad": 1
+    },
+    {
+        "idVenta": "V002",
+        "idProducto": "P003",
+        "idAlmacen": "A001",
+        "cantidad": 3
+    },
+    {
+        "idVenta": "V002",
+        "idProducto": "P004",
+        "idAlmacen": "A003",
+        "cantidad": 2
+    },
+    {
+        "idVenta": "V003",
+        "idProducto": "P005",
+        "idAlmacen": "A002",
+        "cantidad": 1
+    }
+]

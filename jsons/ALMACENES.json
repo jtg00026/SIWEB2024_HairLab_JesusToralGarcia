@@ -1,0 +1,13 @@
+[
+    {
+      "idAlmacen": "A001",
+      "recuentoElementos": 0,
+      "espacioDisponible": 100
+    },
+    {
+      "idAlmacen": "A002",
+      "recuentoElementos": 0,
+      "espacioDisponible": 150
+    }
+  ]
+  

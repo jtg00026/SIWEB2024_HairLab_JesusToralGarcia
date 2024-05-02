@@ -1,0 +1,182 @@
+[
+    {
+        "idProducto": "P001",
+        "nombre": "Champú",
+        "descripcion": "Champú para cabello seco",
+        "precio": 10.99
+    },
+    {
+        "idProducto": "P002",
+        "nombre": "Acondicionador",
+        "descripcion": "Acondicionador para cabello teñido",
+        "precio": 8.50
+    },
+    {
+        "idProducto": "P003",
+        "nombre": "Crema Hidratante para Cabello",
+        "descripcion": "Crema hidratante para cabello seco y dañado",
+        "precio": 12.99
+    },
+    {
+        "idProducto": "P004",
+        "nombre": "Mascarilla Reparadora",
+        "descripcion": "Mascarilla reparadora para cabello maltratado",
+        "precio": 15.50
+    },
+    {
+        "idProducto": "P005",
+        "nombre": "Gel Fijador para Cabello",
+        "descripcion": "Gel para peinados con alta fijación",
+        "precio": 9.99
+    },
+    {
+        "idProducto": "P006",
+        "nombre": "Spray Protector Térmico",
+        "descripcion": "Spray protector para usar antes de aplicar calor al cabello",
+        "precio": 14.99
+    },
+    {
+        "idProducto": "P007",
+        "nombre": "Sérum Capilar Reparador",
+        "descripcion": "Sérum para cabello dañado que ayuda a reparar las puntas abiertas",
+        "precio": 17.50
+    },
+    {
+        "idProducto": "P008",
+        "nombre": "Espuma Voluminizadora",
+        "descripcion": "Espuma para dar volumen al cabello fino",
+        "precio": 11.99
+    },
+    {
+        "idProducto": "P009",
+        "nombre": "Aceite Nutritivo para Cabello",
+        "descripcion": "Aceite nutritivo para cabello seco y sin brillo",
+        "precio": 18.50
+    },
+    {
+        "idProducto": "P010",
+        "nombre": "Laca de Fijación Fuerte",
+        "descripcion": "Laca para mantener el peinado en su lugar durante todo el día",
+        "precio": 7.99
+    },
+    {
+        "idProducto": "P011",
+        "nombre": "Cera Moldeadora para Cabello",
+        "descripcion": "Cera para crear estilos desenfadados y texturizados",
+        "precio": 13.99
+    },
+    {
+        "idProducto": "P012",
+        "nombre": "Mousse Definidora de Rizos",
+        "descripcion": "Mousse para definir y controlar los rizos del cabello",
+        "precio": 10.50
+    },
+    {
+        "idProducto": "P013",
+        "nombre": "Tratamiento Capilar Antifrizz",
+        "descripcion": "Tratamiento para controlar el frizz y alisar el cabello",
+        "precio": 16.99
+    },
+    {
+        "idProducto": "P014",
+        "nombre": "Spray Texturizante de Playa",
+        "descripcion": "Spray para conseguir el efecto de cabello de playa con ondas naturales",
+        "precio": 11.50
+    },
+    {
+        "idProducto": "P015",
+        "nombre": "Bálsamo Reparador de Puntas",
+        "descripcion": "Bálsamo para reparar y sellar las puntas abiertas del cabello",
+        "precio": 14.99
+    },
+    {
+        "idProducto": "P016",
+        "nombre": "Serum Antirotura",
+        "descripcion": "Serum para prevenir la rotura del cabello y fortalecerlo desde el interior",
+        "precio": 19.50
+    },
+    {
+        "idProducto": "P017",
+        "nombre": "Espuma para Rizos",
+        "descripcion": "Espuma para definir y dar forma a los rizos del cabello",
+        "precio": 12.99
+    },
+    {
+        "idProducto": "P018",
+        "nombre": "Spray de Brillo Capilar",
+        "descripcion": "Spray para dar un brillo luminoso al cabello",
+        "precio": 9.99
+    },
+    {
+        "idProducto": "P019",
+        "nombre": "Aceite de Argán",
+        "descripcion": "Aceite nutritivo y reparador a base de aceite de argán",
+        "precio": 22.50
+    },
+    {
+        "idProducto": "P020",
+        "nombre": "Crema para Peinar",
+        "descripcion": "Crema para desenredar y peinar el cabello fácilmente",
+        "precio": 10.99
+    },
+    {
+        "idProducto": "P021",
+        "nombre": "Gel Fijador de Peinado",
+        "descripcion": "Gel para fijar y dar forma al peinado",
+        "precio": 7.99
+    },
+    {
+        "idProducto": "P022",
+        "nombre": "Mascarilla Capilar Hidratante",
+        "descripcion": "Mascarilla intensiva para hidratar y nutrir el cabello",
+        "precio": 15.50
+    },
+    {
+        "idProducto": "P023",
+        "nombre": "Laca de Fijación Fuerte",
+        "descripcion": "Laca para un acabado de larga duración y fijación fuerte",
+        "precio": 11.99
+    },
+    {
+        "idProducto": "P024",
+        "nombre": "Tónico Capilar Revitalizante",
+        "descripcion": "Tónico para revitalizar y fortalecer el cuero cabelludo",
+        "precio": 13.50
+    },
+    {
+        "idProducto": "P025",
+        "nombre": "Crema Alisadora de Cabello",
+        "descripcion": "Crema para alisar y controlar el cabello encrespado",
+        "precio": 18.99
+    },
+    {
+        "idProducto": "P026",
+        "nombre": "Spray Voluminizador",
+        "descripcion": "Spray para dar volumen y cuerpo al cabello fino",
+        "precio": 12.50
+    },
+    {
+        "idProducto": "P027",
+        "nombre": "Aceite de Coco para Cabello",
+        "descripcion": "Aceite natural de coco para nutrir y suavizar el cabello",
+        "precio": 16.99
+    },
+    {
+        "idProducto": "P028",
+        "nombre": "Espuma de Peinado Hidratante",
+        "descripcion": "Espuma para peinar y mantener el cabello hidratado",
+        "precio": 10.50
+    },
+    {
+        "idProducto": "P029",
+        "nombre": "Serum Reparador de Puntas Abiertas",
+        "descripcion": "Serum para reparar y sellar las puntas abiertas del cabello",
+        "precio": 14.50
+    },
+    {
+        "idProducto": "P030",
+        "nombre": "Spray Protector Térmico",
+        "descripcion": "Spray para proteger el cabello del calor de las herramientas de peinado",
+        "precio": 9.99
+    }
+]
