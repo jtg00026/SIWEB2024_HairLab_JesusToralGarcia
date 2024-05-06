@@ -32,11 +32,11 @@ HairLab ofrecerá una amplia gama de servicios y funcionalidades diseñadas para
 HairLab brindará una plataforma a los negocios para garantizar una experiencia de usuario excepcional a los clientes, asegurando que cada interacción sea personalizada, conveniente y satisfactoria:
 
 
-1. **Reservas Personalizadas**Los clientes pueden reservar fácilmente servicios de peluquería a través de la plataforma, eligiendo la fecha, el profesional y los servicios deseados de acuerdo a sus preferencias individuales.
+1. **Reservas Personalizadas:** Los clientes pueden reservar fácilmente servicios de peluquería a través de la plataforma, eligiendo la fecha, el profesional y los servicios deseados de acuerdo a sus preferencias individuales.
    
-2. **Tienda Online Integrada**Con acceso a un catálogo completo de productos de belleza y cuidado capilar, los clientes pueden explorar, comparar y comprar productos directamente desde la plataforma, aprovechando ofertas exclusivas que proponga el negocio.
+2. **Tienda Online Integrada:** Con acceso a un catálogo completo de productos de belleza y cuidado capilar, los clientes pueden explorar, comparar y comprar productos directamente desde la plataforma, aprovechando ofertas exclusivas que proponga el negocio.
    
-3. **Wiki de Peluquería**Una sección educativa y formativa que proporciona a los clientes una comprensión detallada de los servicios ofrecidos, los productos utilizados y los procesos de peluquería, garantizando una experiencia informada y enriquecedora.
+3. **Wiki de Peluquería:** Una sección educativa y formativa que proporciona a los clientes una comprensión detallada de los servicios ofrecidos, los productos utilizados y los procesos de peluquería, garantizando una experiencia informada y enriquecedora.
 
 
 ### Para los Negocios
@@ -236,55 +236,42 @@ Sin embargo, se podrían considerar mejoras adicionales, como la implementación
 # Fundamentando HairLab: Construcción del Anteproyecto
 ## Anteproyecto de HairLab
 
-
 ## Título
 HairLab
-
 
 ## Slogan
 Reserva, vende, triunfa: HairLab te respalda.
 
-
 ## Descripción del Proyecto
 HairLab es un proyecto enfocado en el desarrollo de una plataforma hipermedia web diseñada para transformar la manera en que los negocios de peluquería interactúan con sus clientes. Proporcionará una experiencia integral tanto para los clientes como para los propietarios de los negocios, facilitando la reserva de citas, la compra de productos y la gestión de operaciones.
-
 
 ## Descripcion de la organización/institución
 HairLab estará orientado al uso de diferentes negocios interesados en la plataforma, por lo que será imagen de diversos establecimientos.
 
-
 ## Tipo de Proyecto
 HairLab es un proyecto enfocado en la creación de una plataforma web hipermedia, además de contar con el apoyo de funcionalidades en bases de datos NoSQL para dar soporte a las reservas y al comercio electrónico para la sección de tienda.
 
-
 ## Propósitos y Objetivos
 El propósito de HairLab es mejorar la gestión y la experiencia del cliente para los negocios de peluquería y sus clientes. Algunos de los objetivos específicos incluyen:
-
 
 1) Facilitar el proceso de reserva de servicios de peluquería para los clientes, garantizando una experiencia fluida y personalizada.
 2) Ofrecer una experiencia de compra conveniente y segura para los clientes, con acceso a una amplia gama de productos de belleza y accesorios.
 3) Brindar información detallada y transparente sobre los servicios y productos ofrecidos por los negocios de peluquería, promoviendo una mayor confianza y satisfacción del cliente.
 4) Automatizar y optimizar las operaciones de los negocios de peluquería, simplificando la gestión de agendas, inventarios y pedidos.
 
-
 ## Palabras clave
 Peluquería, Barbería, Belleza, Corte de pelo, Reservas, Citas, Servicios de belleza, Productos de belleza, Estilismo, Moda capilar, Peinados, Tendencias, Maquillaje, Estética, Barbero, Estilista, Cliente, Experiencia, Compra online, Catálogo, Promociones, Ofertas, Cliente satisfecho, Gestión de citas, Gestión de inventario, Herramientas de belleza, Tratamientos capilares, Coloración, Tinte, Mechas, Estilo personal, Salón de belleza, Spa, Bienestar, Autocuidado, Innovación, Tecnología, Plataforma web, Experiencia de usuario, Interacción, Información detallada, Educación, Wiki, Wiki de peluquería, Wiki de belleza, Consejos, Guía, Herramientas de gestión, Agenda, Control de almacén, Stock, Inventario, Compras, Comercio electrónico, Seguridad, Privacidad, Protección de datos, Política de cookies, Aviso legal, Derechos de autor, Opiniones de clientes, Testimonios, Valoraciones, Experiencias, Comentarios, Reseñas, Retroalimentación, Usabilidad, Accesibilidad, Diseño web, Estructura web, Navegación, Layout, Interfaz, Multimedia, Fotografías, Imágenes, Galería, Iconos, Animaciones, Experiencia visual, Contraste, Legibilidad, Tipografía, Fuente, Estilo, Rotulado, Etiquetas, SEO, Optimización, Búsqueda, Motor de búsqueda, Palabras clave, Metadatos, Etiquetas HTML, Descripción, Títulos, Encabezados, Palabras clave relevantes, Mejora del posicionamiento.
-
 
 ## Metodología
 El desarrollo de HairLab se llevará a cabo siguiendo un enfoque de desarrollo ágil, que permita una iteración rápida y una adaptación continua a medida que se reciban retroalimentaciones. Se utilizarán tecnologías web modernas y se aplicarán principios de diseño centrado en el usuario para garantizar una experiencia óptima para todos los usuarios finales.
 
-
 ## Resultados esperados
 Se espera que HairLab proporcione una plataforma robusta y completa que satisfaga las necesidades tanto de los clientes como de los propietarios de negocios de peluquería. Se espera mejorar la eficiencia operativa de los negocios, aumentar la satisfacción del cliente y abrir nuevas oportunidades de negocio mediante la integración de servicios de reserva de citas y venta de productos en una única plataforma en línea.
 
-
 ## Requisitos de hardware y software
 Los requisitos de hardware y software para HairLab incluirán servidores web para alojar la plataforma, bases de datos para almacenar información de clientes y productos, así como computadoras personales o dispositivos móviles para acceder a la plataforma como usuarios finales.
-
 
 ## Bibliografía y documentación
 - Norman, D. A. (2013). The Design of Everyday Things. Basic Books.
 - Cooper, A., Reimann, R., & Cronin, D. (2007). About Face 3: The Essentials of Interaction Design. Wiley.
 - Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design Patterns: Elements of Reusable Object-Oriented Software. Addison-Wesley.
-
