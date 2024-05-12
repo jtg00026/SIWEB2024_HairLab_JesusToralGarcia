@@ -60,12 +60,35 @@ app.post('/registrarUsuario', async (req, res) => {
         await nuevoUsuario.save();
 
         console.log('Usuario registrado correctamente en la base de datos.');
-        res.status(200).send('Usuario registrado correctamente.');
+        res.redirect('/index.html');
     } catch (error) {
         console.error('Error al registrar el usuario:', error);
         res.status(500).send('Error interno del servidor');
     }
 });
+
+// Ruta para manejar las solicitudes POST para iniciar sesión
+app.post('/iniciarSesion', async (req, res) => {
+    // Obtener los datos del cuerpo de la solicitud
+    const { email } = req.body;
+
+    try {
+        // Buscar el usuario en la base de datos por su dirección de correo electrónico
+        const usuario = await usuarios.findOne({ email });
+
+        if (usuario) {
+            // Si el usuario existe, redirige al usuario al index.html
+            res.redirect('/index.html');
+        } else {
+            // Si el usuario no existe, puedes devolver un código de estado 401 (No autorizado) o un mensaje de error
+            res.status(401).send('Credenciales inválidas. Por favor, verifica tu correo electrónico y contraseña.');
+        }
+    } catch (error) {
+        console.error('Error al iniciar sesión:', error);
+        res.status(500).send('Error interno del servidor');
+    }
+});
+
 
 
 // Manejo de método no permitido.
