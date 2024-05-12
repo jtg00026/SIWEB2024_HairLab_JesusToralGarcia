@@ -10,6 +10,9 @@ const LocalStrategy = require('passport-local').Strategy;
 const bcrypt = require('bcryptjs');
 
 const usuarios = require('./models/usuarios');
+const peluquerias = require('./models/peluquerias');
+const servicios = require('./models/servicios');
+const productos = require('./models/productos');
 
 const uri = "mongodb://admin:admin@localhost:27017/bdd?authSource=admin";
 
@@ -124,7 +127,7 @@ app.get('/inicioIncorrecto', (req, res) => {
 app.get('/obtenerServicios', async (req, res) => {
     try {
         // Obtener todos los servicios de la base de datos
-        const serviciosObtenidos = await Servicio.find();
+        const serviciosObtenidos = await servicios.find();
         console.log("Servicios encontrados:", serviciosObtenidos);
         res.json(serviciosObtenidos);
     } catch (error) {
@@ -133,10 +136,17 @@ app.get('/obtenerServicios', async (req, res) => {
     }
 });
 
-
-// Manejo de método no permitido.
-app.use((req, res) => {
-    res.status(405).send('Método no permitido.');
+// Ruta para manejar las solicitudes GET para obtener los productos
+app.get('/obtenerProductos', async (req, res) => {
+    try {
+        // Obtener todos los productos de la base de datos
+        const productosObtenidos = await productos.find();
+        console.log("Productos encontrados:", productosObtenidos);
+        res.json(productosObtenidos);
+    } catch (error) {
+        console.error('Error al obtener los productos:', error);
+        res.status(500).send('Error interno del servidor');
+    }
 });
 
 // Iniciar el servidor
