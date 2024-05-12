@@ -106,12 +106,28 @@ app.post('/registrarUsuario', async (req, res) => {
     }
 });
 
-// Ruta para manejar la autenticación de usuarios (inicio de sesión)
-app.post('/iniciarSesion', passport.authenticate('local', {
-    successRedirect: '/inicioCorrecto',
-    failureRedirect: '/inicioIncorrecto',
-    failureFlash: true
-}));
+// Ruta para manejar el inicio de sesión
+app.post('/iniciarSesion', async (req, res) => {
+    const { email, password } = req.body;
+
+    try {
+        // Buscar el usuario en la base de datos por su email y contraseña
+        const usuario = await usuarios.findOne({ email, contrasena: password });
+
+        if (!usuario) {
+            // Si no se encuentra un usuario con las credenciales proporcionadas, responder con un mensaje de error
+            return res.status(401).json({ success: false, message: 'Credenciales incorrectas' });
+        }
+
+        // Si se encuentra el usuario, responder con un mensaje de éxito
+        return res.status(200).json({ success: true, message: 'Inicio de sesión exitoso', usuario });
+    } catch (error) {
+        // Manejar errores de base de datos u otros errores internos del servidor
+        console.error('Error:', error);
+        return res.status(500).json({ success: false, message: 'Error interno del servidor' });
+    }
+});
+
 
 // Ruta para manejar el inicio de sesión correcto
 app.get('/inicioCorrecto', (req, res) => {

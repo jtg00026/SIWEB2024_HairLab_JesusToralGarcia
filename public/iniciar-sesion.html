@@ -173,55 +173,45 @@
 </div>
 
 <script>
-    document.getElementById("loginForm").addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevenir el envío del formulario normalmente
+  document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevenir el envío del formulario normalmente
 
-        // Obtener los valores de correo electrónico y contraseña ingresados por el usuario
-        var email = document.getElementById("email").value;
-        var password = document.getElementById("password").value;
+      // Obtener los valores de correo electrónico y contraseña ingresados por el usuario
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
 
-        // Realizar una solicitud fetch al servidor para iniciar sesión
-        fetch("/iniciarSesion", {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ email: email, password: password })
-        })
-        .then(response => {
-            if (response.ok) {
-                console.log('Solicitud realizada con éxito');
-                return response.json();
-            } else {
-                // Verificar el tipo de contenido de la respuesta
-                const contentType = response.headers.get('content-type');
-                if (contentType && contentType.includes('application/json')) {
-                    // Si la respuesta es JSON, analizarla como tal
-                    return response.json().then(data => {
-                        throw new Error(data.message || 'Error en la solicitud');
-                    });
-                } else {
-                    console.log('Inicio de sesión exitoso');
-                window.location.href = "index.html";
-                }
-            }
-        })
-        .then(data => {
-            if (data.success) {
-                // Si la autenticación fue exitosa, redirigir a la página de inicio
-                console.log('Inicio de sesión exitoso');
-                window.location.href = "index.html";
-            } else {
-                // Si la autenticación falló, mostrar un mensaje de error
-                console.log('Inicio de sesión fallido');
-                alert("Inicio de sesión fallido. Por favor, verifica tus credenciales e intenta nuevamente.");
-            }
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-
-    });
+      // Realizar una solicitud fetch al servidor para iniciar sesión
+      fetch("/iniciarSesion", {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ email: email, password: password })
+      })
+      .then(response => {
+          if (!response.ok) {
+              // Si la respuesta no es OK, lanzar un error
+              throw new Error('Error en la solicitud');
+          }
+          // Si la respuesta es OK, devolver los datos JSON
+          return response.json();
+      })
+      .then(data => {
+          if (data.success) {
+              // Si la autenticación fue exitosa, redirigir a la página de inicio
+              console.log('Inicio de sesión exitoso');
+              window.location.href = "index.html";
+          } else {
+              // Si la autenticación falló, mostrar un mensaje de error
+              console.log('Inicio de sesión fallido');
+              alert("Inicio de sesión fallido. Por favor, verifica tus credenciales e intenta nuevamente.");
+          }
+      })
+      .catch(error => {
+          console.error('Error:', error);
+          alert("Ocurrió un error al intentar iniciar sesión. Por favor, inténtalo de nuevo más tarde.");
+      });
+  });
 </script>
 
 </body>
