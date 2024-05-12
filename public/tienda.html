@@ -8,7 +8,7 @@
     <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-        html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth; }
+        html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth; }
     </style>
     <style data-tag="default-style-sheet">
         html {
@@ -78,15 +78,6 @@
                                     <span>Contacto</span>
                                 </a>
                             </nav>
-                            <div class="navbar4-buttons">
-                                <a href="iniciar-sesion.html" class="navbar4-action1 thq-button-filled">
-                                    <span>Iniciar sesión</span>
-                                </a>
-                                <a href="crear-usuario.html" class="navbar4-action2 thq-button-outline">
-                                    <span>Crear cuenta</span>
-                                </a>
-                            </div>
-
                         </div>
                         <div data-thq="thq-burger-menu" class="navbar4-burger-menu">
                             <svg viewBox="0 0 1024 1024" class="navbar4-icon">
@@ -150,11 +141,11 @@
                 <div class="hero92-max-width thq-section-max-width">
                     <div class="hero92-content">
                         <h1 class="hero92-text thq-heading-1">
-                            <span>Aqui tienes todos los servicios disponibles para reservar</span>
+                            <span>En esta seccion se muestran todos los productos disponibles para comprar</span>
                         </h1>
                         <p class="hero92-text1 thq-body-large">
                             <span>
-                                Selecciona el botón de reserva del servicio deseado para formalizarla.
+                                Selecciona el botón de compra del producto deseado para pasar a formalizar el pago.
                             </span>
                         </p>
                     </div>
@@ -225,45 +216,51 @@
   window.onload = async function() {
       const productList = document.getElementById('product-list');
       const categorySelects = document.querySelectorAll('.category-select');
+      const searchInput = document.getElementById('search-input');
 
       // Función para obtener los productos desde el servidor
-      async function obtenerProductos(categoria) {
+      async function obtenerProductos(categoria, filtro) {
           try {
               const response = await fetch('/obtenerProductos');
               const productos = await response.json();
-              if (categoria === 'Todos') {
-                  return productos;
-              } else {
-                  return productos.filter(producto => producto.categoria === categoria);
+              let productosFiltrados = productos;
+              if (categoria !== 'Todos') {
+                  productosFiltrados = productos.filter(producto => producto.categoria === categoria);
               }
+              if (filtro) {
+                  const filtroMinusculas = filtro.toLowerCase();
+                  productosFiltrados = productosFiltrados.filter(producto => producto.nombre.toLowerCase().includes(filtroMinusculas));
+              }
+              return productosFiltrados;
           } catch (error) {
               console.error('Error al obtener los productos:', error);
           }
       }
+// Función para mostrar los productos
+async function mostrarProductos(categoria, filtro) {
+    const productos = await obtenerProductos(categoria, filtro);
 
-      // Función para mostrar los productos
-      async function mostrarProductos(categoria) {
-          const productos = await obtenerProductos(categoria);
+    // Limpiar la lista de productos
+    productList.innerHTML = '';
 
-          // Limpiar la lista de productos
-          productList.innerHTML = '';
+    // Mostrar los productos obtenidos
+    productos.forEach(producto => {
+        const productoElement = document.createElement('div');
+        productoElement.classList.add('product');
+        productoElement.innerHTML = `
+            <h3>${producto.nombre}</h3>
+            <img src="${producto.imagen}" alt="${producto.nombre}" class="product-image">
+            <p><strong>Categoría:</strong> ${producto.categoria}</p>
+            <p>${producto.descripcion}</p>
+            <p><strong>Precio:</strong> $${producto.precio.toFixed(2)}</p>
+        `;
+        productList.appendChild(productoElement);
+    });
+}
 
-          // Mostrar los productos obtenidos
-          productos.forEach(producto => {
-              const productoElement = document.createElement('div');
-              productoElement.classList.add('product');
-              productoElement.innerHTML = `
-                  <h3>${producto.nombre}</h3>
-                  <p><strong>Categoría:</strong> ${producto.categoria}</p>
-                  <p>${producto.descripcion}</p>
-                  <p><strong>Precio:</strong> $${producto.precio.toFixed(2)}</p>
-              `;
-              productList.appendChild(productoElement);
-          });
-      }
 
       // Mostrar todos los productos al cargar la página
-      mostrarProductos('Todos');
+      mostrarProductos('Todos', '');
 
       // Evento click para cambiar la categoría
       categorySelects.forEach(select => {
@@ -271,8 +268,16 @@
               categorySelects.forEach(item => item.classList.remove('active'));
               select.classList.add('active');
               const categoria = select.dataset.category;
-              mostrarProductos(categoria);
+              const filtro = searchInput.value.trim();
+              mostrarProductos(categoria, filtro);
           });
+      });
+
+      // Evento input para buscar productos
+      searchInput.addEventListener('input', () => {
+          const categoriaSeleccionada = document.querySelector('.category-select.active').dataset.category;
+          const filtro = searchInput.value.trim();
+          mostrarProductos(categoriaSeleccionada, filtro);
       });
   };
 </script>

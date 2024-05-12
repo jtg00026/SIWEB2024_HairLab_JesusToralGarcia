@@ -6,7 +6,8 @@ const ProductosSchema = new mongoose.Schema({
     nombre: String,
     categoria: String,
     descripcion: String,
-    precio: Number
+    precio: Number,
+    imagen: String
 });
 
 // Crear el modelo Producto basado en el esquema definido
