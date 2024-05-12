@@ -7,6 +7,7 @@ const UsuarioSchema = new mongoose.Schema({
     apellido1: String,
     apellido2: String,
     email: String,
+    contrasena: String,
     telefono: String,
     fechaNacimiento: Date,
     tipoUsuario: String,
@@ -54,6 +55,12 @@ const UsuarioSchema = new mongoose.Schema({
         }
     }]
 });
+
+// Método para validar la contraseña
+UsuarioSchema.methods.validarContrasena = async function(contraseña) {
+    // Comparar la contraseña proporcionada con la contraseña almacenada en la base de datos
+    return await bcrypt.compare(contraseña, this.contrasena);
+};
 
 // Crear el modelo Usuario basado en el esquema definido
 const Usuario = mongoose.model('Usuario', UsuarioSchema);

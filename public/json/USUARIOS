@@ -5,6 +5,7 @@
         "apellido1": "Toral",
         "apellido2": "García",
         "email": "jtg00026@red.ujaen.es",
+        "contrasena": "1234",
         "telefono": "646573746",
         "fechaNacimiento": "2003-01-01",
         "tipoUsuario": "Usuario",

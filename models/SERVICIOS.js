@@ -7,7 +7,8 @@ const ServiciosSchema = new mongoose.Schema({
     duracion: Number,
     precio: Number,
     descripcion: String,
-    dificultad: String
+    dificultad: String,
+    enlaceImagen: String
 });
 
 // Crear el modelo Servicio basado en el esquema definido
