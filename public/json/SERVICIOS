@@ -1,0 +1,162 @@
+[
+  {
+    "idServicio": 1,
+    "nombre": "Corte de pelo masculino",
+    "duracion": 30,
+    "precio": 15.99,
+    "descripcion": "Corte de pelo clásico para hombres",
+    "dificultad": "baja"
+  },
+  {
+    "idServicio": 2,
+    "nombre": "Corte de pelo femenino",
+    "duracion": 45,
+    "precio": 25.99,
+    "descripcion": "Corte de pelo moderno para mujeres",
+    "dificultad": "media"
+  },
+  {
+    "idServicio": 3,
+    "nombre": "Tinte de cabello",
+    "duracion": 60,
+    "precio": 35.99,
+    "descripcion": "Aplicación de tinte de color para el cabello",
+    "dificultad": "media"
+  },
+  {
+    "idServicio": 4,
+    "nombre": "Tratamiento capilar",
+    "duracion": 45,
+    "precio": 30.50,
+    "descripcion": "Tratamiento hidratante para cabellos secos y dañados",
+    "dificultad": "alta"
+  },
+  {
+    "idServicio": 5,
+    "nombre": "Peinado para evento",
+    "duracion": 60,
+    "precio": 40.99,
+    "descripcion": "Peinado elegante para ocasiones especiales",
+    "dificultad": "media"
+  },
+  {
+    "idServicio": 6,
+    "nombre": "Maquillaje para evento",
+    "duracion": 45,
+    "precio": 45.99,
+    "descripcion": "Maquillaje profesional para eventos sociales",
+    "dificultad": "media"
+  },
+  {
+    "idServicio": 7,
+    "nombre": "Lavado de cabello",
+    "duracion": 15,
+    "precio": 10.99,
+    "descripcion": "Lavado y acondicionamiento del cabello",
+    "dificultad": "baja"
+  },
+  {
+    "idServicio": 8,
+    "nombre": "Corte de barba",
+    "duracion": 20,
+    "precio": 12.99,
+    "descripcion": "Corte y arreglo de barba para hombres",
+    "dificultad": "baja"
+  },
+  {
+    "idServicio": 9,
+    "nombre": "Alisado de cabello",
+    "duracion": 90,
+    "precio": 60.99,
+    "descripcion": "Tratamiento para alisar el cabello de forma permanente",
+    "dificultad": "alta"
+  },
+  {
+    "idServicio": 10,
+    "nombre": "Manicura",
+    "duracion": 30,
+    "precio": 20.99,
+    "descripcion": "Cuidado y embellecimiento de las uñas de las manos",
+    "dificultad": "media"
+  },
+  {
+    "idServicio": 11,
+    "nombre": "Pedicura",
+    "duracion": 45,
+    "precio": 25.99,
+    "descripcion": "Cuidado y embellecimiento de las uñas de los pies",
+    "dificultad": "media"
+  },
+  {
+    "idServicio": 12,
+    "nombre": "Depilación de cejas",
+    "duracion": 15,
+    "precio": 10.99,
+    "descripcion": "Depilación de las cejas para dar forma y definición",
+    "dificultad": "baja"
+  },
+  {
+    "idServicio": 13,
+    "nombre": "Depilación de piernas",
+    "duracion": 45,
+    "precio": 30.99,
+    "descripcion": "Depilación de las piernas para una piel suave y libre de vello",
+    "dificultad": "media"
+  },
+  {
+    "idServicio": 14,
+    "nombre": "Depilación de axilas",
+    "duracion": 30,
+    "precio": 20.99,
+    "descripcion": "Depilación de las axilas para una apariencia más limpia",
+    "dificultad": "media"
+  },
+  {
+    "idServicio": 15,
+    "nombre": "Maquillaje de novia",
+    "duracion": 60,
+    "precio": 80.99,
+    "descripcion": "Maquillaje profesional para el día de la boda",
+    "dificultad": "alta"
+  },
+  {
+    "idServicio": 16,
+    "nombre": "Tratamiento facial",
+    "duracion": 45,
+    "precio": 35.99,
+    "descripcion": "Tratamiento para mejorar la apariencia y salud de la piel del rostro",
+    "dificultad": "media"
+  },
+  {
+    "idServicio": 17,
+    "nombre": "Reflejos en el cabello",
+    "duracion": 90,
+    "precio": 50.99,
+    "descripcion": "Aplicación de reflejos para darle luminosidad al cabello",
+    "dificultad": "alta"
+  },
+  {
+    "idServicio": 18,
+    "nombre": "Recogido para evento",
+    "duracion": 60,
+    "precio": 55.99,
+    "descripcion": "Peinado recogido elegante para eventos especiales",
+    "dificultad": "alta"
+  },
+  {
+    "idServicio": 19,
+    "nombre": "Tratamiento de keratina",
+    "duracion": 120,
+    "precio": 100.99,
+    "descripcion": "Tratamiento intensivo para restaurar y fortalecer el cabello",
+    "dificultad": "alta"
+  },
+  {
+    "idServicio": 20,
+    "nombre": "Extensiones de cabello",
+    "duracion": 180,
+    "precio": 150.99,
+    "descripcion": "Aplicación de extensiones para aumentar el volumen y longitud del cabello",
+    "dificultad": "alta"
+  }
+]

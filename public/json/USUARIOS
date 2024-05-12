@@ -1,0 +1,66 @@
+[
+    {
+        "dni": "28745373A",
+        "nombre": "Jesús",
+        "apellido1": "Toral",
+        "apellido2": "García",
+        "email": "jtg00026@red.ujaen.es",
+        "telefono": "646573746",
+        "fechaNacimiento": "2003-01-01",
+        "tipoUsuario": "Usuario",
+    
+        "localidad": {
+            "codPostal": "23400",
+            "nombre": "Úbeda",
+            "pais": "España"
+        },
+    
+        "reservas": [
+            {
+                "idReserva": 1,
+                "fecha": "2024-05-04",
+                "hora": "10:00",
+                "estado": "pendiente",
+                
+                "peluqueria": {
+                    "idPeluqueria": 1,
+                    "cif": "A12345678",
+                    "nombreNegocio": "Peluqueria Mª Teresa",
+                    "direccion": "Madre de Dios 47",
+
+                    "localidad": {
+                        "codPostal": "23400",
+                        "nombre": "Úbeda",
+                        "pais": "España"
+                    }
+                },
+
+                "servicio": {
+                    "idServicio": 1,
+                    "nombre": "Corte de pelo masculino",
+                    "duracion": 30,
+                    "precio": 15.99,
+                    "descripcion": "Corte de pelo clásico para hombres",
+                    "dificultad": "baja"
+                }
+            }
+        ],
+
+        "ventas": [
+            {
+                "idVenta": 1,
+                "fecha": "2024-05-05",
+                "total": 34.99,
+                "estado": "Completada",
+
+                "productos": {
+                    "idProducto": 19,
+                    "nombre": "Máquina de afeitar eléctrica",
+                    "categoria": "Máquinas de cortar",
+                    "descripcion": "Máquina recargable para afeitar el vello facial con precisión.",
+                    "precio": 34.99
+                }
+            }
+        ]
+    }
+]

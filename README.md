@@ -197,7 +197,7 @@ Sin embargo, se podrían considerar mejoras adicionales, como la implementación
 ## Anteproyecto de HairLab
 ### Título
 HairLab
-### Slogan
+### Eslogan
 Reserva, vende, triunfa: HairLab te respalda.
 ### Descripción del Proyecto
 HairLab es un proyecto enfocado en el desarrollo de una plataforma hipermedia web diseñada para transformar la manera en que los negocios de peluquería interactúan con sus clientes. Proporcionará una experiencia integral tanto para los clientes como para los propietarios de los negocios, facilitando la reserva de citas, la compra de productos y la gestión de operaciones.
@@ -271,4 +271,18 @@ En resumidas cuentas, los objetivos de HairLab se centrarán en acelerar y autom
     - El negocio tendrá facil acceso a la información que necesita y que la plataforma recopila, y el usuario encontrará las funcionalidades que cubren sus necesidades en un primer plano.
     - No se pretende cargar demasiado la interfaz con funcionalidades secundarias ya que conviene no frustrar al cliente y facilitarle su misión en la plataforma con la maxima eficacia.
 
-### Punto 3. Diseño
+### Punto 3. Restricciones de diseño
+- **Accesibilidad**
+    - HairLab se centrará en cumplir con pautas de accesibilidad 
+- **Consistencia de la Marca**
+    - 
+- **Cumplimiento Legal**
+    -
+- **Facilidad de Uso**
+    -
+- **Adaptabilidad**
+    -
+- **Eficiencia de Carga**
+    -
+- **Seguridad**
+    -

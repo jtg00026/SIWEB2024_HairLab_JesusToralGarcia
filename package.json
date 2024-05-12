@@ -2,15 +2,17 @@
   "name": "siweb2024_hairlab_jesustoralgarcia",
   "version": "1.0.0",
   "description": "Jesús Toral García [ jtg00026@red.ujaen.es ]",
-  "main": "script.js",
+  "main": "app.js",
   "scripts": {
-    "devStart": "nodemon script.js"
+    "devStart": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^8.3.3"
+    "express": "^4.19.2",
+    "mongoose": "^8.3.3",
+    "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"

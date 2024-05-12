@@ -1,0 +1,55 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Servicios</title>
+    <link rel="stylesheet" href="./css/servicios.css">
+</head>
+<body>
+    <div id="servicios-lista"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", async function () {
+            const serviciosLista = document.getElementById("servicios-lista");
+
+            try {
+                const response = await fetch('/obtenerServicios');
+                const servicios = await response.json();
+
+                servicios.forEach(servicio => {
+                    const servicioDiv = document.createElement("div");
+                    servicioDiv.classList.add("servicio");
+
+                    const nombre = document.createElement("h2");
+                    nombre.textContent = servicio.nombre;
+                    servicioDiv.appendChild(nombre);
+
+                    const duracion = document.createElement("p");
+                    duracion.textContent = `Duración: ${servicio.duracion} minutos`;
+                    servicioDiv.appendChild(duracion);
+
+                    const precio = document.createElement("p");
+                    precio.textContent = `Precio: $${servicio.precio.toFixed(2)}`;
+                    servicioDiv.appendChild(precio);
+
+                    const descripcion = document.createElement("p");
+                    descripcion.textContent = servicio.descripcion;
+                    servicioDiv.appendChild(descripcion);
+
+                    const dificultad = document.createElement("p");
+                    dificultad.textContent = `Dificultad: ${servicio.dificultad}`;
+                    servicioDiv.appendChild(dificultad);
+
+                    serviciosLista.appendChild(servicioDiv);
+                });
+            } catch (error) {
+                console.error('Error al obtener los servicios:', error);
+                alert('Error al cargar los servicios. Por favor, intenta de nuevo más tarde.');
+            }
+        });
+    </script>
+</body>
+</html>

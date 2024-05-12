@@ -1,0 +1,282 @@
+[
+  {
+    "idProducto": 1,
+    "nombre": "Tijeras profesionales de corte",
+    "categoria": "Tijeras",
+    "descripcion": "Tijeras de acero inoxidable de alta calidad para cortes precisos.",
+    "precio": 25.99
+  },
+  {
+    "idProducto": 2,
+    "nombre": "Plancha alisadora de cabello",
+    "categoria": "Planchas",
+    "descripcion": "Plancha con tecnología de cerámica para un alisado suave y brillante.",
+    "precio": 39.99
+  },
+  {
+    "idProducto": 3,
+    "nombre": "Secador de pelo profesional",
+    "categoria": "Secadores",
+    "descripcion": "Secador potente con múltiples ajustes de temperatura y velocidad.",
+    "precio": 49.99
+  },
+  {
+    "idProducto": 4,
+    "nombre": "Cepillo desenredante",
+    "categoria": "Cepillos",
+    "descripcion": "Cepillo con cerdas suaves para desenredar el cabello sin romperlo.",
+    "precio": 12.99
+  },
+  {
+    "idProducto": 5,
+    "nombre": "Mascarilla capilar nutritiva",
+    "categoria": "Tratamientos capilares",
+    "descripcion": "Mascarilla con aceites naturales para nutrir y reparar el cabello dañado.",
+    "precio": 18.99
+  },
+  {
+    "idProducto": 6,
+    "nombre": "Coloración permanente",
+    "categoria": "Coloración",
+    "descripcion": "Tinte para el cabello de larga duración en varios tonos.",
+    "precio": 15.99
+  },
+  {
+    "idProducto": 7,
+    "nombre": "Gel fijador de peinado",
+    "categoria": "Fijadores",
+    "descripcion": "Gel de alta fijación para crear peinados duraderos.",
+    "precio": 8.99
+  },
+  {
+    "idProducto": 8,
+    "nombre": "Capa de corte profesional",
+    "categoria": "Capas de corte",
+    "descripcion": "Capa impermeable y ajustable para proteger la ropa durante el corte.",
+    "precio": 19.99
+  },
+  {
+    "idProducto": 9,
+    "nombre": "Cortapelos eléctrico",
+    "categoria": "Máquinas de cortar",
+    "descripcion": "Máquina recargable para cortar el cabello con precisión.",
+    "precio": 29.99
+  },
+  {
+    "idProducto": 10,
+    "nombre": "Tratamiento de queratina",
+    "categoria": "Tratamientos capilares",
+    "descripcion": "Tratamiento intensivo para fortalecer y suavizar el cabello con queratina.",
+    "precio": 29.99
+  },
+  {
+    "idProducto": 11,
+    "nombre": "Papel de aluminio para mechas",
+    "categoria": "Accesorios",
+    "descripcion": "Rollo de papel de aluminio para realizar mechas y reflejos.",
+    "precio": 9.99
+  },
+  {
+    "idProducto": 12,
+    "nombre": "Peine de cola de rata",
+    "categoria": "Peines",
+    "descripcion": "Peine con mango fino ideal para crear secciones y particiones precisas.",
+    "precio": 6.99
+  },
+  {
+    "idProducto": 13,
+    "nombre": "Espuma modeladora",
+    "categoria": "Fijadores",
+    "descripcion": "Espuma que proporciona volumen y textura al cabello para peinados creativos.",
+    "precio": 7.99
+  },
+  {
+    "idProducto": 14,
+    "nombre": "Cinta para extensiones de cabello",
+    "categoria": "Accesorios",
+    "descripcion": "Cinta adhesiva de doble cara para fijar extensiones de cabello.",
+    "precio": 5.99
+  },
+  {
+    "idProducto": 15,
+    "nombre": "Gorro de secado",
+    "categoria": "Accesorios",
+    "descripcion": "Gorro de microfibra para secar el cabello de forma rápida y cómoda.",
+    "precio": 11.99
+  },
+  {
+    "idProducto": 16,
+    "nombre": "Tinte semipermanente",
+    "categoria": "Coloración",
+    "descripcion": "Tinte sin amoniaco para cambiar el color del cabello temporalmente.",
+    "precio": 13.99
+  },
+  {
+    "idProducto": 17,
+    "nombre": "Gel de aloe vera para el cabello",
+    "categoria": "Tratamientos capilares",
+    "descripcion": "Gel que hidrata y revitaliza el cabello, dejándolo suave y brillante.",
+    "precio": 10.99
+  },
+  {
+    "idProducto": 18,
+    "nombre": "Cepillo térmico",
+    "categoria": "Cepillos",
+    "descripcion": "Cepillo con barril cerámico que retiene el calor para un secado más rápido.",
+    "precio": 14.99
+  },
+  {
+    "idProducto": 19,
+    "nombre": "Máquina de afeitar eléctrica",
+    "categoria": "Máquinas de cortar",
+    "descripcion": "Máquina recargable para afeitar el vello facial con precisión.",
+    "precio": 34.99
+  },
+  {
+    "idProducto": 20,
+    "nombre": "Bálsamo reparador para puntas abiertas",
+    "categoria": "Tratamientos capilares",
+    "descripcion": "Bálsamo que sella las puntas abiertas y previene la rotura del cabello.",
+    "precio": 16.99
+  },
+  {
+    "idProducto": 21,
+    "nombre": "Navaja de barbero",
+    "categoria": "Accesorios",
+    "descripcion": "Navaja profesional para perfilar la barba y el cabello.",
+    "precio": 22.99
+  },
+  {
+    "idProducto": 22,
+    "nombre": "Tinte vegetal",
+    "categoria": "Coloración",
+    "descripcion": "Tinte natural a base de plantas para un color duradero y brillante.",
+    "precio": 20.99
+  },
+  {
+    "idProducto": 23,
+    "nombre": "Gel de peinado con efecto mojado",
+    "categoria": "Fijadores",
+    "descripcion": "Gel que proporciona un acabado brillante y efecto mojado para estilos modernos.",
+    "precio": 9.99
+  },
+  {
+    "idProducto": 24,
+    "nombre": "Tijeras de entresacar",
+    "categoria": "Tijeras",
+    "descripcion": "Tijeras con hojas dentadas para texturizar y desfilar el cabello.",
+    "precio": 27.99
+  },
+  {
+    "idProducto": 25,
+    "nombre": "Rizador de cabello",
+    "categoria": "Rizadores",
+    "descripcion": "Rizador con barril de cerámica para crear rizos definidos y duraderos.",
+    "precio": 32.99
+  },
+  {
+    "idProducto": 26,
+    "nombre": "Acondicionador sin enjuague",
+    "categoria": "Acondicionadores",
+    "descripcion": "Acondicionador en spray para desenredar y acondicionar el cabello sin enjuagar.",
+    "precio": 14.99
+  },
+  {
+    "idProducto": 27,
+    "nombre": "Capeador para corte de pelo",
+    "categoria": "Accesorios",
+    "descripcion": "Capeador ajustable para crear líneas rectas y simétricas durante el corte.",
+    "precio": 7.99
+  },
+  {
+    "idProducto": 28,
+    "nombre": "Máscara de hidratación profunda",
+    "categoria": "Tratamientos capilares",
+    "descripcion": "Máscara con aceites nutritivos para hidratar intensamente el cabello seco y dañado.",
+    "precio": 19.99
+  },
+  {
+    "idProducto": 29,
+    "nombre": "Laca de fijación fuerte",
+    "categoria": "Fijadores",
+    "descripcion": "Laca para fijar peinados con una fuerte retención sin dejar residuos.",
+    "precio": 10.99
+  },
+  {
+    "idProducto": 30,
+    "nombre": "Espátula de aplicación de tinte",
+    "categoria": "Accesorios",
+    "descripcion": "Espátula de plástico para aplicar el tinte de manera precisa y uniforme.",
+    "precio": 3.99
+  },
+  {
+    "idProducto": 31,
+    "nombre": "Tinte fantasía",
+    "categoria": "Coloración",
+    "descripcion": "Tinte de colores vivos y fantasía para estilos creativos y únicos.",
+    "precio": 17.99
+  },
+  {
+    "idProducto": 32,
+    "nombre": "Cepillo para desenredar en seco",
+    "categoria": "Cepillos",
+    "descripcion": "Cepillo con cerdas flexibles para desenredar el cabello en seco sin romperlo.",
+    "precio": 11.99
+  },
+  {
+    "idProducto": 33,
+    "nombre": "Crema para peinar",
+    "categoria": "Acondicionadores",
+    "descripcion": "Crema hidratante que facilita el peinado y controla el frizz.",
+    "precio": 9.99
+  },
+  {
+    "idProducto": 34,
+    "nombre": "Maquinilla de afeitar desechable",
+    "categoria": "Máquinas de cortar",
+    "descripcion": "Maquinilla de afeitar de un solo uso para un afeitado rápido y seguro.",
+    "precio": 1.99
+  },
+  {
+    "idProducto": 35,
+    "nombre": "Mascarilla matizadora",
+    "categoria": "Tratamientos capilares",
+    "descripcion": "Mascarilla para neutralizar tonos no deseados y mantener el color del cabello.",
+    "precio": 16.99
+  },
+  {
+    "idProducto": 36,
+    "nombre": "Gel de fijación extrafuerte",
+    "categoria": "Fijadores",
+    "descripcion": "Gel de larga duración para peinados que necesitan una fijación extrafuerte.",
+    "precio": 12.99
+  },
+  {
+    "idProducto": 37,
+    "nombre": "Rodillo de velcro",
+    "categoria": "Accesorios",
+    "descripcion": "Rodillo con velcro para crear volumen y textura en el cabello durante el secado.",
+    "precio": 6.99
+  },
+  {
+    "idProducto": 38,
+    "nombre": "Aceite reparador de puntas",
+    "categoria": "Tratamientos capilares",
+    "descripcion": "Aceite ligero que hidrata y repara las puntas abiertas del cabello.",
+    "precio": 13.99
+  },
+  {
+    "idProducto": 39,
+    "nombre": "Cera modeladora",
+    "categoria": "Fijadores",
+    "descripcion": "Cera que define y texturiza el cabello para peinados flexibles y con movimiento.",
+    "precio": 8.99
+  },
+  {
+    "idProducto": 40,
+    "nombre": "Gorra de ducha impermeable",
+    "categoria": "Accesorios",
+    "descripcion": "Gorra de plástico resistente al agua para proteger el cabello durante la ducha.",
+    "precio": 4.99
+  }
+]
