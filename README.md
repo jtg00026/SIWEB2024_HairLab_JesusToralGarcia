@@ -312,3 +312,220 @@ Las partes interesadas en el desarrollo del proyecto HairLab incluyen:
 
 - **Asesores y consultores:** Expertos en diversos campos, como marketing, tecnología y negocios, pueden ofrecer orientación y asesoramiento para el desarrollo y la estrategia de HairLab.
 
+## Diseño de la Arquitectura de la Información: Documentación de las personas, Modelado y Arquetipos de Usuario
+Para poder enfocar correctamente el desarrollo y ofrecer un servicio realmente útil al público, debemos pasar por un proceso de estudio y análisis del usuario que va a consumir nuestra plataforma, modelarlos y establecer relaciones entre ellos.
+
+### Informe inicial
+En esta sección, se proporcionará información relevante para contextualizar la documentación del modelo de usuario que hará uso de la plataforma.
+Puntos a tratar:
+
+1) **¿Cómo se ha realizado la investigación?**
+
+    Se dispone de dos negocios familiares con bastantes años de experiencia en el sector de la peluquería. Se establecerá una comunicación directa con la empleada del negocio, y nos facilitará información crucial para identificar los rasgos de los diferentes tipos de cliente.
+    
+    Por otro lado, para conocer a los negocios que esten interesados en la plataforma, también es motivo de investigación al trabajador y dueño del negocio, para poder conocer como trabajan y resuelven la administración y gestion del establecimiento.
+
+2) **¿Cómo se han elegido los participantes?**
+
+    El desarrollo de esta plataforma persigue siempre estar del lado mas cercano del negocio, y para la investigación se han elegido familiares del personal que investiga, diseña y desarrolla el proyecto, de manera que el material obtenido sea de la mayor calidad, claro, limpio y con toda la transparencia posible.
+
+    En cuanto a la clientela, dado que es muy diversa pasando por diferentes rangos de edad, se ha tratado de contar con todos los posibles usuarios, que tienen objetivos y gustos muy diferentes, y diferentes grados de dificultad a la hora de usar plataformas digitales como lo es HairLab.
+
+3) **¿Qué se les ha pedido a los participantes?**
+
+    Se ha investigado de cerca como trabajan, desde el propio negocio, viendo como se atiende al público.
+    
+    Por otro lado, se han realizado preguntas acerca de como se gestiona la agenda de reservas, de que manera se establecen prioridades entre las reservas de los clientes, y como se administran las reservas entre los diferentes trabajadores.
+
+    También es importante conocer como se organiza el almacen de productos empleados en los servicios, de manera que siempre haya disponibilidad del material requerido para completar un determinado servicio, tratando de estar disponible en todo momento la totalidad del catalogo para el cliente.
+
+4) **¿Qué se les ha pedido a los usurios hacer?**
+
+    A continuación se muestra un listado de acciones que se han investigado:
+    - Atender la llamada de un cliente para pedir cita.
+    - Registrar en la agenda física la reserva tal y como se hace siempre.
+        - Informarnos acerca de qué información se apunta.
+        - Justificarnos la razón por la cuál se apunta esa información.
+    - Cómo llevan la administración del almacen y de que manera contactan con el proveedor.
+    - Dar el servicio como lo realizan habitualmente.
+    - Vender productos al cliente como de costumbre.
+    - Indicarmos que productos son más interesantes para el público general.
+
+5) **¿Qué se les ha preguntado a los usuarios?**
+    - ¿Qué te parece el trato al público que se da en este establecimiento?
+    - ¿Qué les parece la forma de pedir cita?
+    - ¿Ha sido sencillo cancelar la cita de serlo necesario?
+    - ¿Conoces todos los servicios que se ofertan en el establecimiento?
+    - ¿Conoces todos los productos que se venden en el establecimiento?
+    - ¿Has tenido alguna indicencia para pedir cita?
+    - ¿Has tenido problemas para contactar con el negocio?
+    - ¿Estarías dispuesto a reemplazar el telefono por un sitio web?
+    - ¿Que tal te llevas con las nuevas tecnologías?
+
+6) **¿Cuántas personas han estado involucradas en la investigación?**
+    - Han sido motivo de investigación la clientela dispuesta a colaborar presente en los dias que se han investigado a los negocios.
+    - Tambien han sido motivo de investigación los trabajadores que brindan el servicio.
+    - En total, se han investigado dos negocios, dos trabajadores que llevan el negocio y variados perfiles de clientes, los cuales se desarrollarán mas adelante.
+
+
+Sirviendo de contexto inicial este informe previo, pasaremos a detallar los resultados de la investigación:
+1) **Información clave**
+    - En primer lugar, hemos identificado un punto común en ambos establecimientos, y es que la gestión de las citas se hace de forma más tradicional, mediante una agenda y atendiendo al teléfono.
+    - Mayoritariamente, el contacto con el negocio se hace por teléfono, aunque también hay parte de clientela que se acerca al establecimiento en persona para o bien tratar de pedir cita o en caso de que haya hueco, tomar el servicio de forma improvisada.
+    - En caso de que el cliente quiera cancelar una cita, se suelen poner en contacto previo con el establecimiento para liberar la cita, aunque sigue existiendo un porcentaje minoritario que simplemente no asiste y tampoco avisa.
+    - En este punto de digitalización alcanzado en los diferentes sectores de trabajo, el cliente medio parece estar preparado para disponer de una forma alternativa de comunicación con el negocio, dándole mas flexibilidad para realizar las operaciones que tradicionalmente han hecho por teléfono.
+    - Tal digitalización facilitaría al negocio su administación, ya que podrían prescindir de su agenda física, y el sistema podría atender las citas de forma automática, estando disponible al cliente 24/7 y liberando de esa tarea al trabajador.
+    - Inevitablemente, el perfil de cliente más mayor de edad, se resistirá al uso de las nuevas tecnologías, aunque tras realizar la investigación, un buen porcentaje del público por el cual a priori, pareciera que no esté interesado en la plataforma, dispone de dispositivos tal y como smartphones o tables, los cuales manejan con cierta soltura, y podrían llegar a hacer uso de la plataforma si el proceso de adaptación no es muy complejo.
+
+2) **Representaciones de los diferentes tipos de audiencia: Arquetipos de Usuario**
+    - **Alejandra**
+        - Información personal:
+            - Edad: 35 años
+            - Ocupación profesional: Profesora
+            - Habiliadades digitales: Avanzadas
+        - Aspecto:
+            - [![cara](https://st2.depositphotos.com/2208684/7553/i/950/depositphotos_75535769-stock-photo-middle-age-female-teacher.jpg)](https://st2.depositphotos.com/2208684/7553/i/950/depositphotos_75535769-stock-photo-middle-age-female-teacher.jpg)
+        - Descripción:
+            - Mujer, de 35 años, profesional con una agenda ocupada.
+        - Objetivos:
+            - Busca conveniencia y flexibilidad en la reserva de citas. 
+            - Prioriza servicios rápidos y eficientes.
+        - Comportamiento: 
+            - Utiliza la plataforma web de la peluquería para reservar citas durante su tiempo libre o en momentos de descanso en el trabajo.
+            - Prefiere servicios de corte y peinado sencillos y rápidos.
+
+    - **José**
+        - Información personal:
+            - Edad: 45 años
+            - Ocupación profesional: Amo de casa
+            - Habilidades digitales: Básicas
+        - Aspecto:
+            - [![cara](https://media.gettyimages.com/id/1440945691/es/foto/hombre-sonriente-de-mediana-edad-disfrutando-de-un-momento-de-relax-en-casa.jpg?s=612x612&w=gi&k=20&c=Zi-fpSf3D-nNgYH3PkLSUFCyTmWR-WltOa-OvvNVck4=)](https://media.gettyimages.com/id/1440945691/es/foto/hombre-sonriente-de-mediana-edad-disfrutando-de-un-momento-de-relax-en-casa.jpg?s=612x612&w=gi&k=20&c=Zi-fpSf3D-nNgYH3PkLSUFCyTmWR-WltOa-OvvNVck4=)
+        - Descripción:
+            - Hombre de 45 años, dedicado a sus labores domésticas y cuidado de la familia.
+        - Objetivos:
+            - Busca una peluquería que ofrezca servicios asequibles y de calidad para mantener su apariencia personal.
+            - Prioriza la comodidad y la accesibilidad de la peluquería.
+        - Comportamiento:
+            - Prefiere reservar citas por teléfono y peluquerías cercanas a su domicilio.
+
+    - **Juan**
+        - Información personal:
+            - Edad: 30 años
+            - Ocupación profesional: Trabajador de la construcción
+            - Habilidades digitales: Básicas
+        - Aspecto:
+            - [![cara](https://media.istockphoto.com/id/670358114/es/foto/cara-de-alba%C3%B1il-joven-guapo.jpg?s=1024x1024&w=is&k=20&c=Vbv09gxEYqxlvauu_v07xMiLOsXzjB6IwYwklA7n1wY=)](https://media.istockphoto.com/id/670358114/es/foto/cara-de-alba%C3%B1il-joven-guapo.jpg?s=1024x1024&w=is&k=20&c=Vbv09gxEYqxlvauu_v07xMiLOsXzjB6IwYwklA7n1wY=)
+        - Descripción:
+            - Hombre de 30 años, trabajador en el sector de la construcción, con un estilo de vida activo y físicamente exigente.
+        - Objetivos:
+            - Busca una peluquería que ofrezca servicios prácticos y duraderos que se adapten a su estilo de vida.
+            - Prioriza la rapidez y la eficacia en los cortes de pelo.
+        - Comportamiento:
+            - Utiliza la aplicación móvil de la peluquería para reservar citas durante sus descansos o días libres.
+            - Aprecia los servicios que le permiten mantener su aspecto sin requerir mucho mantenimiento.
+
+    - **Elena**
+        - Información personal:
+            - Edad: 55 años
+            - Ocupación profesional: Peluquera
+            - Habilidades digitales: Intermedias
+        - Aspecto:
+            - [![cara](https://www.shutterstock.com/image-photo/portrait-beautiful-smiling-55-year-260nw-2110077968.jpg)](https://www.shutterstock.com/image-photo/portrait-beautiful-smiling-55-year-260nw-2110077968.jpg)
+        - Descripción:
+            - Mujer de 55 años, experimentada peluquera, con bastantes años de trabajo a sus espaldas.
+        - Objetivos:
+            - Busca una peluquería que le atienda a ella como ella atiende a sus clientes, con trato cercano y personalizado.
+            - Prioriza la calidad y la experiencia del establecimiento.
+        - Comportamiento:
+            - Investiga en plataformas como Google Maps para encontrar peluquerías con buenas críticas y reputación, hasta encontrar una de confianza.
+            - Parece interesada en hacer uso de una plataforma online para realizar sus citas con el establecimiento.
+
+    - **Miguel**
+        - Información personal:
+            - Edad: 19 años
+            - Ocupación profesional: Estudiante universitario
+            - Habilidades digitales: Avanzadas
+        - Aspecto:
+            - [![cara](https://media.istockphoto.com/id/1484631693/es/foto/retrato-de-un-joven-cauc%C3%A1sico-adolescente-de-18-o-19-a%C3%B1os-al-aire-libre.jpg?s=612x612&w=0&k=20&c=AH7f1geIm-toSuCSrU60UJdFh4L0VZf2zhUC5xPbb1o=)](https://media.istockphoto.com/id/1484631693/es/foto/retrato-de-un-joven-cauc%C3%A1sico-adolescente-de-18-o-19-a%C3%B1os-al-aire-libre.jpg?s=612x612&w=0&k=20&c=AH7f1geIm-toSuCSrU60UJdFh4L0VZf2zhUC5xPbb1o=)
+        - Descripción:
+            - Chaval de 19 años, estudiante de grado con un estilo de vida activo y social.
+        - Objetivos:
+            - Busca una peluquería que ofrezca cortes de cabello modernos y a la moda, tal y como lo llevan sus ídolos cantates o futbolistas.
+            - Prioriza la eficacia y un precio ajustado debido a su corto presupuesto.
+        - Comportamiento:
+            - Utiliza las redes sociales para investigar y compartir recomendaciones de barberos populares entre sus amigos.
+            - Prefiere peluquerías que ofrezcan servicios modernos, dispongan de música y tengan el detalle con bebidas o snacks.
+
+    - **Carmen**
+        - Información personal:
+            - Edad: 65 años
+            - Ocupación profesional: Jubilada
+            - Habilidades digitales: Básicas
+        - Aspecto:
+            - [![cara](https://www.gruporetiro.com/wp-content/uploads/2023/12/iStock-1316201778-e1702900138640-1024x683.jpg)](https://www.gruporetiro.com/wp-content/uploads/2023/12/iStock-1316201778-e1702900138640-1024x683.jpg)
+        - Descripción:
+            - Mujer de 65 años, jubilada con tiempo libre para cuidar de sí misma.
+        - Objetivos:
+            - Busca una peluquería que ofrezca servicios de cuidado del cabello y tratamientos de spa relajantes.
+            - Prioriza la comodidad y la atención personalizada.
+        - Comportamiento:
+            - Prefiere reservar citas por teléfono y valora los salones que ofrecen descuentos para personas mayores.
+            - Disfruta de la experiencia de la peluquería como un momento para relajarse y dedicarse tiempo.
+
+3) **Escenarios**
+- **Escenario 1: Reserva Rápida**
+    - **Usuario:** Juan
+    - **Contexto:**
+        - Juan es un trabajador de la construcción con un horario ocupado y cambios frecuentes de guardia.
+        - [![cara](https://c8.alamy.com/compes/2h8f0eh/los-trabajadores-de-la-construccion-disfrutan-de-un-descanso-para-el-almuerzo-en-el-sitio-de-la-construccion-2h8f0eh.jpg)](https://c8.alamy.com/compes/2h8f0eh/los-trabajadores-de-la-construccion-disfrutan-de-un-descanso-para-el-almuerzo-en-el-sitio-de-la-construccion-2h8f0eh.jpg)
+    - **Desde dónde se utiliza el producto:** 
+        - Su smartphone personal en la misma obra donde trabaja.
+    - **Frecuencia y duración de uso:** 
+        - Tarea corta o se frustrará y no completará la tarea.
+    - **¿Qué hace mientras esta persona?:**
+        - Está trabajando en otra cosa, en medio de su jornada laboral al tomar un pequeño descanso.
+    - **¿Utiliza otros productos software?:**
+        - No, solo necesita reservar una cita en la peluquería y lo hace a través de su navegador de confianza.
+    - **Principales actividades:**
+        - Juan necesita reservar rápidamente su corte de pelo ya que dispone de tiempo limitado en el descanso.
+    - **Resultado final esperado:**
+        - Juan espera haber podido reservar exitosamente una cita para su corte de pelo en un tramo horario conveniente para él.
+
+- **Escenario 2: Momento de Relajación**
+    - **Usuario:** María
+    - **Contexto:**
+        - María es una oficinista con una agenda apretada que quiere despejarse y liberar el estrés con una sesión de peluquería.
+        - [![cara](https://st2.depositphotos.com/1258191/10061/i/450/depositphotos_100611092-stock-photo-smiling-office-worker-using-a.jpg)](https://st2.depositphotos.com/1258191/10061/i/450/depositphotos_100611092-stock-photo-smiling-office-worker-using-a.jpg)
+    - **Desde dónde se utiliza el producto:** 
+        - Ordenador de la oficina.
+    - **Frecuencia y duración de uso:** 
+        - Largo proceso, poco frecuente.
+    - **¿Qué hace mientras esta persona?:**
+        - Se centra solo en la reserva de la cita.
+    - **¿Utiliza otros productos software?:**
+        - Revisa su calendario de reuniones mientras reserva la cita en la peluquería.
+    - **Principales actividades:**
+        - María aprovecha un descanso del trabajo para reservar una cita para un tratamiento de cabello en la peluquería.
+    - **Resultado final esperado:**
+        - María espera haber reservado la cita correctamente para poder dedicarse un tiempo y salir de la rutina.
+
+- **Escenario 3: Visita Familiar**
+    - **Usuario:** Carlos
+    - **Contexto:**
+        - Carlos es un padre de familia con dos hijos pequeños y una esposa ocupada.
+        - [![cara](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpqIlo-a4AJ7XtCHMkDbwLfe-coOKSZ6_NXGTd1FD8A&s)](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLpqIlo-a4AJ7XtCHMkDbwLfe-coOKSZ6_NXGTd1FD8A&s)
+    - **Desde dónde se utiliza el producto:** 
+        - Portátil, en la comodidad de su sofá.
+    - **Frecuencia y duración de uso:** 
+        - Se toma el tiempo que necesite para encontrar el producto, infrecuente.
+    - **¿Qué hace mientras esta persona?:**
+        - Está atendiendo de sus hijos.
+    - **¿Utiliza otros productos software?:**
+        - No.
+    - **Principales actividades:**
+        - Carlos está realizando una compra en la tienda de la web, dado que necesita un producto específico que solo puede encontrar en sitios especializados, como es nuestra peluquería.
+    - **Resultado final esperado:**
+        - Carlos espera encontrar el producto al mejor precio posible y que le llegue en tiempo y forma óptimos.
+
+## Diseño de la Arquitectura de la Información: Documentación del Contenido
