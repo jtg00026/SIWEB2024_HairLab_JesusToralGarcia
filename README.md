@@ -273,16 +273,42 @@ En resumidas cuentas, los objetivos de HairLab se centrarán en acelerar y autom
 
 ### Punto 3. Restricciones de diseño
 - **Accesibilidad**
-    - HairLab se centrará en cumplir con pautas de accesibilidad 
+    - Se asegurará de cumplir con pautas de accesibilidad para garantizar que la plataforma sea utilizada por todos los usuarios, independientemente de sus capacidades.
 - **Consistencia de la Marca**
-    - 
+    - Se mantendrá una coherencia en el diseño y la identidad visual de HairLab para fortalecer la imagen de la marca y garantizar el reconocimiento del usuario.
 - **Cumplimiento Legal**
-    -
+    - La plataforma cumplirá con todas las regulaciones y leyes relevantes, especialmente en lo que respecta a la protección de datos y la privacidad del usuario.
 - **Facilidad de Uso**
-    -
+    - HairLab se diseñará con la máxima facilidad de uso en mente, minimizando la complejidad y proporcionando una experiencia fluida para el usuario.
 - **Adaptabilidad**
-    -
+    - La plataforma será adaptable para satisfacer las necesidades cambiantes de los usuarios y los negocios de peluquería, con capacidad para incorporar nuevas funciones y tecnologías según sea necesario.
 - **Eficiencia de Carga**
-    -
+    - Se optimizará el rendimiento de HairLab para garantizar tiempos de carga rápidos y una experiencia de usuario sin problemas. (Distribución BBDD)
 - **Seguridad**
-    -
+    - Se implementarán medidas de seguridad robustas para proteger la información del usuario y garantizar transacciones seguras en la plataforma. (Passport.js)
+
+### Punto 4: Políticas de Empresa
+- **Interacción del Usuario con la Peluquería**
+    HairLab facilita la interacción entre los clientes y las peluquerías de varias maneras:
+    - **Reservas y citas:** Los usuarios pueden reservar citas con sus estilistas favoritos de manera rápida y sencilla a través de la plataforma, eligiendo el día y la hora que mejor les convenga.
+    - **Información detallada:** Los usuarios tienen acceso a información detallada sobre los servicios ofrecidos por cada peluquería, incluyendo descripciones, precios y productos utilizados.
+    - **Comunicación directa:** HairLab permite una comunicación directa entre usuarios y peluquerías, lo que facilita la consulta de dudas, la solicitud de recomendaciones y la comunicación de preferencias.
+- **Adopción de la plataforma al público y a los negocios**
+    HairLab se adaptará al público y a los negocios centradose en:
+    - **Personalización:** La plataforma se puede personalizar para satisfacer las necesidades específicas de cada negocio, permitiendo la configuración de servicios, precios y horarios de acuerdo a sus preferencias.
+    - **Facilidad de uso:** HairLab se diseña con una interfaz intuitiva y fácil de usar tanto para usuarios como para negocios, garantizando una experiencia fluida y sin complicaciones.
+    - **Soporte y capacitación**: HairLab ofrece soporte técnico y capacitación para ayudar a los usuarios y a los negocios a familiarizarse con la plataforma y aprovechar al máximo sus funciones.
+
+### Punto 5: Partes Interesadas
+Las partes interesadas en el desarrollo del proyecto HairLab incluyen:
+
+- **Equipo de desarrollo:** Conjunto de profesionales que incluyen a los ingenieros de software, diseñadores de UX/UI, especialistas en datos y otros profesionales involucrados en la creación y mantenimiento de la plataforma.
+
+- **Clientes y usuarios finales:** Los clientes y usuarios finales son una parte fundamental del proyecto, ya que sus necesidades y comentarios guían el desarrollo y la mejora continua de HairLab.
+
+- **Negocios de peluquería:** Las peluquerías y salones de belleza que utilizan HairLab son parte interesada en el proyecto, ya que la plataforma les proporciona herramientas para mejorar sus operaciones y ofrecer una mejor experiencia a sus clientes.
+
+- **Inversionistas:** Las personas o entidades que han invertido en el proyecto también son partes interesadas, ya que tienen un interés financiero en el éxito y el crecimiento de HairLab.
+
+- **Asesores y consultores:** Expertos en diversos campos, como marketing, tecnología y negocios, pueden ofrecer orientación y asesoramiento para el desarrollo y la estrategia de HairLab.
+
