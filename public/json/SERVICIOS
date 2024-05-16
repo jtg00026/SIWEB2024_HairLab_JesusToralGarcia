@@ -3,7 +3,8 @@
     "idServicio": 1,
     "nombre": "Corte de pelo masculino",
     "duracion": 30,
-    "precio": 15.99,
+    "precio": 11.99,
+    "categorias": "cortes",
     "descripcion": "Corte de pelo clásico para hombres",
     "dificultad": "baja",
     "enlaceImagen": "https://mcbsalondebelleza.com/wp-content/uploads/2022/03/tendecias-corte-de-pelo-hombre-1-1.jpg"
@@ -12,7 +13,8 @@
     "idServicio": 2,
     "nombre": "Corte de pelo femenino",
     "duracion": 45,
-    "precio": 25.99,
+    "precio": 18.99,
+    "categorias": "cortes",
     "descripcion": "Corte de pelo moderno para mujeres",
     "dificultad": "media",
     "enlaceImagen": "https://cdn.static.escuelamakeup.com/imagenes/cortes-de-pelo-de-mujer-segun-el-tipo-de-cara-o-rostro/cortes-de-pelo-de-mujer-segun-el-tipo-de-cara-o-rostro_905x603.jpg"
@@ -22,6 +24,7 @@
     "nombre": "Tinte de cabello",
     "duracion": 60,
     "precio": 35.99,
+    "categorias": "tintes",
     "descripcion": "Aplicación de tinte de color para el cabello",
     "dificultad": "media",
     "enlaceImagen": "https://tahecosmetics.com/trends/wp-content/uploads/2021/12/tipos-tintes.jpeg"
@@ -31,6 +34,7 @@
     "nombre": "Tratamiento capilar",
     "duracion": 45,
     "precio": 30.50,
+    "categorias": "tratamientos",
     "descripcion": "Tratamiento hidratante para cabellos secos y dañados",
     "dificultad": "alta",
     "enlaceImagen": "https://www.capilarea.com/wp-content/uploads/2023/11/mesoterapia-capilar-para-hombres-tratamiento-en-nuestra-clinica-capilar.jpg"
@@ -40,6 +44,7 @@
     "nombre": "Peinado para evento",
     "duracion": 60,
     "precio": 40.99,
+    "categorias": "peinados",
     "descripcion": "Peinado elegante para ocasiones especiales",
     "dificultad": "media",
     "enlaceImagen": "https://images.ecestaticos.com/O4Uas65ecfRiUn4PbrGiR2pEAYk=/0x0:1300x975/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Ff5b%2F6cc%2F72b%2Ff5b6cc72b7e21a618043538122b29eec.jpg"
@@ -49,6 +54,7 @@
     "nombre": "Maquillaje para evento",
     "duracion": 45,
     "precio": 45.99,
+    "categorias": "maquillajes",
     "descripcion": "Maquillaje profesional para eventos sociales",
     "dificultad": "media",
     "enlaceImagen": "https://stylelovely.com/esmiestilo/files/2021/01/tips-de-maquillaje-para-eventos-especiales.jpg"
@@ -58,6 +64,7 @@
     "nombre": "Lavado de cabello",
     "duracion": 15,
     "precio": 10.99,
+    "categorias": "tratamientos",
     "descripcion": "Lavado y acondicionamiento del cabello",
     "dificultad": "baja",
     "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeaS4ypcATrIvX9wKiE9cXwV3PYyNpG6IVLSo_B0Zeww&s"
@@ -67,6 +74,7 @@
     "nombre": "Corte de barba",
     "duracion": 20,
     "precio": 12.99,
+    "categorias": "cortes",
     "descripcion": "Corte y arreglo de barba para hombres",
     "dificultad": "baja",
     "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPy88fBPXiKOXI-_byVw689BvX2-ybUwK8JBhS6TRcMQ&s"
@@ -76,6 +84,7 @@
     "nombre": "Alisado de cabello",
     "duracion": 90,
     "precio": 60.99,
+    "categorias": "peinados",
     "descripcion": "Tratamiento para alisar el cabello de forma permanente",
     "dificultad": "alta",
     "enlaceImagen": "https://letmebe.pt/wp-content/uploads/2022/11/BLOG-1-LETMEBE-PREALISAMENTO-1.jpg"
@@ -85,6 +94,7 @@
     "nombre": "Manicura",
     "duracion": 30,
     "precio": 20.99,
+    "categorias": "tratamientos",
     "descripcion": "Cuidado y embellecimiento de las uñas de las manos",
     "dificultad": "media",
     "enlaceImagen": "https://mcbsalondebelleza.com/wp-content/uploads/2022/03/tendecias-corte-de-pelo-hombre-1-1.jpg"
@@ -94,6 +104,7 @@
     "nombre": "Pedicura",
     "duracion": 45,
     "precio": 25.99,
+    "categorias": "tratamientos",
     "descripcion": "Cuidado y embellecimiento de las uñas de los pies",
     "dificultad": "media",
     "enlaceImagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/01/24/16745628932796.jpg"
@@ -103,6 +114,7 @@
     "nombre": "Depilación de cejas",
     "duracion": 15,
     "precio": 10.99,
+    "categorias": "depilacion",
     "descripcion": "Depilación de las cejas para dar forma y definición",
     "dificultad": "baja",
     "enlaceImagen": "https://t2.uc.ltmcdn.com/es/posts/3/1/9/como_depilar_las_cejas_con_cera_paso_a_paso_45913_600.jpg"
@@ -112,6 +124,7 @@
     "nombre": "Depilación de piernas",
     "duracion": 45,
     "precio": 30.99,
+    "categorias": "depilacion",
     "descripcion": "Depilación de las piernas para una piel suave y libre de vello",
     "dificultad": "media",
     "enlaceImagen": "https://ramirogill.com/wp-content/uploads/Depilaci%C3%B3n-de-piernas.jpg"
@@ -121,6 +134,7 @@
     "nombre": "Depilación de axilas",
     "duracion": 30,
     "precio": 20.99,
+    "categorias": "depilacion",
     "descripcion": "Depilación de las axilas para una apariencia más limpia",
     "dificultad": "media",
     "enlaceImagen": "https://germainegoyamadrid.com/wp-content/uploads/2023/09/054-blog-depilacion-laser-axilas.jpg"
@@ -130,6 +144,7 @@
     "nombre": "Maquillaje de novia",
     "duracion": 60,
     "precio": 80.99,
+    "categorias": "maquillajes",
     "descripcion": "Maquillaje profesional para el día de la boda",
     "dificultad": "alta",
     "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSANGjoMgiQhfhJxopfR97Y9M6Lk8bh7_77aiSZUtpoA&s"
@@ -139,6 +154,7 @@
     "nombre": "Tratamiento facial",
     "duracion": 45,
     "precio": 35.99,
+    "categorias": "tratamientos",
     "descripcion": "Tratamiento para mejorar la apariencia y salud de la piel del rostro",
     "dificultad": "media",
     "enlaceImagen": "https://www.topclinicmadrid.com/wp-content/uploads/2022/03/mascarilla-facial-scaled.jpg"
@@ -148,6 +164,7 @@
     "nombre": "Reflejos en el cabello",
     "duracion": 90,
     "precio": 50.99,
+    "categorias": "tintes",
     "descripcion": "Aplicación de reflejos para darle luminosidad al cabello",
     "dificultad": "alta",
     "enlaceImagen": "https://lolaperruquers.com/wp-content/uploads/2024/01/confiado-estilista-masculino-teniendo-cabello-clienta-caucasica-rubia-1.jpg"
@@ -157,6 +174,7 @@
     "nombre": "Recogido para evento",
     "duracion": 60,
     "precio": 55.99,
+    "categorias": "peinados",
     "descripcion": "Peinado recogido elegante para eventos especiales",
     "dificultad": "alta",
     "enlaceImagen": "https://www.diariodesevilla.es/2020/12/01/wappissima/actualidad/recogido-trenza-opcion-peinado-Navidad_1524757639_128807178_667x375.png"
@@ -166,6 +184,7 @@
     "nombre": "Tratamiento de keratina",
     "duracion": 120,
     "precio": 100.99,
+    "categorias": "tratamientos",
     "descripcion": "Tratamiento intensivo para restaurar y fortalecer el cabello",
     "dificultad": "alta",
     "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP8kKT3GhVr3rd9avyBSv2exwgdYkGvVWNOy1rJT0Sdw&s"
@@ -175,6 +194,7 @@
     "nombre": "Extensiones de cabello",
     "duracion": 180,
     "precio": 150.99,
+    "categorias": "peinados",
     "descripcion": "Aplicación de extensiones para aumentar el volumen y longitud del cabello",
     "dificultad": "alta",
     "enlaceImagen": "https://cdn.diprofem.com/uploads/3c3c4601aa23c9951b60047b35230056.jpeg"
