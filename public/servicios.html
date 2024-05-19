@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <title>Servicios - HairLab</title>
-    <meta property="og:title" content="CrearUsuario - HairLab" />
+    <meta property="og:title" content="Servicios - HairLab" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -47,12 +47,11 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="./css/servicios.css" rel="stylesheet" />
   </head>
   <body>
-    <link rel="stylesheet" href="./css/style.css" />
     <div>
-      <link href="./css/servicios.css" rel="stylesheet" />
-
       <div class="crear-usuario-container">
         <div class="crear-usuario-navbar1">
           <div class="navbar4-container">
@@ -99,7 +98,6 @@
                         <span>Crear cuenta</span>
                     </a>
                 </div>
-                
               </div>
               <div data-thq="thq-burger-menu" class="navbar4-burger-menu">
                 <svg viewBox="0 0 1024 1024" class="navbar4-icon">
@@ -161,11 +159,11 @@
             <div class="hero92-max-width thq-section-max-width">
               <div class="hero92-content">
                 <h1 class="hero92-text thq-heading-1">
-                  <span>En esta seccion se muestran todos los servicios disponibles para reservar</span>
+                  <span>Nuestros servicios</span>
                 </h1>
                 <p class="hero92-text1 thq-body-large">
                   <span>
-                    Selecciona el botón de reserva del servicio deseado para formalizarla.
+                    Selecciona el botón de reserva del servicio deseado para pasar a formalizarla.
                   </span>
                 </p>
               </div>
@@ -173,78 +171,127 @@
           </div>
         </div>
         
-        
-<div id="servicios-lista" class="thq-section-padding"></div>
-<div class="crear-usuario-footer11">
-    <div class="footer15-container thq-section-padding">
-        <img alt="Logo de Peluquería XYZ" src="/logo-1500h.png" class="footer15-image1" />
-        <div class="footer15-max-width thq-section-max-width">
-            <div class="footer15-credits">
+        <div class="categorias-container">
+          <button class="categoria-button" data-categoria="todos">Todos</button>
+          <button class="categoria-button" data-categoria="cortes">Cortes</button>
+          <button class="categoria-button" data-categoria="tintes">Tintes</button>
+          <button class="categoria-button" data-categoria="tratamientos">Tratamientos</button>
+          <button class="categoria-button" data-categoria="peinados">Peinados</button>
+          <button class="categoria-button" data-categoria="maquillajes">Maquillajes</button>
+          <button class="categoria-button" data-categoria="depilacion">Depilación</button>
+        </div>
+
+        <div id="servicios-lista" class="thq-section-padding"></div>
+
+        <div class="crear-usuario-footer11">
+          <div class="footer15-container thq-section-padding">
+            <img alt="Logo de Peluquería XYZ" src="/logo-1500h.png" class="footer15-image1" />
+            <div class="footer15-max-width thq-section-max-width">
+              <div class="footer15-credits">
                 <div class="footer15-row">
-                    <div class="footer15-credits1">
-                        <span class="thq-body-small">
-                            <span>Enlace de privacidad</span>
-                        </span>
-                        <span class="thq-body-small">
-                            <span>Enlace de términos y condiciones</span>
-                        </span>
-                        <span class="thq-body-small">
-                            <span>Enlace de cookies</span>
-                        </span>
-                    </div>
+                  <div class="footer15-credits1">
+                    <span class="thq-body-small">
+                      <span>Enlace de privacidad</span>
+                    </span>
+                    <span class="thq-body-small">
+                      <span>Enlace de términos y condiciones</span>
+                    </span>
+                    <span class="thq-body-small">
+                      <span>Enlace de cookies</span>
+                    </span>
+                  </div>
                 </div>
                 <span class="footer15-content3 thq-body-small">
-                    <span>© 2024 HairLab</span>
+                  <span>© 2024 HairLab</span>
                 </span>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-</div>
-<script>
-  document.addEventListener("DOMContentLoaded", async function () {
-      const serviciosLista = document.getElementById("servicios-lista");
 
-      try {
-          const response = await fetch('/obtenerServicios');
-          const servicios = await response.json();
+    <script>
+      document.addEventListener("DOMContentLoaded", async function () {
+        const serviciosLista = document.getElementById("servicios-lista");
+        const categoriaButtons = document.querySelectorAll(".categoria-button");
 
-          servicios.forEach(servicio => {
-              const servicioDiv = document.createElement("div");
-              servicioDiv.classList.add("servicio");
-
-              const imagen = document.createElement("img");
-              imagen.src = servicio.enlaceImagen;
-              imagen.alt = servicio.nombre;
-              servicioDiv.appendChild(imagen);
-
-              const nombre = document.createElement("h2");
-              nombre.textContent = servicio.nombre;
-              servicioDiv.appendChild(nombre);
-
-              const duracion = document.createElement("p");
-              duracion.textContent = `Duración: ${servicio.duracion} minutos`;
-              servicioDiv.appendChild(duracion);
-
-              const precio = document.createElement("p");
-              precio.textContent = `Precio: $${servicio.precio.toFixed(2)}`;
-              servicioDiv.appendChild(precio);
-
-              const descripcion = document.createElement("p");
-              descripcion.textContent = servicio.descripcion;
-              servicioDiv.appendChild(descripcion);
-
-              const dificultad = document.createElement("p");
-              dificultad.textContent = `Dificultad: ${servicio.dificultad}`;
-              servicioDiv.appendChild(dificultad);
-
-              serviciosLista.appendChild(servicioDiv);
+        categoriaButtons.forEach(button => {
+          button.addEventListener("click", async function () {
+            const categoria = button.dataset.categoria;
+            await actualizarListaServicios(categoria);
           });
-      } catch (error) {
-          console.error('Error al obtener los servicios:', error);
-          alert('Error al cargar los servicios. Por favor, intenta de nuevo más tarde.');
-      }
-  });
-  </script>
+        });
+
+        async function actualizarListaServicios(categoria) {
+          serviciosLista.innerHTML = ""; // Limpiar la lista de servicios antes de actualizarla
+
+          try {
+            const response = await fetch('/obtenerServicios');
+            const servicios = await response.json();
+
+            servicios.forEach(servicio => {
+              // Filtrar servicios por categoría
+              if (categoria === "todos" || servicio.categorias.includes(categoria)) {
+                const servicioDiv = document.createElement("div");
+                servicioDiv.classList.add("servicio");
+                servicioDiv.addEventListener("mouseenter", function () {
+                  servicioDiv.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.3)";
+                });
+                servicioDiv.addEventListener("mouseleave", function () {
+                  servicioDiv.style.boxShadow = "none";
+                });
+                servicioDiv.addEventListener("click", function () {
+                  window.location.href = `/servicio/${servicio.idServicio}`;
+                });
+
+                const imagen = document.createElement("img");
+                imagen.src = servicio.enlaceImagen;
+                imagen.alt = servicio.nombre;
+                servicioDiv.appendChild(imagen);
+
+                const nombre = document.createElement("h2");
+                nombre.textContent = servicio.nombre;
+                servicioDiv.appendChild(nombre);
+
+                const duracion = document.createElement("p");
+                duracion.textContent = `Duración: ${servicio.duracion} minutos`;
+                servicioDiv.appendChild(duracion);
+
+                const precio = document.createElement("p");
+                precio.textContent = `Precio: $${servicio.precio.toFixed(2)}`;
+                servicioDiv.appendChild(precio);
+
+                const descripcion = document.createElement("p");
+                descripcion.textContent = servicio.descripcion;
+                servicioDiv.appendChild(descripcion);
+
+                const dificultad = document.createElement("p");
+                dificultad.textContent = `Dificultad: ${servicio.dificultad}`;
+                servicioDiv.appendChild(dificultad);
+
+                const reservarButton = document.createElement("button");
+                reservarButton.textContent = "Reservar";
+                reservarButton.classList.add("reservar-button");
+                reservarButton.addEventListener("click", function (event) {
+                  event.stopPropagation(); // Evitar que el clic se propague al contenedor
+                  window.location.href = `/reservar?servicioId=${servicio.idServicio}`;
+                });
+                servicioDiv.appendChild(reservarButton);
+
+                serviciosLista.appendChild(servicioDiv);
+              }
+            });
+          } catch (error) {
+            console.error('Error al obtener los servicios:', error);
+            alert('Error al cargar los servicios. Por favor, intenta de nuevo más tarde.');
+          }
+        }
+
+        // Llamar a actualizarListaServicios al cargar la página para mostrar todos los servicios por defecto
+        await actualizarListaServicios("todos");
+      });
+    </script>
+
   </body>
 </html>

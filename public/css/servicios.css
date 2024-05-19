@@ -231,8 +231,8 @@
 /* Estilos para la disposición de los servicios */
 #servicios-lista {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Aumenta el ancho mínimo de cada servicio */
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Reducir el ancho mínimo de cada servicio */
+  gap: 20px; /* Ajustar el espacio entre los servicios */
   justify-items: center;
 }
 
@@ -244,7 +244,8 @@
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   margin: 20px;
-  max-width: 400px;
+  width: 280px; /* Tamaño fijo para cada servicio */
+  height: 400px; /* Tamaño fijo para cada servicio */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -254,38 +255,92 @@
   transform: translateY(-5px);
 }
 
-.servicio:hover img {
-  filter: brightness(80%);
-}
-
 .servicio img {
   width: 100%;
-  height: auto;
-  object-fit: cover;
+  height: 100%; /* La imagen ocupará todo el espacio del marco */
+  object-fit: cover; /* Ajusta la imagen para que se ajuste al contenedor sin distorsionarse */
   transition: filter 0.3s ease-in-out;
 }
 
 .servicio-contenido {
   padding: 20px;
+  flex: 1; /* Asegura que el contenido ocupe todo el espacio disponible dentro del servicio */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .servicio h2 {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 10px;
   color: #333333;
 }
 
 .servicio p {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 8px;
   color: #666666;
+  text-align: center; /* Alinea el texto al centro */
 }
 
-.servicio p.descripcion {
-  font-style: italic;
-}
-
-.servicio p.dificultad {
+/* Estilos para los botones de reserva */
+.reservar-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
   font-weight: bold;
-  color: #009688;
+  color: white;
+  background-color: #009688;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reservar-button:hover {
+  background-color: #00796b;
+}
+
+
+/* Estilos para los botones de reserva */
+.reservar-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #009688;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reservar-button:hover {
+  background-color: #00796b;
+}
+
+/* Estilos para los botones de categoría */
+.categorias-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.categoria-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #009688;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.categoria-button:hover {
+  background-color: #00796b;
 }

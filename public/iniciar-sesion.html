@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <title>Iniciar Sesión - HairLab</title>
     <meta property="og:title" content="Iniciar Sesión - HairLab" />
@@ -171,7 +171,6 @@
         </div>
     </div>
 </div>
-
 <script>
   document.getElementById("loginForm").addEventListener("submit", function(event) {
       event.preventDefault(); // Prevenir el envío del formulario normalmente
@@ -180,8 +179,10 @@
       var email = document.getElementById("email").value;
       var password = document.getElementById("password").value;
 
+      console.log('Datos enviados:', { email, password });
+
       // Realizar una solicitud fetch al servidor para iniciar sesión
-      fetch("/iniciarSesion", {
+      fetch("http://localhost:3001/iniciarSesion", {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'
@@ -189,6 +190,7 @@
           body: JSON.stringify({ email: email, password: password })
       })
       .then(response => {
+          console.log('Respuesta recibida del servidor:', response);
           if (!response.ok) {
               // Si la respuesta no es OK, lanzar un error
               throw new Error('Error en la solicitud');
@@ -197,9 +199,11 @@
           return response.json();
       })
       .then(data => {
+          console.log('Datos procesados:', data);
           if (data.success) {
-              // Si la autenticación fue exitosa, redirigir a la página de inicio
+              // Si la autenticación fue exitosa, mostrar mensaje y redirigir a la página de inicio
               console.log('Inicio de sesión exitoso');
+              alert("Inicio de sesión exitoso. ¡Bienvenido!");
               window.location.href = "index.html";
           } else {
               // Si la autenticación falló, mostrar un mensaje de error

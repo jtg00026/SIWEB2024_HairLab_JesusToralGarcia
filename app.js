@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 const passport = require('passport');
 const session = require('express-session');
 const LocalStrategy = require('passport-local').Strategy;
-const bcrypt = require('bcryptjs');
 
 const usuarios = require('./models/usuarios');
 const peluquerias = require('./models/peluquerias');
@@ -55,9 +54,7 @@ passport.use(new LocalStrategy({
             return done(null, false, { message: 'Usuario no encontrado' });
         }
 
-        const contraseñaValida = await bcrypt.compare(password, usuario.contrasena);
-
-        if (!contraseñaValida) {
+        if (usuario.contrasena !== password) {
             return done(null, false, { message: 'Contraseña incorrecta' });
         }
 
@@ -87,16 +84,8 @@ app.post('/registrarUsuario', async (req, res) => {
         const userData = req.body; // Datos del usuario enviados desde el formulario
         console.log('Datos del usuario recibidos:', userData);
 
-        // Crear una instancia del modelo de Usuario con los datos recibidos
-        const nuevoUsuario = new usuarios(userData);
-
-        // Generar el hash de la contraseña
-        const salt = await bcrypt.genSalt(10);
-        const hash = await bcrypt.hash(userData.contrasena, salt);
-        nuevoUsuario.contrasena = hash;
-
         // Guardar el nuevo usuario en la base de datos
-        await nuevoUsuario.save();
+        await usuarios.create(userData);
 
         console.log('Usuario registrado correctamente en la base de datos.');
         res.redirect('/index.html');
@@ -106,37 +95,26 @@ app.post('/registrarUsuario', async (req, res) => {
     }
 });
 
-// Ruta para manejar el inicio de sesión
-app.post('/iniciarSesion', async (req, res) => {
-    const { email, password } = req.body;
-
-    try {
-        // Buscar el usuario en la base de datos por su email y contraseña
-        const usuario = await usuarios.findOne({ email, contrasena: password });
-
-        if (!usuario) {
-            // Si no se encuentra un usuario con las credenciales proporcionadas, responder con un mensaje de error
-            return res.status(401).json({ success: false, message: 'Credenciales incorrectas' });
+app.post('/iniciarSesion', (req, res, next) => {
+    console.log('Solicitud de inicio de sesión recibida:', req.body);
+    passport.authenticate('local', (err, user, info) => {
+        if (err) {
+            console.error('Error en la autenticación:', err);
+            return next(err);
         }
-
-        // Si se encuentra el usuario, responder con un mensaje de éxito
-        return res.status(200).json({ success: true, message: 'Inicio de sesión exitoso', usuario });
-    } catch (error) {
-        // Manejar errores de base de datos u otros errores internos del servidor
-        console.error('Error:', error);
-        return res.status(500).json({ success: false, message: 'Error interno del servidor' });
-    }
-});
-
-
-// Ruta para manejar el inicio de sesión correcto
-app.get('/inicioCorrecto', (req, res) => {
-    res.json({ success: true, message: 'Inicio de sesión exitoso' });
-});
-
-// Ruta para manejar el inicio de sesión incorrecto
-app.get('/inicioIncorrecto', (req, res) => {
-    res.status(401).json({ success: false, message: 'Inicio de sesión fallido' });
+        if (!user) {
+            console.log('Usuario no encontrado o contraseña incorrecta');
+            return res.status(401).json({ success: false, message: 'Inicio de sesión fallido' });
+        }
+        req.logIn(user, (err) => {
+            if (err) {
+                console.error('Error en req.logIn:', err);
+                return next(err);
+            }
+            console.log('Usuario autenticado con éxito:', user);
+            return res.json({ success: true });
+        });
+    })(req, res, next);
 });
 
 // Ruta para manejar las solicitudes GET para obtener los servicios
