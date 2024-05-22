@@ -1,3 +1,6 @@
+/**
+  Cabecera inicial
+*/
 .navbar4-container {
   width: 100%;
   display: flex;
@@ -5,6 +8,7 @@
   justify-content: center;
   background-color: var(--dl-color-theme-neutral-light);
 }
+
 .navbar4-image {
   width: 320px;
   height: 172px;
@@ -155,6 +159,9 @@
   }
 }
 
+/**
+  Seccion despues del banner y Hero
+*/
 .hero3-header9 {
   width: 100%;
   display: flex;
@@ -258,6 +265,9 @@
   }
 }
 
+/**
+  Galeria de trabajos
+*/
 .gallery1-gallery3 {
   gap: var(--dl-space-space-fiveunits);
   width: 100%;
@@ -334,6 +344,9 @@
   }
 }
 
+/**
+  FAQs (remover)
+*/
 .faq1-faq7 {
   display: flex;
   overflow: hidden;
@@ -436,6 +449,9 @@
   }
 }
 
+/**
+  Seccion informacion de contacto
+*/
 .contact4-contact20 {
   display: flex;
   overflow: hidden;
@@ -591,6 +607,9 @@
   }
 }
 
+/**
+  Footer
+*/
 .footer15-container {
   display: flex;
   position: relative;
