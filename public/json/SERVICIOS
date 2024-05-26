@@ -4,7 +4,8 @@
     "nombre": "Corte de pelo masculino",
     "duracion": 30,
     "precio": 11.99,
-    "categorias": "cortes",
+    "categoria": "Peluqueria",
+    "subcategoria": "Cortes",
     "descripcion": "Corte de pelo clásico para hombres",
     "dificultad": "baja",
     "enlaceImagen": "https://www.capilclinic.es/blog/wp-content/uploads/2021/12/corte-pelo-hombre-segun-cara.jpg"
@@ -14,7 +15,8 @@
     "nombre": "Corte de pelo femenino",
     "duracion": 45,
     "precio": 18.99,
-    "categorias": "cortes",
+    "categoria": "Peluquería",
+    "subcategoria": "Cortes",
     "descripcion": "Corte de pelo moderno para mujeres",
     "dificultad": "media",
     "enlaceImagen": "https://cdn.static.escuelamakeup.com/imagenes/cortes-de-pelo-de-mujer-segun-el-tipo-de-cara-o-rostro/cortes-de-pelo-de-mujer-segun-el-tipo-de-cara-o-rostro_905x603.jpg"
@@ -24,7 +26,8 @@
     "nombre": "Tinte de cabello",
     "duracion": 60,
     "precio": 35.99,
-    "categorias": "tintes",
+    "categoria": "Coloración",
+    "subcategoria": "Tintes",
     "descripcion": "Aplicación de tinte de color para el cabello",
     "dificultad": "media",
     "enlaceImagen": "https://tahecosmetics.com/trends/wp-content/uploads/2021/12/tipos-tintes.jpeg"
@@ -34,7 +37,8 @@
     "nombre": "Tratamiento capilar",
     "duracion": 45,
     "precio": 30.50,
-    "categorias": "tratamientos",
+    "categoria": "Estética",
+    "subcategoria": "Tratamientos",
     "descripcion": "Tratamiento hidratante para cabellos secos y dañados",
     "dificultad": "alta",
     "enlaceImagen": "https://www.capilarea.com/wp-content/uploads/2023/11/mesoterapia-capilar-para-hombres-tratamiento-en-nuestra-clinica-capilar.jpg"
@@ -44,7 +48,8 @@
     "nombre": "Peinado para evento",
     "duracion": 60,
     "precio": 40.99,
-    "categorias": "peinados",
+    "categoria": "Peluquería",
+    "subcategoria": "Peinados",
     "descripcion": "Peinado elegante para ocasiones especiales",
     "dificultad": "media",
     "enlaceImagen": "https://images.ecestaticos.com/O4Uas65ecfRiUn4PbrGiR2pEAYk=/0x0:1300x975/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Ff5b%2F6cc%2F72b%2Ff5b6cc72b7e21a618043538122b29eec.jpg"
@@ -54,7 +59,8 @@
     "nombre": "Maquillaje para evento",
     "duracion": 45,
     "precio": 45.99,
-    "categorias": "maquillajes",
+    "categoria": "Estética",
+    "subcategoria": "Maquillajes",
     "descripcion": "Maquillaje profesional para eventos sociales",
     "dificultad": "media",
     "enlaceImagen": "https://stylelovely.com/esmiestilo/files/2021/01/tips-de-maquillaje-para-eventos-especiales.jpg"
@@ -64,7 +70,8 @@
     "nombre": "Lavado de cabello",
     "duracion": 15,
     "precio": 10.99,
-    "categorias": "tratamientos",
+    "categoria": "Estética",
+    "subcategoria": "Tratamientos",
     "descripcion": "Lavado y acondicionamiento del cabello",
     "dificultad": "baja",
     "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeaS4ypcATrIvX9wKiE9cXwV3PYyNpG6IVLSo_B0Zeww&s"
@@ -74,7 +81,8 @@
     "nombre": "Corte de barba",
     "duracion": 20,
     "precio": 12.99,
-    "categorias": "cortes",
+    "categoria": "Peluquería",
+    "subcategoria": "Cortes",
     "descripcion": "Corte y arreglo de barba para hombres",
     "dificultad": "baja",
     "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPy88fBPXiKOXI-_byVw689BvX2-ybUwK8JBhS6TRcMQ&s"
@@ -84,7 +92,8 @@
     "nombre": "Alisado de cabello",
     "duracion": 90,
     "precio": 60.99,
-    "categorias": "peinados",
+    "categoria": "Peluquería",
+    "subcategoria": "Peinados",
     "descripcion": "Tratamiento para alisar el cabello de forma permanente",
     "dificultad": "alta",
     "enlaceImagen": "https://letmebe.pt/wp-content/uploads/2022/11/BLOG-1-LETMEBE-PREALISAMENTO-1.jpg"
@@ -94,7 +103,8 @@
     "nombre": "Manicura",
     "duracion": 30,
     "precio": 20.99,
-    "categorias": "tratamientos",
+    "categoria": "Estética",
+    "subcategoria": "Cuidados",
     "descripcion": "Cuidado y embellecimiento de las uñas de las manos",
     "dificultad": "media",
     "enlaceImagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/01/24/16745628932796.jpg"
@@ -104,7 +114,8 @@
     "nombre": "Pedicura",
     "duracion": 45,
     "precio": 25.99,
-    "categorias": "tratamientos",
+    "categoria": "Estética",
+    "subcategoria": "Cuidados",
     "descripcion": "Cuidado y embellecimiento de las uñas de los pies",
     "dificultad": "media",
     "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6_69bTPsagaEBKo_Jk79afN5ZsCPpACs9BPInZ9i6Sw&s"
@@ -114,7 +125,8 @@
     "nombre": "Depilación de cejas",
     "duracion": 15,
     "precio": 10.99,
-    "categorias": "depilacion",
+    "categoria": "Estética",
+    "subcategoria": "Depilación",
     "descripcion": "Depilación de las cejas para dar forma y definición",
     "dificultad": "baja",
     "enlaceImagen": "https://t2.uc.ltmcdn.com/es/posts/3/1/9/como_depilar_las_cejas_con_cera_paso_a_paso_45913_600.jpg"
@@ -124,7 +136,8 @@
     "nombre": "Depilación de piernas",
     "duracion": 45,
     "precio": 30.99,
-    "categorias": "depilacion",
+    "categoria": "Estética",
+    "subcategoria": "Depilación",
     "descripcion": "Depilación de las piernas para una piel suave y libre de vello",
     "dificultad": "media",
     "enlaceImagen": "https://ramirogill.com/wp-content/uploads/Depilaci%C3%B3n-de-piernas.jpg"
@@ -134,7 +147,8 @@
     "nombre": "Depilación de axilas",
     "duracion": 30,
     "precio": 20.99,
-    "categorias": "depilacion",
+    "categoria": "Estética",
+    "subcategoria": "Depilación",
     "descripcion": "Depilación de las axilas para una apariencia más limpia",
     "dificultad": "media",
     "enlaceImagen": "https://germainegoyamadrid.com/wp-content/uploads/2023/09/054-blog-depilacion-laser-axilas.jpg"
@@ -144,7 +158,8 @@
     "nombre": "Maquillaje de novia",
     "duracion": 60,
     "precio": 80.99,
-    "categorias": "maquillajes",
+    "categoria": "Estética",
+    "subcategoria": "Maquillajes",
     "descripcion": "Maquillaje profesional para el día de la boda",
     "dificultad": "alta",
     "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSANGjoMgiQhfhJxopfR97Y9M6Lk8bh7_77aiSZUtpoA&s"
@@ -154,7 +169,8 @@
     "nombre": "Tratamiento facial",
     "duracion": 45,
     "precio": 35.99,
-    "categorias": "tratamientos",
+    "categoria": "Estética",
+    "subcategoria": "Tratamientos",
     "descripcion": "Tratamiento para mejorar la apariencia y salud de la piel del rostro",
     "dificultad": "media",
     "enlaceImagen": "https://www.topclinicmadrid.com/wp-content/uploads/2022/03/mascarilla-facial-scaled.jpg"
@@ -164,7 +180,8 @@
     "nombre": "Reflejos en el cabello",
     "duracion": 90,
     "precio": 50.99,
-    "categorias": "tintes",
+    "categoria": "Coloración",
+    "subcategoria": "Tintes",
     "descripcion": "Aplicación de reflejos para darle luminosidad al cabello",
     "dificultad": "alta",
     "enlaceImagen": "https://lolaperruquers.com/wp-content/uploads/2024/01/confiado-estilista-masculino-teniendo-cabello-clienta-caucasica-rubia-1.jpg"
@@ -174,7 +191,8 @@
     "nombre": "Recogido para evento",
     "duracion": 60,
     "precio": 55.99,
-    "categorias": "peinados",
+    "categoria": "Peluquería",
+    "subcategoria": "Peinados",
     "descripcion": "Peinado recogido elegante para eventos especiales",
     "dificultad": "alta",
     "enlaceImagen": "https://www.diariodesevilla.es/2020/12/01/wappissima/actualidad/recogido-trenza-opcion-peinado-Navidad_1524757639_128807178_667x375.png"
@@ -184,7 +202,8 @@
     "nombre": "Tratamiento de keratina",
     "duracion": 120,
     "precio": 100.99,
-    "categorias": "tratamientos",
+    "categoria": "Estética",
+    "subcategoria": "Tratamientos",
     "descripcion": "Tratamiento intensivo para restaurar y fortalecer el cabello",
     "dificultad": "alta",
     "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP8kKT3GhVr3rd9avyBSv2exwgdYkGvVWNOy1rJT0Sdw&s"
@@ -194,9 +213,131 @@
     "nombre": "Extensiones de cabello",
     "duracion": 180,
     "precio": 150.99,
-    "categorias": "peinados",
+    "categoria": "Peluquería",
+    "subcategoria": "Peinados",
     "descripcion": "Aplicación de extensiones para aumentar el volumen y longitud del cabello",
     "dificultad": "alta",
     "enlaceImagen": "https://cdn.diprofem.com/uploads/3c3c4601aa23c9951b60047b35230056.jpeg"
+  },
+  {
+    "idServicio": 21,
+    "nombre": "Tinte semipermanente",
+    "duracion": 90,
+    "precio": 45.99,
+    "categoria": "Coloración",
+    "subcategoria": "Tintes",
+    "descripcion": "Aplicación de tinte semipermanente para cambiar el color del cabello con resultados duraderos pero sin el compromiso a largo plazo de un tinte permanente. Ideal para experimentar con diferentes tonos y reflejos.",
+    "dificultad": "media",
+    "enlaceImagen": "https://blog.pacoperfumerias.com/wp-content/uploads/2022/07/Formas-de-aplicar-los-tintes-de-pelo-guia-definitiva.jpg"
+  },
+  {
+    "idServicio": 22,
+    "nombre": "Balayage Brondé",
+    "duracion": 120,
+    "precio": 65.99,
+    "categoria": "Coloración",
+    "subcategoria": "Balayage",
+    "descripcion": "El Balayage Brondé es ideal para mujeres con cabello oscuro, proporcionando vitalidad y luminosidad. Esta técnica de Balayage utiliza tonalidades más claras para crear un degradado de color perfecto, suavizando las facciones del rostro y aportando brillo al cabello. Perfecto para pieles bronceadas y amantes del estilo elegante y sofisticado.",
+    "dificultad": "media",
+    "enlaceImagen": "https://www.davidrial.com/modules/ph_simpleblog/covers/52.jpg"
+  },
+  {
+    "idServicio": 23,
+    "nombre": "Mechas Sombré",
+    "duracion": 90,
+    "precio": 55.99,
+    "categoria": "Coloración",
+    "subcategoria": "Balayage",
+    "descripcion": "Las Mechas Sombré son sutiles y suaves, creando una transición de tonalidades similar entre ellas para suavizar el color oscuro de manera leve. Esta técnica ofrece un efecto natural y duradero, con un inicio de color claro desde más arriba y una transición suave hacia las puntas. Perfectas para quienes buscan un look natural y sofisticado.",
+    "dificultad": "media",
+    "enlaceImagen": "https://media.glamour.mx/photos/632339798645b8d42bd2a6f8/16:9/w_2580,c_limit/cabello_sombre_que_es_como_pedirlo.jpg"
+  },
+  {
+    "idServicio": 24,
+    "nombre": "Mechas Ombré",
+    "duracion": 100,
+    "precio": 60.99,
+    "categoria": "Coloración",
+    "subcategoria": "Balayage",
+    "descripcion": "Las Mechas Ombré ofrecen un difuminado perfecto en el cabello, con un cambio más marcado a mitad de la melena y una leve variación en el color hacia las puntas, que terminan mucho más claras que el resto del cabello. Esta técnica proporciona un aspecto moderno y chic, perfecto para quienes desean un cambio de imagen llamativo y elegante.",
+    "dificultad": "media",
+    "enlaceImagen": "https://www.garnier.es/-/media/project/loreal/brand-sites/garnier/emea/es/articles/hair-color/asi-puedes-conseguir-las-mechas-ombre-en-casa/mechas_ombre_casa_headerdesktop.jpg?rev=3593bc60e0394450a9400a5715a3bfe0&h=534&w=950&la=es-ES&hash=974E6D4D16A4648E14CB55A533EBA145"
+  },
+  {
+    "idServicio": 25,
+    "nombre": "Babylight chocolate",
+    "duracion": 120,
+    "precio": 65.99,
+    "categoria": "Coloración",
+    "subcategoria": "Babylights",
+    "descripcion": "El Babylight chocolate es una opción perfecta para resaltar la calidez profunda de los cabellos castaños oscuros. Esta técnica de coloración utiliza tonos cálidos que aportan luz al rostro y se mezclan naturalmente con la tonalidad natural del cabello. Ideal para pieles morenas, proporcionando un resultado natural y luminoso.",
+    "dificultad": "media",
+    "enlaceImagen": "https://aprende.com/wp-content/uploads/2022/02/castano-oscuro-decorada-con-babylights-color-chocolate.png"
+  },
+  {
+    "idServicio": 26,
+    "nombre": "Babylight caramelo",
+    "duracion": 100,
+    "precio": 60.99,
+    "categoria": "Coloración",
+    "subcategoria": "Babylights",
+    "descripcion": "El Babylight caramelo es una opción luminosa y veraniega para cabellos castaños claros. Esta coloración utiliza tonos cálidos que proporcionan un aspecto luminoso y natural, perfecto para una temporada en la playa o la piscina. Ideal para quienes desean un cambio sutil pero impactante en su tono de cabello.",
+    "dificultad": "media",
+    "enlaceImagen": "https://aprende.com/wp-content/uploads/2022/02/castano-claro-y-mechas-babylight-caramelo-bajo-el-sol.png"
+  },
+  {
+    "idServicio": 27,
+    "nombre": "Babylight rubio cenizo",
+    "duracion": 110,
+    "precio": 70.99,
+    "categoria": "Coloración",
+    "subcategoria": "Babylights",
+    "descripcion": "El Babylight rubio cenizo es una opción moderna y versátil para cabellos rubios cenizos. Esta técnica de coloración utiliza tonos claros que iluminan el rostro y el cabello, creando reflejos naturales y un aspecto de volumen y movimiento. Ideal para pieles bronceadas o pálidas, proporcionando un efecto natural y elegante.",
+    "dificultad": "media",
+    "enlaceImagen": "https://aprende.com/wp-content/uploads/2022/02/rubio-cenizo.png"
+  },
+  {
+    "idServicio": 28,
+    "nombre": "Moño alto bailarina",
+    "duracion": 90,
+    "precio": 70.99,
+    "categoria": "Peluquería",
+    "subcategoria": "Novias",
+    "descripcion": "El moño alto bailarina es un peinado elegante y sencillo que destaca la belleza del rostro y permite lucir el vestido de novia sin distracciones. Ideal para todo tipo de vestidos, este peinado es especialmente recomendable para rostros con forma ovalada. Con la destreza de un profesional y productos de calidad, se logra un resultado perfecto que complementa el look nupcial.",
+    "dificultad": "media",
+    "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/9fd/05ad/685//-/es/wp-content/uploads/2018/05/cristina-poza.jpg"
+  },
+  {
+    "idServicio": 29,
+    "nombre": "Moño bajo con tocado",
+    "duracion": 120,
+    "precio": 80.99,
+    "categoria": "Peluquería",
+    "subcategoria": "Novias",
+    "descripcion": "El moño bajo con tocado es una opción sofisticada y actual para las novias que desean realzar su peinado con accesorios artesanales. Este peinado sencillo permite lucir un tocado floral o cualquier otro aplique con elegancia. Con una amplia variedad de tocados disponibles en el mercado, este look añade un toque de sofisticación al conjunto nupcial.",
+    "dificultad": "media",
+    "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/1a1/3d53/685//-/es/wp-content/uploads/2018/05/fini-rico-foto-puan-fotografia.jpg"
+  },
+  {
+    "idServicio": 30,
+    "nombre": "Moño messy trenzado",
+    "duracion": 100,
+    "precio": 75.99,
+    "categoria": "Peluquería",
+    "subcategoria": "Novias",
+    "descripcion": "El moño messy trenzado ofrece un estilo desenfadado y texturizado para las novias que desean un look natural pero elaborado. Con trenzas finas y mechones sueltos, este peinado proporciona un efecto despeinado chic que favorece a rostros con facciones duras. Se puede complementar con una corona de flores naturales para un toque final.",
+    "dificultad": "media",
+    "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/51f/82ef/685//-/es/wp-content/uploads/2017/11/kiwo11.jpg"
+  },
+  {
+    "idServicio": 31,
+    "nombre": "Corona trasera trenzada y ladeada",
+    "duracion": 110,
+    "precio": 85.99,
+    "categoria": "Peluquería",
+    "subcategoria": "Novias",
+    "descripcion": "La corona trasera trenzada y ladeada es una opción romántica y sutil para las novias que desean un peinado con trenzas. Este peinado combina una corona hecha con el propio cabello de la novia con una trenza lateral básica, creando un look distintivo y elegante. Se puede complementar con una peineta de flores para un toque adicional de estilo.",
+    "dificultad": "media",
+    "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/c0d/d7ee/685//-/es/wp-content/uploads/2017/11/kiwo7.jpg"
   }
 ]
