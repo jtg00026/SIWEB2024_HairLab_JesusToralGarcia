@@ -104,7 +104,7 @@ app.post('/iniciarSesion', (req, res, next) => {
         }
         if (!user) {
             console.log('Usuario no encontrado o contraseña incorrecta');
-            return res.status(401).json({ success: false, message: 'Inicio de sesión fallido' });
+            return res.status(401).json({ success: false, message: 'Usuario no encontrado o contraseña incorrecta' });
         }
         req.logIn(user, (err) => {
             if (err) {

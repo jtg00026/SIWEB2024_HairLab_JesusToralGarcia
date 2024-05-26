@@ -95,8 +95,8 @@
 }
 
 .usuario-icon img {
-  width: 40px;
-  height: 40px;
+  width: 100px; /* Ajusta el tamaño del icono de usuario */
+  height: 100px; /* Ajusta el tamaño del icono de usuario */
   border-radius: 50%;
   cursor: pointer;
 }
@@ -104,23 +104,30 @@
 .usuario-dropdown {
   display: none;
   position: absolute;
-  top: 50px;
-  right: 0;
+  top: 150px; /* Ajusta la posición vertical del desplegable */
+  left: 50%; /* Centra horizontalmente el desplegable */
+  transform: translateX(-50%); /* Ajusta la posición horizontal del desplegable */
   background-color: white;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 999;
+  display: flex; /* Cambia el display para que las opciones se dispongan en fila */
+  flex-direction: row; /* Las opciones se disponen en fila */
+  justify-content: center; /* Centra las opciones horizontalmente */
+  align-items: center; /* Centra las opciones verticalmente */
 }
 
 .usuario-dropdown .dropdown-link {
   display: block;
-  padding: 12px;
+  padding: 20px; /* Ajusta el padding de las opciones del desplegable */
   text-decoration: none;
   color: black;
   text-align: center;
+  font-size: 24px; /* Ajusta el tamaño del texto de las opciones */
 }
 
 .usuario-dropdown .dropdown-link:hover {
   background-color: #f1f1f1;
+  border-radius: 8px; /* Añade un borde redondeado al hacer hover */
 }
 
 @media(max-width: 767px) {
@@ -152,35 +159,38 @@
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 50%; /* Centra horizontalmente el submenu */
+  transform: translateX(-50%); /* Ajusta la posición del submenu */
   background-color: var(--dl-color-theme-neutral-light);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  width: 100%;
-  padding: var(--dl-space-space-unit);
+  z-index: 998;
+  width: 600px;
+  padding: 40px;
   display: flex;
   justify-content: space-around;
 }
 
 .submenu-column {
-  padding: var(--dl-space-space-unit);
+  padding: 20px;
 }
 
 .submenu-column h4 {
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
 .submenu-column img {
-  width: 150px; /* Ajustamos el tamaño de la imagen */
+  width: 200px;
   height: auto;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: 20px;
 }
 
 .submenu-column a {
   display: block;
-  margin-bottom: var(--dl-space-space-unit);
+  margin-bottom: 20px;
   text-decoration: none;
   color: black;
+  font-size: 20px;
 }
 
 .submenu-column a:hover {
@@ -189,8 +199,7 @@
 
 .navbar4-link-wrapper:hover .navbar4-submenu {
   display: flex;
-  width: auto; /* Esto ajustará el tamaño del submenú para que se adapte al contenido */
-  padding: 20px; /* Añadimos padding para un mejor diseño */
+  width: auto;
 }
 
 
