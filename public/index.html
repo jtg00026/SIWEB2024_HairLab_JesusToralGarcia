@@ -40,60 +40,151 @@
     <div>
       <link href="./css/index.css" rel="stylesheet" />
       <div class="home-container">
-        <!--Cabecera inicial-->
-        <div class = "home-navbar0">
-          
+          <!-- Cabecera inicial-->
+          <div class="top-bar">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="about_us.html">Conócenos</a></li>
+                    <li class="nav-item"><a href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a href="servicios.html">Nuestros servicios</a></li>
+                    <li class="nav-item"><a href="tienda.html">Nuestros productos</a></li>
+                </ul>
+            </nav>
         </div>
         
         <!--Cabecera barra navegable-->
         <div class="home-navbar1">
           <div class="navbar4-container">
             <img alt="image" src="./images/logo/logo-400w.png" class="navbar4-image" />
-            <header data-thq="thq-navbar" class="navbar4-navbar-interactive">
-              <div data-thq="thq-navbar-nav" class="navbar4-desktop-menu">
+            <header class="navbar4-navbar-interactive">
+              <div class="navbar4-desktop-menu">
                 <nav class="navbar4-links">
-                  <a
-                    href="index.html"
-                    class="navbar4-link1 thq-link thq-body-small"
-                  >
-                    <span>Peluquería</span>
-                  </a>
-                  <a
-                    href="servicios.html"
-                    class="navbar4-link2 thq-link thq-body-small"
-                  >
-                    <span>Coloración</span>
-                  </a>
-                  <a
-                    href="tienda.html"
-                    class="navbar4-link3 thq-link thq-body-small"
-                  >
-                    <span>Estética</span>
-                  </a>
-                  <a
-                    href="about-us.html"
-                    class="navbar4-link4 thq-link thq-body-small"
-                  >
+                  <div class="navbar4-link-wrapper">
+                    <a href="index.html" class="navbar4-link1 interfaz-link interfaz-body-small">
+                      <span>Peluquería</span>
+                    </a>
+                    <div class="navbar4-submenu">
+                      <!-- Contenidos submenu-->
+                      <div class="submenu-column">
+                        <h4>Cortes</h4>
+                        <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+                      
+                        <img src="https://cdn.shopify.com/s/files/1/0618/6083/9636/files/Diseno_sin_titulo_63_360x.png?v=1642623674" alt="Cortes">
+                        <a href="corte1.html">Corte 1</a>
+                        <a href="corte2.html">Corte 2</a>
+                      </div>
+                      <div class="submenu-column">
+                        <h4>Peinados</h4>
+                        <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
+                        <img src="https://cdn.shopify.com/s/files/1/0618/6083/9636/files/Diseno_sin_titulo_66_360x.png?v=1642623792" alt="Peinados">
+                        <a href="color1.html">Peinado 1</a>
+                        <a href="color2.html">Peinado 2</a>
+                      </div>
+                      <div class="submenu-column">
+                        <h4>Novias</h4>
+                        <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
+                        <img src="https://images.ecestaticos.com/S0jOSuhS0JdSblY4ZqX_uT4Zcl4=/0x0:1799x1349/1200x899/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fc78%2F43c%2F005%2Fc7843c00587a298f2aca341b06331bdf.jpg" alt="Novias">
+                        <a href="estetica1.html">Novia 1</a>
+                        <a href="estetica2.html">Novia 2</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="navbar4-link-wrapper">
+                    <a href="servicios.html" class="navbar4-link2 interfaz-link interfaz-body-small">
+                      <span>Coloración</span>
+                    </a>
+                    <div class="navbar4-submenu">
+                      <!-- Contenidos submenu-->
+                      <div class="submenu-column">
+                        <h4>Tintes</h4>
+                        <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
+                        <img src="https://cdn.shopify.com/s/files/1/0618/6083/9636/files/Diseno_sin_titulo_63_360x.png?v=1642623674" alt="Cortes">
+                        <a href="corte1.html">Tintes 1</a>
+                        <a href="corte2.html">Tintes 2</a>
+                      </div>
+                      <div class="submenu-column">
+                        <h4>Balayage</h4>
+                        <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
+                        <img src="https://cdn.shopify.com/s/files/1/0618/6083/9636/files/Diseno_sin_titulo_66_360x.png?v=1642623792" alt="Peinados">
+                        <a href="color1.html">Balayage 1</a>
+                        <a href="color2.html">Balayage 2</a>
+                      </div>
+                      <div class="submenu-column">
+                        <h4>Babylights</h4>
+                        <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
+                        <img src="https://images.ecestaticos.com/S0jOSuhS0JdSblY4ZqX_uT4Zcl4=/0x0:1799x1349/1200x899/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fc78%2F43c%2F005%2Fc7843c00587a298f2aca341b06331bdf.jpg" alt="Novias">
+                        <a href="estetica1.html">Babylights 1</a>
+                        <a href="estetica2.html">Babylights 2</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="navbar4-link-wrapper">
+                    <a href="tienda.html" class="navbar4-link3 interfaz-link interfaz-body-small">
+                      <span>Estética</span>
+                    </a>
+                    <div class="navbar4-submenu">
+                      <!-- Contenidos submenu-->
+                      <div class="submenu-column">
+                        <h4>Depilación</h4>
+                        <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
+                        <img src="https://cdn.shopify.com/s/files/1/0618/6083/9636/files/Diseno_sin_titulo_63_360x.png?v=1642623674" alt="Cortes">
+                        <a href="corte1.html">Depilación 1</a>
+                        <a href="corte2.html">Depilación 2</a>
+                      </div>
+                      <div class="submenu-column">
+                        <h4>Maquillajes</h4>
+                        <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
+                        <img src="https://cdn.shopify.com/s/files/1/0618/6083/9636/files/Diseno_sin_titulo_66_360x.png?v=1642623792" alt="Peinados">
+                        <a href="color1.html">Maquillajes 1</a>
+                        <a href="color2.html">Maquillajes 2</a>
+                      </div>
+                      <div class="submenu-column">
+                        <h4>Tratamientos</h4>
+                        <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+
+                        <img src="https://images.ecestaticos.com/S0jOSuhS0JdSblY4ZqX_uT4Zcl4=/0x0:1799x1349/1200x899/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fc78%2F43c%2F005%2Fc7843c00587a298f2aca341b06331bdf.jpg" alt="Novias">
+                        <a href="estetica1.html">Tratamientos 1</a>
+                        <a href="estetica2.html">Tratamientos 2</a>
+                      </div>
+                      <div class="submenu-column">
+                        <h4>Cuidados</h4>
+                        <hr style="border: none; border-top: 1px solid #ccc; margin: 10px 0;">
+                        
+                        <img src="https://images.ecestaticos.com/S0jOSuhS0JdSblY4ZqX_uT4Zcl4=/0x0:1799x1349/1200x899/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fc78%2F43c%2F005%2Fc7843c00587a298f2aca341b06331bdf.jpg" alt="Novias">
+                        <a href="estetica1.html">Cuidados 1</a>
+                        <a href="estetica2.html">Cuidados 2</a>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="about-us.html" class="navbar4-link4 interfaz-link interfaz-body-small">
                     <span>Boutique</span>
                   </a>
-                  <a
-                    href="area_usuarios.html"
-                    class="navbar4-link5 thq-link thq-body-small"
-                  >
-                  <span>Área de Usuarios</span>
+                  <a href="area_usuarios.html" class="navbar4-link5 interfaz-link interfaz-body-small">
+                    <span>Área de Usuarios</span>
                   </a>
                 </nav>
-                <div class="navbar4-buttons">
-                    <a href="iniciar-sesion.html" class="navbar4-action1 thq-button-filled">
-                        <span>Iniciar sesión</span>
-                    </a>
-                    <a href="crear-usuario.html" class="navbar4-action2 thq-button-outline">
-                        <span>Crear cuenta</span>
-                    </a>
+                <div class="navbar4-usuario">
+                  <div class="usuario-icon" id="usuario-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6861/6861326.png" alt="Usuario">
+                  </div>
+                  <div class="usuario-dropdown" id="usuario-dropdown">
+                    <a href="./iniciar-sesion.html" class="dropdown-link">Iniciar sesión</a>
+                    <a href="./crear-usuario.html" class="dropdown-link">Crear cuenta</a>
+                  </div>
                 </div>
+              </div>
             </header>
           </div>
         </div>
+        <script src="./js/index.js"></script>
+
 
         <!--Hero-->
         <div class="home-hero2">
@@ -101,30 +192,30 @@
             <img
               alt="Banner página principal"
               src="./unsplash-image-1500w.jpeg"
-              class="hero3-placeholder-image thq-img-ratio-16-9"
+              class="hero3-placeholder-image interfaz-img-ratio-16-9"
             />
-            <div class="hero3-content thq-section-padding">
-              <div class="hero3-max-width thq-flex-row thq-section-max-width">
+            <div class="hero3-content interfaz-section-padding">
+              <div class="hero3-max-width interfaz-flex-row interfaz-section-max-width">
                 <div class="hero3-column">
-                  <h1 class="hero3-text thq-heading-1">
+                  <h1 class="hero3-text interfaz-heading-1">
                     <span>Bienvenido a HairLab</span>
                   </h1>
                 </div>
                 <div class="hero3-column1">
-                  <p class="thq-body-large hero3-text1">
+                  <p class="interfaz-body-large hero3-text1">
                     <span>
                       Reserva tu cita online y descubre nuestros servicios
                       exclusivos
                     </span>
                   </p>
                   <div class="hero3-actions">
-                    <a href="servicios.html" class="hero3-button thq-button-filled">
-                      <span class="hero3-text2 thq-body-small">
+                    <a href="servicios.html" class="hero3-button interfaz-button-filled">
+                      <span class="hero3-text2 interfaz-body-small">
                         <span>Reservar cita</span>
                       </span>
                     </a>
-                    <a href="tienda.html" class="hero3-button1 thq-button-outline">
-                      <span class="hero3-text3 thq-body-small">
+                    <a href="tienda.html" class="hero3-button1 interfaz-button-outline">
+                      <span class="hero3-text3 interfaz-body-small">
                         <span>Ver tienda online</span>
                       </span>
                     </a>
@@ -137,13 +228,13 @@
         
         <!-- Galeria de trabajos-->
         <div class="home-gallery4">
-          <div class="gallery1-gallery3 thq-section-padding">
-            <div class="gallery1-max-width thq-section-max-width">
+          <div class="gallery1-gallery3 interfaz-section-padding">
+            <div class="gallery1-max-width interfaz-section-max-width">
               <div class="gallery1-section-title">
-                <h2 class="gallery1-text thq-heading-2">
+                <h2 class="gallery1-text interfaz-heading-2">
                   <span>Algunos de Nuestros Trabajos</span>
                 </h2>
-                <span class="gallery1-text1 thq-body-large">
+                <span class="gallery1-text1 interfaz-body-large">
                   <span>
                     Nuestra filosofía es crear un ambiente acogedor y relajante
                     para nuestros clientes, donde puedan sentirse consentidos y
@@ -160,21 +251,21 @@
                   <img
                     alt="Servicio Ejemplo 1"
                     src="./images/varias/servicio1.jpg"
-                    class="thq-img-ratio-4-3"
+                    class="interfaz-img-ratio-4-3"
                   />
                 </div>
                 <div class="gallery1-container1">
                   <img
                     alt="PlaceholderImage1302"
                     src="./images/varias/servicio2.jpg"
-                    class="thq-img-ratio-4-3"
+                    class="interfaz-img-ratio-4-3"
                   />
                 </div>
                 <div class="gallery1-container2">
                   <img
                     alt="PlaceholderImage1302"
                     src="./images/varias/servicio3.jpg"
-                    class="thq-img-ratio-4-3"
+                    class="interfaz-img-ratio-4-3"
                   />
                 </div>
               </div>
@@ -184,23 +275,23 @@
 
         <!--FAQs (remover)-->
         <div class="home-faq9">
-          <div class="faq1-faq7 thq-section-padding">
-            <div class="faq1-max-width thq-section-max-width">
-              <div class="thq-flex-column">
-                <h2 class="thq-heading-2"><span>FAQs</span></h2>
-                <p class="faq1-text1 thq-body-large">
+          <div class="faq1-faq7 interfaz-section-padding">
+            <div class="faq1-max-width interfaz-section-max-width">
+              <div class="interfaz-flex-column">
+                <h2 class="interfaz-heading-2"><span>FAQs</span></h2>
+                <p class="faq1-text1 interfaz-body-large">
                   <span>
                     Aquí puedes encontrar algunas de las preguntas más
                     frecuentes que nos hacen nuestros clientes.
                   </span>
                 </p>
               </div>
-              <div class="thq-flex-column faq1-list">
+              <div class="interfaz-flex-column faq1-list">
                 <div class="faq1-list-item1">
-                  <p class="faq1-faq1-question thq-body-large">
+                  <p class="faq1-faq1-question interfaz-body-large">
                     <span>¿Cómo puedo reservar una cita en la peluquería?</span>
                   </p>
-                  <span class="thq-body-small">
+                  <span class="interfaz-body-small">
                     <span>
                       Puedes reservar una cita en nuestra peluquería a través de
                       nuestra página web, seleccionando el servicio que desees,
@@ -210,13 +301,13 @@
                   </span>
                 </div>
                 <div class="faq1-list-item2">
-                  <p class="faq1-faq2-question thq-body-large">
+                  <p class="faq1-faq2-question interfaz-body-large">
                     <span>
                       ¿Cuáles son los métodos de pago aceptados en la tienda
                       online?
                     </span>
                   </p>
-                  <span class="thq-body-small">
+                  <span class="interfaz-body-small">
                     <span>
                       Aceptamos pagos con tarjeta de crédito/débito (Visa,
                       Mastercard, American Express) y también PayPal en nuestra
@@ -225,12 +316,12 @@
                   </span>
                 </div>
                 <div class="faq1-list-item3">
-                  <p class="faq1-faq3-question thq-body-large">
+                  <p class="faq1-faq3-question interfaz-body-large">
                     <span>
                       ¿Cuánto tiempo dura aproximadamente un servicio?
                     </span>
                   </p>
-                  <span class="thq-body-small">
+                  <span class="interfaz-body-small">
                     <span>
                       La duración del servicio puede variar dependiendo del
                       estilo y la complejidad, pero en promedio suele durar
@@ -239,12 +330,12 @@
                   </span>
                 </div>
                 <div class="faq1-list-item4">
-                  <p class="faq1-faq4-question thq-body-large">
+                  <p class="faq1-faq4-question interfaz-body-large">
                     <span>
                       ¿Ofrecen servicios de coloración capilar en la peluquería?
                     </span>
                   </p>
-                  <span class="thq-body-small">
+                  <span class="interfaz-body-small">
                     <span>
                       Sí, ofrecemos una amplia gama de servicios de coloración
                       capilar, desde tintes tradicionales hasta mechas y
@@ -253,10 +344,10 @@
                   </span>
                 </div>
                 <div class="faq1-list-item5">
-                  <p class="faq1-faq5-question thq-body-large">
+                  <p class="faq1-faq5-question interfaz-body-large">
                     <span>¿Puedo cancelar o modificar mi reserva online?</span>
                   </p>
-                  <span class="thq-body-small">
+                  <span class="interfaz-body-small">
                     <span>
                       Sí, puedes cancelar o modificar tu reserva online hasta 24
                       horas antes de la cita programada. Para ello, simplemente
@@ -272,14 +363,14 @@
 
         <!-- Información de contacto-->
         <div class="home-contact10">
-          <div class="contact4-contact20 thq-section-padding">
-            <div class="contact4-max-width thq-section-max-width">
-              <div class="thq-flex-column">
+          <div class="contact4-contact20 interfaz-section-padding">
+            <div class="contact4-max-width interfaz-section-max-width">
+              <div class="interfaz-flex-column">
                 <div class="faq1-content1">
-                  <h2 class="thq-heading-2">
+                  <h2 class="interfaz-heading-2">
                     <span>¿Quieres contactar con nosotros?</span>
                   </h2>
-                  <p class="faq1-text3 thq-body-large">
+                  <p class="faq1-text3 interfaz-body-large">
                     <span>
                       HairLab se esfuerza por brindar un servicio al cliente
                       excepcional. Si tienes alguna pregunta o inquietud, no
@@ -288,8 +379,8 @@
                   </p>
                 </div>
                 <div class="faq1-container">
-                  <button class="thq-button-outline faq1-button" onclick="window.location.href='contacto.html'">
-                    <span class="thq-body-small"><span>Contacto</span></span>
+                  <button class="interfaz-button-outline faq1-button" onclick="window.location.href='contacto.html'">
+                    <span class="interfaz-body-small"><span>Contacto</span></span>
                   </button>
                 </div>
 
@@ -297,15 +388,15 @@
                   <div class="contact4-content1">
                     <div class="contact4-contact-info">
                       <div class="contact4-content2">
-                        <h3 class="contact4-text03 thq-heading-3">Email</h3>
-                        <p class="contact4-text04 thq-body-large">
+                        <h3 class="contact4-text03 interfaz-heading-3">Email</h3>
+                        <p class="contact4-text04 interfaz-body-large">
                           <span>
                             Síguenos en redes sociales para estar al tanto de
                             nuestras novedades y promociones.
                           </span>
                         </p>
                       </div>
-                      <span class="contact4-email thq-body-small">
+                      <span class="contact4-email interfaz-body-small">
                         <span>info@hairlab.com</span>
                       </span>
                     </div>
@@ -313,18 +404,18 @@
                   <div class="contact4-content3">
                     <div class="contact4-contact-info1">
                       <div class="contact4-content4">
-                        <h3 class="contact4-text05 thq-heading-3">
+                        <h3 class="contact4-text05 interfaz-heading-3">
                           <span>Teléfono</span>
                           <br />
                         </h3>
-                        <p class="contact4-text08 thq-body-large">
+                        <p class="contact4-text08 interfaz-body-large">
                           <span>
                             Valoramos sus comentarios y nos esforzamos por brindar
                             el mejor servicio.
                           </span>
                         </p>
                       </div>
-                      <span class="contact4-phone thq-body-small">
+                      <span class="contact4-phone interfaz-body-small">
                         <span>+1234567890</span>
                       </span>
                     </div>
@@ -332,18 +423,18 @@
                   <div class="contact4-content5">
                     <div class="contact4-contact-info2">
                       <div class="contact4-content6">
-                        <h3 class="contact4-text09 thq-heading-3">
+                        <h3 class="contact4-text09 interfaz-heading-3">
                           <span>Nuestra Tienda Principal</span>
                           <br />
                         </h3>
-                        <p class="contact4-text12 thq-body-large">
+                        <p class="contact4-text12 interfaz-body-large">
                           <span>
                             Mantente en contacto con nosotros para conocer las
                             últimas tendencias y consejos sobre el cabello.
                           </span>
                         </p>
                       </div>
-                      <span class="contact4-address thq-body-small">
+                      <span class="contact4-address interfaz-body-small">
                         <span>Calle Mayor 12, Madrid, España</span>
                       </span>
                     </div>
@@ -356,27 +447,27 @@
 
         <!--Footer-->
         <div class="home-footer11">
-          <div class="footer15-container thq-section-padding">
+          <div class="footer15-container interfaz-section-padding">
             <img
               src="./images/logo/logo-1500h.png"
               class="footer15-image1"
             />
-            <div class="footer15-max-width thq-section-max-width">
+            <div class="footer15-max-width interfaz-section-max-width">
               <div class="footer15-credits">
                 <div class="footer15-row">
                   <div class="footer15-credits1">
-                    <a href="./terminos.html" class="thq-body-small">
+                    <a href="./terminos.html" class="interfaz-body-small">
                       <span>Enlace de privacidad</span>
                     </a>
-                    <a href="./terminos.html" class="thq-body-small">
+                    <a href="./terminos.html" class="interfaz-body-small">
                       <span>Enlace de términos y condiciones</span>
                     </a>
-                    <a href="./terminos.html" class="thq-body-small">
+                    <a href="./terminos.html" class="interfaz-body-small">
                       <span>Enlace de cookies</span>
                     </a>
                   </div>
                 </div>
-                <span class="footer15-content3 thq-body-small">
+                <span class="footer15-content3 interfaz-body-small">
                   <span>© 2024 HairLab</span>
                 </span>
               </div>

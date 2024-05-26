@@ -2,111 +2,125 @@
   {
     "idProducto": 1,
     "nombre": "Tijeras profesionales de corte",
-    "categoria": "Tijeras",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Tijeras y Navajas",
     "descripcion": "Tijeras de acero inoxidable de alta calidad para cortes precisos.",
-    "precio": 25.99,
+    "precio": 19.99,
     "imagen": "https://productospeluqueriabellezaaura.com.es/wp-content/uploads/2022/06/Tijeras-profesionales-para-cortar-pelo-de-6-pulgadas.png"
   },
   {
     "idProducto": 2,
     "nombre": "Plancha alisadora de cabello",
-    "categoria": "Planchas",
+    "categoria": "Herramientas de Estilizado",
+    "subcategoria": "Planchas",
     "descripcion": "Plancha con tecnología de cerámica para un alisado suave y brillante.",
-    "precio": 39.99,
+    "precio": 54.50,
     "imagen": "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/201910/21/00107755101503____1__640x640.jpg"
   },
   {
     "idProducto": 3,
     "nombre": "Secador de pelo profesional",
-    "categoria": "Secadores",
+    "categoria": "Herramientas de Estilizado",
+    "subcategoria": "Secadores",
     "descripcion": "Secador potente con múltiples ajustes de temperatura y velocidad.",
-    "precio": 49.99,
+    "precio": 22.90,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZ9EJ3PgprYnRUTWN31umrjzlWL9STHhJFLOMJk7cRg&s"
   },
   {
     "idProducto": 4,
     "nombre": "Cepillo desenredante",
-    "categoria": "Cepillos",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Cepillos",
     "descripcion": "Cepillo con cerdas suaves para desenredar el cabello sin romperlo.",
-    "precio": 12.99,
+    "precio": 4.95,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa1sy7_tJei_V_--hBkrEVo7Z879rgqrYGWZtoIKb-bA&s"
   },
   {
     "idProducto": 5,
     "nombre": "Mascarilla capilar nutritiva",
-    "categoria": "Tratamientos capilares",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
     "descripcion": "Mascarilla con aceites naturales para nutrir y reparar el cabello dañado.",
-    "precio": 18.99,
+    "precio": 5.99,
     "imagen": "https://www.primor.eu/blog/wp-content/uploads/2023/10/MASCARILLAS.jpg"
   },
   {
     "idProducto": 6,
     "nombre": "Coloración permanente",
-    "categoria": "Coloración",
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Coloración",
     "descripcion": "Tinte para el cabello de larga duración en varios tonos.",
-    "precio": 15.99,
+    "precio": 16.99,
     "imagen": "https://marialoiratiendaicon.es/51-thickbox_default/coloracion-permanente-intensificador-de-color-ecotech.jpg"
   },
   {
     "idProducto": 7,
     "nombre": "Gel fijador de peinado",
-    "categoria": "Fijadores",
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Fijadores",
     "descripcion": "Gel de alta fijación para crear peinados duraderos.",
-    "precio": 8.99,
+    "precio": 1.50,
     "imagen": "https://cdn2.primor.eu/media/catalog/product/cache/8d3aba296f7a18b5251ee30fa5db42b2/2/C/2CF00746_1_47f8.webp"
   },
   {
     "idProducto": 8,
     "nombre": "Capa de corte profesional",
-    "categoria": "Capas de corte",
+    "categoria": "Equipos y Accesorios de Trabajo",
+    "subcategoria": "Capas de corte",
     "descripcion": "Capa impermeable y ajustable para proteger la ropa durante el corte.",
-    "precio": 19.99,
+    "precio": 15.99,
     "imagen": "https://termix.net/int/383-termix_product/capa-de-corte-profesional-termix-negro.jpg"
   },
   {
     "idProducto": 9,
     "nombre": "Cortapelos eléctrico",
-    "categoria": "Máquinas de cortar",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Máquinas de Cortar",
     "descripcion": "Máquina recargable para cortar el cabello con precisión.",
-    "precio": 29.99,
+    "precio": 26.99,
     "imagen": "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/8719138810840_1.jpg"
   },
   {
     "idProducto": 10,
     "nombre": "Tratamiento de queratina",
-    "categoria": "Tratamientos capilares",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
     "descripcion": "Tratamiento intensivo para fortalecer y suavizar el cabello con queratina.",
-    "precio": 29.99,
+    "precio": 4.50,
     "imagen": "https://i.blogs.es/863bd3/serum/650_1200.png"
   },
   {
     "idProducto": 11,
     "nombre": "Papel de aluminio para mechas",
-    "categoria": "Accesorios",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Accesorios",
     "descripcion": "Rollo de papel de aluminio para realizar mechas y reflejos.",
-    "precio": 9.99,
+    "precio": 10.99,
     "imagen": "https://www.cortapelosyplanchas.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/rollo_papel_aluminio_mechas_bobina_papel_plata_para_peluqueri_a_100_metros_comprar_rollo_papel_aluminio_mechas_barato_mejor_precio_papel_plata_para_peluqueri_a_para_mechas_y_tinturas.jpg"
   },
   {
     "idProducto": 12,
     "nombre": "Peine de cola de rata",
-    "categoria": "Peines",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Peines",
     "descripcion": "Peine con mango fino ideal para crear secciones y particiones precisas.",
-    "precio": 6.99,
+    "precio": 3.99,
     "imagen": "https://www.fussy.es/wp-content/uploads/2019/09/304-peine-cola-rato%CC%81n.jpg"
   },
   {
     "idProducto": 13,
     "nombre": "Espuma modeladora",
-    "categoria": "Fijadores",
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Fijadores",
     "descripcion": "Espuma que proporciona volumen y textura al cabello para peinados creativos.",
-    "precio": 7.99,
+    "precio": 17.99,
     "imagen": "https://sunlake.es/236-large_default/espuma-moldeadora-300ml-fijacion-fuerte.jpg"
   },
   {
     "idProducto": 14,
     "nombre": "Cinta para extensiones de cabello",
-    "categoria": "Accesorios",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Accesorios",
     "descripcion": "Cinta adhesiva de doble cara para fijar extensiones de cabello.",
     "precio": 5.99,
     "imagen": "https://www.hairmadeeasi.com/cdn/shop/products/tape-pliers-for-hair-extensions-609502.jpg?v=1693926920&width=1445"
@@ -114,209 +128,397 @@
   {
     "idProducto": 15,
     "nombre": "Gorro de secado",
-    "categoria": "Accesorios",
-    "descripcion": "Gorro de microfibra para secar el cabello de forma rápida y cómoda.",
-    "precio": 11.99,
-    "imagen": "https://i.blogs.es/ff4298/91dneb7w1-l._ac_sl1500_/original.jpeg"
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Accesorios",
+    "descripcion": "Gorro para secar el cabello rápidamente con el secador.",
+    "precio": 9.99,
+    "imagen": "https://www.tiendasgxs.com/wp-content/uploads/2022/09/GORRO-TERMICO-PARA-SECADOR-DE-CABELLO-BIFULL.jpg.webp"
   },
   {
     "idProducto": 16,
-    "nombre": "Tinte semipermanente",
-    "categoria": "Coloración",
-    "descripcion": "Tinte sin amoniaco para cambiar el color del cabello temporalmente.",
-    "precio": 13.99,
-    "imagen": "https://hair-shop-cosmetics.com/cdn/shop/products/A_HG019182-500x500.jpg?v=1645188473"
+    "nombre": "Crema para peinar",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Acondicionadores",
+    "descripcion": "Crema ligera para definir y controlar el cabello sin dejar residuos.",
+    "precio": 10.99,
+    "imagen": "https://images.ctfassets.net/ex1lib5py5z5/3UqoCS80HFI695p0kInMBy/547326df478a904c089cba395ab7097e/Crema_de_peinado.jpg"
   },
   {
     "idProducto": 17,
-    "nombre": "Gel de aloe vera para el cabello",
-    "categoria": "Tratamientos capilares",
-    "descripcion": "Gel que hidrata y revitaliza el cabello, dejándolo suave y brillante.",
-    "precio": 10.99,
-    "imagen": "https://www.primor.eu/blog/wp-content/uploads/2023/09/ALOE-VERA-PELO-1140x760.jpg"
+    "nombre": "Cepillo térmico",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Cepillos",
+    "descripcion": "Cepillo redondo con barril térmico para peinados con volumen y ondas.",
+    "precio": 9.99,
+    "imagen": "https://beter.es/45/cepillo-termico-de-ceramica-23-mm-dia.jpg"
   },
   {
     "idProducto": 18,
-    "nombre": "Cepillo térmico",
-    "categoria": "Cepillos",
-    "descripcion": "Cepillo con barril cerámico que retiene el calor para un secado más rápido.",
-    "precio": 14.99,
-    "imagen": "https://www.agrucompbelleza.es/668-tm_thickbox_default/cepillo-termico-termix-profesional.jpg"
+    "nombre": "Rizador de cabello",
+    "categoria": "Herramientas de Estilizado",
+    "subcategoria": "Rizadores",
+    "descripcion": "Rizador con barril de cerámica para crear rizos definidos y duraderos.",
+    "precio": 24.99,
+    "imagen": "https://www.avon.es/assets/es-es/images/product/prod_5611792_1_613x613.jpg"
   },
   {
     "idProducto": 19,
-    "nombre": "Máquina de afeitar eléctrica",
-    "categoria": "Máquinas de cortar",
-    "descripcion": "Máquina recargable para afeitar el vello facial con precisión.",
-    "precio": 34.99,
-    "imagen": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/08/17/16607245172899.jpg"
+    "nombre": "Acondicionador sin enjuague",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Acondicionadores",
+    "descripcion": "Acondicionador ligero que se deja en el cabello para hidratación continua.",
+    "precio": 4.99,
+    "imagen": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1674409374-acondicinador-sin-aclarado-garnier-1674409343.jpg?crop=1xw:1xh;center,top&resize=980:*"
   },
   {
     "idProducto": 20,
-    "nombre": "Bálsamo reparador para puntas abiertas",
-    "categoria": "Tratamientos capilares",
-    "descripcion": "Bálsamo que sella las puntas abiertas y previene la rotura del cabello.",
-    "precio": 16.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rNptoWlRPgpvKu7btVwvWxfPRWR6StE8xnIUSZrkQg&s"
+    "nombre": "Gel de aloe vera para el cabello",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
+    "descripcion": "Gel natural que hidrata y calma el cuero cabelludo y el cabello.",
+    "precio": 7.95,
+    "imagen": "https://m.media-amazon.com/images/I/61Dk0E--q+L._AC_UF1000,1000_QL80_.jpg"
   },
   {
     "idProducto": 21,
-    "nombre": "Navaja de barbero",
-    "categoria": "Accesorios",
-    "descripcion": "Navaja profesional para perfilar la barba y el cabello.",
-    "precio": 22.99,
-    "imagen": "https://www.todobelleza.pro/1720-large_default/navaja-barbero-sculpby.jpg"
+    "nombre": "Capeador para corte de pelo",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Accesorios",
+    "descripcion": "Herramienta para cortar el cabello en capas uniformes.",
+    "precio": 6.99,
+    "imagen": "https://m.media-amazon.com/images/I/61mPf5cBmqL.jpg"
   },
   {
     "idProducto": 22,
     "nombre": "Tinte vegetal",
-    "categoria": "Coloración",
-    "descripcion": "Tinte natural a base de plantas para un color duradero y brillante.",
-    "precio": 20.99,
-    "imagen": "https://e00-telva.uecdn.es/assets/multimedia/imagenes/2019/10/29/15723857145197.jpg"
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Coloración",
+    "descripcion": "Coloración natural a base de extractos vegetales para un color suave y brillante.",
+    "precio": 12.99,
+    "imagen": "https://images.ecestaticos.com/4SNpKLoNF0FqDWiWuWT6KdMOCVU=/0x0:1550x2039/1440x1920/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fb4a%2F1c9%2F957%2Fb4a1c995744497e80a3e3ac221a224c5.jpg"
   },
   {
     "idProducto": 23,
-    "nombre": "Gel de peinado con efecto mojado",
-    "categoria": "Fijadores",
-    "descripcion": "Gel que proporciona un acabado brillante y efecto mojado para estilos modernos.",
-    "precio": 9.99,
-    "imagen": "https://www.giorgiline.com/wp-content/uploads/2022/03/efecto-mojado.png"
+    "nombre": "Espátula de aplicación de tinte",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Accesorios",
+    "descripcion": "Herramienta de plástico para una aplicación uniforme del tinte de cabello.",
+    "precio": 1.49,
+    "imagen": "https://beticolor.es/wp-content/uploads/ESPATULA-TINTE-O-DECOLORACION.jpg"
   },
   {
     "idProducto": 24,
-    "nombre": "Tijeras de entresacar",
-    "categoria": "Tijeras",
-    "descripcion": "Tijeras con hojas dentadas para texturizar y desfilar el cabello.",
-    "precio": 27.99,
-    "imagen": "https://www.dhmaterialmedico.com/material-medico/fotos/tijera-corte-55-shark-1695113552.jpg"
+    "nombre": "Bálsamo reparador para puntas abiertas",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
+    "descripcion": "Bálsamo que sella y repara puntas abiertas, mejorando la salud del cabello.",
+    "precio": 21.95,
+    "imagen": "https://mygdonia.es/cdn/shop/products/balsamo-cabello-natural-acorelle_1200x.jpg?v=1658570054"
   },
   {
     "idProducto": 25,
-    "nombre": "Rizador de cabello",
-    "categoria": "Rizadores",
-    "descripcion": "Rizador con barril de cerámica para crear rizos definidos y duraderos.",
-    "precio": 32.99,
-    "imagen": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1670261825-rizador-babyliss-2-1670261790.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    "nombre": "Gel de peinado con efecto mojado",
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Fijadores",
+    "descripcion": "Gel que proporciona un acabado brillante y de efecto mojado al cabello.",
+    "precio": 2.99,
+    "imagen": "https://www.giorgiline.com/wp-content/uploads/2022/03/efecto-mojado.png"
   },
   {
     "idProducto": 26,
-    "nombre": "Acondicionador sin enjuague",
-    "categoria": "Acondicionadores",
-    "descripcion": "Acondicionador en spray para desenredar y acondicionar el cabello sin enjuagar.",
-    "precio": 14.99,
-    "imagen": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1674409374-acondicinador-sin-aclarado-garnier-1674409343.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    "nombre": "Peine de dientes anchos",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Peines",
+    "descripcion": "Peine ideal para desenredar el cabello mojado sin dañarlo.",
+    "precio": 5.99,
+    "imagen": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/8a5cfd10f868c0c34b600df2a6a648a9.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
   },
   {
     "idProducto": 27,
-    "nombre": "Capeador para corte de pelo",
-    "categoria": "Accesorios",
-    "descripcion": "Capeador ajustable para crear líneas rectas y simétricas durante el corte.",
-    "precio": 7.99,
-    "imagen": "https://m.media-amazon.com/images/I/31pSbj+g4HL._AC_.jpg"
-  },
-  {
-    "idProducto": 28,
-    "nombre": "Máscara de hidratación profunda",
-    "categoria": "Tratamientos capilares",
-    "descripcion": "Máscara con aceites nutritivos para hidratar intensamente el cabello seco y dañado.",
-    "precio": 19.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn1X6sv3zMjijablZKeh4HtvCUVZZH84n_MMVc1Sqy-Q&s"
-  },
-  {
-    "idProducto": 29,
     "nombre": "Laca de fijación fuerte",
-    "categoria": "Fijadores",
-    "descripcion": "Laca para fijar peinados con una fuerte retención sin dejar residuos.",
-    "precio": 2.69,
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Fijadores",
+    "descripcion": "Laca que proporciona una fijación duradera y resistente a la humedad.",
+    "precio": 6.99,
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7R95eBdtrMmTWp_46ecNKMtAxstZScgsb5Frh-K7Jw&s"
   },
   {
+    "idProducto": 28,
+    "nombre": "Mascarilla de hidratación profunda",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
+    "descripcion": "Mascarilla intensiva que hidrata profundamente el cabello seco y dañado.",
+    "precio": 29.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9LhMswNz1Wfr9WPwGTwr_IF9U1ZSVNcBpfzzTWlT2nA&s"
+  },
+  {
+    "idProducto": 29,
+    "nombre": "Guantes de latex",
+    "categoria": "Equipos y Accesorios de Trabajo",
+    "subcategoria": "Material Higiénico",
+    "descripcion": "Guantes desechables de látex para proteger las manos durante tratamientos.",
+    "precio": 4.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqQDDAwsSOWWdNBk8KoXiH7jETSS-VggHviIc3s_TtLw&s"
+  },
+  {
     "idProducto": 30,
-    "nombre": "Espátula de aplicación de tinte",
-    "categoria": "Accesorios",
-    "descripcion": "Espátula de plástico para aplicar el tinte de manera precisa y uniforme.",
-    "precio": 3.99,
-    "imagen": "https://www.tupeluqueriaonline.com/images/productos/thumbnails/professional-hair-care-espatula-para-aplicar-tintes-1-17495_thumb_400x400.jpg"
+    "nombre": "Peine de madera antiestático",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Peines",
+    "descripcion": "Peine de madera que reduce la estática y el encrespamiento del cabello.",
+    "precio": 8.99,
+    "imagen": "https://m.media-amazon.com/images/I/71ujkrhWxGL._AC_UF894,1000_QL80_.jpg"
   },
   {
     "idProducto": 31,
-    "nombre": "Tinte fantasía",
-    "categoria": "Coloración",
-    "descripcion": "Tinte de colores vivos y fantasía para estilos creativos y únicos.",
-    "precio": 17.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdyULUIrTWRcQEXYU1sZtAxsd1bJ6gN1UiMSAg7lcFlg&s"
+    "nombre": "Mascarilla matizadora",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
+    "descripcion": "Mascarilla que neutraliza los tonos amarillos y naranjas en cabellos rubios.",
+    "precio": 7.99,
+    "imagen": "https://www.bethshair.es/wp-content/uploads/2022/11/real-natura-mascarilla-matizadora-rubios-anti-amarillos-pro-cor-tom-500ml-5600493405600-beths-hair.jpg"
   },
   {
     "idProducto": 32,
-    "nombre": "Cepillo para desenredar en seco",
-    "categoria": "Cepillos",
-    "descripcion": "Cepillo con cerdas flexibles para desenredar el cabello en seco sin romperlo.",
-    "precio": 11.99,
-    "imagen": "https://m.media-amazon.com/images/I/612gVwPCejS._AC_UF894,1000_QL80_.jpg"
+    "nombre": "Rodillo de velcro",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Accesorios",
+    "descripcion": "Rodillos de velcro para crear ondas y rizos sin calor.",
+    "precio": 5.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0MIfYzGu1WpYcjBjYXUd1blFLDXJ12pKkbRXwktCSgQ&s"
   },
   {
     "idProducto": 33,
-    "nombre": "Crema para peinar",
-    "categoria": "Acondicionadores",
-    "descripcion": "Crema hidratante que facilita el peinado y controla el frizz.",
-    "precio": 9.99,
-    "imagen": "https://images.ctfassets.net/jdgtuh2uadx0/0tT_d6O-unjzg9SduhmnLI/4bb87121664ae497c3f6cabebabd2daa/image-pdp-crema_20para_20peinar_300_20ml-dcSgu-image"
+    "nombre": "Toallas desechables",
+    "categoria": "Equipos y Accesorios de Trabajo",
+    "subcategoria": "Material Higiénico",
+    "descripcion": "Toallas desechables altamente resistentes y duraderas, lo que les permite mantener su integridad estructural incluso cuando están mojadas.",
+    "precio": 29.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTAibzLhTv5Uth90VpljFafBUAF3Oxlx0Tj_rJepWgAhE0i1r3uZjWUk1Mc_2FMWfb6ObvDD4d-iJGk6gWJz58Ly6mpN5BJpYELu7Gxvi_6sH1MSZ22ohLA&usqp=CAc"
   },
   {
     "idProducto": 34,
-    "nombre": "Maquinilla de afeitar desechable",
-    "categoria": "Máquinas de cortar",
-    "descripcion": "Maquinilla de afeitar de un solo uso para un afeitado rápido y seguro.",
-    "precio": 1.99,
-    "imagen": "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/8435476252431_1.jpg"
+    "nombre": "Cepillo de cerdas de jabalí",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Cepillos",
+    "descripcion": "Cepillo que distribuye los aceites naturales del cabello para un brillo saludable.",
+    "precio": 9.99,
+    "imagen": "https://www.peinesycepillosciutad.com/pictures/big/338.jpg"
   },
   {
     "idProducto": 35,
-    "nombre": "Mascarilla matizadora",
-    "categoria": "Tratamientos capilares",
-    "descripcion": "Mascarilla para neutralizar tonos no deseados y mantener el color del cabello.",
-    "precio": 16.99,
-    "imagen": "https://www.druni.es/media/catalog/product/1/3/1307458.jpg"
+    "nombre": "Spray protector térmico",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
+    "descripcion": "Spray que protege el cabello del daño causado por el calor de las herramientas de estilizado.",
+    "precio": 5.99,
+    "imagen": "https://www.druni.es/media/catalog/product/1/3/1306405.jpg"
   },
   {
     "idProducto": 36,
-    "nombre": "Gel de fijación extrafuerte",
-    "categoria": "Fijadores",
-    "descripcion": "Gel de larga duración para peinados que necesitan una fijación extrafuerte.",
-    "precio": 12.99,
-    "imagen": "https://thebeautycorner.eu/105580-large_default/gel-fijador-extra-fuerte-250-ml.jpg"
+    "nombre": "Secador iónico",
+    "categoria": "Herramientas de Estilizado",
+    "subcategoria": "Secadores",
+    "descripcion": "Secador con tecnología iónica que reduce el encrespamiento y acelera el secado.",
+    "precio": 219.99,
+    "imagen": "https://www.bethshair.es/wp-content/uploads/2022/12/secador-ionico-ultra-ligero-elite-hair-dryer-black-de-wad-01-8435709500001-beths-hair-1200x1240.jpg"
   },
   {
     "idProducto": 37,
-    "nombre": "Rodillo de velcro",
-    "categoria": "Accesorios",
-    "descripcion": "Rodillo con velcro para crear volumen y textura en el cabello durante el secado.",
-    "precio": 6.99,
-    "imagen": "https://m.media-amazon.com/images/I/719moWOja7L._AC_UF894,1000_QL80_.jpg"
+    "nombre": "Tijeras de entresacar",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Tijeras y Navajas",
+    "descripcion": "Tijeras con dientes para reducir el volumen del cabello y crear texturas.",
+    "precio": 23.99,
+    "imagen": "https://www.dhmaterialmedico.com/material-medico/fotos/tijera-corte-55-shark-1695113552.jpg"
   },
   {
     "idProducto": 38,
-    "nombre": "Aceite reparador de puntas",
-    "categoria": "Tratamientos capilares",
-    "descripcion": "Aceite ligero que hidrata y repara las puntas abiertas del cabello.",
-    "precio": 13.99,
-    "imagen": "https://sevilla.abc.es/estilo/bulevarsur/wp-content/uploads/sites/14/2020/01/aceite-pelo-como-se-usa-00003.jpg"
+    "nombre": "Tinte sin amoníaco",
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Coloración",
+    "descripcion": "Coloración suave sin amoníaco que cuida el cabello durante el proceso.",
+    "precio": 6.25,
+    "imagen": "https://i.blogs.es/145ac5/palette-naturals-color-creme-tinte/450_1000.jpeg"
   },
   {
     "idProducto": 39,
-    "nombre": "Cera modeladora",
-    "categoria": "Fijadores",
-    "descripcion": "Cera que define y texturiza el cabello para peinados flexibles y con movimiento.",
-    "precio": 8.99,
-    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkY33MK0YdzSlnuR7kPLQB3CScgvgyPALXSsEAufpyFw&s"
+    "nombre": "Tijeras de esculpir",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Tijeras y Navajas",
+    "descripcion": "Tijeras especializadas para esculpir y dar forma al cabello con precisión.",
+    "precio": 22.99,
+    "imagen": "https://thebeautycorner.eu/106572-large_default/tijera-esculpir-13-dientes-doble-cara-65.jpg"
   },
   {
     "idProducto": 40,
-    "nombre": "Gorra de ducha impermeable",
-    "categoria": "Accesorios",
-    "descripcion": "Gorra de plástico resistente al agua para proteger el cabello durante la ducha.",
-    "precio": 4.99,
-    "imagen": "https://m.media-amazon.com/images/I/71+bUavZVEL._AC_UF894,1000_QL80_.jpg"
+    "nombre": "Gel limpiador para cuero cabelludo",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
+    "descripcion": "Gel que limpia profundamente el cuero cabelludo, eliminando residuos y grasa.",
+    "precio": 7.99,
+    "imagen": "https://m.media-amazon.com/images/I/71gwS4XEk7L._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "idProducto": 41,
+    "nombre": "Cera moldeadora",
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Fijadores",
+    "descripcion": "Cera que proporciona fijación y flexibilidad para peinados creativos.",
+    "precio": 2.60,
+    "imagen": "https://www.prieto.es/images/product/1/large/pl_1_1_21644.jpg"
+  },
+  {
+    "idProducto": 42,
+    "nombre": "Rizador automático",
+    "categoria": "Herramientas de Estilizado",
+    "subcategoria": "Rizadores",
+    "descripcion": "Rizador que automáticamente enrolla y riza el cabello para un acabado profesional.",
+    "precio": 144.99,
+    "imagen": "https://media.vogue.es/photos/61faa4c80f919de502805f2f/master/w_1600%2Cc_limit/rizador%2520autom%25C3%25A1tico%2520babyliss.jpg"
+  },
+  {
+    "idProducto": 43,
+    "nombre": "Cepillo de viaje plegable",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Cepillos",
+    "descripcion": "Cepillo compacto y plegable, ideal para llevar en el bolso.",
+    "precio": 6.99,
+    "imagen": "https://m.media-amazon.com/images/I/71sCjw9n6WL._AC_UF894,1000_QL80_DpWeblab_.jpg"
+  },
+  {
+    "idProducto": 44,
+    "nombre": "Acondicionador profundo",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Acondicionadores",
+    "descripcion": "Acondicionador que proporciona una hidratación intensa y desenreda el cabello.",
+    "precio": 17.99,
+    "imagen": "https://www.bethshair.es/wp-content/uploads/2022/08/Mielle-%EF%BB%BFAcondicionador-profundo-con-proteinas-Babassu-Mint-Deep-Conditioner-227g-01-850001265454-beths-hair.jpg"
+  },
+  {
+    "idProducto": 45,
+    "nombre": "Plancha profesional de titanio",
+    "categoria": "Herramientas de Estilizado",
+    "subcategoria": "Planchas",
+    "descripcion": "Plancha profesional con placas de titanio para un alisado rápido y duradero.",
+    "precio": 79.99,
+    "imagen": "https://m.media-amazon.com/images/I/51aqmNvJ9kL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "idProducto": 46,
+    "nombre": "Peine afro",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Peines",
+    "descripcion": "Peine de púas anchas y separadas para cabello rizado y afro.",
+    "precio": 7.99,
+    "imagen": "https://www.fussy.es/wp-content/uploads/2019/09/301-peine-afro.jpg"
+  },
+  {
+    "idProducto": 47,
+    "nombre": "Esterilizador de herramientas",
+    "categoria": "Equipos y Accesorios de Trabajo",
+    "subcategoria": "Material Higiénico",
+    "descripcion": "Esterilizador UV para mantener las herramientas de peluquería limpias y desinfectadas.",
+    "precio": 99.99,
+    "imagen": "https://m.media-amazon.com/images/I/611bGHx1bSL.jpg"
+  },
+  {
+    "idProducto": 48,
+    "nombre": "Capa de corte impermeable",
+    "categoria": "Equipos y Accesorios de Trabajo",
+    "subcategoria": "Capas de corte",
+    "descripcion": "Capa impermeable y antideslizante para uso profesional.",
+    "precio": 22.99,
+    "imagen": "https://comercialcuevas.es/34053-large_default/capas-de-corte-desechables-110-x-130-cm-50-u-negras.jpg"
+  },
+  {
+    "idProducto": 49,
+    "nombre": "Planchas para ondas",
+    "categoria": "Herramientas de Estilizado",
+    "subcategoria": "Planchas",
+    "descripcion": "Planchas de triple barril para crear ondas suaves y definidas.",
+    "precio": 59.99,
+    "imagen": "https://www.lidl.es/media/product/0/0/5/2/4/2/9/plancha-para-ondas-rita-ora-85-w-zoom--5.jpg"
+  },
+  {
+    "idProducto": 50,
+    "nombre": "Rizador de perlas de cerámica",
+    "categoria": "Herramientas de Estilizado",
+    "subcategoria": "Rizadores",
+    "descripcion": "Rizador con tecnología de perlas de cerámica para un acabado suave y duradero.",
+    "precio": 39.99,
+    "imagen": "https://m.media-amazon.com/images/I/51ERlxr19SL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+	"idProducto": 51,
+	"nombre": "Acondicionador profundo",
+	"categoria": "Productos de Cuidado Capilar",
+	"subcategoria": "Acondicionadores",
+	"descripcion": "Acondicionador intensivo para hidratar profundamente el cabello seco.",
+	"precio": 3.49,
+	"imagen": "https://images.ctfassets.net/r22v2vd8bb1u/3WYh8TxRqEqyJItM6CZA28/2162d17b3bb8a7903e4eb8be332d385a/00080878180936_C1N1_dt.jpg"
+  },
+  {
+	"idProducto": 52,
+	"nombre": "Acondicionador para cabello teñido",
+	"categoria": "Productos de Cuidado Capilar",
+	"subcategoria": "Acondicionadores",
+	"descripcion": "Acondicionador especializado para mantener y proteger el color del cabello teñido.",
+	"precio": 15.99,
+	"imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPNsCuQwrDC_498fuCY4vM8E3TauGcBnN-i2NmC74i_Q&s"
+  },
+  {
+    "idProducto": 53,
+    "nombre": "Navaja de barbero",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Tijeras y Navajas",
+    "descripcion": "Navaja profesional para perfilar la barba y el cabello.",
+    "precio": 24.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzf8MIxrE2uW53YNoJo7F9aXyk58mV-NZJdVfESsZFoQ&s"
+  },
+  {
+    "idProducto": 54,
+    "nombre": "Maquinilla de afeitar desechable",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Máquinas de cortar",
+    "descripcion": "Maquinilla de afeitar de un solo uso para un afeitado rápido y seguro.",
+    "precio": 7.95,
+    "imagen": "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/8435476252431_1.jpg"
+  },
+  {
+    "idProducto": 55,
+    "nombre": "Máquina de afeitar eléctrica",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Máquinas de cortar",
+    "descripcion": "Máquina recargable para afeitar el vello facial con precisión.",
+    "precio": 244.99,
+    "imagen": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/08/17/16607245172899.jpg"
+  },
+  {
+    "idProducto": 56,
+    "nombre": "Tinte fantasía",
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Coloración",
+    "descripcion": "Tinte de colores vivos y fantasía para estilos creativos y únicos.",
+    "precio": 20.95,
+    "imagen": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSLhHBNmg-7xvLVx6399WDQF75RoW28OqOG7L5k79TkXt89JrB9vtd5tIoocjBNay__VAz8JcGm0lvIsrrJjhzhIYrwdKC3NO1exB-MvokWV3dHPVrMhmT2"
+  },
+  {
+    "idProducto": 57,
+    "nombre": "Tinte semipermanente",
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Coloración",
+    "descripcion": "Tinte sin amoniaco para cambiar el color del cabello temporalmente.",
+    "precio": 13.99,
+    "imagen": "https://media.vogue.es/photos/61d470ba717572e0af9379b5/3:4/w_748%2Cc_limit/Captura%2520de%2520pantalla%25202022-01-04%2520a%2520las%252017.06.55.png"
+  },
+  {
+    "idProducto": 58,
+    "nombre": "Gel de fijación extrafuerte",
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Fijadores",
+    "descripcion": "Gel de larga duración para peinados que necesitan una fijación extrafuerte.",
+    "precio": 12.99,
+    "imagen": "https://thebeautycorner.eu/105580-large_default/gel-fijador-extra-fuerte-250-ml.jpg"
   }
 ]
