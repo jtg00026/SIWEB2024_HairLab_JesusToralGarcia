@@ -130,6 +130,24 @@ app.get('/obtenerServicios', async (req, res) => {
     }
 });
 
+// Ruta para manejar las solicitudes GET para obtener un servicio por su ID
+app.get('/obtenerServicio', async (req, res) => {
+    try {
+        const servicioId = req.query.id;
+        // Buscar el servicio por su idServicio en lugar de _id
+        const servicio = await servicios.findOne({ idServicio: servicioId });
+        if (!servicio) {
+            // Si no se encuentra el servicio, enviar un mensaje de error
+            return res.status(404).send('Servicio no encontrado');
+        }
+        // Si se encuentra el servicio, enviarlo como respuesta
+        res.json(servicio);
+    } catch (error) {
+        console.error('Error al obtener el servicio:', error);
+        res.status(500).send('Error interno del servidor');
+    }
+});
+
 // Ruta para manejar las solicitudes GET para obtener los productos
 app.get('/obtenerProductos', async (req, res) => {
     try {
@@ -141,6 +159,43 @@ app.get('/obtenerProductos', async (req, res) => {
         console.error('Error al obtener los productos:', error);
         res.status(500).send('Error interno del servidor');
     }
+});
+
+// Ruta para manejar la página mas-info.html
+app.get('/mas-info.html', (req, res) => {
+    // Ruta del archivo HTML solicitado
+    const filePath = path.join(__dirname, 'public', 'mas-info.html');
+
+    // Verificar si el archivo existe
+    fs.access(filePath, fs.constants.F_OK, (err) => {
+        if (err) {
+            // El archivo no existe, redirigir a 404.html
+            res.sendFile(path.join(__dirname, 'public', '404.html'));
+        } else {
+            // El archivo existe, enviarlo como respuesta
+            res.sendFile(filePath);
+        }
+    });
+});
+
+// Ruta para manejar cualquier solicitud de archivo HTML con parámetros
+app.get('/:pagina', (req, res) => {
+    // Obtener el nombre de la página solicitada
+    const pagina = req.params.pagina;
+    
+    // Ruta del archivo HTML solicitado
+    const filePath = path.join(__dirname, 'public', `${pagina}.html`);
+    
+    // Verificar si el archivo existe
+    fs.access(filePath, fs.constants.F_OK, (err) => {
+        if (err) {
+            // El archivo no existe, redirigir a 404.html
+            res.sendFile(path.join(__dirname, 'public', '404.html'));
+        } else {
+            // El archivo existe, enviarlo como respuesta
+            res.sendFile(filePath);
+        }
+    });
 });
 
 // Iniciar el servidor

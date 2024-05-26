@@ -58,3 +58,12 @@ var mobileLinks = document.querySelectorAll('.navbar4-mobile-menu a');
 mobileLinks.forEach(function(link) {
   link.addEventListener('click', toggleMobileMenu);
 });
+
+// Espera a que el contenido de la página se cargue completamente
+document.addEventListener("DOMContentLoaded", function() {
+  // Ocultar los submenús al cargar la página
+  var submenus = document.querySelectorAll('.navbar4-submenu');
+  submenus.forEach(function(submenu) {
+    submenu.style.display = 'none';
+  });
+});

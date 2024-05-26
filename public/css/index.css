@@ -32,9 +32,7 @@
   color: var(--dl-color-theme-accent1);
 }
 
-/**
-  Cabecera principal
-*/
+/* Cabecera principal */
 .navbar4-container {
   width: 100%;
   display: flex;
@@ -194,28 +192,6 @@
   width: auto; /* Esto ajustará el tamaño del submenú para que se adapte al contenido */
   padding: 20px; /* Añadimos padding para un mejor diseño */
 }
-
-@media(max-width: 767px) {
-  .navbar4-navbar-interactive {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .navbar4-desktop-menu {
-    display: none;
-  }
-  .navbar4-burger-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media(max-width: 479px) {
-  .navbar4-navbar-interactive {
-    padding: var(--dl-space-space-unit);
-  }
-}
-
 
 
 /**

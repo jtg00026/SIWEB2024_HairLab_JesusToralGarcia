@@ -7,6 +7,7 @@ const ServiciosSchema = new mongoose.Schema({
     duracion: Number,
     precio: Number,
     categoria: String,
+    subcategoria: String,
     descripcion: String,
     dificultad: String,
     enlaceImagen: String
