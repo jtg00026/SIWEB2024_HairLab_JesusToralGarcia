@@ -32,176 +32,193 @@
     color: var(--dl-color-theme-accent1);
   }
   
-  /* Cabecera principal */
-  .navbar4-container {
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    background-color: var(--dl-color-theme-neutral-light);
-  }
   
-  .navbar4-image {
-    width: 320px;
-    height: 172px;
-    align-self: center;
-    object-fit: cover;
-  }
-  
+/* Cabecera principal */
+.navbar4-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+
+.navbar4-image {
+  width: 320px;
+  height: 172px;
+  align-self: center;
+  object-fit: cover;
+}
+
+.navbar4-navbar-interactive {
+  width: 1306px;
+  height: 194px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+
+.navbar4-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar4-links {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar4-link1,
+.navbar4-link2,
+.navbar4-link3,
+.navbar4-link4,
+.navbar4-link5 {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Estilo para el hover en los enlaces principales del menú */
+.navbar4-link1:hover,
+.navbar4-link2:hover,
+.navbar4-link3:hover,
+.navbar4-link4:hover,
+.navbar4-link5:hover {
+  background-color: #e0e0e0; /* Cambia este color según tu preferencia */
+  border-radius: 8px; /* Ajusta el borde redondeado si lo deseas */
+}
+
+.navbar4-usuario {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.usuario-icon img {
+  width: 100px; /* Ajusta el tamaño del icono de usuario */
+  height: 100px; /* Ajusta el tamaño del icono de usuario */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.usuario-dropdown {
+  display: none;
+  position: absolute;
+  top: 150px; /* Ajusta la posición vertical del desplegable */
+  left: 50%; /* Centra horizontalmente el desplegable */
+  transform: translateX(-50%); /* Ajusta la posición horizontal del desplegable */
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  display: flex; /* Cambia el display para que las opciones se dispongan en fila */
+  flex-direction: row; /* Las opciones se disponen en fila */
+  justify-content: center; /* Centra las opciones horizontalmente */
+  align-items: center; /* Centra las opciones verticalmente */
+}
+
+.usuario-dropdown .dropdown-link {
+  display: block;
+  padding: 20px; /* Ajusta el padding de las opciones del desplegable */
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 24px; /* Ajusta el tamaño del texto de las opciones */
+}
+
+.usuario-dropdown .dropdown-link:hover {
+  background-color: #f1f1f1;
+  border-radius: 8px; /* Añade un borde redondeado al hacer hover */
+}
+
+@media(max-width: 767px) {
   .navbar4-navbar-interactive {
-    width: 1306px;
-    height: 194px;
-    display: flex;
-    max-width: var(--dl-size-size-maxwidth);
-    align-items: center;
-    padding-top: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-twounits);
-    justify-content: space-between;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
   }
-  
   .navbar4-desktop-menu {
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
+    display: none;
   }
-  
-  .navbar4-links {
-    gap: var(--dl-space-space-twounits);
-    flex: 1;
-    width: auto;
-    height: auto;
+  .navbar4-burger-menu {
     display: flex;
-    align-self: center;
     align-items: center;
-    margin-left: var(--dl-space-space-twounits);
-    flex-direction: row;
     justify-content: center;
   }
-  
-  .navbar4-link1,
-  .navbar4-link2,
-  .navbar4-link3,
-  .navbar4-link4,
-  .navbar4-link5 {
-    font-size: 24px;
-    text-decoration: none;
+}
+
+@media(max-width: 479px) {
+  .navbar4-navbar-interactive {
+    padding: var(--dl-space-space-unit);
   }
-  
-  .navbar4-usuario {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-  
-  .usuario-icon img {
-    width: 100px; /* Ajusta el tamaño del icono de usuario */
-    height: 100px; /* Ajusta el tamaño del icono de usuario */
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  .usuario-dropdown {
-    display: none;
-    position: absolute;
-    top: 150px; /* Ajusta la posición vertical del desplegable */
-    left: 50%; /* Centra horizontalmente el desplegable */
-    transform: translateX(-50%); /* Ajusta la posición horizontal del desplegable */
-    background-color: white;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 999;
-    display: flex; /* Cambia el display para que las opciones se dispongan en fila */
-    flex-direction: row; /* Las opciones se disponen en fila */
-    justify-content: center; /* Centra las opciones horizontalmente */
-    align-items: center; /* Centra las opciones verticalmente */
-  }
-  
-  .usuario-dropdown .dropdown-link {
-    display: block;
-    padding: 20px; /* Ajusta el padding de las opciones del desplegable */
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    font-size: 24px; /* Ajusta el tamaño del texto de las opciones */
-  }
-  
-  .usuario-dropdown .dropdown-link:hover {
-    background-color: #f1f1f1;
-    border-radius: 8px; /* Añade un borde redondeado al hacer hover */
-  }
-  
-  @media(max-width: 767px) {
-    .navbar4-navbar-interactive {
-      padding-left: var(--dl-space-space-twounits);
-      padding-right: var(--dl-space-space-twounits);
-    }
-    .navbar4-desktop-menu {
-      display: none;
-    }
-    .navbar4-burger-menu {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-  
-  @media(max-width: 479px) {
-    .navbar4-navbar-interactive {
-      padding: var(--dl-space-space-unit);
-    }
-  }
-  
-  .navbar4-link-wrapper {
-    position: relative;
-  }
-  
-  .navbar4-submenu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 50%; /* Centra horizontalmente el submenu */
-    transform: translateX(-50%); /* Ajusta la posición del submenu */
-    background-color: var(--dl-color-theme-neutral-light);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 998;
-    width: 600px;
-    padding: 40px;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .submenu-column {
-    padding: 20px;
-  }
-  
-  .submenu-column h4 {
-    margin-bottom: 20px;
-    font-size: 24px;
-  }
-  
-  .submenu-column img {
-    width: 200px;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .submenu-column a {
-    display: block;
-    margin-bottom: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-  }
-  
-  .submenu-column a:hover {
-    text-decoration: underline;
-  }
-  
-  .navbar4-link-wrapper:hover .navbar4-submenu {
-    display: flex;
-    width: auto;
-  }
-  
+}
+
+.navbar4-link-wrapper {
+  position: relative;
+}
+
+.navbar4-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%; /* Centra horizontalmente el submenu */
+  transform: translateX(-50%); /* Ajusta la posición del submenu */
+  background-color: var(--dl-color-theme-neutral-light);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 998;
+  width: 600px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.submenu-column {
+  padding: 20px;
+}
+
+.submenu-column h4 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.submenu-column img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.submenu-column a {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.submenu-column a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para el hover en los enlaces dentro del submenu */
+.navbar4-submenu a:hover {
+  background-color: #f1f1f1; /* Cambia este color según tu preferencia */
+  border-radius: 4px; /* Ajusta el borde redondeado si lo deseas */
+}
+
+.navbar4-link-wrapper:hover .navbar4-submenu {
+  display: flex;
+  width: auto;
+}
+
 /* Estilos para el contenedor del héroe */
 .hero92-header30 {
 gap: var(--dl-space-space-twounits);
@@ -262,53 +279,67 @@ text-align: center;
 }
 }
 
+
 /* Estilos para el formulario de crear usuario */
 .crear-usuario-formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto; /* Ajusta la altura automáticamente según el contenido */
-  }
-  
-  .crear-usuario-formulario form {
-    width: 100%;
-    max-width: 400px; /* Ancho máximo del formulario */
-    padding: 20px; /* Espacio interno alrededor del formulario */
-    background-color: #fff; /* Fondo blanco */
-    border-radius: 8px; /* Borde redondeado */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  }
-  
-  .crear-usuario-formulario label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  .crear-usuario-formulario input,
-  .crear-usuario-formulario select,
-  .crear-usuario-formulario button {
-    width: 100%;
-    padding: 12px; /* Aumenta el espacio interno */
-    margin-bottom: 20px;
-    border: 1px solid #ddd; /* Borde gris claro */
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  .crear-usuario-formulario button {
-    background-color: #007bff; /* Color de fondo azul */
-    color: #fff; /* Color del texto blanco */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s; /* Transición suave */
-  }
-  
-  .crear-usuario-formulario button:hover {
-    background-color: #0056b3; /* Color de fondo azul oscuro al pasar el cursor */
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Ajusta la altura automáticamente según el contenido */
+}
+
+.crear-usuario-formulario form {
+  width: 100%;
+  max-width: 400px; /* Ancho máximo del formulario */
+  padding: 40px; /* Espacio interno alrededor del formulario */
+  background-color: #f9f9f9; /* Fondo gris claro */
+  border-radius: 8px; /* Borde redondeado */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.crear-usuario-formulario label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.crear-usuario-formulario input,
+.crear-usuario-formulario select,
+.crear-usuario-formulario button {
+  width: 100%;
+  padding: 12px; /* Aumenta el espacio interno */
+  margin-bottom: 20px;
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.crear-usuario-formulario button {
+  background-color: #007bff; /* Color de fondo azul */
+  color: #fff; /* Color del texto blanco */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.crear-usuario-formulario button:hover {
+  background-color: #0056b3; /* Color de fondo azul oscuro al pasar el cursor */
+}
+
+/* Estilos para el mensaje de error */
+.error-message {
+  color: #dc3545; /* Color rojo */
+  margin-top: 10px;
+}
+
+/* Estilos para el mensaje de éxito */
+.success-message {
+  color: #28a745; /* Color verde */
+  margin-top: 10px;
+}
+
   
 
 /**
