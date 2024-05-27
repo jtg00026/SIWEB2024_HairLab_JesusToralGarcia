@@ -1,3 +1,38 @@
+/**
+  Cabecera inicial
+*/
+.top-bar {
+  width: 100%;
+  background-color: var(--dl-color-theme-primary1);
+  padding: 10px 0;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--dl-color-theme-neutral-light);
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: var(--dl-color-theme-accent1);
+}
+
+/* Cabecera principal */
 .navbar4-container {
   width: 100%;
   display: flex;
@@ -5,12 +40,14 @@
   justify-content: center;
   background-color: var(--dl-color-theme-neutral-light);
 }
+
 .navbar4-image {
   width: 320px;
   height: 172px;
   align-self: center;
   object-fit: cover;
 }
+
 .navbar4-navbar-interactive {
   width: 1306px;
   height: 194px;
@@ -22,11 +59,13 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
+
 .navbar4-desktop-menu {
   flex: 1;
   display: flex;
   justify-content: space-between;
 }
+
 .navbar4-links {
   gap: var(--dl-space-space-twounits);
   flex: 1;
@@ -39,99 +78,68 @@
   flex-direction: row;
   justify-content: center;
 }
-.navbar4-link1 {
+
+.navbar4-link1,
+.navbar4-link2,
+.navbar4-link3,
+.navbar4-link4,
+.navbar4-link5 {
   font-size: 24px;
   text-decoration: none;
 }
-.navbar4-link2 {
-  font-size: 24px;
+
+/* Estilo para el hover en los enlaces principales del menú */
+.navbar4-link1:hover,
+.navbar4-link2:hover,
+.navbar4-link3:hover,
+.navbar4-link4:hover,
+.navbar4-link5:hover {
+  background-color: #e0e0e0; /* Cambia este color según tu preferencia */
+  border-radius: 8px; /* Ajusta el borde redondeado si lo deseas */
 }
-.navbar4-link3 {
-  font-size: 24px;
-}
-.navbar4-link4 {
-  font-size: 24px;
-}
-.navbar4-link5 {
-  font-size: 24px;
-}
-.navbar4-buttons {
-  gap: var(--dl-space-space-twounits);
-  width: 447px;
-  height: 56px;
+
+.navbar4-usuario {
+  position: relative;
   display: flex;
   align-items: center;
-  margin-left: var(--dl-space-space-twounits);
 }
-.navbar4-action1 {
-  width: var(--dl-size-size-maxwidth);
-  height: 57px;
-  font-size: 26px;
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
+
+.usuario-icon img {
+  width: 100px; /* Ajusta el tamaño del icono de usuario */
+  height: 100px; /* Ajusta el tamaño del icono de usuario */
+  border-radius: 50%;
+  cursor: pointer;
 }
-.navbar4-action2 {
-  width: var(--dl-size-size-maxwidth);
-  height: 57px;
-  font-size: 26px;
-}
-.navbar4-burger-menu {
+
+.usuario-dropdown {
   display: none;
-}
-.navbar4-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
-.navbar4-mobile-menu {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  padding: var(--dl-space-space-twounits);
-  z-index: 100;
   position: absolute;
-  flex-direction: column;
-  background-color: var(--dl-color-theme-neutral-light);
+  top: 150px; /* Ajusta la posición vertical del desplegable */
+  left: 50%; /* Centra horizontalmente el desplegable */
+  transform: translateX(-50%); /* Ajusta la posición horizontal del desplegable */
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  display: flex; /* Cambia el display para que las opciones se dispongan en fila */
+  flex-direction: row; /* Las opciones se disponen en fila */
+  justify-content: center; /* Centra las opciones horizontalmente */
+  align-items: center; /* Centra las opciones verticalmente */
 }
-.navbar4-nav {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+
+.usuario-dropdown .dropdown-link {
+  display: block;
+  padding: 20px; /* Ajusta el padding de las opciones del desplegable */
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 24px; /* Ajusta el tamaño del texto de las opciones */
 }
-.navbar4-top {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: space-between;
+
+.usuario-dropdown .dropdown-link:hover {
+  background-color: #f1f1f1;
+  border-radius: 8px; /* Añade un borde redondeado al hacer hover */
 }
-.navbar4-logo {
-  height: 3rem;
-}
-.navbar4-close-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.navbar4-icon2 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
-.navbar4-links1 {
-  gap: var(--dl-space-space-unit);
-  flex: 0 0 auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.navbar4-buttons1 {
-  gap: var(--dl-space-space-twounits);
-  display: flex;
-  margin-top: var(--dl-space-space-twounits);
-  align-items: center;
-}
+
 @media(max-width: 767px) {
   .navbar4-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
@@ -146,13 +154,68 @@
     justify-content: center;
   }
 }
+
 @media(max-width: 479px) {
   .navbar4-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .navbar4-mobile-menu {
-    padding: var(--dl-space-space-unit);
-  }
+}
+
+.navbar4-link-wrapper {
+  position: relative;
+}
+
+.navbar4-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%; /* Centra horizontalmente el submenu */
+  transform: translateX(-50%); /* Ajusta la posición del submenu */
+  background-color: var(--dl-color-theme-neutral-light);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 998;
+  width: 600px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.submenu-column {
+  padding: 20px;
+}
+
+.submenu-column h4 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.submenu-column img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.submenu-column a {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.submenu-column a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para el hover en los enlaces dentro del submenu */
+.navbar4-submenu a:hover {
+  background-color: #f1f1f1; /* Cambia este color según tu preferencia */
+  border-radius: 4px; /* Ajusta el borde redondeado si lo deseas */
+}
+
+.navbar4-link-wrapper:hover .navbar4-submenu {
+  display: flex;
+  width: auto;
 }
 
 .hero7-max-width {
@@ -435,6 +498,9 @@
   }
 }
 
+/**
+  Footer
+*/
 .footer15-container {
   display: flex;
   position: relative;
@@ -524,7 +590,7 @@
   }
 }
 
-.terminos-container {
+.home-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -532,7 +598,7 @@
   align-items: center;
   flex-direction: column;
 }
-.terminos-navbar1 {
+.home-navbar1 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -540,7 +606,7 @@
   align-items: center;
   justify-content: center;
 }
-.terminos-hero2 {
+.home-hero2 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -548,7 +614,16 @@
   align-items: center;
   justify-content: center;
 }
-.terminos-contentlist3 {
+.home-logos3 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-gallery4 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -556,7 +631,43 @@
   align-items: center;
   justify-content: center;
 }
-.terminos-contact4 {
+.home-features5 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-features6 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-features7 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-cta8 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-faq9 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -564,7 +675,7 @@
   align-items: center;
   justify-content: center;
 }
-.terminos-footer11 {
+.home-contact10 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -572,3 +683,83 @@
   align-items: center;
   justify-content: center;
 }
+.home-footer11 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contenedor principal para centrar el breadcrumb */
+.breadcrumb-container {
+  display: flex;
+  justify-content: center; /* Centra el breadcrumb horizontalmente */
+  align-items: flex-start; /* Alinea el breadcrumb con el contenido superior */
+  padding: 10px; /* Ajusta el padding según sea necesario */
+  width: 100%;
+}
+
+/* Contenedor principal para centrar el breadcrumb */
+.breadcrumb-container {
+  display: flex;
+  justify-content: center; /* Centra el breadcrumb horizontalmente */
+  align-items: flex-start; /* Alinea el breadcrumb con el contenido superior */
+  padding: 10px; /* Ajusta el padding según sea necesario */
+  width: 100%;
+}
+
+/* Breadcrumb Styles */
+/* Contenedor principal para centrar el breadcrumb */
+.breadcrumb-container {
+  display: flex;
+  justify-content: center; /* Centra el breadcrumb horizontalmente */
+  align-items: center; /* Centra verticalmente el breadcrumb */
+  padding: 20px 0; /* Ajusta el padding según sea necesario */
+  width: 100%;
+}
+
+/* Breadcrumb Styles */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #f8f8f8;
+  border-radius: 4px;
+  width: 100%; /* Ocupa todo el ancho */
+  height: 40px; /* Ajusta la altura del breadcrumb */
+  align-items: center; /* Centra verticalmente el contenido del breadcrumb */
+  justify-content: flex-start; /* Centra horizontalmente el contenido del breadcrumb */
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+  margin: 0 5px; /* Espacio entre los elementos del breadcrumb */
+}
+
+.breadcrumb li + li:before {
+  content: '»';
+  margin-right: 5px; /* Espacio entre el ícono de separación y el texto */
+  color: #555;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .active {
+  color: #555;
+  pointer-events: none;
+  cursor: default;
+}
+
+
