@@ -10,7 +10,30 @@ const ServiciosSchema = new mongoose.Schema({
     subcategoria: String,
     descripcion: String,
     dificultad: String,
-    enlaceImagen: String
+    enlaceImagen: String,
+
+    masinfo: {
+        procedimiento: [{
+            paso: Number,
+            descripcion: String
+        }],
+        herramientas: [{
+            idProducto: Number,
+            nombre: String,
+            categoria: String,
+            descripcion: String,
+            precio: Number
+        }],
+        productos: [{
+            idProducto: Number,
+            nombre: String,
+            categoria: String,
+            descripcion: String,
+            precio: Number
+        }], 
+        cuidadosPosteriores: [String],
+        imagenesAdicionales: [String]
+    }
 });
 
 // Crear el modelo Servicio basado en el esquema definido

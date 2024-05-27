@@ -8,336 +8,2575 @@
     "subcategoria": "Cortes",
     "descripcion": "Corte de pelo clásico para hombres",
     "dificultad": "baja",
-    "enlaceImagen": "https://www.capilclinic.es/blog/wp-content/uploads/2021/12/corte-pelo-hombre-segun-cara.jpg"
-  },
-  {
-    "idServicio": 2,
-    "nombre": "Corte de pelo femenino",
-    "duracion": 45,
-    "precio": 18.99,
-    "categoria": "Peluquería",
-    "subcategoria": "Cortes",
-    "descripcion": "Corte de pelo moderno para mujeres",
-    "dificultad": "media",
-    "enlaceImagen": "https://cdn.static.escuelamakeup.com/imagenes/cortes-de-pelo-de-mujer-segun-el-tipo-de-cara-o-rostro/cortes-de-pelo-de-mujer-segun-el-tipo-de-cara-o-rostro_905x603.jpg"
-  },
-  {
-    "idServicio": 3,
-    "nombre": "Tinte de cabello",
-    "duracion": 60,
-    "precio": 35.99,
-    "categoria": "Coloración",
-    "subcategoria": "Tintes",
-    "descripcion": "Aplicación de tinte de color para el cabello",
-    "dificultad": "media",
-    "enlaceImagen": "https://tahecosmetics.com/trends/wp-content/uploads/2021/12/tipos-tintes.jpeg"
-  },
-  {
-    "idServicio": 4,
-    "nombre": "Tratamiento capilar",
-    "duracion": 45,
-    "precio": 30.50,
-    "categoria": "Estética",
-    "subcategoria": "Tratamientos",
-    "descripcion": "Tratamiento hidratante para cabellos secos y dañados",
-    "dificultad": "alta",
-    "enlaceImagen": "https://www.capilarea.com/wp-content/uploads/2023/11/mesoterapia-capilar-para-hombres-tratamiento-en-nuestra-clinica-capilar.jpg"
-  },
-  {
-    "idServicio": 5,
-    "nombre": "Peinado para evento",
-    "duracion": 60,
-    "precio": 40.99,
-    "categoria": "Peluquería",
-    "subcategoria": "Peinados",
-    "descripcion": "Peinado elegante para ocasiones especiales",
-    "dificultad": "media",
-    "enlaceImagen": "https://images.ecestaticos.com/O4Uas65ecfRiUn4PbrGiR2pEAYk=/0x0:1300x975/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Ff5b%2F6cc%2F72b%2Ff5b6cc72b7e21a618043538122b29eec.jpg"
-  },
-  {
-    "idServicio": 6,
-    "nombre": "Maquillaje para evento",
-    "duracion": 45,
-    "precio": 45.99,
-    "categoria": "Estética",
-    "subcategoria": "Maquillajes",
-    "descripcion": "Maquillaje profesional para eventos sociales",
-    "dificultad": "media",
-    "enlaceImagen": "https://stylelovely.com/esmiestilo/files/2021/01/tips-de-maquillaje-para-eventos-especiales.jpg"
-  },
-  {
-    "idServicio": 7,
-    "nombre": "Lavado de cabello",
-    "duracion": 15,
-    "precio": 10.99,
-    "categoria": "Estética",
-    "subcategoria": "Tratamientos",
-    "descripcion": "Lavado y acondicionamiento del cabello",
-    "dificultad": "baja",
-    "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeaS4ypcATrIvX9wKiE9cXwV3PYyNpG6IVLSo_B0Zeww&s"
-  },
-  {
-    "idServicio": 8,
-    "nombre": "Corte de barba",
-    "duracion": 20,
-    "precio": 12.99,
-    "categoria": "Peluquería",
-    "subcategoria": "Cortes",
-    "descripcion": "Corte y arreglo de barba para hombres",
-    "dificultad": "baja",
-    "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPy88fBPXiKOXI-_byVw689BvX2-ybUwK8JBhS6TRcMQ&s"
-  },
-  {
-    "idServicio": 9,
-    "nombre": "Alisado de cabello",
-    "duracion": 90,
-    "precio": 60.99,
-    "categoria": "Peluquería",
-    "subcategoria": "Peinados",
-    "descripcion": "Tratamiento para alisar el cabello de forma permanente",
-    "dificultad": "alta",
-    "enlaceImagen": "https://letmebe.pt/wp-content/uploads/2022/11/BLOG-1-LETMEBE-PREALISAMENTO-1.jpg"
-  },
-  {
-    "idServicio": 10,
-    "nombre": "Manicura",
-    "duracion": 30,
-    "precio": 20.99,
-    "categoria": "Estética",
-    "subcategoria": "Cuidados",
-    "descripcion": "Cuidado y embellecimiento de las uñas de las manos",
-    "dificultad": "media",
-    "enlaceImagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/01/24/16745628932796.jpg"
-  },
-  {
-    "idServicio": 11,
-    "nombre": "Pedicura",
-    "duracion": 45,
-    "precio": 25.99,
-    "categoria": "Estética",
-    "subcategoria": "Cuidados",
-    "descripcion": "Cuidado y embellecimiento de las uñas de los pies",
-    "dificultad": "media",
-    "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6_69bTPsagaEBKo_Jk79afN5ZsCPpACs9BPInZ9i6Sw&s"
-  },
-  {
-    "idServicio": 12,
-    "nombre": "Depilación de cejas",
-    "duracion": 15,
-    "precio": 10.99,
-    "categoria": "Estética",
-    "subcategoria": "Depilación",
-    "descripcion": "Depilación de las cejas para dar forma y definición",
-    "dificultad": "baja",
-    "enlaceImagen": "https://t2.uc.ltmcdn.com/es/posts/3/1/9/como_depilar_las_cejas_con_cera_paso_a_paso_45913_600.jpg"
-  },
-  {
-    "idServicio": 13,
-    "nombre": "Depilación de piernas",
-    "duracion": 45,
-    "precio": 30.99,
-    "categoria": "Estética",
-    "subcategoria": "Depilación",
-    "descripcion": "Depilación de las piernas para una piel suave y libre de vello",
-    "dificultad": "media",
-    "enlaceImagen": "https://ramirogill.com/wp-content/uploads/Depilaci%C3%B3n-de-piernas.jpg"
-  },
-  {
-    "idServicio": 14,
-    "nombre": "Depilación de axilas",
-    "duracion": 30,
-    "precio": 20.99,
-    "categoria": "Estética",
-    "subcategoria": "Depilación",
-    "descripcion": "Depilación de las axilas para una apariencia más limpia",
-    "dificultad": "media",
-    "enlaceImagen": "https://germainegoyamadrid.com/wp-content/uploads/2023/09/054-blog-depilacion-laser-axilas.jpg"
-  },
-  {
-    "idServicio": 15,
-    "nombre": "Maquillaje de novia",
-    "duracion": 60,
-    "precio": 80.99,
-    "categoria": "Estética",
-    "subcategoria": "Maquillajes",
-    "descripcion": "Maquillaje profesional para el día de la boda",
-    "dificultad": "alta",
-    "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSANGjoMgiQhfhJxopfR97Y9M6Lk8bh7_77aiSZUtpoA&s"
-  },
-  {
-    "idServicio": 16,
-    "nombre": "Tratamiento facial",
-    "duracion": 45,
-    "precio": 35.99,
-    "categoria": "Estética",
-    "subcategoria": "Tratamientos",
-    "descripcion": "Tratamiento para mejorar la apariencia y salud de la piel del rostro",
-    "dificultad": "media",
-    "enlaceImagen": "https://www.topclinicmadrid.com/wp-content/uploads/2022/03/mascarilla-facial-scaled.jpg"
-  },
-  {
-    "idServicio": 17,
-    "nombre": "Reflejos en el cabello",
-    "duracion": 90,
-    "precio": 50.99,
-    "categoria": "Coloración",
-    "subcategoria": "Tintes",
-    "descripcion": "Aplicación de reflejos para darle luminosidad al cabello",
-    "dificultad": "alta",
-    "enlaceImagen": "https://lolaperruquers.com/wp-content/uploads/2024/01/confiado-estilista-masculino-teniendo-cabello-clienta-caucasica-rubia-1.jpg"
-  },
-  {
-    "idServicio": 18,
-    "nombre": "Recogido para evento",
-    "duracion": 60,
-    "precio": 55.99,
-    "categoria": "Peluquería",
-    "subcategoria": "Peinados",
-    "descripcion": "Peinado recogido elegante para eventos especiales",
-    "dificultad": "alta",
-    "enlaceImagen": "https://www.diariodesevilla.es/2020/12/01/wappissima/actualidad/recogido-trenza-opcion-peinado-Navidad_1524757639_128807178_667x375.png"
-  },
-  {
-    "idServicio": 19,
-    "nombre": "Tratamiento de keratina",
-    "duracion": 120,
-    "precio": 100.99,
-    "categoria": "Estética",
-    "subcategoria": "Tratamientos",
-    "descripcion": "Tratamiento intensivo para restaurar y fortalecer el cabello",
-    "dificultad": "alta",
-    "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP8kKT3GhVr3rd9avyBSv2exwgdYkGvVWNOy1rJT0Sdw&s"
-  },
-  {
-    "idServicio": 20,
-    "nombre": "Extensiones de cabello",
-    "duracion": 180,
-    "precio": 150.99,
-    "categoria": "Peluquería",
-    "subcategoria": "Peinados",
-    "descripcion": "Aplicación de extensiones para aumentar el volumen y longitud del cabello",
-    "dificultad": "alta",
-    "enlaceImagen": "https://cdn.diprofem.com/uploads/3c3c4601aa23c9951b60047b35230056.jpeg"
-  },
-  {
-    "idServicio": 21,
-    "nombre": "Tinte semipermanente",
-    "duracion": 90,
-    "precio": 45.99,
-    "categoria": "Coloración",
-    "subcategoria": "Tintes",
-    "descripcion": "Aplicación de tinte semipermanente para cambiar el color del cabello con resultados duraderos pero sin el compromiso a largo plazo de un tinte permanente. Ideal para experimentar con diferentes tonos y reflejos.",
-    "dificultad": "media",
-    "enlaceImagen": "https://blog.pacoperfumerias.com/wp-content/uploads/2022/07/Formas-de-aplicar-los-tintes-de-pelo-guia-definitiva.jpg"
-  },
-  {
-    "idServicio": 22,
-    "nombre": "Balayage Brondé",
-    "duracion": 120,
-    "precio": 65.99,
-    "categoria": "Coloración",
-    "subcategoria": "Balayage",
-    "descripcion": "El Balayage Brondé es ideal para mujeres con cabello oscuro, proporcionando vitalidad y luminosidad. Esta técnica de Balayage utiliza tonalidades más claras para crear un degradado de color perfecto, suavizando las facciones del rostro y aportando brillo al cabello. Perfecto para pieles bronceadas y amantes del estilo elegante y sofisticado.",
-    "dificultad": "media",
-    "enlaceImagen": "https://www.davidrial.com/modules/ph_simpleblog/covers/52.jpg"
-  },
-  {
-    "idServicio": 23,
-    "nombre": "Mechas Sombré",
-    "duracion": 90,
-    "precio": 55.99,
-    "categoria": "Coloración",
-    "subcategoria": "Balayage",
-    "descripcion": "Las Mechas Sombré son sutiles y suaves, creando una transición de tonalidades similar entre ellas para suavizar el color oscuro de manera leve. Esta técnica ofrece un efecto natural y duradero, con un inicio de color claro desde más arriba y una transición suave hacia las puntas. Perfectas para quienes buscan un look natural y sofisticado.",
-    "dificultad": "media",
-    "enlaceImagen": "https://media.glamour.mx/photos/632339798645b8d42bd2a6f8/16:9/w_2580,c_limit/cabello_sombre_que_es_como_pedirlo.jpg"
-  },
-  {
-    "idServicio": 24,
-    "nombre": "Mechas Ombré",
-    "duracion": 100,
-    "precio": 60.99,
-    "categoria": "Coloración",
-    "subcategoria": "Balayage",
-    "descripcion": "Las Mechas Ombré ofrecen un difuminado perfecto en el cabello, con un cambio más marcado a mitad de la melena y una leve variación en el color hacia las puntas, que terminan mucho más claras que el resto del cabello. Esta técnica proporciona un aspecto moderno y chic, perfecto para quienes desean un cambio de imagen llamativo y elegante.",
-    "dificultad": "media",
-    "enlaceImagen": "https://www.garnier.es/-/media/project/loreal/brand-sites/garnier/emea/es/articles/hair-color/asi-puedes-conseguir-las-mechas-ombre-en-casa/mechas_ombre_casa_headerdesktop.jpg?rev=3593bc60e0394450a9400a5715a3bfe0&h=534&w=950&la=es-ES&hash=974E6D4D16A4648E14CB55A533EBA145"
-  },
-  {
-    "idServicio": 25,
-    "nombre": "Babylight chocolate",
-    "duracion": 120,
-    "precio": 65.99,
-    "categoria": "Coloración",
-    "subcategoria": "Babylights",
-    "descripcion": "El Babylight chocolate es una opción perfecta para resaltar la calidez profunda de los cabellos castaños oscuros. Esta técnica de coloración utiliza tonos cálidos que aportan luz al rostro y se mezclan naturalmente con la tonalidad natural del cabello. Ideal para pieles morenas, proporcionando un resultado natural y luminoso.",
-    "dificultad": "media",
-    "enlaceImagen": "https://aprende.com/wp-content/uploads/2022/02/castano-oscuro-decorada-con-babylights-color-chocolate.png"
-  },
-  {
-    "idServicio": 26,
-    "nombre": "Babylight caramelo",
-    "duracion": 100,
-    "precio": 60.99,
-    "categoria": "Coloración",
-    "subcategoria": "Babylights",
-    "descripcion": "El Babylight caramelo es una opción luminosa y veraniega para cabellos castaños claros. Esta coloración utiliza tonos cálidos que proporcionan un aspecto luminoso y natural, perfecto para una temporada en la playa o la piscina. Ideal para quienes desean un cambio sutil pero impactante en su tono de cabello.",
-    "dificultad": "media",
-    "enlaceImagen": "https://aprende.com/wp-content/uploads/2022/02/castano-claro-y-mechas-babylight-caramelo-bajo-el-sol.png"
-  },
-  {
-    "idServicio": 27,
-    "nombre": "Babylight rubio cenizo",
-    "duracion": 110,
-    "precio": 70.99,
-    "categoria": "Coloración",
-    "subcategoria": "Babylights",
-    "descripcion": "El Babylight rubio cenizo es una opción moderna y versátil para cabellos rubios cenizos. Esta técnica de coloración utiliza tonos claros que iluminan el rostro y el cabello, creando reflejos naturales y un aspecto de volumen y movimiento. Ideal para pieles bronceadas o pálidas, proporcionando un efecto natural y elegante.",
-    "dificultad": "media",
-    "enlaceImagen": "https://aprende.com/wp-content/uploads/2022/02/rubio-cenizo.png"
-  },
-  {
-    "idServicio": 28,
-    "nombre": "Moño alto bailarina",
-    "duracion": 90,
-    "precio": 70.99,
-    "categoria": "Peluquería",
-    "subcategoria": "Novias",
-    "descripcion": "El moño alto bailarina es un peinado elegante y sencillo que destaca la belleza del rostro y permite lucir el vestido de novia sin distracciones. Ideal para todo tipo de vestidos, este peinado es especialmente recomendable para rostros con forma ovalada. Con la destreza de un profesional y productos de calidad, se logra un resultado perfecto que complementa el look nupcial.",
-    "dificultad": "media",
-    "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/9fd/05ad/685//-/es/wp-content/uploads/2018/05/cristina-poza.jpg"
-  },
-  {
-    "idServicio": 29,
-    "nombre": "Moño bajo con tocado",
-    "duracion": 120,
-    "precio": 80.99,
-    "categoria": "Peluquería",
-    "subcategoria": "Novias",
-    "descripcion": "El moño bajo con tocado es una opción sofisticada y actual para las novias que desean realzar su peinado con accesorios artesanales. Este peinado sencillo permite lucir un tocado floral o cualquier otro aplique con elegancia. Con una amplia variedad de tocados disponibles en el mercado, este look añade un toque de sofisticación al conjunto nupcial.",
-    "dificultad": "media",
-    "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/1a1/3d53/685//-/es/wp-content/uploads/2018/05/fini-rico-foto-puan-fotografia.jpg"
-  },
-  {
-    "idServicio": 30,
-    "nombre": "Moño messy trenzado",
-    "duracion": 100,
-    "precio": 75.99,
-    "categoria": "Peluquería",
-    "subcategoria": "Novias",
-    "descripcion": "El moño messy trenzado ofrece un estilo desenfadado y texturizado para las novias que desean un look natural pero elaborado. Con trenzas finas y mechones sueltos, este peinado proporciona un efecto despeinado chic que favorece a rostros con facciones duras. Se puede complementar con una corona de flores naturales para un toque final.",
-    "dificultad": "media",
-    "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/51f/82ef/685//-/es/wp-content/uploads/2017/11/kiwo11.jpg"
-  },
-  {
-    "idServicio": 31,
-    "nombre": "Corona trasera trenzada y ladeada",
-    "duracion": 110,
-    "precio": 85.99,
-    "categoria": "Peluquería",
-    "subcategoria": "Novias",
-    "descripcion": "La corona trasera trenzada y ladeada es una opción romántica y sutil para las novias que desean un peinado con trenzas. Este peinado combina una corona hecha con el propio cabello de la novia con una trenza lateral básica, creando un look distintivo y elegante. Se puede complementar con una peineta de flores para un toque adicional de estilo.",
-    "dificultad": "media",
-    "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/c0d/d7ee/685//-/es/wp-content/uploads/2017/11/kiwo7.jpg"
+    "enlaceImagen": "https://www.capilclinic.es/blog/wp-content/uploads/2021/12/corte-pelo-hombre-segun-cara.jpg",
+    "masinfo": {
+        "procedimiento": [
+            {
+                "paso": 1,
+                "descripcion": "Lavado del cabello con champú específico."
+            },
+            {
+                "paso": 2,
+                "descripcion": "Corte de pelo según las preferencias del cliente."
+            },
+            {
+                "paso": 3,
+                "descripcion": "Secado y estilizado del cabello."
+            }
+        ],
+        "herramientas": [
+          {
+            "idProducto": 1,
+            "nombre": "Tijeras profesionales de corte",
+            "categoria": "Herramientas de Corte y Peinado",
+            "subcategoria": "Tijeras y Navajas",
+            "descripcion": "Tijeras de acero inoxidable de alta calidad para cortes precisos.",
+            "precio": 19.99,
+            "imagen": "https://productospeluqueriabellezaaura.com.es/wp-content/uploads/2022/06/Tijeras-profesionales-para-cortar-pelo-de-6-pulgadas.png"
+          },
+          {
+            "idProducto": 12,
+            "nombre": "Peine de cola de rata",
+            "categoria": "Herramientas de Corte y Peinado",
+            "subcategoria": "Peines",
+            "descripcion": "Peine con mango fino ideal para crear secciones y particiones precisas.",
+            "precio": 3.99,
+            "imagen": "https://www.fussy.es/wp-content/uploads/2019/09/304-peine-cola-rato%CC%81n.jpg"
+          },
+          {
+            "idProducto": 55,
+            "nombre": "Máquina de afeitar eléctrica",
+            "categoria": "Herramientas de Corte y Peinado",
+            "subcategoria": "Máquinas de cortar",
+            "descripcion": "Máquina recargable para afeitar el vello facial con precisión.",
+            "precio": 244.99,
+            "imagen": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/08/17/16607245172899.jpg"
+          }
+        ],
+        "productos": [
+          {
+            "idProducto": 59,
+            "nombre": "Champú revitalizante",
+            "categoria": "Productos de Cuidado Capilar",
+            "subcategoria": "Tratamientos Capilares",
+            "descripcion": "Champú suave para todo tipo de cabellos.",
+            "precio": 15.99,
+            "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+          },
+          {
+            "idProducto": 41,
+            "nombre": "Cera moldeadora",
+            "categoria": "Productos de Coloración y Fijación",
+            "subcategoria": "Fijadores",
+            "descripcion": "Cera que proporciona fijación y flexibilidad para peinados creativos.",
+            "precio": 2.60,
+            "imagen": "https://www.prieto.es/images/product/1/large/pl_1_1_21644.jpg"
+          }
+        ], 
+        "cuidadosPosteriores": [
+          "Recomendamos nuestros productos para el cuidado del cabello.",
+          "Aconsejamos mantener periodicamente el corte."
+        ],
+        "imagenesAdicionales": ["https://dirigentesdigital.com/wp-content/uploads/2024/03/hombre-corte-pelo-corto-lleva-ctexturizado-683x1024.jpg", "https://estaticos-cdn.prensaiberica.es/clip/fd7f3c23-ff5d-4b84-8ab6-1e7cabb6daca_source-aspect-ratio_default_0.jpg", "https://static.wixstatic.com/media/4304a4_d7707815b8d940a0b237a7a0c488e563~mv2.webp"]
+    }
+},
+{
+  "idServicio": 2,
+  "nombre": "Corte de pelo femenino",
+  "duracion": 45,
+  "precio": 18.99,
+  "categoria": "Peluquería",
+  "subcategoria": "Cortes",
+  "descripcion": "Corte de pelo moderno para mujeres",
+  "dificultad": "media",
+  "enlaceImagen": "https://cdn.static.escuelamakeup.com/imagenes/cortes-de-pelo-de-mujer-segun-el-tipo-de-cara-o-rostro/cortes-de-pelo-de-mujer-segun-el-tipo-de-cara-o-rostro_905x603.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Consultar con la cliente sobre el estilo deseado."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Preparar el cabello lavándolo con champú específico."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Realizar el corte de acuerdo al estilo seleccionado."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Secar y estilizar el cabello para finalizar."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 1,
+          "nombre": "Tijeras profesionales de corte",
+          "categoria": "Herramientas de Corte y Peinado",
+          "subcategoria": "Tijeras y Navajas",
+          "descripcion": "Tijeras de acero inoxidable de alta calidad para cortes precisos.",
+          "precio": 19.99,
+          "imagen": "https://productospeluqueriabellezaaura.com.es/wp-content/uploads/2022/06/Tijeras-profesionales-para-cortar-pelo-de-6-pulgadas.png"
+        },
+        {
+          "idProducto": 2,
+          "nombre": "Plancha alisadora de cabello",
+          "categoria": "Herramientas de Estilizado",
+          "subcategoria": "Planchas",
+          "descripcion": "Plancha con tecnología de cerámica para un alisado suave y brillante.",
+          "precio": 54.50,
+          "imagen": "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/201910/21/00107755101503____1__640x640.jpg"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 59,
+          "nombre": "Champú revitalizante",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Champú suave para todo tipo de cabellos.",
+          "precio": 15.99,
+          "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+        },
+          {
+            "idProducto": 5,
+            "nombre": "Mascarilla capilar nutritiva",
+            "categoria": "Productos de Cuidado Capilar",
+            "subcategoria": "Tratamientos Capilares",
+            "descripcion": "Mascarilla con aceites naturales para nutrir y reparar el cabello dañado.",
+            "precio": 5.99,
+            "imagen": "https://www.primor.eu/blog/wp-content/uploads/2023/10/MASCARILLAS.jpg"
+          }
+      ], 
+      "cuidadosPosteriores": [
+          "Recomendamos nuestros productos para el cuidado del cabello.",
+          "Aconsejamos mantener periodicamente el corte."
+      ],
+      "imagenesAdicionales": ["https://haircutday.com/b/wp-content/uploads/2023/01/WhatsApp-Image-2023-02-21-at-17.59.27.jpeg", "https://media.vogue.es/photos/641ab68c4ca56a45eab98a16/2:3/w_2560%2Cc_limit/curve-cut-taglio-capelli-scalati.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2GJfpXEplVtrEFamyqV0zOwvYiI-R6gpikAVQQZ0dPg&s"]
   }
-]
+},
+{
+  "idServicio": 3,
+  "nombre": "Tinte de cabello",
+  "duracion": 60,
+  "precio": 35.99,
+  "categoria": "Coloración",
+  "subcategoria": "Tintes",
+  "descripcion": "Aplicación de tinte de color para el cabello",
+  "dificultad": "media",
+  "enlaceImagen": "https://tahecosmetics.com/trends/wp-content/uploads/2021/12/tipos-tintes.jpeg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Consultar con la cliente sobre el color deseado."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Preparar la mezcla de tinte según las indicaciones del fabricante."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Aplicar el tinte en el cabello de manera uniforme."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Dejar actuar el tinte durante el tiempo recomendado."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Enjuagar y aplicar tratamiento post-tinte."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 23,
+          "nombre": "Espátula de aplicación de tinte",
+          "categoria": "Herramientas de Corte y Peinado",
+          "subcategoria": "Accesorios",
+          "descripcion": "Herramienta de plástico para una aplicación uniforme del tinte de cabello.",
+          "precio": 1.49,
+          "imagen": "https://beticolor.es/wp-content/uploads/ESPATULA-TINTE-O-DECOLORACION.jpg"
+        },
+        {
+          "idProducto": 29,
+          "nombre": "Guantes de latex",
+          "categoria": "Equipos y Accesorios de Trabajo",
+          "subcategoria": "Material Higiénico",
+          "descripcion": "Guantes desechables de látex para proteger las manos durante tratamientos.",
+          "precio": 4.99,
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqQDDAwsSOWWdNBk8KoXiH7jETSS-VggHviIc3s_TtLw&s"
+        }
+      ],
+      "productos": [
+          {
+            "idProducto": 6,
+            "nombre": "Coloración permanente",
+            "categoria": "Productos de Coloración y Fijación",
+            "subcategoria": "Coloración",
+            "descripcion": "Tinte para el cabello de larga duración en varios tonos.",
+            "precio": 16.99,
+            "imagen": "https://marialoiratiendaicon.es/51-thickbox_default/coloracion-permanente-intensificador-de-color-ecotech.jpg"
+          },
+          {
+            "idProducto": 59,
+            "nombre": "Champú revitalizante",
+            "categoria": "Productos de Cuidado Capilar",
+            "subcategoria": "Tratamientos Capilares",
+            "descripcion": "Champú suave para todo tipo de cabellos.",
+            "precio": 15.99,
+            "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+          },
+          {
+            "idProducto": 57,
+            "nombre": "Tinte semipermanente",
+            "categoria": "Productos de Coloración y Fijación",
+            "subcategoria": "Coloración",
+            "descripcion": "Tinte sin amoniaco para cambiar el color del cabello temporalmente.",
+            "precio": 13.99,
+            "imagen": "https://media.vogue.es/photos/61d470ba717572e0af9379b5/3:4/w_748%2Cc_limit/Captura%2520de%2520pantalla%25202022-01-04%2520a%2520las%252017.06.55.png"
+          },
+          {
+            "idProducto": 56,
+            "nombre": "Tinte fantasía",
+            "categoria": "Productos de Coloración y Fijación",
+            "subcategoria": "Coloración",
+            "descripcion": "Tinte de colores vivos y fantasía para estilos creativos y únicos.",
+            "precio": 20.95,
+            "imagen": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSLhHBNmg-7xvLVx6399WDQF75RoW28OqOG7L5k79TkXt89JrB9vtd5tIoocjBNay__VAz8JcGm0lvIsrrJjhzhIYrwdKC3NO1exB-MvokWV3dHPVrMhmT2"
+          }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar el lavado frecuente para prolongar la duración del color.",
+          "Usar productos específicos para cabello teñido."
+      ],
+      "imagenesAdicionales": ["https://hairsha.online/cdn/shop/articles/PORTADA_542745fa-f730-4453-a382-4cfcebeec791_1200x1200.jpg?v=1649659235", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYGP1BRtmpi6PQFTdGaWr4LTGIee_XU-jjo1OcptmHbw&s", "https://i.blogs.es/556eab/320046499_1114073189293494_652889870241356224_n/450_1000.jpeg"]
+  }
+},
+{
+  "idServicio": 4,
+  "nombre": "Tratamiento capilar",
+  "duracion": 45,
+  "precio": 30.50,
+  "categoria": "Estética",
+  "subcategoria": "Tratamientos",
+  "descripcion": "Tratamiento hidratante para cabellos secos y dañados",
+  "dificultad": "alta",
+  "enlaceImagen": "https://www.capilarea.com/wp-content/uploads/2023/11/mesoterapia-capilar-para-hombres-tratamiento-en-nuestra-clinica-capilar.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Evaluar el estado del cabello y el cuero cabelludo."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Aplicar tratamiento específico de hidratación profunda."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Masajear el cuero cabelludo para estimular la circulación sanguínea."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Dejar actuar el tratamiento durante el tiempo recomendado."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Enjuagar y aplicar producto finalizante."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 28,
+          "nombre": "Mascarilla de hidratación profunda",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Mascarilla intensiva que hidrata profundamente el cabello seco y dañado.",
+          "precio": 29.99,
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9LhMswNz1Wfr9WPwGTwr_IF9U1ZSVNcBpfzzTWlT2nA&s"
+        },
+        {
+          "idProducto": 23,
+          "nombre": "Espátula de aplicación de tinte",
+          "categoria": "Herramientas de Corte y Peinado",
+          "subcategoria": "Accesorios",
+          "descripcion": "Herramienta de plástico para una aplicación uniforme del tinte de cabello.",
+          "precio": 1.49,
+          "imagen": "https://beticolor.es/wp-content/uploads/ESPATULA-TINTE-O-DECOLORACION.jpg"
+        }
+      ],
+      "productos": [
+          {
+            "idProducto": 24,
+            "nombre": "Bálsamo reparador para puntas abiertas",
+            "categoria": "Productos de Cuidado Capilar",
+            "subcategoria": "Tratamientos Capilares",
+            "descripcion": "Bálsamo que sella y repara puntas abiertas, mejorando la salud del cabello.",
+            "precio": 21.95,
+            "imagen": "https://mygdonia.es/cdn/shop/products/balsamo-cabello-natural-acorelle_1200x.jpg?v=1658570054"
+          },
+          {
+            "idProducto": 10,
+            "nombre": "Tratamiento de queratina",
+            "categoria": "Productos de Cuidado Capilar",
+            "subcategoria": "Tratamientos Capilares",
+            "descripcion": "Tratamiento intensivo para fortalecer y suavizar el cabello con queratina.",
+            "precio": 4.50,
+            "imagen": "https://i.blogs.es/863bd3/serum/650_1200.png"
+          }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar el uso excesivo de calor en el cabello.",
+          "Usar productos hidratantes regularmente."
+      ],
+      "imagenesAdicionales": ["https://inpylus.com/wp-content/uploads/2021/06/cabeceras-inpylus-5.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGIQtEPZ7aj_X_uGfz8tpGYoQDmdlC-D_oP6OCD4e24A&s", "https://sevilla.abc.es/estilo/bulevarsur/wp-content/uploads/sites/14/2016/01/tratamiento-capilar-sevilla.jpg"]
+  }
+},
+{
+  "idServicio": 5,
+  "nombre": "Peinado para evento",
+  "duracion": 60,
+  "precio": 40.99,
+  "categoria": "Peluquería",
+  "subcategoria": "Peinados",
+  "descripcion": "Peinado elegante para ocasiones especiales",
+  "dificultad": "media",
+  "enlaceImagen": "https://images.ecestaticos.com/O4Uas65ecfRiUn4PbrGiR2pEAYk=/0x0:1300x975/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Ff5b%2F6cc%2F72b%2Ff5b6cc72b7e21a618043538122b29eec.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Consultar con la cliente sobre el estilo deseado."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Preparar el cabello lavándolo y aplicando productos de styling."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Realizar el peinado de acuerdo a las preferencias de la cliente."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Fijar el peinado con productos de acabado."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 45,
+          "nombre": "Plancha profesional de titanio",
+          "categoria": "Herramientas de Estilizado",
+          "subcategoria": "Planchas",
+          "descripcion": "Plancha profesional con placas de titanio para un alisado rápido y duradero.",
+          "precio": 79.99,
+          "imagen": "https://m.media-amazon.com/images/I/51aqmNvJ9kL._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+          "idProducto": 50,
+          "nombre": "Rizador de perlas de cerámica",
+          "categoria": "Herramientas de Estilizado",
+          "subcategoria": "Rizadores",
+          "descripcion": "Rizador con tecnología de perlas de cerámica para un acabado suave y duradero.",
+          "precio": 39.99,
+          "imagen": "https://m.media-amazon.com/images/I/51ERlxr19SL._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+          "idProducto": 18,
+          "nombre": "Rizador de cabello",
+          "categoria": "Herramientas de Estilizado",
+          "subcategoria": "Rizadores",
+          "descripcion": "Rizador con barril de cerámica para crear rizos definidos y duraderos.",
+          "precio": 24.99,
+          "imagen": "https://www.avon.es/assets/es-es/images/product/prod_5611792_1_613x613.jpg"
+        },
+        {
+          "idProducto": 32,
+          "nombre": "Rodillo de velcro",
+          "categoria": "Herramientas de Corte y Peinado",
+          "subcategoria": "Accesorios",
+          "descripcion": "Rodillos de velcro para crear ondas y rizos sin calor.",
+          "precio": 5.99,
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0MIfYzGu1WpYcjBjYXUd1blFLDXJ12pKkbRXwktCSgQ&s"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 27,
+          "nombre": "Laca de fijación fuerte",
+          "categoria": "Productos de Coloración y Fijación",
+          "subcategoria": "Fijadores",
+          "descripcion": "Laca que proporciona una fijación duradera y resistente a la humedad.",
+          "precio": 6.99,
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7R95eBdtrMmTWp_46ecNKMtAxstZScgsb5Frh-K7Jw&s"
+        },
+        {
+          "idProducto": 16,
+          "nombre": "Crema para peinar",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Acondicionadores",
+          "descripcion": "Crema ligera para definir y controlar el cabello sin dejar residuos.",
+          "precio": 10.99,
+          "imagen": "https://images.ctfassets.net/ex1lib5py5z5/3UqoCS80HFI695p0kInMBy/547326df478a904c089cba395ab7097e/Crema_de_peinado.jpg"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar el uso excesivo de productos fijadores para no dañar el cabello.",
+          "Retirar el peinado con cuidado para no romper el cabello."
+      ],
+      "imagenesAdicionales": ["https://sandrareche.com/wp-content/uploads/2023/02/peinados-eventos.jpeg", "https://www.hogarmania.com/archivos/202111/peinados-faciles-rapidos-para-cualquier-evento-fiesta-1280x720x80xX.jpg", "https://hips.hearstapps.com/hmg-prod/images/peinadosok-1647351467.jpg?crop=0.8941125258461203xw:1xh;center,top&resize=1200:*"]
+  }
+},
+{
+  "idServicio": 6,
+  "nombre": "Maquillaje para evento",
+  "duracion": 45,
+  "precio": 45.99,
+  "categoria": "Estética",
+  "subcategoria": "Maquillajes",
+  "descripcion": "Maquillaje profesional para eventos sociales",
+  "dificultad": "media",
+  "enlaceImagen": "https://stylelovely.com/esmiestilo/files/2021/01/tips-de-maquillaje-para-eventos-especiales.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Consultar con la cliente sobre el estilo de maquillaje deseado."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Preparar la piel limpiándola e hidratándola adecuadamente."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Aplicar base de maquillaje y corregir imperfecciones."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Realizar maquillaje de ojos, labios y mejillas de acuerdo al estilo seleccionado."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Fijar el maquillaje con polvo translúcido y spray fijador."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 60,
+          "nombre": "Brochas de maquillaje",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Juego de brochas profesionales para aplicar maquillaje.",
+          "precio": 39.99,
+          "imagen": "https://m.media-amazon.com/images/I/81ehQtyPZzS._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+          "idProducto": 61,
+          "nombre": "Esponja de maquillaje",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Esponja para difuminar y aplicar productos líquidos o cremosos.",
+          "precio": 12.99,
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1O3DBXuSUrFmsRlq9SeyAuqPZQg_Igq_D7UCQXYzJQ&s"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 62,
+          "nombre": "Base de maquillaje",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Base de maquillaje de larga duración con cobertura media.",
+          "precio": 29.99,
+          "imagen": "https://cdn.azure.revlon.com/-/media/project/revlon-inc/revlon/revloncom/pdp/face/esp---colorstay-makeup-for-normal-dry-skin-spf-20/normal-dry/rv_2h22_intl_cs_longwear_makeup_fresh_beige_250_normal.ashx?h=1065&iar=0&w=600"
+        },
+        {
+          "idProducto": 63,
+          "nombre": "Paleta de sombras",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Paleta de sombras de ojos con una variedad de tonos para crear diferentes looks.",
+          "precio": 24.99,
+          "imagen": "https://www.maquillalia.com/images/productos/revolution-paleta-de-sombras-re-loaded-affection-2-42173.jpeg"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Retirar el maquillaje con productos específicos para evitar dañar la piel.",
+          "Hidratar la piel después de remover el maquillaje."
+      ],
+      "imagenesAdicionales": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0nFW4LEAqh_0NDgnEHzB8xMBeMmVXNuFF46nV4x0sgw&s", "https://images.milanuncios.com/api/v1/ma-ad-media-pro/images/abe06e31-18c8-4fa7-821f-2e4247f13acc?rule=detail_640x480", "https://centrodebellezahyb.com/blog/wp-content/uploads/2023/03/maquillaje.jpg"]
+  }
+},
+{
+  "idServicio": 7,
+  "nombre": "Lavado de cabello",
+  "duracion": 15,
+  "precio": 10.99,
+  "categoria": "Estética",
+  "subcategoria": "Tratamientos",
+  "descripcion": "Lavado y acondicionamiento del cabello",
+  "dificultad": "baja",
+  "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeaS4ypcATrIvX9wKiE9cXwV3PYyNpG6IVLSo_B0Zeww&s",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Lavar el cabello con champú suave y agua tibia."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Masajear el cuero cabelludo para estimular la circulación sanguínea."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Aplicar acondicionador para hidratar y desenredar el cabello."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Enjuagar con agua tibia para eliminar los productos."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Secar el cabello con toalla o secador, según preferencia del cliente."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 33,
+          "nombre": "Toallas desechables",
+          "categoria": "Equipos y Accesorios de Trabajo",
+          "subcategoria": "Material Higiénico",
+          "descripcion": "Toallas desechables altamente resistentes y duraderas, lo que les permite mantener su integridad estructural incluso cuando están mojadas.",
+          "precio": 29.99,
+          "imagen": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTAibzLhTv5Uth90VpljFafBUAF3Oxlx0Tj_rJepWgAhE0i1r3uZjWUk1Mc_2FMWfb6ObvDD4d-iJGk6gWJz58Ly6mpN5BJpYELu7Gxvi_6sH1MSZ22ohLA&usqp=CAc"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 59,
+          "nombre": "Champú revitalizante",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Champú suave para todo tipo de cabellos.",
+          "precio": 15.99,
+          "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+        },
+        {
+          "idProducto": 44,
+          "nombre": "Acondicionador profundo",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Acondicionadores",
+          "descripcion": "Acondicionador que proporciona una hidratación intensa y desenreda el cabello.",
+          "precio": 17.99,
+          "imagen": "https://www.bethshair.es/wp-content/uploads/2022/08/Mielle-%EF%BB%BFAcondicionador-profundo-con-proteinas-Babassu-Mint-Deep-Conditioner-227g-01-850001265454-beths-hair.jpg"
+        }
+      ],
+      "cuidadosPosteriores": [
+          "Evitar el uso excesivo de champú para no resecar el cuero cabelludo.",
+          "Utilizar acondicionador en cada lavado para mantener el cabello suave y manejable."
+      ],
+      "imagenesAdicionales": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP4j-WFR_dH1VUyoRXRMaCeu2XyxG43iYzoiFUqoqM8A&s", "https://www.consalud.es/uploads/s1/17/08/21/5/lavado-del-cabello-foto-freepik.jpeg", "https://toniandguy.es/wp-content/uploads/2018/05/rexfeatures_2101037a-hair-1024x768.jpg"]
+  }
+},
+{
+  "idServicio": 8,
+  "nombre": "Corte de barba",
+  "duracion": 20,
+  "precio": 12.99,
+  "categoria": "Peluquería",
+  "subcategoria": "Cortes",
+  "descripcion": "Corte y arreglo de barba para hombres",
+  "dificultad": "baja",
+  "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPy88fBPXiKOXI-_byVw689BvX2-ybUwK8JBhS6TRcMQ&s",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Consultar con el cliente sobre el estilo de barba deseado."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Recortar y dar forma a la barba con tijeras y/o máquina de afeitar."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Perfilado de bordes y contornos para un acabado preciso."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Aplicar productos de cuidado y finalización según preferencia del cliente."
+          }
+      ],
+      "herramientas": [
+          {
+            "idProducto": 54,
+            "nombre": "Maquinilla de afeitar desechable",
+            "categoria": "Herramientas de Corte y Peinado",
+            "subcategoria": "Máquinas de cortar",
+            "descripcion": "Maquinilla de afeitar de un solo uso para un afeitado rápido y seguro.",
+            "precio": 7.95,
+            "imagen": "https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/8435476252431_1.jpg"
+          },
+          {
+            "idProducto": 53,
+            "nombre": "Navaja de barbero",
+            "categoria": "Herramientas de Corte y Peinado",
+            "subcategoria": "Tijeras y Navajas",
+            "descripcion": "Navaja profesional para perfilar la barba y el cabello.",
+            "precio": 24.99,
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzf8MIxrE2uW53YNoJo7F9aXyk58mV-NZJdVfESsZFoQ&s"
+          },
+          {
+            "idProducto": 21,
+            "nombre": "Capeador para corte de pelo",
+            "categoria": "Herramientas de Corte y Peinado",
+            "subcategoria": "Accesorios",
+            "descripcion": "Herramienta para cortar el cabello en capas uniformes.",
+            "precio": 6.99,
+            "imagen": "https://m.media-amazon.com/images/I/61mPf5cBmqL.jpg"
+          }
+      ],
+      "productos": [
+        {
+          "idProducto": 24,
+          "nombre": "Bálsamo reparador para puntas abiertas",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Bálsamo que sella y repara puntas abiertas, mejorando la salud del cabello.",
+          "precio": 21.95,
+          "imagen": "https://mygdonia.es/cdn/shop/products/balsamo-cabello-natural-acorelle_1200x.jpg?v=1658570054"
+        },
+        {
+          "idProducto": 59,
+          "nombre": "Champú revitalizante",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Champú suave para todo tipo de cabellos.",
+          "precio": 15.99,
+          "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Aplicar aceite o bálsamo para mantener la barba suave y saludable."
+      ],
+      "imagenesAdicionales": ["https://hombreactual.com/wp-content/uploads/2022/10/SER_CORTE-DE-PELO-Y-ARREGLO-DE-BARBA-PREMIUM_01.jpg", "https://i.pinimg.com/236x/28/1f/3c/281f3c2ff3a5da07575482acdeed878e.jpg", "https://i.pinimg.com/236x/0f/f5/90/0ff590fd97402df44623b3b18a2108f4.jpg"]
+  }
+},
+{
+  "idServicio": 9,
+  "nombre": "Alisado de cabello",
+  "duracion": 90,
+  "precio": 60.99,
+  "categoria": "Peluquería",
+  "subcategoria": "Peinados",
+  "descripcion": "Tratamiento para alisar el cabello de forma permanente",
+  "dificultad": "alta",
+  "enlaceImagen": "https://letmebe.pt/wp-content/uploads/2022/11/BLOG-1-LETMEBE-PREALISAMENTO-1.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Evaluar la salud y textura del cabello."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Aplicar producto alisador en secciones de cabello."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Dejar actuar el producto durante el tiempo indicado."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Lavar y acondicionar el cabello para fijar el alisado."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Secar y peinar el cabello alisado."
+          }
+      ],
+      "herramientas": [
+          {
+            "idProducto": 45,
+            "nombre": "Plancha profesional de titanio",
+            "categoria": "Herramientas de Estilizado",
+            "subcategoria": "Planchas",
+            "descripcion": "Plancha profesional con placas de titanio para un alisado rápido y duradero.",
+            "precio": 79.99,
+            "imagen": "https://m.media-amazon.com/images/I/51aqmNvJ9kL._AC_UF894,1000_QL80_.jpg"
+          },
+          {
+            "idProducto": 36,
+            "nombre": "Secador iónico",
+            "categoria": "Herramientas de Estilizado",
+            "subcategoria": "Secadores",
+            "descripcion": "Secador con tecnología iónica que reduce el encrespamiento y acelera el secado.",
+            "precio": 219.99,
+            "imagen": "https://www.bethshair.es/wp-content/uploads/2022/12/secador-ionico-ultra-ligero-elite-hair-dryer-black-de-wad-01-8435709500001-beths-hair-1200x1240.jpg"
+          },
+          {
+            "idProducto": 15,
+            "nombre": "Gorro de secado",
+            "categoria": "Herramientas de Corte y Peinado",
+            "subcategoria": "Accesorios",
+            "descripcion": "Gorro para secar el cabello rápidamente con el secador.",
+            "precio": 9.99,
+            "imagen": "https://www.tiendasgxs.com/wp-content/uploads/2022/09/GORRO-TERMICO-PARA-SECADOR-DE-CABELLO-BIFULL.jpg.webp"
+          }
+      ],
+      "productos": [
+        {
+          "idProducto": 5,
+          "nombre": "Mascarilla capilar nutritiva",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Mascarilla con aceites naturales para nutrir y reparar el cabello dañado.",
+          "precio": 5.99,
+          "imagen": "https://www.primor.eu/blog/wp-content/uploads/2023/10/MASCARILLAS.jpg"
+        },
+        {
+          "idProducto": 59,
+          "nombre": "Champú revitalizante",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Champú suave para todo tipo de cabellos.",
+          "precio": 15.99,
+          "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar el lavado frecuente para mantener el alisado por más tiempo.",
+          "Aplicar productos hidratantes para prevenir el daño por el calor."
+      ],
+      "imagenesAdicionales": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZCoPC56mxtcF3cMlyx3A7UamDbHQS5Kq1VBEeDMT9rA&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOrQ24fzayIDiX1avfBMuTV_NzDjV5sx9-QTxssOBOBw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnOmnzxmHJ726UM0-PF_hZXhv6UtpqDim2bA0hnGz51g&s"]
+  }
+},
+{
+  "idServicio": 10,
+  "nombre": "Manicura",
+  "duracion": 30,
+  "precio": 20.99,
+  "categoria": "Estética",
+  "subcategoria": "Cuidados",
+  "descripcion": "Cuidado y embellecimiento de las uñas de las manos",
+  "dificultad": "media",
+  "enlaceImagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/01/24/16745628932796.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Remover el esmalte de uñas anterior, si es necesario."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Recortar y dar forma a las uñas según preferencia del cliente."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Empujar las cutículas suavemente para limpiar la zona de las uñas."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Aplicar esmalte de uñas y realizar el diseño deseado."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Finalizar con una capa de brillo y secado rápido."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 66,
+          "nombre": "Cortaúñas",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Cortaúñas de acero inoxidable para recortar las uñas de forma precisa.",
+          "precio": 9.99,
+          "imagen": "https://shop.carobels.com/869-large_default/cortaunas-grande-ilmn.jpg"
+        },
+        {
+            "idProducto": 67,
+            "nombre": "Empujador de cutículas",
+            "categoria": "Otros",
+            "subcategoria": "Otros",
+            "descripcion": "Empujador de madera para limpiar y dar forma a las cutículas.",
+            "precio": 5.99,
+            "imagen": "https://www.agrucompbelleza.es/1304/empujador-de-cuticulas-metalico-de-acero-inoxidable.jpg"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 64,
+          "nombre": "Esmalte de uñas",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Esmalte de uñas de larga duración con una amplia gama de colores.",
+          "precio": 8.99,
+          "imagen": "https://s.libertaddigital.com/2022/01/17/esmalte-de-unas-liangmei-1003.jpg"
+        },
+        {
+            "idProducto": 65,
+            "nombre": "Top coat",
+            "categoria": "Otros",
+            "subcategoria": "Otros",
+            "descripcion": "Capa protectora y brillante para prolongar la duración del esmalte.",
+            "precio": 6.99,
+            "imagen": "https://global.opi.com/sites/default/files/styles/product_photos/public/opi-top-coat-ntt30-top-base-coats-22001009000_4.jpg?itok=UaXjDI0q"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar actividades que puedan dañar el esmalte recién aplicado.",
+          "Aplicar aceite de cutículas para mantenerlas hidratadas."
+      ],
+      "imagenesAdicionales": ["https://i.pinimg.com/236x/2e/a9/45/2ea94531d54874b85d1f26343c770be7.jpg", "https://phantom-elmundo.unidadeditorial.es/7ff2ccad124cb307460a89c57967082a/crop/0x0/1733x2048/resize/1200/f/webp/assets/multimedia/imagenes/2023/10/31/16987591229863.jpg", "https://content20.lecturas.com/medio/2023/03/08/manicura-tonos-pastel_50fb9488_960x1200.jpg"]
+  }
+},
+{
+  "idServicio": 11,
+  "nombre": "Pedicura",
+  "duracion": 45,
+  "precio": 25.99,
+  "categoria": "Estética",
+  "subcategoria": "Cuidados",
+  "descripcion": "Cuidado y embellecimiento de las uñas de los pies",
+  "dificultad": "media",
+  "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6_69bTPsagaEBKo_Jk79afN5ZsCPpACs9BPInZ9i6Sw&s",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Remojar los pies en agua tibia para ablandar la piel."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Recortar y limar las uñas de los pies según la forma deseada."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Retirar las cutículas y exfoliar la piel muerta de los pies."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Aplicar crema hidratante y masajear los pies para relajar los músculos."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Aplicar esmalte de uñas en las uñas de los pies si se desea."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 66,
+          "nombre": "Cortaúñas",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Cortaúñas de acero inoxidable para recortar las uñas de forma precisa.",
+          "precio": 9.99,
+          "imagen": "https://shop.carobels.com/869-large_default/cortaunas-grande-ilmn.jpg"
+        },
+        {
+          "idProducto": 67,
+          "nombre": "Empujador de cutículas",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Empujador de madera para limpiar y dar forma a las cutículas.",
+          "precio": 5.99,
+          "imagen": "https://www.agrucompbelleza.es/1304/empujador-de-cuticulas-metalico-de-acero-inoxidable.jpg"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 64,
+          "nombre": "Esmalte de uñas",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Esmalte de uñas de larga duración con una amplia gama de colores.",
+          "precio": 8.99,
+          "imagen": "https://s.libertaddigital.com/2022/01/17/esmalte-de-unas-liangmei-1003.jpg"
+        },
+        {
+            "idProducto": 65,
+            "nombre": "Top coat",
+            "categoria": "Otros",
+            "subcategoria": "Otros",
+            "descripcion": "Capa protectora y brillante para prolongar la duración del esmalte.",
+            "precio": 6.99,
+            "imagen": "https://global.opi.com/sites/default/files/styles/product_photos/public/opi-top-coat-ntt30-top-base-coats-22001009000_4.jpg?itok=UaXjDI0q"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Usar calzado cómodo y transpirable para evitar rozaduras y ampollas.",
+          "Aplicar crema hidratante regularmente para mantener la piel suave y flexible."
+      ],
+      "imagenesAdicionales": ["https://www.shutterstock.com/image-illustration/white-solid-color-background-plain-260nw-2021889245.jpg", "https://www.shutterstock.com/image-illustration/white-solid-color-background-plain-260nw-2021889245.jpg", "https://www.shutterstock.com/image-illustration/white-solid-color-background-plain-260nw-2021889245.jpg"]
+  }
+},
+{
+  "idServicio": 12,
+  "nombre": "Depilación de cejas",
+  "duracion": 15,
+  "precio": 10.99,
+  "categoria": "Estética",
+  "subcategoria": "Depilación",
+  "descripcion": "Depilación de las cejas para dar forma y definición",
+  "dificultad": "baja",
+  "enlaceImagen": "https://t2.uc.ltmcdn.com/es/posts/3/1/9/como_depilar_las_cejas_con_cera_paso_a_paso_45913_600.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Limpiar y desinfectar la zona de las cejas con loción desmaquillante."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Aplicar cera tibia o caliente en la zona a depilar."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Colocar una banda de papel o tela sobre la cera y presionar firmemente."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Retirar la banda de forma rápida y en dirección contraria al crecimiento del vello."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Limpiar los residuos de cera con aceite de almendras o post-depilatorio."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 68,
+          "nombre": "Cera depilatoria",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Cera caliente o tibia para depilación de cejas y otras zonas del cuerpo.",
+          "precio": 16.99,
+          "imagen": "https://m.media-amazon.com/images/I/71lQnBPwhDL._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+          "idProducto": 69,
+          "nombre": "Bandas de depilación",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Bandas de papel o tela para retirar la cera de forma rápida y efectiva.",
+          "precio": 9.99,
+          "imagen": "https://static.carrefour.es/hd_510x_/img_pim_food/761073_00_1.jpg"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 70,
+          "nombre": "Aceite de almendras",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Aceite suavizante para eliminar los residuos de cera y calmar la piel.",
+          "precio": 7.99,
+          "imagen": "https://www.arganour.com/cdn/shop/products/8435438600072-aceite-almendras-dulces-web_1024x1024.png?v=1707908989"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar la exposición al sol directamente después de la depilación para prevenir irritaciones.",
+          "Aplicar productos calmantes y suavizantes para mantener la piel hidratada."
+      ],
+      "imagenesAdicionales": ["https://sesdermaskincenter.es/wp-content/uploads/2023/03/Tratamiento-Depilacion-de-cejas.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFHC0Lo9noQZx_2jGf8Nu1hKVgP-NVaEgDfyECWwAt3w&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYatR_08iPbCNSwZX1m8jiDwzOCg1HRtJzj9RZY-yrHw&s"]
+  }
+},
+{
+  "idServicio": 13,
+  "nombre": "Depilación de piernas",
+  "duracion": 45,
+  "precio": 30.99,
+  "categoria": "Estética",
+  "subcategoria": "Depilación",
+  "descripcion": "Depilación de las piernas para una piel suave y libre de vello",
+  "dificultad": "media",
+  "enlaceImagen": "https://ramirogill.com/wp-content/uploads/Depilaci%C3%B3n-de-piernas.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Preparar la piel limpiándola y secándola completamente."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Aplicar crema o gel depilatorio en la zona a tratar."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Dejar actuar el producto durante el tiempo indicado según las instrucciones."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Retirar el producto y el vello con una espátula o toallita húmeda."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Limpiar y calmar la piel con agua fría o un producto post-depilatorio."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 73,
+          "nombre": "Crema depilatoria",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Crema suavizante para eliminar el vello de forma rápida y eficaz.",
+          "precio": 19.99,
+          "imagen": "https://cdn2.primor.eu/media/catalog/product/cache/8d3aba296f7a18b5251ee30fa5db42b2/1/D/1DP00100_1_4588.webp"
+        },
+        {
+          "idProducto": 74,
+          "nombre": "Espátula depilatoria",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Espátula de madera para retirar el producto depilatorio y el vello de las piernas.",
+          "precio": 5.99,
+          "imagen": "https://m.media-amazon.com/images/I/61K8HC5h0uS.jpg"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 71,
+          "nombre": "Gel post-depilatorio",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Gel refrescante y calmante para aliviar la irritación después de la depilación.",
+          "precio": 12.99,
+          "imagen": "https://www.lapeluqueriaenlaweb.com/wp-content/uploads/2020/10/Gel-post-depilatorio-pollie.jpeg"
+        },
+        {
+            "idProducto": 72,
+            "nombre": "Crema hidratante corporal",
+            "categoria": "Otros",
+            "subcategoria": "Otros",
+            "descripcion": "Crema hidratante con ingredientes nutritivos para mantener la piel suave y flexible.",
+            "precio": 16.99,
+            "imagen": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1648561400-41pZCnnUd8L._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar la exposición al sol directamente después de la depilación para prevenir irritaciones.",
+          "Aplicar productos calmantes y suavizantes para mantener la piel hidratada."
+      ],
+      "imagenesAdicionales": ["https://i.ytimg.com/vi/huS9kYNRIgg/maxresdefault.jpg", "https://twenergy.com/wp-content/uploads/2019/07/depilaci%C3%B3n-casera-sostenible.jpg", "https://media.istockphoto.com/id/95489572/es/foto/depilaci%C3%B3n-con-cera.jpg?s=612x612&w=0&k=20&c=CNnrDYjIlJCRGkSiD_aKtLVduqYITw13GKLlgAcEQWQ="]
+  }
+},
+{
+  "idServicio": 14,
+  "nombre": "Depilación de axilas",
+  "duracion": 30,
+  "precio": 20.99,
+  "categoria": "Estética",
+  "subcategoria": "Depilación",
+  "descripcion": "Depilación de las axilas para una apariencia más limpia",
+  "dificultad": "media",
+  "enlaceImagen": "https://germainegoyamadrid.com/wp-content/uploads/2023/09/054-blog-depilacion-laser-axilas.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Limpiar y desinfectar la zona de las axilas con loción desmaquillante."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Aplicar crema o gel depilatorio en las axilas y extenderlo uniformemente."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Dejar actuar el producto durante el tiempo indicado según las instrucciones."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Retirar el producto y el vello con una espátula o toallita húmeda."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Limpiar y calmar la piel con agua fría o un producto post-depilatorio."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 73,
+          "nombre": "Crema depilatoria",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Crema suavizante para eliminar el vello de forma rápida y eficaz.",
+          "precio": 19.99,
+          "imagen": "https://cdn2.primor.eu/media/catalog/product/cache/8d3aba296f7a18b5251ee30fa5db42b2/1/D/1DP00100_1_4588.webp"
+        },
+        {
+          "idProducto": 74,
+          "nombre": "Espátula depilatoria",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Espátula de madera para retirar el producto depilatorio y el vello de las piernas.",
+          "precio": 5.99,
+          "imagen": "https://m.media-amazon.com/images/I/61K8HC5h0uS.jpg"
+        }
+      ],
+      "productos": [
+          {
+            "idProducto": 71,
+            "nombre": "Gel post-depilatorio",
+            "categoria": "Otros",
+            "subcategoria": "Otros",
+            "descripcion": "Gel refrescante y calmante para aliviar la irritación después de la depilación.",
+            "precio": 12.99,
+            "imagen": "https://www.lapeluqueriaenlaweb.com/wp-content/uploads/2020/10/Gel-post-depilatorio-pollie.jpeg"
+          },
+          {
+            "idProducto": 72,
+            "nombre": "Crema hidratante corporal",
+            "categoria": "Otros",
+            "subcategoria": "Otros",
+            "descripcion": "Crema hidratante con ingredientes nutritivos para mantener la piel suave y flexible.",
+            "precio": 16.99,
+            "imagen": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1648561400-41pZCnnUd8L._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar el uso de desodorantes con alcohol o fragancias fuertes después de la depilación.",
+          "Aplicar productos calmantes y suavizantes para mantener la piel hidratada."
+      ],
+      "imagenesAdicionales": ["https://instituto-capilar.com/wp-content/uploads/2018/04/axilas.jpg", "https://laserum.com/wp-content/uploads/2021/10/beneficios-depilacion-laser-axilas.jpg", "https://www.hedonai.com/wp-content/uploads/2021/05/La-depilaci%C3%B3n-l%C3%A1ser-blanquea-las-axilas-%C2%BFmito-o-verdad.jpg"]
+  }
+},{
+  "idServicio": 15,
+  "nombre": "Maquillaje de novia",
+  "duracion": 60,
+  "precio": 80.99,
+  "categoria": "Estética",
+  "subcategoria": "Maquillajes",
+  "descripcion": "Maquillaje profesional para el día de la boda",
+  "dificultad": "alta",
+  "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSANGjoMgiQhfhJxopfR97Y9M6Lk8bh7_77aiSZUtpoA&s",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Preparar la piel limpiándola, tonificándola e hidratándola adecuadamente."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Aplicar una base de maquillaje adecuada al tono de piel y tipo de cobertura deseada."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Realizar un contorno facial para resaltar los rasgos y dar profundidad al rostro."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Aplicar sombras de ojos, delineador y máscara de pestañas para realzar la mirada."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Delinear y rellenar las cejas para enmarcar el rostro de forma natural."
+          },
+          {
+              "paso": 6,
+              "descripcion": "Aplicar colorete en las mejillas y labial en los labios para un aspecto fresco y radiante."
+          },
+          {
+              "paso": 7,
+              "descripcion": "Fijar el maquillaje con spray fijador para una mayor duración y resistencia."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 60,
+          "nombre": "Brochas de maquillaje",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Juego de brochas profesionales para aplicar maquillaje.",
+          "precio": 39.99,
+          "imagen": "https://m.media-amazon.com/images/I/81ehQtyPZzS._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+          "idProducto": 61,
+          "nombre": "Esponja de maquillaje",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Esponja para difuminar y aplicar productos líquidos o cremosos.",
+          "precio": 12.99,
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1O3DBXuSUrFmsRlq9SeyAuqPZQg_Igq_D7UCQXYzJQ&s"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 62,
+          "nombre": "Base de maquillaje",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Base de maquillaje de larga duración con cobertura media.",
+          "precio": 29.99,
+          "imagen": "https://cdn.azure.revlon.com/-/media/project/revlon-inc/revlon/revloncom/pdp/face/esp---colorstay-makeup-for-normal-dry-skin-spf-20/normal-dry/rv_2h22_intl_cs_longwear_makeup_fresh_beige_250_normal.ashx?h=1065&iar=0&w=600"
+        },
+        {
+          "idProducto": 63,
+          "nombre": "Paleta de sombras",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Paleta de sombras de ojos con una variedad de tonos para crear diferentes looks.",
+          "precio": 24.99,
+          "imagen": "https://www.maquillalia.com/images/productos/revolution-paleta-de-sombras-re-loaded-affection-2-42173.jpeg"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar tocar el rostro para no estropear el maquillaje.",
+          "Retocar el maquillaje según sea necesario a lo largo del día."
+      ],
+      "imagenesAdicionales": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW3R7mk2fTDwUpaKi8PNiYSM-qQo5wK3q6JSUCGyo1DA&s", "https://i.pinimg.com/736x/c2/2a/5f/c22a5f3acbbb517e8a82670172f0b29e.jpg", "https://cdn-bdkjd.nitrocdn.com/yKgMSJaPgvmFPUqBkZjPuljxmrxlQJPm/assets/images/optimized/rev-b2aff9d/centrosmouremallorca.com/wp-content/uploads/2020/09/MAQUILLAJES-DE-NOVIA-TENDENCIAS-3.jpg"]
+  }
+},
+{
+  "idServicio": 16,
+  "nombre": "Tratamiento facial",
+  "duracion": 45,
+  "precio": 35.99,
+  "categoria": "Estética",
+  "subcategoria": "Tratamientos",
+  "descripcion": "Tratamiento para mejorar la apariencia y salud de la piel del rostro",
+  "dificultad": "media",
+  "enlaceImagen": "https://www.topclinicmadrid.com/wp-content/uploads/2022/03/mascarilla-facial-scaled.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Limpiar la piel del rostro con un limpiador suave para eliminar impurezas y maquillaje."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Exfoliar la piel para eliminar células muertas y estimular la regeneración celular."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Aplicar una mascarilla facial adecuada al tipo de piel para hidratar y nutrir en profundidad."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Realizar un masaje facial para mejorar la circulación sanguínea y relajar los músculos faciales."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Aplicar un serum o crema hidratante para finalizar el tratamiento y proteger la piel."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 77,
+          "nombre": "Limpiador facial",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Limpiador suave y refrescante para eliminar impurezas sin resecar la piel.",
+          "precio": 15.99,
+          "imagen": "https://ziajashop.es/11085-large_default/ziaja-limpiador-facial-en-espuma-para-pieles-secas.jpg"
+        },
+        {
+            "idProducto": 78,
+            "nombre": "Exfoliante facial",
+            "categoria": "Otros",
+            "subcategoria": "Otros",
+            "descripcion": "Exfoliante suave con partículas naturales para una limpieza profunda y renovación celular.",
+            "precio": 19.99,
+            "imagen": "https://www.hola.com/imagenes/seleccion/20210204183712/mejores-exfoliantes-faciales/1-60-693/la-roche-posay-exfoliante-z.jpg"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 75,
+          "nombre": "Mascarilla facial hidratante",
+          "categoria": "Otros",
+          "subcategoria": "Otros",
+          "descripcion": "Mascarilla con ingredientes hidratantes y nutritivos para revitalizar la piel del rostro.",
+          "precio": 24.99,
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLp5KG6KbnBdtZZTqGciRh35UhQ72WkRbCxCW_heUO2Q&s"
+        },
+        {
+            "idProducto": 76,
+            "nombre": "Serum facial rejuvenecedor",
+            "categoria": "Otros",
+            "subcategoria": "Otros",
+            "descripcion": "Serum concentrado con ingredientes antioxidantes para combatir los signos de la edad.",
+            "precio": 29.99,
+            "imagen": "https://www.maquillalia.com/images/productos/natura-siberica-lab-biome-serum-facial-rejuvenecedor-1-68090.jpeg"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar la exposición al sol directamente después del tratamiento para prevenir la sensibilidad de la piel.",
+          "Aplicar protector solar diariamente para proteger la piel de los daños solares."
+      ],
+      "imagenesAdicionales": ["https://centrosunico.com/assets/images/blog/uploads/thumnails/2022-11/tratamientos-antiedad-y-rejuvenecimiento-1-63819df2a4cc6.png", "https://cdn.reskyt.com/4090/centre-esportiu-esquitx-tractaments-facials-152507-med.jpg", "https://www.materialestetica.com/blog/wp-content/uploads/2020/02/tratamientos-para-rejuvenecimiento-facial-que-no-conocias.jpg"]
+  }
+},
+{
+  "idServicio": 17,
+  "nombre": "Reflejos en el cabello",
+  "duracion": 90,
+  "precio": 50.99,
+  "categoria": "Coloración",
+  "subcategoria": "Tintes",
+  "descripcion": "Aplicación de reflejos para darle luminosidad al cabello",
+  "dificultad": "alta",
+  "enlaceImagen": "https://lolaperruquers.com/wp-content/uploads/2024/01/confiado-estilista-masculino-teniendo-cabello-clienta-caucasica-rubia-1.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Dividir el cabello en secciones y seleccionar las hebras para aplicar los reflejos."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Preparar la mezcla de decoloración o tinte según el tono deseado de los reflejos."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Aplicar la mezcla en las secciones seleccionadas y envolverlas en papel de aluminio para aumentar el contraste."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Dejar actuar el producto durante el tiempo necesario según el nivel de aclarado deseado."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Lavar y acondicionar el cabello para eliminar los residuos de producto y suavizar la fibra capilar."
+          },
+          {
+              "paso": 6,
+              "descripcion": "Secar y peinar el cabello para revelar los reflejos luminosos y darle forma al peinado."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 79,
+          "nombre": "Decolorante capilar",
+          "categoria": "Productos de Coloración y Fijación",
+          "subcategoria": "Coloración",
+          "descripcion": "Decolorante en polvo o crema para aclarar el cabello y crear reflejos luminosos.",
+          "precio": 29.99,
+          "imagen": "https://www.sorci.es/4860-home_default/crema-decolorante-capilar-lumiere-high-platinum-tahe-100-ml.jpg"
+        },
+          {
+            "idProducto": 11,
+            "nombre": "Papel de aluminio para mechas",
+            "categoria": "Herramientas de Corte y Peinado",
+            "subcategoria": "Accesorios",
+            "descripcion": "Rollo de papel de aluminio para realizar mechas y reflejos.",
+            "precio": 10.99,
+            "imagen": "https://www.cortapelosyplanchas.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/rollo_papel_aluminio_mechas_bobina_papel_plata_para_peluqueri_a_100_metros_comprar_rollo_papel_aluminio_mechas_barato_mejor_precio_papel_plata_para_peluqueri_a_para_mechas_y_tinturas.jpg"
+          }
+      ],
+      "productos": [
+          {
+            "idProducto": 31,
+            "nombre": "Mascarilla matizadora",
+            "categoria": "Productos de Cuidado Capilar",
+            "subcategoria": "Tratamientos Capilares",
+            "descripcion": "Mascarilla que neutraliza los tonos amarillos y naranjas en cabellos rubios.",
+            "precio": 7.99,
+            "imagen": "https://www.bethshair.es/wp-content/uploads/2022/11/real-natura-mascarilla-matizadora-rubios-anti-amarillos-pro-cor-tom-500ml-5600493405600-beths-hair.jpg"
+          },
+          {
+            "idProducto": 5,
+            "nombre": "Mascarilla capilar nutritiva",
+            "categoria": "Productos de Cuidado Capilar",
+            "subcategoria": "Tratamientos Capilares",
+            "descripcion": "Mascarilla con aceites naturales para nutrir y reparar el cabello dañado.",
+            "precio": 5.99,
+            "imagen": "https://www.primor.eu/blog/wp-content/uploads/2023/10/MASCARILLAS.jpg"
+          }
+      ], 
+      "cuidadosPosteriores": [
+          "Utilizar productos específicos para cabellos con reflejos para mantener su luminosidad y brillo.",
+          "Evitar la exposición prolongada al sol para prevenir la decoloración de los reflejos."
+      ],
+      "imagenesAdicionales": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZjqkSgulMj6lWb2w0avaHO90F5Hi4bUroSnViODZLhg&s", "https://eduardoypilarpescador.com/wp-content/uploads/2021/04/foliage-240x300.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1dN0L_8lIo8AgQHQO6u-mD0osVqktVuHIbYO_KkyXkA&s"]
+  }
+},
+{
+  "idServicio": 18,
+  "nombre": "Recogido para evento",
+  "duracion": 60,
+  "precio": 55.99,
+  "categoria": "Peluquería",
+  "subcategoria": "Peinados",
+  "descripcion": "Peinado recogido elegante para eventos especiales",
+  "dificultad": "alta",
+  "enlaceImagen": "https://www.diariodesevilla.es/2020/12/01/wappissima/actualidad/recogido-trenza-opcion-peinado-Navidad_1524757639_128807178_667x375.png",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Preparar el cabello limpio y seco para facilitar la manipulación y creación del recogido."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Dividir el cabello en secciones y comenzar a crear el recogido según el estilo deseado."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Utilizar técnicas de trenzado, torsión y enrollado para dar forma al recogido y asegurarlo con horquillas o pasadores."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Pulir y perfeccionar el peinado, asegurándose de que esté bien sujeto y sin mechones sueltos."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Aplicar spray fijador para mantener el recogido en su lugar y darle un acabado duradero."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 82,
+          "nombre": "Horquillas para recogidos",
+          "categoria": "Herramientas de Corte y Peinado",
+          "subcategoria": "Accesorios",
+          "descripcion": "Horquillas resistentes y discretas para sujetar el cabello en el recogido.",
+          "precio": 8.99,
+          "imagen": "https://m.media-amazon.com/images/I/71CmjDlVxzS._AC_UF894,1000_QL80_.jpg"
+        },
+        {
+          "idProducto": 27,
+          "nombre": "Laca de fijación fuerte",
+          "categoria": "Productos de Coloración y Fijación",
+          "subcategoria": "Fijadores",
+          "descripcion": "Laca que proporciona una fijación duradera y resistente a la humedad.",
+          "precio": 6.99,
+          "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7R95eBdtrMmTWp_46ecNKMtAxstZScgsb5Frh-K7Jw&s"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 80,
+          "nombre": "Espuma voluminizadora",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Espuma ligera y voluminizadora para dar textura y cuerpo al cabello antes de crear el recogido.",
+          "precio": 14.99,
+          "imagen": "https://www.keshop.com/es/3355-large_default/espuma-voluminizadora-250-ml.jpg"
+        },
+        {
+          "idProducto": 81,
+          "nombre": "Serum capilar anti-frizz",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Serum ligero para controlar el encrespamiento y darle brillo al cabello en el recogido.",
+          "precio": 19.99,
+          "imagen": "https://www.druni.es/media/catalog/product/1/3/1307457.jpg"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar tocar o manipular en exceso el recogido para mantener su forma y durabilidad.",
+          "Retocar con horquillas o spray fijador si es necesario a lo largo del evento."
+      ],
+      "imagenesAdicionales": ["https://gruposaizpeluqueros.com/site/media/Recogidos-para-cualquier-tipo-de-evento-e1615550302787.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTPbW0IPBh1y7_0AFKWmoGOBfDZJPOG65i8glftz87-Q&s", "https://assets.afcdn.com/album/D20170405/phalbm25146890_w320cxt0cyt0cxb564cyb566.webp"]
+  }
+},
+{
+  "idServicio": 19,
+  "nombre": "Tratamiento de keratina",
+  "duracion": 120,
+  "precio": 100.99,
+  "categoria": "Estética",
+  "subcategoria": "Tratamientos",
+  "descripcion": "Tratamiento intensivo para restaurar y fortalecer el cabello",
+  "dificultad": "alta",
+  "enlaceImagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP8kKT3GhVr3rd9avyBSv2exwgdYkGvVWNOy1rJT0Sdw&s",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Lavar el cabello con un champú especial para eliminar impurezas y residuos de productos."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Aplicar la keratina en mechones pequeños, asegurándose de cubrir todo el cabello de manera uniforme."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Dejar actuar la keratina durante el tiempo especificado para que penetre en la fibra capilar y la repare desde el interior."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Secar el cabello con un secador y luego pasar la plancha para sellar la keratina y alisar la cutícula."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Enjuagar el cabello para eliminar el exceso de producto y aplicar un tratamiento sellador para prolongar los resultados."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 10,
+          "nombre": "Tratamiento de queratina",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Tratamiento intensivo para fortalecer y suavizar el cabello con queratina.",
+          "precio": 4.50,
+          "imagen": "https://i.blogs.es/863bd3/serum/650_1200.png"
+        },
+        {
+          "idProducto": 45,
+          "nombre": "Plancha profesional de titanio",
+          "categoria": "Herramientas de Estilizado",
+          "subcategoria": "Planchas",
+          "descripcion": "Plancha profesional con placas de titanio para un alisado rápido y duradero.",
+          "precio": 79.99,
+          "imagen": "https://m.media-amazon.com/images/I/51aqmNvJ9kL._AC_UF894,1000_QL80_.jpg"
+        }
+      ],
+      "productos": [
+          {
+            "idProducto": 59,
+            "nombre": "Champú revitalizante",
+            "categoria": "Productos de Cuidado Capilar",
+            "subcategoria": "Tratamientos Capilares",
+            "descripcion": "Champú suave para todo tipo de cabellos.",
+            "precio": 15.99,
+            "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+          },
+          {
+            "idProducto": 5,
+            "nombre": "Mascarilla capilar nutritiva",
+            "categoria": "Productos de Cuidado Capilar",
+            "subcategoria": "Tratamientos Capilares",
+            "descripcion": "Mascarilla con aceites naturales para nutrir y reparar el cabello dañado.",
+            "precio": 5.99,
+            "imagen": "https://www.primor.eu/blog/wp-content/uploads/2023/10/MASCARILLAS.jpg"
+          }
+      ], 
+      "cuidadosPosteriores": [
+          "Utilizar productos libres de sulfatos para mantener la keratina en el cabello por más tiempo.",
+          "Evitar lavados frecuentes y el uso de herramientas de calor para prolongar los resultados del tratamiento."
+      ],
+      "imagenesAdicionales": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR17j3GZfrCo-zni_RfqJm_r3Cr_qpKk_lWzpWe5Xt1kA&s", "https://mejorconsalud.as.com/wp-content/uploads/2023/08/tratamiento-keratina-cabello-1200x876.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYTkBA2nnwNjoa9Cl5sbXaYDV75e6bJNDfe5nvwL7aNA&s"]
+  }
+},
+{
+  "idServicio": 20,
+  "nombre": "Extensiones de cabello",
+  "duracion": 180,
+  "precio": 150.99,
+  "categoria": "Peluquería",
+  "subcategoria": "Peinados",
+  "descripcion": "Aplicación de extensiones para aumentar el volumen y longitud del cabello",
+  "dificultad": "alta",
+  "enlaceImagen": "https://cdn.diprofem.com/uploads/3c3c4601aa23c9951b60047b35230056.jpeg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Consultar con el cliente para determinar el tipo y estilo de extensiones deseadas."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Preparar el cabello del cliente, lavándolo y secándolo antes de comenzar el proceso de aplicación."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Seleccionar las extensiones adecuadas y aplicarlas meticulosamente en el cabello del cliente, asegurándose de una distribución uniforme y natural."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Cortar y estilizar las extensiones según las preferencias del cliente, creando un aspecto armonioso y natural."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Finalizar el proceso con un estilo final, asegurando que las extensiones se integren perfectamente con el cabello natural."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 83,
+          "nombre": "Extensiones de cabello natural",
+          "categoria": "Herramientas de Corte y Peinado",
+          "subcategoria": "Accesorios",
+          "descripcion": "Extensiones de cabello humano de alta calidad para lograr un aspecto natural y duradero.",
+          "precio": 99.99,
+          "imagen": "https://www.lacasadelpelo.es/wp-content/uploads/2019/09/extensiones-de-cortina-de-pelo-natural-virgen-onduladas.jpg"
+        },
+        {
+          "idProducto": 84,
+          "nombre": "Keratina para extensiones",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Keratina especial para unir las extensiones al cabello natural de manera segura y sin dañar la fibra capilar.",
+          "precio": 39.99,
+          "imagen": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRclgqkklY6EIL3FjtyuLdiJvi3xca03xbCUotfAJHkpWwScPCMWqPrNTvUWOZYGC41v0OkTlXcujGj0w93ljCW4wAtQDSb7t8uvYAz7k9Gd1Il2yYYl9YNxA"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 59,
+          "nombre": "Champú revitalizante",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Champú suave para todo tipo de cabellos.",
+          "precio": 15.99,
+          "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+        },
+        {
+          "idProducto": 19,
+          "nombre": "Acondicionador sin enjuague",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Acondicionadores",
+          "descripcion": "Acondicionador ligero que se deja en el cabello para hidratación continua.",
+          "precio": 4.99,
+          "imagen": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1674409374-acondicinador-sin-aclarado-garnier-1674409343.jpg?crop=1xw:1xh;center,top&resize=980:*"
+        }
+      ], 
+      "cuidadosPosteriores": [
+          "Evitar el uso de herramientas de calor excesivo que puedan dañar las extensiones.",
+          "Cepillar suavemente las extensiones diariamente para evitar enredos y mantener su aspecto suave y sedoso."
+      ],
+      "imagenesAdicionales": ["https://sevilla.abc.es/estilo/bulevarsur//wp-content/uploads/sites/14/2020/01/extensiones-cabello-queratina.jpg", "https://resizer.sevilla.abc.es/resizer/resizer.php?imagen=https://sevilla.abc.es/estilo/bulevarsur/wp-content/uploads/sites/14/2020/01/extensiones-cabello-tipos-como-cuidar.jpg&nuevoancho=652", "https://www.extensionmania.com/wp-content/uploads/2019/02/tipos-de-extensiones-de-cabello-extensionmania-1.jpg"]
+  }
+},
+{
+  "idServicio": 21,
+  "nombre": "Tinte semipermanente",
+  "duracion": 90,
+  "precio": 45.99,
+  "categoria": "Coloración",
+  "subcategoria": "Tintes",
+  "descripcion": "Aplicación de tinte semipermanente para cambiar el color del cabello con resultados duraderos pero sin el compromiso a largo plazo de un tinte permanente.",
+  "dificultad": "media",
+  "enlaceImagen": "https://blog.pacoperfumerias.com/wp-content/uploads/2022/07/Formas-de-aplicar-los-tintes-de-pelo-guia-definitiva.jpg",
+  "masinfo": {
+    "procedimiento": [
+      {
+        "paso": 1,
+        "descripcion": "Preparar el cabello lavándolo y secándolo antes de aplicar el tinte semipermanente."
+      },
+      {
+        "paso": 2,
+        "descripcion": "Aplicar el tinte de manera uniforme en el cabello, cubriendo todas las áreas deseadas."
+      },
+      {
+        "paso": 3,
+        "descripcion": "Dejar actuar el tinte durante el tiempo recomendado para obtener el color deseado."
+      },
+      {
+        "paso": 4,
+        "descripcion": "Enjuagar el cabello y aplicar un tratamiento acondicionador para sellar el color y mejorar el brillo."
+      }
+    ],
+    "herramientas": [
+      {
+        "idProducto": 23,
+        "nombre": "Espátula de aplicación de tinte",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Herramienta de plástico para una aplicación uniforme del tinte de cabello.",
+        "precio": 1.49,
+        "imagen": "https://beticolor.es/wp-content/uploads/ESPATULA-TINTE-O-DECOLORACION.jpg"
+      },
+      {
+        "idProducto": 11,
+        "nombre": "Papel de aluminio para mechas",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Rollo de papel de aluminio para realizar mechas y reflejos.",
+        "precio": 10.99,
+        "imagen": "https://www.cortapelosyplanchas.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/rollo_papel_aluminio_mechas_bobina_papel_plata_para_peluqueri_a_100_metros_comprar_rollo_papel_aluminio_mechas_barato_mejor_precio_papel_plata_para_peluqueri_a_para_mechas_y_tinturas.jpg"
+      }
+    ],
+    "productos": [
+      {
+        "idProducto": 57,
+        "nombre": "Tinte semipermanente",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Tinte sin amoniaco para cambiar el color del cabello temporalmente.",
+        "precio": 13.99,
+        "imagen": "https://media.vogue.es/photos/61d470ba717572e0af9379b5/3:4/w_748%2Cc_limit/Captura%2520de%2520pantalla%25202022-01-04%2520a%2520las%252017.06.55.png"
+      },
+      {
+        "idProducto": 56,
+        "nombre": "Tinte fantasía",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Tinte de colores vivos y fantasía para estilos creativos y únicos.",
+        "precio": 20.95,
+        "imagen": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSLhHBNmg-7xvLVx6399WDQF75RoW28OqOG7L5k79TkXt89JrB9vtd5tIoocjBNay__VAz8JcGm0lvIsrrJjhzhIYrwdKC3NO1exB-MvokWV3dHPVrMhmT2"
+      },
+      {
+        "idProducto": 22,
+        "nombre": "Tinte vegetal",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Coloración natural a base de extractos vegetales para un color suave y brillante.",
+        "precio": 12.99,
+        "imagen": "https://images.ecestaticos.com/4SNpKLoNF0FqDWiWuWT6KdMOCVU=/0x0:1550x2039/1440x1920/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fb4a%2F1c9%2F957%2Fb4a1c995744497e80a3e3ac221a224c5.jpg"
+      }
+    ],
+    "cuidadosPosteriores": [
+        "Evitar lavar el cabello durante las primeras 48 horas para permitir que el color se asiente.",
+        "Usar champú y acondicionador específicos para cabello teñido para mantener el color vibrante por más tiempo.",
+        "Evitar el uso excesivo de herramientas de calor como planchas y secadores para prevenir el desvanecimiento del color.",
+        "Aplicar un tratamiento hidratante semanalmente para mantener el cabello suave y saludable."
+    ],
+    "imagenesAdicionales": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQIGiicDYCPdC-ZmIxzWuckvXQRSYSpHKaA2izBpHa_Q&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxefC8d8EUTZFaNe6RS_YfT6WLguWjaT18OxU2f2zEtQ&s",
+      "https://cdn.bluebanana.com/prod/cache/sylius_shop_product_large_thumbnail/sylius/img/products/72789_crazy_color_hair_dye_bordeaux_red_model.jpg"
+    ]
+  }
+},
+{
+  "idServicio": 22,
+  "nombre": "Balayage Brondé",
+  "duracion": 120,
+  "precio": 65.99,
+  "categoria": "Coloración",
+  "subcategoria": "Balayage",
+  "descripcion": "El Balayage Brondé es ideal para mujeres con cabello oscuro, proporcionando vitalidad y luminosidad. Esta técnica de Balayage utiliza tonalidades más claras para crear un degradado de color perfecto, suavizando las facciones del rostro y aportando brillo al cabello.",
+  "dificultad": "media",
+  "enlaceImagen": "https://www.davidrial.com/modules/ph_simpleblog/covers/52.jpg",
+  "masinfo": {
+    "procedimiento": [
+      {
+        "paso": 1,
+        "descripcion": "Consultar con el cliente para determinar el tono y estilo deseados del Balayage Brondé."
+      },
+      {
+        "paso": 2,
+        "descripcion": "Preparar el cabello para el tratamiento, lavándolo y secándolo adecuadamente."
+      },
+      {
+        "paso": 3,
+        "descripcion": "Aplicar las tonalidades claras de forma estratégica en el cabello, utilizando la técnica de Balayage para lograr un degradado natural."
+      },
+      {
+        "paso": 4,
+        "descripcion": "Dejar actuar el producto durante el tiempo necesario para obtener el resultado deseado."
+      },
+      {
+        "paso": 5,
+        "descripcion": "Enjuagar y acondicionar el cabello para sellar el color y proporcionar brillo."
+      }
+    ],
+    "herramientas": [
+      {
+        "idProducto": 23,
+        "nombre": "Espátula de aplicación de tinte",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Herramienta de plástico para una aplicación uniforme del tinte de cabello.",
+        "precio": 1.49,
+        "imagen": "https://beticolor.es/wp-content/uploads/ESPATULA-TINTE-O-DECOLORACION.jpg"
+      },
+      {
+        "idProducto": 11,
+        "nombre": "Papel de aluminio para mechas",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Rollo de papel de aluminio para realizar mechas y reflejos.",
+        "precio": 10.99,
+        "imagen": "https://www.cortapelosyplanchas.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/rollo_papel_aluminio_mechas_bobina_papel_plata_para_peluqueri_a_100_metros_comprar_rollo_papel_aluminio_mechas_barato_mejor_precio_papel_plata_para_peluqueri_a_para_mechas_y_tinturas.jpg"
+      }
+    ],
+    "productos": [
+      {
+        "idProducto": 22,
+        "nombre": "Tinte vegetal",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Coloración natural a base de extractos vegetales para un color suave y brillante.",
+        "precio": 12.99,
+        "imagen": "https://images.ecestaticos.com/4SNpKLoNF0FqDWiWuWT6KdMOCVU=/0x0:1550x2039/1440x1920/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fb4a%2F1c9%2F957%2Fb4a1c995744497e80a3e3ac221a224c5.jpg"
+      },
+      {
+        "idProducto": 38,
+        "nombre": "Tinte sin amoníaco",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Coloración suave sin amoníaco que cuida el cabello durante el proceso.",
+        "precio": 6.25,
+        "imagen": "https://i.blogs.es/145ac5/palette-naturals-color-creme-tinte/450_1000.jpeg"
+      }
+    ],
+    "cuidadosPosteriores": [
+      "Evitar lavar el cabello durante las primeras 48 horas para permitir que el color se asiente.",
+      "Usar champú y acondicionador específicos para cabello teñido para mantener el color vibrante por más tiempo.",
+      "Evitar el uso excesivo de herramientas de calor como planchas y secadores para prevenir el desvanecimiento del color.",
+      "Aplicar un tratamiento hidratante semanalmente para mantener el cabello suave y saludable."
+    ],
+    "imagenesAdicionales": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeoRH-OC_ZQ1KzXayK90qJItyIFqCJURKcMkFzfDKIQw&s", "https://static.wixstatic.com/media/ca6146_eff4751f5dcc473eaace04018c40c8ec~mv2.jpg/v1/fill/w_199,h_242,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/26%20Balayage%20Bronde%20para%20cabello%20lacio%20m%C3%A1s%20corto.jpg", "https://onehairsalon.com/cdn/shop/articles/lived_in_denim_blonde_495x.jpeg?v=1571372006"]
+  }
+},
+{
+  "idServicio": 23,
+  "nombre": "Mechas Sombré",
+  "duracion": 90,
+  "precio": 55.99,
+  "categoria": "Coloración",
+  "subcategoria": "Balayage",
+  "descripcion": "Las Mechas Sombré son sutiles y suaves, creando una transición de tonalidades similar entre ellas para suavizar el color oscuro de manera leve. Esta técnica ofrece un efecto natural y duradero, con un inicio de color claro desde más arriba y una transición suave hacia las puntas.",
+  "dificultad": "media",
+  "enlaceImagen": "https://media.glamour.mx/photos/632339798645b8d42bd2a6f8/16:9/w_2580,c_limit/cabello_sombre_que_es_como_pedirlo.jpg",
+  "masinfo": {
+    "procedimiento": [
+      {
+        "paso": 1,
+        "descripcion": "Consultar con el cliente para determinar el estilo y tono deseados de las Mechas Sombré."
+      },
+      {
+        "paso": 2,
+        "descripcion": "Preparar el cabello para el tratamiento, lavándolo y secándolo adecuadamente."
+      },
+      {
+        "paso": 3,
+        "descripcion": "Aplicar las mechas de manera estratégica en el cabello, asegurándose de lograr una transición suave entre tonalidades."
+      },
+      {
+        "paso": 4,
+        "descripcion": "Dejar actuar el producto durante el tiempo necesario para obtener el resultado deseado."
+      },
+      {
+        "paso": 5,
+        "descripcion": "Enjuagar y acondicionar el cabello para sellar el color y proporcionar brillo."
+      }
+    ],
+    "herramientas": [
+      {
+        "idProducto": 23,
+        "nombre": "Espátula de aplicación de tinte",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Herramienta de plástico para una aplicación uniforme del tinte de cabello.",
+        "precio": 1.49,
+        "imagen": "https://beticolor.es/wp-content/uploads/ESPATULA-TINTE-O-DECOLORACION.jpg"
+      },
+      {
+        "idProducto": 11,
+        "nombre": "Papel de aluminio para mechas",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Rollo de papel de aluminio para realizar mechas y reflejos.",
+        "precio": 10.99,
+        "imagen": "https://www.cortapelosyplanchas.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/rollo_papel_aluminio_mechas_bobina_papel_plata_para_peluqueri_a_100_metros_comprar_rollo_papel_aluminio_mechas_barato_mejor_precio_papel_plata_para_peluqueri_a_para_mechas_y_tinturas.jpg"
+      }
+    ],
+    "productos": [
+      {
+        "idProducto": 22,
+        "nombre": "Tinte vegetal",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Coloración natural a base de extractos vegetales para un color suave y brillante.",
+        "precio": 12.99,
+        "imagen": "https://images.ecestaticos.com/4SNpKLoNF0FqDWiWuWT6KdMOCVU=/0x0:1550x2039/1440x1920/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fb4a%2F1c9%2F957%2Fb4a1c995744497e80a3e3ac221a224c5.jpg"
+      },
+      {
+        "idProducto": 38,
+        "nombre": "Tinte sin amoníaco",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Coloración suave sin amoníaco que cuida el cabello durante el proceso.",
+        "precio": 6.25,
+        "imagen": "https://i.blogs.es/145ac5/palette-naturals-color-creme-tinte/450_1000.jpeg"
+      }
+    ],
+    "cuidadosPosteriores": [
+      "Evitar lavar el cabello durante las primeras 48 horas para permitir que el color se asiente.",
+      "Usar champú y acondicionador específicos para cabello teñido para mantener el color vibrante por más tiempo.",
+      "Evitar el uso excesivo de herramientas de calor como planchas y secadores para prevenir el desvanecimiento del color.",
+      "Aplicar un tratamiento hidratante semanalmente para mantener el cabello suave y saludable."
+    ],
+    "imagenesAdicionales": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWobtbYakYoI6C9EaXzr6yjy-ScOSLidNd9tWzt1wDRw&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3iisdIxmayYOVwMKyFu_j3wruDBmtllj10wzIWvNFPg&s", "https://gruposaizpeluqueros.com/site/media/mechas-mujer.jpg"]
+  }
+},
+{
+  "idServicio": 24,
+  "nombre": "Mechas Ombré",
+  "duracion": 100,
+  "precio": 60.99,
+  "categoria": "Coloración",
+  "subcategoria": "Balayage",
+  "descripcion": "Las Mechas Ombré ofrecen un difuminado perfecto en el cabello, con un cambio más marcado a mitad de la melena y una leve variación en el color hacia las puntas, que terminan mucho más claras que el resto del cabello. Esta técnica proporciona un aspecto moderno y chic, perfecto para quienes desean un cambio de imagen llamativo y elegante.",
+  "dificultad": "media",
+  "enlaceImagen": "https://www.garnier.es/-/media/project/loreal/brand-sites/garnier/emea/es/articles/hair-color/asi-puedes-conseguir-las-mechas-ombre-en-casa/mechas_ombre_casa_headerdesktop.jpg?rev=3593bc60e0394450a9400a5715a3bfe0&h=534&w=950&la=es-ES&hash=974E6D4D16A4648E14CB55A533EBA145",
+  "masinfo": {
+    "procedimiento": [
+      {
+        "paso": 1,
+        "descripcion": "Consultar con el cliente para determinar el estilo y tono deseados de las Mechas Ombré."
+      },
+      {
+        "paso": 2,
+        "descripcion": "Preparar el cabello para el tratamiento, lavándolo y secándolo adecuadamente."
+      },
+      {
+        "paso": 3,
+        "descripcion": "Aplicar las mechas de manera estratégica en el cabello, concentrando el color más claro en las puntas y difuminándolo hacia arriba."
+      },
+      {
+        "paso": 4,
+        "descripcion": "Dejar actuar el producto durante el tiempo necesario para obtener el resultado deseado."
+      },
+      {
+        "paso": 5,
+        "descripcion": "Enjuagar y acondicionar el cabello para sellar el color y proporcionar brillo."
+      }
+    ],
+    "herramientas": [
+      {
+        "idProducto": 23,
+        "nombre": "Espátula de aplicación de tinte",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Herramienta de plástico para una aplicación uniforme del tinte de cabello.",
+        "precio": 1.49,
+        "imagen": "https://beticolor.es/wp-content/uploads/ESPATULA-TINTE-O-DECOLORACION.jpg"
+      },
+      {
+        "idProducto": 11,
+        "nombre": "Papel de aluminio para mechas",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Rollo de papel de aluminio para realizar mechas y reflejos.",
+        "precio": 10.99,
+        "imagen": "https://www.cortapelosyplanchas.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/rollo_papel_aluminio_mechas_bobina_papel_plata_para_peluqueri_a_100_metros_comprar_rollo_papel_aluminio_mechas_barato_mejor_precio_papel_plata_para_peluqueri_a_para_mechas_y_tinturas.jpg"
+      }
+    ],
+    "productos": [
+      {
+        "idProducto": 22,
+        "nombre": "Tinte vegetal",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Coloración natural a base de extractos vegetales para un color suave y brillante.",
+        "precio": 12.99,
+        "imagen": "https://images.ecestaticos.com/4SNpKLoNF0FqDWiWuWT6KdMOCVU=/0x0:1550x2039/1440x1920/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fb4a%2F1c9%2F957%2Fb4a1c995744497e80a3e3ac221a224c5.jpg"
+      },
+      {
+        "idProducto": 38,
+        "nombre": "Tinte sin amoníaco",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Coloración suave sin amoníaco que cuida el cabello durante el proceso.",
+        "precio": 6.25,
+        "imagen": "https://i.blogs.es/145ac5/palette-naturals-color-creme-tinte/450_1000.jpeg"
+      }
+    ],
+    "cuidadosPosteriores": [
+      "Evitar lavar el cabello durante las primeras 48 horas para permitir que el color se asiente.",
+      "Usar champú y acondicionador específicos para cabello teñido para mantener el color vibrante por más tiempo.",
+      "Evitar el uso excesivo de herramientas de calor como planchas y secadores para prevenir el desvanecimiento del color.",
+      "Aplicar un tratamiento hidratante semanalmente para mantener el cabello suave y saludable."
+    ],
+    "imagenesAdicionales": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgTa_M92NV1WCwEQtu1LB4GmsB6phfgo6H3Q4ajDdOYg&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJo2qDz4yqBsPmudPGMlAPSsVNIPpd1HACE-jyjWFI2Q&s", "https://sevilla.abc.es/estilo/bulevarsur/wp-content/uploads/sites/14/2019/05/ombre-mechas.jpg"]
+  }
+},
+{
+  "idServicio": 25,
+  "nombre": "Babylight chocolate",
+  "duracion": 120,
+  "precio": 65.99,
+  "categoria": "Coloración",
+  "subcategoria": "Babylights",
+  "descripcion": "El Babylight chocolate es una opción perfecta para resaltar la calidez profunda de los cabellos castaños oscuros. Esta técnica de coloración utiliza tonos cálidos que aportan luz al rostro y se mezclan naturalmente con la tonalidad natural del cabello.",
+  "dificultad": "media",
+  "enlaceImagen": "https://aprende.com/wp-content/uploads/2022/02/castano-oscuro-decorada-con-babylights-color-chocolate.png",
+  "masinfo": {
+    "procedimiento": [
+      {
+        "paso": 1,
+        "descripcion": "Consultar con el cliente para determinar el estilo y tono deseados de los Babylights chocolate."
+      },
+      {
+        "paso": 2,
+        "descripcion": "Preparar el cabello para el tratamiento, lavándolo y secándolo adecuadamente."
+      },
+      {
+        "paso": 3,
+        "descripcion": "Aplicar las Babylights de manera estratégica en el cabello, concentrando el color chocolate en secciones finas y sutiles."
+      },
+      {
+        "paso": 4,
+        "descripcion": "Dejar actuar el producto durante el tiempo necesario para obtener el resultado deseado."
+      },
+      {
+        "paso": 5,
+        "descripcion": "Enjuagar y acondicionar el cabello para sellar el color y proporcionar brillo."
+      }
+    ],
+    "herramientas": [
+      {
+        "idProducto": 23,
+        "nombre": "Espátula de aplicación de tinte",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Herramienta de plástico para una aplicación uniforme del tinte de cabello.",
+        "precio": 1.49,
+        "imagen": "https://beticolor.es/wp-content/uploads/ESPATULA-TINTE-O-DECOLORACION.jpg"
+      },
+      {
+        "idProducto": 11,
+        "nombre": "Papel de aluminio para mechas",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Rollo de papel de aluminio para realizar mechas y reflejos.",
+        "precio": 10.99,
+        "imagen": "https://www.cortapelosyplanchas.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/rollo_papel_aluminio_mechas_bobina_papel_plata_para_peluqueri_a_100_metros_comprar_rollo_papel_aluminio_mechas_barato_mejor_precio_papel_plata_para_peluqueri_a_para_mechas_y_tinturas.jpg"
+      }
+    ],
+    "productos": [
+      {
+        "idProducto": 57,
+        "nombre": "Tinte semipermanente",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Tinte sin amoniaco para cambiar el color del cabello temporalmente.",
+        "precio": 13.99,
+        "imagen": "https://media.vogue.es/photos/61d470ba717572e0af9379b5/3:4/w_748%2Cc_limit/Captura%2520de%2520pantalla%25202022-01-04%2520a%2520las%252017.06.55.png"
+      },
+      {
+        "idProducto": 59,
+        "nombre": "Champú revitalizante",
+        "categoria": "Productos de Cuidado Capilar",
+        "subcategoria": "Tratamientos Capilares",
+        "descripcion": "Champú suave para todo tipo de cabellos.",
+        "precio": 15.99,
+        "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+      },
+      {
+        "idProducto": 5,
+        "nombre": "Mascarilla capilar nutritiva",
+        "categoria": "Productos de Cuidado Capilar",
+        "subcategoria": "Tratamientos Capilares",
+        "descripcion": "Mascarilla con aceites naturales para nutrir y reparar el cabello dañado.",
+        "precio": 5.99,
+        "imagen": "https://www.primor.eu/blog/wp-content/uploads/2023/10/MASCARILLAS.jpg"
+      }
+    ],
+    "cuidadosPosteriores": [
+      "Evitar lavar el cabello durante las primeras 48 horas para permitir que el color se asiente.",
+      "Usar champú y acondicionador específicos para cabello teñido para mantener el color vibrante por más tiempo.",
+      "Evitar el uso excesivo de herramientas de calor como planchas y secadores para prevenir el desvanecimiento del color.",
+      "Aplicar un tratamiento hidratante semanalmente para mantener el cabello suave y saludable."
+    ],
+    "imagenesAdicionales": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl3pV1zrww7ssDQo9SRv1n8THYfKXF_E41ZoR9LUY98A&s", "https://i.pinimg.com/originals/46/89/8b/46898b04c10273501d28314f27e7c897.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUssl_MACiOgvSMFAQwlh0GMbEfzVK7BC0dJ3W9GtPqw&s"]
+  }
+},
+{
+  "idServicio": 26,
+  "nombre": "Babylight caramelo",
+  "duracion": 100,
+  "precio": 60.99,
+  "categoria": "Coloración",
+  "subcategoria": "Babylights",
+  "descripcion": "El Babylight caramelo es una opción luminosa y veraniega para cabellos castaños claros. Esta coloración utiliza tonos cálidos que proporcionan un aspecto luminoso y natural, perfecto para una temporada en la playa o la piscina.",
+  "dificultad": "media",
+  "enlaceImagen": "https://aprende.com/wp-content/uploads/2022/02/castano-claro-y-mechas-babylight-caramelo-bajo-el-sol.png",
+  "masinfo": {
+    "procedimiento": [
+      {
+        "paso": 1,
+        "descripcion": "Consultar con el cliente para determinar el estilo y tono deseados de los Babylights caramelo."
+      },
+      {
+        "paso": 2,
+        "descripcion": "Preparar el cabello para el tratamiento, lavándolo y secándolo adecuadamente."
+      },
+      {
+        "paso": 3,
+        "descripcion": "Aplicar las Babylights de manera estratégica en el cabello, concentrando el color caramelo en secciones finas y sutiles."
+      },
+      {
+        "paso": 4,
+        "descripcion": "Dejar actuar el producto durante el tiempo necesario para obtener el resultado deseado."
+      },
+      {
+        "paso": 5,
+        "descripcion": "Enjuagar y acondicionar el cabello para sellar el color y proporcionar brillo."
+      }
+    ],
+    "herramientas": [
+      {
+        "idProducto": 23,
+        "nombre": "Espátula de aplicación de tinte",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Herramienta de plástico para una aplicación uniforme del tinte de cabello.",
+        "precio": 1.49,
+        "imagen": "https://beticolor.es/wp-content/uploads/ESPATULA-TINTE-O-DECOLORACION.jpg"
+      },
+      {
+        "idProducto": 11,
+        "nombre": "Papel de aluminio para mechas",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Rollo de papel de aluminio para realizar mechas y reflejos.",
+        "precio": 10.99,
+        "imagen": "https://www.cortapelosyplanchas.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/rollo_papel_aluminio_mechas_bobina_papel_plata_para_peluqueri_a_100_metros_comprar_rollo_papel_aluminio_mechas_barato_mejor_precio_papel_plata_para_peluqueri_a_para_mechas_y_tinturas.jpg"
+      }
+    ],
+    "productos": [
+      {
+        "idProducto": 57,
+        "nombre": "Tinte semipermanente",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Tinte sin amoniaco para cambiar el color del cabello temporalmente.",
+        "precio": 13.99,
+        "imagen": "https://media.vogue.es/photos/61d470ba717572e0af9379b5/3:4/w_748%2Cc_limit/Captura%2520de%2520pantalla%25202022-01-04%2520a%2520las%252017.06.55.png"
+      },
+      {
+        "idProducto": 59,
+        "nombre": "Champú revitalizante",
+        "categoria": "Productos de Cuidado Capilar",
+        "subcategoria": "Tratamientos Capilares",
+        "descripcion": "Champú suave para todo tipo de cabellos.",
+        "precio": 15.99,
+        "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+      },
+      {
+        "idProducto": 5,
+        "nombre": "Mascarilla capilar nutritiva",
+        "categoria": "Productos de Cuidado Capilar",
+        "subcategoria": "Tratamientos Capilares",
+        "descripcion": "Mascarilla con aceites naturales para nutrir y reparar el cabello dañado.",
+        "precio": 5.99,
+        "imagen": "https://www.primor.eu/blog/wp-content/uploads/2023/10/MASCARILLAS.jpg"
+      }
+    ],
+    "cuidadosPosteriores": [
+      "Evitar lavar el cabello durante las primeras 48 horas para permitir que el color se asiente.",
+      "Usar champú y acondicionador específicos para cabello teñido para mantener el color vibrante por más tiempo.",
+      "Evitar el uso excesivo de herramientas de calor como planchas y secadores para prevenir el desvanecimiento del color.",
+      "Aplicar un tratamiento hidratante semanalmente para mantener el cabello suave y saludable."
+    ],
+    "imagenesAdicionales": ["https://leonora-studio.mx/cdn/shop/files/Disenosintitulo_7_336ee459-d449-4c8c-8344-3d03ddc7a0cb.png?v=1686355050&width=900", "https://i.pinimg.com/564x/89/19/1f/89191f750882366ae08f3de0268fd3c4.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGtRSrW10OXo8DUN3_YdsQpNTA15v81u_sWZlTRV8zsw&s"]
+  }
+},
+{
+  "idServicio": 27,
+  "nombre": "Babylight rubio cenizo",
+  "duracion": 110,
+  "precio": 70.99,
+  "categoria": "Coloración",
+  "subcategoria": "Babylights",
+  "descripcion": "El Babylight rubio cenizo es una opción moderna y versátil para cabellos rubios cenizos. Esta técnica de coloración utiliza tonos claros que iluminan el rostro y el cabello, creando reflejos naturales y un aspecto de volumen y movimiento.",
+  "dificultad": "media",
+  "enlaceImagen": "https://aprende.com/wp-content/uploads/2022/02/rubio-cenizo.png",
+  "masinfo": {
+    "procedimiento": [
+      {
+        "paso": 1,
+        "descripcion": "Consultar con el cliente para determinar el estilo y tono deseados de los Babylights rubio cenizo."
+      },
+      {
+        "paso": 2,
+        "descripcion": "Preparar el cabello para el tratamiento, lavándolo y secándolo adecuadamente."
+      },
+      {
+        "paso": 3,
+        "descripcion": "Aplicar las Babylights de manera estratégica en el cabello, concentrando el color rubio cenizo en secciones finas y sutiles."
+      },
+      {
+        "paso": 4,
+        "descripcion": "Dejar actuar el producto durante el tiempo necesario para obtener el resultado deseado."
+      },
+      {
+        "paso": 5,
+        "descripcion": "Enjuagar y acondicionar el cabello para sellar el color y proporcionar brillo."
+      }
+    ],
+    "herramientas": [
+      {
+        "idProducto": 23,
+        "nombre": "Espátula de aplicación de tinte",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Herramienta de plástico para una aplicación uniforme del tinte de cabello.",
+        "precio": 1.49,
+        "imagen": "https://beticolor.es/wp-content/uploads/ESPATULA-TINTE-O-DECOLORACION.jpg"
+      },
+      {
+        "idProducto": 11,
+        "nombre": "Papel de aluminio para mechas",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Rollo de papel de aluminio para realizar mechas y reflejos.",
+        "precio": 10.99,
+        "imagen": "https://www.cortapelosyplanchas.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/r/o/rollo_papel_aluminio_mechas_bobina_papel_plata_para_peluqueri_a_100_metros_comprar_rollo_papel_aluminio_mechas_barato_mejor_precio_papel_plata_para_peluqueri_a_para_mechas_y_tinturas.jpg"
+      }
+    ],
+    "productos": [
+      {
+        "idProducto": 57,
+        "nombre": "Tinte semipermanente",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Coloración",
+        "descripcion": "Tinte sin amoniaco para cambiar el color del cabello temporalmente.",
+        "precio": 13.99,
+        "imagen": "https://media.vogue.es/photos/61d470ba717572e0af9379b5/3:4/w_748%2Cc_limit/Captura%2520de%2520pantalla%25202022-01-04%2520a%2520las%252017.06.55.png"
+      },
+      {
+        "idProducto": 59,
+        "nombre": "Champú revitalizante",
+        "categoria": "Productos de Cuidado Capilar",
+        "subcategoria": "Tratamientos Capilares",
+        "descripcion": "Champú suave para todo tipo de cabellos.",
+        "precio": 15.99,
+        "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+      },
+      {
+        "idProducto": 5,
+        "nombre": "Mascarilla capilar nutritiva",
+        "categoria": "Productos de Cuidado Capilar",
+        "subcategoria": "Tratamientos Capilares",
+        "descripcion": "Mascarilla con aceites naturales para nutrir y reparar el cabello dañado.",
+        "precio": 5.99,
+        "imagen": "https://www.primor.eu/blog/wp-content/uploads/2023/10/MASCARILLAS.jpg"
+      }
+    ],
+    "cuidadosPosteriores": [
+      "Evitar lavar el cabello durante las primeras 48 horas para permitir que el color se asiente.",
+      "Usar champú y acondicionador específicos para cabello teñido para mantener el color vibrante por más tiempo.",
+      "Evitar el uso excesivo de herramientas de calor como planchas y secadores para prevenir el desvanecimiento del color.",
+      "Aplicar un tratamiento hidratante semanalmente para mantener el cabello suave y saludable."
+    ],
+    "imagenesAdicionales": ["https://content.instyle.es/medio/2023/03/23/337150214-536700631929863-8790704896874139063-n_3b7e3785_230323153527_1080x1350.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDJ8HdOYgg9t-6qJxUZ4zC2Py1ll81Moj74Ph0melOg&s", "https://www.peluqueriacristinacisneros.es/wp-content/uploads/2023/06/mechas-babylight-morenas.png"]
+  }
+},
+{
+  "idServicio": 28,
+  "nombre": "Moño alto bailarina",
+  "duracion": 90,
+  "precio": 70.99,
+  "categoria": "Peluquería",
+  "subcategoria": "Novias",
+  "descripcion": "El moño alto bailarina es un peinado elegante y sencillo que destaca la belleza del rostro y permite lucir el vestido de novia sin distracciones. Ideal para todo tipo de vestidos, este peinado es especialmente recomendable para rostros con forma ovalada.",
+  "dificultad": "media",
+  "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/9fd/05ad/685//-/es/wp-content/uploads/2018/05/cristina-poza.jpg",
+  "masinfo": {
+    "procedimiento": [
+      {
+        "paso": 1,
+        "descripcion": "Preparar el cabello limpio y seco, desenredándolo suavemente."
+      },
+      {
+        "paso": 2,
+        "descripcion": "Recolectar el cabello en una cola de caballo alta y asegurarlo con una banda elástica."
+      },
+      {
+        "paso": 3,
+        "descripcion": "Dividir el cabello en secciones y torcer cada sección para formar el moño."
+      },
+      {
+        "paso": 4,
+        "descripcion": "Asegurar el moño con horquillas y fijar con spray para el cabello."
+      },
+      {
+        "paso": 5,
+        "descripcion": "Añadir accesorios decorativos, como flores o pasadores, según el estilo deseado."
+      }
+    ],
+    "herramientas": [
+      {
+        "idProducto": 16,
+        "nombre": "Crema para peinar",
+        "categoria": "Productos de Cuidado Capilar",
+        "subcategoria": "Acondicionadores",
+        "descripcion": "Crema ligera para definir y controlar el cabello sin dejar residuos.",
+        "precio": 10.99,
+        "imagen": "https://images.ctfassets.net/ex1lib5py5z5/3UqoCS80HFI695p0kInMBy/547326df478a904c089cba395ab7097e/Crema_de_peinado.jpg"
+      },
+      {
+        "idProducto": 82,
+        "nombre": "Horquillas para recogidos",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Horquillas resistentes y discretas para sujetar el cabello en el recogido.",
+        "precio": 8.99,
+        "imagen": "https://m.media-amazon.com/images/I/71CmjDlVxzS._AC_UF894,1000_QL80_.jpg"
+      }
+    ],
+    "productos": [
+      {
+        "idProducto": 31,
+        "nombre": "Mascarilla matizadora",
+        "categoria": "Productos de Cuidado Capilar",
+        "subcategoria": "Tratamientos Capilares",
+        "descripcion": "Mascarilla que neutraliza los tonos amarillos y naranjas en cabellos rubios.",
+        "precio": 7.99,
+        "imagen": "https://www.bethshair.es/wp-content/uploads/2022/11/real-natura-mascarilla-matizadora-rubios-anti-amarillos-pro-cor-tom-500ml-5600493405600-beths-hair.jpg"
+      },
+      {
+        "idProducto": 58,
+        "nombre": "Gel de fijación extrafuerte",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Fijadores",
+        "descripcion": "Gel de larga duración para peinados que necesitan una fijación extrafuerte.",
+        "precio": 12.99,
+        "imagen": "https://thebeautycorner.eu/105580-large_default/gel-fijador-extra-fuerte-250-ml.jpg"
+      }
+    ],
+    "cuidadosPosteriores": [
+      "Evitar el contacto con el agua para mantener la forma y fijación del moño.",
+      "Usar un protector de peinados al dormir, como una malla o pañuelo de seda, para mantener el moño intacto.",
+      "Evitar el uso excesivo de productos adicionales que puedan alterar la fijación del peinado.",
+      "Si es necesario, retocar el peinado con horquillas adicionales o spray fijador para mantener su forma."
+    ],
+    "imagenesAdicionales": [
+      "https://cdn0.bodas.net/article/7984/original/1280/jpg/74897-mono-bailarina-novia-trenzado.jpeg",
+      "https://cdn0.bodas.net/article/9094/original/1280/jpg/74909-mono-bailarina-novia.jpeg",
+      "https://cdn0.bodas.net/article/7094/original/1280/jpg/74907-mono-bailarina-novia-horquillas-brillos1.jpeg"
+    ]
+  }
+},
+{
+  "idServicio": 29,
+  "nombre": "Moño bajo con tocado",
+  "duracion": 120,
+  "precio": 80.99,
+  "categoria": "Peluquería",
+  "subcategoria": "Novias",
+  "descripcion": "El moño bajo con tocado es una opción sofisticada y actual para las novias que desean realzar su peinado con accesorios artesanales. Este peinado sencillo permite lucir un tocado floral o cualquier otro aplique con elegancia.",
+  "dificultad": "media",
+  "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/1a1/3d53/685//-/es/wp-content/uploads/2018/05/fini-rico-foto-puan-fotografia.jpg",
+  "masinfo": {
+    "procedimiento": [
+      {
+        "paso": 1,
+        "descripcion": "Preparar el cabello limpio y seco, desenredándolo suavemente."
+      },
+      {
+        "paso": 2,
+        "descripcion": "Recolectar el cabello en una cola de caballo baja y asegurarlo con una banda elástica."
+      },
+      {
+        "paso": 3,
+        "descripcion": "Enrollar el cabello en un moño bajo y fijarlo con horquillas."
+      },
+      {
+        "paso": 4,
+        "descripcion": "Colocar el tocado o aplique elegido sobre el moño y asegurarlo con horquillas."
+      },
+      {
+        "paso": 5,
+        "descripcion": "Fijar el peinado con spray para el cabello para una mayor durabilidad."
+      }
+    ],
+    "herramientas": [
+      {
+        "idProducto": 16,
+        "nombre": "Crema para peinar",
+        "categoria": "Productos de Cuidado Capilar",
+        "subcategoria": "Acondicionadores",
+        "descripcion": "Crema ligera para definir y controlar el cabello sin dejar residuos.",
+        "precio": 10.99,
+        "imagen": "https://images.ctfassets.net/ex1lib5py5z5/3UqoCS80HFI695p0kInMBy/547326df478a904c089cba395ab7097e/Crema_de_peinado.jpg"
+      },
+      {
+        "idProducto": 82,
+        "nombre": "Horquillas para recogidos",
+        "categoria": "Herramientas de Corte y Peinado",
+        "subcategoria": "Accesorios",
+        "descripcion": "Horquillas resistentes y discretas para sujetar el cabello en el recogido.",
+        "precio": 8.99,
+        "imagen": "https://m.media-amazon.com/images/I/71CmjDlVxzS._AC_UF894,1000_QL80_.jpg"
+      }
+    ],
+    "productos": [
+      {
+        "idProducto": 31,
+        "nombre": "Mascarilla matizadora",
+        "categoria": "Productos de Cuidado Capilar",
+        "subcategoria": "Tratamientos Capilares",
+        "descripcion": "Mascarilla que neutraliza los tonos amarillos y naranjas en cabellos rubios.",
+        "precio": 7.99,
+        "imagen": "https://www.bethshair.es/wp-content/uploads/2022/11/real-natura-mascarilla-matizadora-rubios-anti-amarillos-pro-cor-tom-500ml-5600493405600-beths-hair.jpg"
+      },
+      {
+        "idProducto": 58,
+        "nombre": "Gel de fijación extrafuerte",
+        "categoria": "Productos de Coloración y Fijación",
+        "subcategoria": "Fijadores",
+        "descripcion": "Gel de larga duración para peinados que necesitan una fijación extrafuerte.",
+        "precio": 12.99,
+        "imagen": "https://thebeautycorner.eu/105580-large_default/gel-fijador-extra-fuerte-250-ml.jpg"
+      }
+    ],
+    "cuidadosPosteriores": [
+      "Evitar el contacto con el agua para mantener la forma y fijación del moño.",
+      "Usar un protector de peinados al dormir, como una malla o pañuelo de seda, para mantener el moño intacto.",
+      "Evitar el uso excesivo de productos adicionales que puedan alterar la fijación del peinado.",
+      "Si es necesario, retocar el peinado con horquillas adicionales o spray fijador para mantener su forma."
+    ],
+    "imagenesAdicionales": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMNPb_PffpQC45-ajdqfMwgPJ56GZiHQ59ZXqP2YqqGQ&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbSbdJjHrcbgq6aAO3Pl5EANz74vBSbr2p4B7n6G5A5A&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs-g8oiTyXCaQAm7KifL68I3WVbWJuOnx0fJ5XN-bHEg&s"
+    ]
+  }
+},
+{
+  "idServicio": 30,
+  "nombre": "Moño messy trenzado",
+  "duracion": 100,
+  "precio": 75.99,
+  "categoria": "Peluquería",
+  "subcategoria": "Novias",
+  "descripcion": "El moño messy trenzado ofrece un estilo desenfadado y texturizado para las novias que desean un look natural pero elaborado. Con trenzas finas y mechones sueltos, este peinado proporciona un efecto despeinado chic que favorece a rostros con facciones duras.",
+  "dificultad": "media",
+  "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/51f/82ef/685//-/es/wp-content/uploads/2017/11/kiwo11.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Dividir el cabello en secciones y realizar pequeñas trenzas en cada una."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Recoger todas las trenzas y el cabello suelto en un moño desenfadado en la parte trasera."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Fijar el moño con horquillas y dejar algunos mechones sueltos para un efecto más natural."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Adornar el moño con una corona de flores naturales o un accesorio elegante, si se desea."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Fijar el peinado con spray para el cabello para una mayor durabilidad."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 16,
+          "nombre": "Crema para peinar",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Acondicionadores",
+          "descripcion": "Crema ligera para definir y controlar el cabello sin dejar residuos.",
+          "precio": 10.99,
+          "imagen": "https://images.ctfassets.net/ex1lib5py5z5/3UqoCS80HFI695p0kInMBy/547326df478a904c089cba395ab7097e/Crema_de_peinado.jpg"
+        },
+        {
+          "idProducto": 82,
+          "nombre": "Horquillas para recogidos",
+          "categoria": "Herramientas de Corte y Peinado",
+          "subcategoria": "Accesorios",
+          "descripcion": "Horquillas resistentes y discretas para sujetar el cabello en el recogido.",
+          "precio": 8.99,
+          "imagen": "https://m.media-amazon.com/images/I/71CmjDlVxzS._AC_UF894,1000_QL80_.jpg"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 31,
+          "nombre": "Mascarilla matizadora",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Mascarilla que neutraliza los tonos amarillos y naranjas en cabellos rubios.",
+          "precio": 7.99,
+          "imagen": "https://www.bethshair.es/wp-content/uploads/2022/11/real-natura-mascarilla-matizadora-rubios-anti-amarillos-pro-cor-tom-500ml-5600493405600-beths-hair.jpg"
+        },
+        {
+          "idProducto": 58,
+          "nombre": "Gel de fijación extrafuerte",
+          "categoria": "Productos de Coloración y Fijación",
+          "subcategoria": "Fijadores",
+          "descripcion": "Gel de larga duración para peinados que necesitan una fijación extrafuerte.",
+          "precio": 12.99,
+          "imagen": "https://thebeautycorner.eu/105580-large_default/gel-fijador-extra-fuerte-250-ml.jpg"
+        }
+      ],
+      "cuidadosPosteriores": [
+        "Evitar el contacto con el agua para mantener la forma y textura del moño.",
+        "Utilizar un protector de peinados al dormir para evitar que las trenzas se deshagan.",
+        "Evitar el uso excesivo de productos adicionales que puedan alterar la textura del peinado.",
+        "Si es necesario, retocar el peinado con horquillas adicionales o spray fijador para mantener su forma desenfadada."
+      ],
+      "imagenesAdicionales": ["https://content.clara.es/medio/2020/04/24/mono-con-vuelta-trenzada_e2cab253_1280x1828.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrQXHBkr1bjej3RFgQXUi9v6LKiTckmhK0HWCA14Ervg&s", "https://i.pinimg.com/736x/54/f7/3b/54f73bb6a97e4c1e0a4818cb6131bbbc.jpg"]
+  }
+},
+{
+  "idServicio": 31,
+  "nombre": "Corona trasera trenzada y ladeada",
+  "duracion": 110,
+  "precio": 85.99,
+  "categoria": "Peluquería",
+  "subcategoria": "Novias",
+  "descripcion": "La corona trasera trenzada y ladeada es una opción romántica y sutil para las novias que desean un peinado con trenzas. Este peinado combina una corona hecha con el propio cabello de la novia con una trenza lateral básica, creando un look distintivo y elegante.",
+  "dificultad": "media",
+  "enlaceImagen": "https://asset1.zankyou.com/images/mag-post/c0d/d7ee/685//-/es/wp-content/uploads/2017/11/kiwo7.jpg",
+  "masinfo": {
+      "procedimiento": [
+          {
+              "paso": 1,
+              "descripcion": "Crear una trenza lateral básica en uno de los lados del cabello."
+          },
+          {
+              "paso": 2,
+              "descripcion": "Recoger el resto del cabello hacia atrás y formar una corona con él, asegurándola con horquillas."
+          },
+          {
+              "paso": 3,
+              "descripcion": "Entrelazar la trenza lateral con la corona trasera y asegurarla con horquillas."
+          },
+          {
+              "paso": 4,
+              "descripcion": "Despeinar ligeramente la corona y la trenza para un aspecto más romántico y desenfadado."
+          },
+          {
+              "paso": 5,
+              "descripcion": "Fijar el peinado con spray para el cabello para una mayor durabilidad."
+          }
+      ],
+      "herramientas": [
+        {
+          "idProducto": 16,
+          "nombre": "Crema para peinar",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Acondicionadores",
+          "descripcion": "Crema ligera para definir y controlar el cabello sin dejar residuos.",
+          "precio": 10.99,
+          "imagen": "https://images.ctfassets.net/ex1lib5py5z5/3UqoCS80HFI695p0kInMBy/547326df478a904c089cba395ab7097e/Crema_de_peinado.jpg"
+        },
+        {
+          "idProducto": 82,
+          "nombre": "Horquillas para recogidos",
+          "categoria": "Herramientas de Corte y Peinado",
+          "subcategoria": "Accesorios",
+          "descripcion": "Horquillas resistentes y discretas para sujetar el cabello en el recogido.",
+          "precio": 8.99,
+          "imagen": "https://m.media-amazon.com/images/I/71CmjDlVxzS._AC_UF894,1000_QL80_.jpg"
+        }
+      ],
+      "productos": [
+        {
+          "idProducto": 31,
+          "nombre": "Mascarilla matizadora",
+          "categoria": "Productos de Cuidado Capilar",
+          "subcategoria": "Tratamientos Capilares",
+          "descripcion": "Mascarilla que neutraliza los tonos amarillos y naranjas en cabellos rubios.",
+          "precio": 7.99,
+          "imagen": "https://www.bethshair.es/wp-content/uploads/2022/11/real-natura-mascarilla-matizadora-rubios-anti-amarillos-pro-cor-tom-500ml-5600493405600-beths-hair.jpg"
+        },
+        {
+          "idProducto": 58,
+          "nombre": "Gel de fijación extrafuerte",
+          "categoria": "Productos de Coloración y Fijación",
+          "subcategoria": "Fijadores",
+          "descripcion": "Gel de larga duración para peinados que necesitan una fijación extrafuerte.",
+          "precio": 12.99,
+          "imagen": "https://thebeautycorner.eu/105580-large_default/gel-fijador-extra-fuerte-250-ml.jpg"
+        }
+      ],
+      "cuidadosPosteriores": [
+        "Evitar el contacto con el agua para mantener la forma y fijación del peinado.",
+        "Usar un protector de peinados al dormir para evitar que la trenza se deshaga o se afloje.",
+        "Evitar el uso de accesorios que puedan engancharse en la trenza o corona y deshacer el peinado.",
+        "Si es necesario, retocar el peinado con horquillas adicionales o spray fijador para mantener su forma y sujeción a lo largo del día."
+      ],
+      "imagenesAdicionales": ["https://i.ytimg.com/vi/tOa2ldHwsq0/maxresdefault.jpg", "https://content.clara.es/medio/2018/10/09/peinados-con-trenzas-bodas-2018-espiga_e1b1ba2d_1000x1500.jpg", "https://content.clara.es/medio/2018/10/09/peinados-con-trenzas-bodas-2018-corona-suelto_d9f3ff7e_1000x1500.jpg"]
+  }
+}]

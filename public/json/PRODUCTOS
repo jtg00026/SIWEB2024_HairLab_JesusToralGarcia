@@ -520,5 +520,239 @@
     "descripcion": "Gel de larga duración para peinados que necesitan una fijación extrafuerte.",
     "precio": 12.99,
     "imagen": "https://thebeautycorner.eu/105580-large_default/gel-fijador-extra-fuerte-250-ml.jpg"
+  },
+  {
+    "idProducto": 59,
+    "nombre": "Champú revitalizante",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
+    "descripcion": "Champú suave para todo tipo de cabellos.",
+    "precio": 15.99,
+    "imagen": "https://media.farmaciacastellanos.com/product/champu-revitalizante-interapothek-400-ml-800x800.jpg"
+  },
+  {
+    "idProducto": 60,
+    "nombre": "Brochas de maquillaje",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Juego de brochas profesionales para aplicar maquillaje.",
+    "precio": 39.99,
+    "imagen": "https://m.media-amazon.com/images/I/81ehQtyPZzS._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "idProducto": 61,
+    "nombre": "Esponja de maquillaje",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Esponja para difuminar y aplicar productos líquidos o cremosos.",
+    "precio": 12.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu1O3DBXuSUrFmsRlq9SeyAuqPZQg_Igq_D7UCQXYzJQ&s"
+  },
+  {
+    "idProducto": 62,
+    "nombre": "Base de maquillaje",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Base de maquillaje de larga duración con cobertura media.",
+    "precio": 29.99,
+    "imagen": "https://cdn.azure.revlon.com/-/media/project/revlon-inc/revlon/revloncom/pdp/face/esp---colorstay-makeup-for-normal-dry-skin-spf-20/normal-dry/rv_2h22_intl_cs_longwear_makeup_fresh_beige_250_normal.ashx?h=1065&iar=0&w=600"
+  },
+  {
+    "idProducto": 63,
+    "nombre": "Paleta de sombras",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Paleta de sombras de ojos con una variedad de tonos para crear diferentes looks.",
+    "precio": 24.99,
+    "imagen": "https://www.maquillalia.com/images/productos/revolution-paleta-de-sombras-re-loaded-affection-2-42173.jpeg"
+  },
+  {
+    "idProducto": 64,
+    "nombre": "Esmalte de uñas",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Esmalte de uñas de larga duración con una amplia gama de colores.",
+    "precio": 8.99,
+    "imagen": "https://s.libertaddigital.com/2022/01/17/esmalte-de-unas-liangmei-1003.jpg"
+  },
+  {
+      "idProducto": 65,
+      "nombre": "Top coat",
+      "categoria": "Otros",
+      "subcategoria": "Otros",
+      "descripcion": "Capa protectora y brillante para prolongar la duración del esmalte.",
+      "precio": 6.99,
+      "imagen": "https://global.opi.com/sites/default/files/styles/product_photos/public/opi-top-coat-ntt30-top-base-coats-22001009000_4.jpg?itok=UaXjDI0q"
+  },
+  {
+    "idProducto": 66,
+    "nombre": "Cortaúñas",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Cortaúñas de acero inoxidable para recortar las uñas de forma precisa.",
+    "precio": 9.99,
+    "imagen": "https://shop.carobels.com/869-large_default/cortaunas-grande-ilmn.jpg"
+  },
+  {
+      "idProducto": 67,
+      "nombre": "Empujador de cutículas",
+      "categoria": "Otros",
+      "subcategoria": "Otros",
+      "descripcion": "Empujador de madera para limpiar y dar forma a las cutículas.",
+      "precio": 5.99,
+      "imagen": "https://www.agrucompbelleza.es/1304/empujador-de-cuticulas-metalico-de-acero-inoxidable.jpg"
+  },
+  {
+    "idProducto": 68,
+    "nombre": "Cera depilatoria",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Cera caliente o tibia para depilación de cejas y otras zonas del cuerpo.",
+    "precio": 16.99,
+    "imagen": "https://m.media-amazon.com/images/I/71lQnBPwhDL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "idProducto": 69,
+    "nombre": "Bandas de depilación",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Bandas de papel o tela para retirar la cera de forma rápida y efectiva.",
+    "precio": 9.99,
+    "imagen": "https://static.carrefour.es/hd_510x_/img_pim_food/761073_00_1.jpg"
+  },
+  {
+    "idProducto": 70,
+    "nombre": "Aceite de almendras",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Aceite suavizante para eliminar los residuos de cera y calmar la piel.",
+    "precio": 7.99,
+    "imagen": "https://www.arganour.com/cdn/shop/products/8435438600072-aceite-almendras-dulces-web_1024x1024.png?v=1707908989"
+  },
+  {
+    "idProducto": 71,
+    "nombre": "Gel post-depilatorio",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Gel refrescante y calmante para aliviar la irritación después de la depilación.",
+    "precio": 12.99,
+    "imagen": "https://www.lapeluqueriaenlaweb.com/wp-content/uploads/2020/10/Gel-post-depilatorio-pollie.jpeg"
+  },
+  {
+      "idProducto": 72,
+      "nombre": "Crema hidratante corporal",
+      "categoria": "Otros",
+      "subcategoria": "Otros",
+      "descripcion": "Crema hidratante con ingredientes nutritivos para mantener la piel suave y flexible.",
+      "precio": 16.99,
+      "imagen": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1648561400-41pZCnnUd8L._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*"
+  },
+  {
+    "idProducto": 73,
+    "nombre": "Crema depilatoria",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Crema suavizante para eliminar el vello de forma rápida y eficaz.",
+    "precio": 19.99,
+    "imagen": "https://cdn2.primor.eu/media/catalog/product/cache/8d3aba296f7a18b5251ee30fa5db42b2/1/D/1DP00100_1_4588.webp"
+  },
+  {
+    "idProducto": 74,
+    "nombre": "Espátula depilatoria",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Espátula de madera para retirar el producto depilatorio y el vello de las piernas.",
+    "precio": 5.99,
+    "imagen": "https://m.media-amazon.com/images/I/61K8HC5h0uS.jpg"
+  },
+  {
+    "idProducto": 75,
+    "nombre": "Mascarilla facial hidratante",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Mascarilla con ingredientes hidratantes y nutritivos para revitalizar la piel del rostro.",
+    "precio": 24.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLp5KG6KbnBdtZZTqGciRh35UhQ72WkRbCxCW_heUO2Q&s"
+  },
+  {
+      "idProducto": 76,
+      "nombre": "Serum facial rejuvenecedor",
+      "categoria": "Otros",
+      "subcategoria": "Otros",
+      "descripcion": "Serum concentrado con ingredientes antioxidantes para combatir los signos de la edad.",
+      "precio": 29.99,
+      "imagen": "https://www.maquillalia.com/images/productos/natura-siberica-lab-biome-serum-facial-rejuvenecedor-1-68090.jpeg"
+  },
+  {
+    "idProducto": 77,
+    "nombre": "Limpiador facial",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Limpiador suave y refrescante para eliminar impurezas sin resecar la piel.",
+    "precio": 15.99,
+    "imagen": "https://ziajashop.es/11085-large_default/ziaja-limpiador-facial-en-espuma-para-pieles-secas.jpg"
+  },
+  {
+    "idProducto": 78,
+    "nombre": "Exfoliante facial",
+    "categoria": "Otros",
+    "subcategoria": "Otros",
+    "descripcion": "Exfoliante suave con partículas naturales para una limpieza profunda y renovación celular.",
+    "precio": 19.99,
+    "imagen": "https://www.hola.com/imagenes/seleccion/20210204183712/mejores-exfoliantes-faciales/1-60-693/la-roche-posay-exfoliante-z.jpg"
+  },
+  {
+    "idProducto": 79,
+    "nombre": "Decolorante capilar",
+    "categoria": "Productos de Coloración y Fijación",
+    "subcategoria": "Coloración",
+    "descripcion": "Decolorante en polvo o crema para aclarar el cabello y crear reflejos luminosos.",
+    "precio": 29.99,
+    "imagen": "https://www.sorci.es/4860-home_default/crema-decolorante-capilar-lumiere-high-platinum-tahe-100-ml.jpg"
+  },
+  {
+    "idProducto": 80,
+    "nombre": "Espuma voluminizadora",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
+    "descripcion": "Espuma ligera y voluminizadora para dar textura y cuerpo al cabello antes de crear el recogido.",
+    "precio": 14.99,
+    "imagen": "https://www.keshop.com/es/3355-large_default/espuma-voluminizadora-250-ml.jpg"
+  },
+  {
+    "idProducto": 81,
+    "nombre": "Serum capilar anti-frizz",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
+    "descripcion": "Serum ligero para controlar el encrespamiento y darle brillo al cabello en el recogido.",
+    "precio": 19.99,
+    "imagen": "https://www.druni.es/media/catalog/product/1/3/1307457.jpg"
+  },
+  {
+    "idProducto": 82,
+    "nombre": "Horquillas para recogidos",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Accesorios",
+    "descripcion": "Horquillas resistentes y discretas para sujetar el cabello en el recogido.",
+    "precio": 8.99,
+    "imagen": "https://m.media-amazon.com/images/I/71CmjDlVxzS._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "idProducto": 83,
+    "nombre": "Extensiones de cabello natural",
+    "categoria": "Herramientas de Corte y Peinado",
+    "subcategoria": "Accesorios",
+    "descripcion": "Extensiones de cabello humano de alta calidad para lograr un aspecto natural y duradero.",
+    "precio": 99.99,
+    "imagen": "https://www.lacasadelpelo.es/wp-content/uploads/2019/09/extensiones-de-cortina-de-pelo-natural-virgen-onduladas.jpg"
+  },
+  {
+    "idProducto": 84,
+    "nombre": "Keratina para extensiones",
+    "categoria": "Productos de Cuidado Capilar",
+    "subcategoria": "Tratamientos Capilares",
+    "descripcion": "Keratina especial para unir las extensiones al cabello natural de manera segura y sin dañar la fibra capilar.",
+    "precio": 39.99,
+    "imagen": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRclgqkklY6EIL3FjtyuLdiJvi3xca03xbCUotfAJHkpWwScPCMWqPrNTvUWOZYGC41v0OkTlXcujGj0w93ljCW4wAtQDSb7t8uvYAz7k9Gd1Il2yYYl9YNxA"
   }
 ]
