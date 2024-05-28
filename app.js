@@ -1,5 +1,4 @@
 const express = require('express');
-const http = require('http');
 const path = require('path');
 const fs = require('fs');
 const mongoose = require('mongoose');
@@ -24,12 +23,10 @@ const PORT = 3001; // Cambiado el puerto a 3001
 
 // Middleware para manejar solicitudes JSON
 app.use(express.json());
+app.use(express.urlencoded({ extended: true })); // Maneja también formularios
 
 // Middleware para servir archivos estáticos desde la carpeta 'public'
 app.use(express.static(path.join(__dirname, 'public')));
-
-// Middleware para analizar los datos del cuerpo de la solicitud
-app.use(bodyParser.urlencoded({ extended: true }));
 
 // Configuración de la sesión
 app.use(session({
@@ -91,7 +88,7 @@ app.post('/registrarUsuario', async (req, res) => {
         res.redirect('/index.html');
     } catch (error) {
         console.error('Error al registrar el usuario:', error);
-        res.status(500).send('Error interno del servidor');
+        res.status(500).json({ success: false, message: 'Error interno del servidor' });
     }
 });
 
@@ -126,7 +123,7 @@ app.get('/obtenerServicios', async (req, res) => {
         res.json(serviciosObtenidos);
     } catch (error) {
         console.error('Error al obtener los servicios:', error);
-        res.status(500).send('Error interno del servidor');
+        res.status(500).json({ success: false, message: 'Error interno del servidor' });
     }
 });
 
@@ -138,13 +135,13 @@ app.get('/obtenerServicio', async (req, res) => {
         const servicio = await servicios.findOne({ idServicio: servicioId });
         if (!servicio) {
             // Si no se encuentra el servicio, enviar un mensaje de error
-            return res.status(404).send('Servicio no encontrado');
+            return res.status(404).json({ success: false, message: 'Servicio no encontrado' });
         }
         // Si se encuentra el servicio, enviarlo como respuesta
         res.json(servicio);
     } catch (error) {
         console.error('Error al obtener el servicio:', error);
-        res.status(500).send('Error interno del servidor');
+        res.status(500).json({ success: false, message: 'Error interno del servidor' });
     }
 });
 
@@ -157,7 +154,7 @@ app.get('/obtenerProductos', async (req, res) => {
         res.json(productosObtenidos);
     } catch (error) {
         console.error('Error al obtener los productos:', error);
-        res.status(500).send('Error interno del servidor');
+        res.status(500).json({ success: false, message: 'Error interno del servidor' });
     }
 });
 
@@ -196,6 +193,70 @@ app.get('/:pagina', (req, res) => {
             res.sendFile(filePath);
         }
     });
+});
+
+app.get('/estaAutenticado', (req, res) => {
+    console.log('Verificando autenticación:', req.isAuthenticated());
+    if (req.isAuthenticated()) {
+        res.json({ autenticado: true });
+    } else {
+        res.json({ autenticado: false });
+    }
+});
+
+app.post('/reservar', async (req, res) => {
+    if (!req.isAuthenticated()) {
+        return res.status(401).json({ success: false, message: 'No autenticado' });
+    }
+
+    const { fecha, hora, idServicio } = req.body;
+    console.log('Datos de reserva:', { fecha, hora, idServicio });
+
+    try {
+        const usuario = await usuarios.findById(req.user._id);
+        if (!usuario) {
+            return res.status(500).json({ success: false, message: 'Error al encontrar el usuario' });
+        }
+
+        const servicio = await servicios.findOne({ idServicio });
+        if (!servicio) {
+            return res.status(404).json({ success: false, message: 'Servicio no encontrado' });
+        }
+
+        const nuevaReserva = {
+            idReserva: Math.floor(Math.random() * 10000),
+            fecha: new Date(fecha),
+            hora,
+            estado: 'Pendiente',
+            peluqueria: {
+                idPeluqueria: 1,
+                cif: "ABC",
+                nombreNegocio: "peluqueriaMariTere",
+                direccion: "madrededios 47",
+                localidad: {
+                    codPostal: "23400",
+                    nombre: "Ubeda",
+                    pais: "España"
+                }
+            },
+            servicio: {
+                idServicio: servicio.idServicio,
+                nombre: servicio.nombre,
+                duracion: servicio.duracion,
+                precio: servicio.precio,
+                descripcion: servicio.descripcion,
+                dificultad: servicio.dificultad
+            }
+        };
+
+        usuario.reservas.push(nuevaReserva);
+        await usuario.save();
+
+        res.json({ success: true, message: 'Reserva creada con éxito' });
+    } catch (error) {
+        console.log('Error al crear la reserva:', error);
+        res.status(500).json({ success: false, message: 'Error al crear la reserva' });
+    }
 });
 
 // Iniciar el servidor

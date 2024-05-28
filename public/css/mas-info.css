@@ -417,110 +417,120 @@
 
 /* Estilos para los marcos */
 #infoServicio {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los marcos */
+#infoServicio {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Marco Principal */
 .marco-principal {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
 /* Title Styles */
 h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 h3 {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 h4 {
-    font-size: 18px;
-    margin: 10px 0;
+  font-size: 18px;
+  margin: 10px 0;
 }
 
 /* Paragraph Styles */
 p {
-    margin: 10px 0;
-    line-height: 1.6;
+  margin: 10px 0;
+  line-height: 1.6;
 }
 
 /* Image Styles */
 img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* Uniform Image Size */
 img.uniform-size {
-    width: 100%;
-    height: 200px; /* Set a fixed height */
-    object-fit: cover; /* Ensures the image covers the box without distorting */
+  width: 100%;
+  height: 300px; /* Set a larger height */
+  object-fit: contain; /* Ensures the image fits within the box without distorting */
 }
 
 /* Group Containers */
 .group-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 /* Rounded Boxes for Tools and Products */
 .rounded-box {
-    flex: 1 1 calc(50% - 20px);
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Additional Images Container */
 .additional-images {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .additional-images img {
-    flex: 1 1 calc(33% - 10px);
-    height: 200px; /* Set a fixed height */
-    object-fit: cover; /* Ensures the image covers the box without distorting */
-    border: 1px solid #ddd;
-    border-radius: 8px;
+  flex: 1 1 calc(33% - 10px);
+  height: 300px; /* Set a larger height */
+  object-fit: contain; /* Ensures the image fits within the box without distorting */
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
 
 /* Lists */
 ol, ul {
-    padding-left: 20px;
-    margin: 10px 0;
+  padding-left: 20px;
+  margin: 10px 0;
 }
 
 li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 /* Responsive Design */
 @media (max-width: 600px) {
-    .rounded-box {
-        flex: 1 1 100%;
-    }
+  .rounded-box {
+      flex: 1 1 100%;
+  }
 
-    .additional-images img {
-        flex: 1 1 100%;
-    }
+  .additional-images img {
+      flex: 1 1 100%;
+  }
 }
