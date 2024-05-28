@@ -21,15 +21,19 @@ const ServiciosSchema = new mongoose.Schema({
             idProducto: Number,
             nombre: String,
             categoria: String,
+            subcategoria: String,
             descripcion: String,
-            precio: Number
+            precio: Number,
+            imagen: String
         }],
         productos: [{
             idProducto: Number,
             nombre: String,
             categoria: String,
+            subcategoria: String,
             descripcion: String,
-            precio: Number
+            precio: Number,
+            imagen: String
         }], 
         cuidadosPosteriores: [String],
         imagenesAdicionales: [String]

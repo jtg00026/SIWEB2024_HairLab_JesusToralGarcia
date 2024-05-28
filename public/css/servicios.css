@@ -222,6 +222,7 @@
 /* Estilos para el contenedor del héroe */
 .hero92-header30 {
   gap: var(--dl-space-space-twounits);
+  height: 30vh; /* Ajusta la altura del héroe al 50% del viewport */
 }
 
 .hero92-image {
@@ -242,7 +243,8 @@
   height: 100%;
   display: flex;
   position: absolute;
-  align-items: flex-start;
+  align-items: center; /* Centra verticalmente el contenido */
+  justify-content: center; /* Centra horizontalmente el contenido */
   flex-direction: column;
   background-color: rgba(255,255,255,0.7);
 }
@@ -250,6 +252,7 @@
 .hero92-max-width {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
+  max-width: 800px; /* Ajusta el ancho máximo del contenido */
   display: flex;
   z-index: 1;
   align-items: center;
@@ -279,7 +282,7 @@
 /* Estilos para la disposición de los servicios */
 #servicios-lista {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Reducir el ancho mínimo de cada servicio */
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Ajustar el ancho mínimo de cada servicio */
   gap: 20px; /* Ajustar el espacio entre los servicios */
   justify-items: center;
 }
@@ -292,8 +295,8 @@
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   margin: 20px;
-  width: 280px; /* Tamaño fijo para cada servicio */
-  height: 400px; /* Tamaño fijo para cada servicio */
+  width: 350px; /* Tamaño fijo para cada servicio (más ancho) */
+  height: 650px; /* Tamaño fijo para cada servicio (más alto) */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -305,7 +308,7 @@
 
 .servicio img {
   width: 100%;
-  height: 100%; /* La imagen ocupará todo el espacio del marco */
+  height: 50%; /* La imagen ocupará el 60% del marco para dejar más espacio al contenido */
   object-fit: cover; /* Ajusta la imagen para que se ajuste al contenedor sin distorsionarse */
   transition: filter 0.3s ease-in-out;
 }
@@ -320,13 +323,13 @@
 }
 
 .servicio h2 {
-  font-size: 20px;
+  font-size: 24px; /* Aumenta el tamaño de la fuente */
   margin-bottom: 10px;
   color: #333333;
 }
 
 .servicio p {
-  font-size: 14px;
+  font-size: 16px; /* Aumenta el tamaño de la fuente */
   margin-bottom: 8px;
   color: #666666;
   text-align: center; /* Alinea el texto al centro */
@@ -335,11 +338,11 @@
 /* Estilos para los botones de reserva */
 .reservar-button {
   margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 12px 24px; /* Aumenta el tamaño del botón */
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
   font-weight: bold;
   color: white;
-  background-color: #009688;
+  background-color: var(--dl-color-theme-primary1);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -347,18 +350,19 @@
 }
 
 .reservar-button:hover {
-  background-color: #00796b;
+  background-color: var(--dl-color-theme-primary2);
 }
 
+
 /* Estilos para los botones de categoría */
-.categorias-container {
+.subcategorias-container {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.categoria-button {
+.subcategoria-button {
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
@@ -370,7 +374,7 @@
   transition: background-color 0.3s ease;
 }
 
-.categoria-button:hover {
+.subcategoria-button:hover {
   background-color: #00796b;
 }
 

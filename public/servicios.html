@@ -209,15 +209,27 @@
       </div>
       <script src="./js/servicios.js"></script>
 
+      <div class="iniciarsesion-hero2">
+         <div class="hero92-header30 interfaz-section-padding">
+            <img alt="Salón de peluquería elegante" src="https://images.unsplash.com/photo-1493775379751-a6c3940f3cbc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNTQ5ODk2MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080" class="hero92-image" />
+            <div class="hero92-container">
+               <div class="hero92-max-width interfaz-section-max-width">
+                  <div class="hero92-content">
+                     <h1 class="hero92-text interfaz-heading-1">
+                        <span>Catálogo completo de servicios</span>
+                     </h1>
+                     <p class="hero92-text1 interfaz-body-large">
+                        <span>Aqui puedes encontrar el catálogo completo de servicios que se ofrecen en el establecimiento.</span>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
       <div class="main-container">
         <!-- Columna de filtrado a la derecha -->
         <div class="filtros-container">
-           <div class="categorias-container">
-              <button class="categoria-button" data-categoria="todos">Todos</button>
-              <button class="categoria-button" data-categoria="Peluquería">Peluquería</button>
-              <button class="categoria-button" data-categoria="Coloración">Coloración</button>
-              <button class="categoria-button" data-categoria="Estética">Estética</button>
-           </div>
            <div class="subcategorias-container">
               <button class="subcategoria-button" data-subcategoria="todos">Todos</button>
               <button class="subcategoria-button" data-subcategoria="Cortes">Cortes</button>
@@ -231,7 +243,6 @@
               <button class="subcategoria-button" data-subcategoria="Cuidados">Cuidados</button>
               <button class="subcategoria-button" data-subcategoria="Depilación">Depilación</button>
            </div>
-           <!-- Agrega selectores adicionales para otros campos filtrables como precio, dificultad, etc. -->
         </div>
         <!-- Columna de productos a la izquierda -->
         <div class="productos-container">
@@ -299,7 +310,7 @@
                                 servicioDiv.style.boxShadow = "none";
                             });
                             servicioDiv.addEventListener("click", function () {
-                                window.location.href = `/servicio/${servicio.idServicio}`;
+                                window.location.href = `mas-info.html?id=${servicio.idServicio}`;
                             });
     
                             const imagen = document.createElement("img");
@@ -332,7 +343,7 @@
                             reservarButton.classList.add("reservar-button");
                             reservarButton.addEventListener("click", function (event) {
                                 event.stopPropagation(); // Evitar que el clic se propague al contenedor
-                                window.location.href = `/reservar?servicioId=${servicio.idServicio}`;
+                                window.location.href = `reservar.html?id=${servicio.idServicio}`;
                             });
                             servicioDiv.appendChild(reservarButton);
     
