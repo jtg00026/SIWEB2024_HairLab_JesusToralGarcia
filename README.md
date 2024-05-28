@@ -590,3 +590,21 @@ Elementos de navegación empleados:
 - Herramientas de filtrado oportunos.
 
 # Implementación del Sitio Web: Pruebas de Usabilidad
+Listado de tecnologias empleadas para el desarrollo del sitio web:
+- [![html5](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s)](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s)
+- [![css3](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png)
+- [![passport.js](https://miro.medium.com/v2/resize:fit:1400/1*1uqt6nCd57rb7RyUbeQFjw.png)](https://miro.medium.com/v2/resize:fit:1400/1*1uqt6nCd57rb7RyUbeQFjw.png)
+- [![express+nodejs](https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzojuy79lo3fn3qdt7g6p.png)](https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzojuy79lo3fn3qdt7g6p.png)
+- [![mongodb](https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png)](https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png)
+
+Las pruebas de usabilidad han ayudado a modificar los siguientes aspectos:
+- Adaptar la interfaz para un público de edad y experiencia con las nuevas tecnologías variado.
+- Jerarquizar los elementos de información (servicios y productos) en sus debidas categorías y subcategorías.
+- Distribución de las utilidades de la web en los sitios donde se sitúan con frecuencia en otros sitios web, respetando los estándares y tratando de reducir el esfuero del usuario para operar sobre el sitio web.
+- Modificado la paleta de colores para que minimizar conflictos con el daltonismo.
+    - --dl-color-theme-accent1: #F3E8E2;
+    - --dl-color-theme-accent2: #D8BFAF;
+    - --dl-color-theme-secondary1: #F3E8E2;
+    - --dl-color-theme-secondary2: #E0D1CB;
+    - --dl-color-theme-neutral-dark: #191818;
+    - --dl-color-theme-neutral-light: #FBFAF9;
