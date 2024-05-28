@@ -529,3 +529,64 @@ Sirviendo de contexto inicial este informe previo, pasaremos a detallar los resu
         - Carlos espera encontrar el producto al mejor precio posible y que le llegue en tiempo y forma óptimos.
 
 ## Diseño de la Arquitectura de la Información: Documentación del Contenido
+
+Con motivo de catalogar los diferentes elementos de información que se disponen en el sitio web, se ha realizado el siguiente cardsorting, para catalogar los productos y servicios de manera jerarquica.
+
+[![cardsorting](/imagenes/CardSortingServicios.jpeg.png)](/imagenes/CardSortingServicios.jpeg.png)
+[![cardsorting](/imagenes/CardSortingProductos.png)](/imagenes/CardSortingServicios.jpeg.png)
+[![cardsorting](/imagenes/CardSortingProductos2.png)](/imagenes/CardSortingServicios.jpeg.png)
+
+
+Dispondremos de dos tipos de elementos de información troncales:
+- **Productos:**
+     - Tendrá un formato mixto, contendrá la información relativa a los mismos.
+     - Dispondrá de elementos visuales como imagenes o videos para facilitar al usuario determinar el producto.
+     - La audiencia estará destinada al cliente, ya que pretendemos venderlos y darlos a conocer.
+     - Se debe establecer relacion de prioridad sobre los productos en oferta o mas relevantes.
+     - Se deben eliminar los productos desfasados u obsoletos, para no confundir al cliente y proporcionar una vista limpia con los productos que efectivamente, sí estan realmente disponibles.
+     - La información que determina y diferencia un producto de otro será fundamental para diferenciarlos correctamente.
+- **Servicios:**
+    - Al igual que los productos, debemos cumplir las mismas condiciones para informar correctamente al usuario.
+
+A continuación, se muestra el inventario completo de servicios que hay en el sitio web:
+- Servicios de peluqueria:
+    - [![inventario](/imagenes/inventario_servicios_1.png)](/imagenes/inventario_servicios_1.png)
+    - [![inventario](/imagenes/inventario_servicios_2.png)](/imagenes/inventario_servicios_2.png)
+    - [![inventario](/imagenes/inventario_servicios_3.png)](/imagenes/inventario_servicios_3.png)
+- Productos:
+    - [![inventario](/imagenes/inventario_productos_1.png)](inventario_productos_1.png)
+    - [![inventario](/imagenes/inventario_productos_2.png)](inventario_productos_2.png)
+    - [![inventario](/imagenes/inventario_productos_3.png)](inventario_productos_3.png)
+    - [![inventario](/imagenes/inventario_productos_4.png)](inventario_productos_4.png)
+    - [![inventario](/imagenes/inventario_productos_5.png)](inventario_productos_5.png)
+    - [![inventario](/imagenes/inventario_productos_6.png)](inventario_productos_6.png)
+    - [![inventario](/imagenes/inventario_productos_7.png)](inventario_productos_7.png)
+    - [![inventario](/imagenes/inventario_productos_8.png)](inventario_productos_8.png)
+    - [![inventario](/imagenes/inventario_productos_9.png)](inventario_productos_9.png)
+    
+Otros puntos generales sobre la AI del sitio web:
+- Se ha utilizado un lenguaje constante, para mejorar el SEO de la página.
+- Los productos y servicios están catalogados de manera que sea intuitivo encontrarlos, tanto humanamente como para los algoritmos de SEO.
+- Se ha respetado el lenguaje estándar para mencionar términos técnicos.
+
+## Diseño de la Arquitectura de la Información: Diseño de la Navegación
+En primer lugar, se plantea el siguiente mapa del sitio web, para a posteriori, comenzar a diseñar la interfaz de usuario.
+[![mapa](/imagenes/diseno/Mapa%20sitio%20web.png)](/imagenes/diseno/Mapa%20sitio%20web.png)
+
+A continuación, se proponen los siguientes wireframes para orientar el desarrollo de la interfaz.
+[![index](/imagenes/diseno/Index.jpeg.png)](/imagenes/diseno/Index.jpeg.png)
+[![indexDesplegable](/imagenes/diseno/IndexDesplegable.jpeg.png)](/imagenes/diseno/IndexDesplegable.jpeg.png)
+[![secciones](/imagenes/diseno/Secciones.png)](/imagenes/diseno/Secciones.png)
+[![masinfo](/imagenes/diseno/MasInfo.png)](/imagenes/diseno/MasInfo.png)
+[![reservar](/imagenes/diseno/Reservar.png)](/imagenes/diseno/Reservar.png)
+[![login](/imagenes/diseno/Login.png)](/imagenes/diseno/Login.png)
+[![contacto](/imagenes/diseno/Contacto.png)](/imagenes/diseno/Contacto.png)
+[![aboutus](/imagenes/diseno/Conocenos.png)](/imagenes/diseno/Conocenos.png)
+
+Elementos de navegación empleados:
+- Breadcrumbs
+- Barra de navegación constante en todo el sitio web con acceso a los elementos troncales.
+- Cabecera constante con enlaces a partes importantes.
+- Herramientas de filtrado oportunos.
+
+# Implementación del Sitio Web: Pruebas de Usabilidad
