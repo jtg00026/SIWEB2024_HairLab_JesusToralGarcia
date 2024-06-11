@@ -195,6 +195,7 @@ app.get('/:pagina', (req, res) => {
     });
 });
 
+
 app.get('/estaAutenticado', (req, res) => {
     console.log('Verificando autenticación:', req.isAuthenticated());
     if (req.isAuthenticated()) {
@@ -203,6 +204,7 @@ app.get('/estaAutenticado', (req, res) => {
         res.json({ autenticado: false });
     }
 });
+
 
 app.post('/reservar', async (req, res) => {
     if (!req.isAuthenticated()) {
