@@ -2,15 +2,14 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
 const passport = require('passport');
 const session = require('express-session');
 const LocalStrategy = require('passport-local').Strategy;
 
-const usuarios = require('./models/usuarios');
-const peluquerias = require('./models/peluquerias');
-const servicios = require('./models/servicios');
-const productos = require('./models/productos');
+const Usuarios = require('./models/usuarios');
+const Peluquerias = require('./models/peluquerias');
+const Servicios = require('./models/servicios');
+const Productos = require('./models/productos');
 
 const uri = "mongodb://admin:admin@localhost:27017/bdd?authSource=admin";
 
@@ -45,7 +44,7 @@ passport.use(new LocalStrategy({
     passwordField: 'password' // Campo del formulario para la contraseña
 }, async (email, password, done) => {
     try {
-        const usuario = await usuarios.findOne({ email });
+        const usuario = await Usuarios.findOne({ email });
 
         if (!usuario) {
             return done(null, false, { message: 'Usuario no encontrado' });
@@ -68,7 +67,7 @@ passport.serializeUser((usuario, done) => {
 
 passport.deserializeUser(async (id, done) => {
     try {
-        const usuario = await usuarios.findById(id);
+        const usuario = await Usuarios.findById(id);
         done(null, usuario);
     } catch (error) {
         done(error);
@@ -82,7 +81,7 @@ app.post('/registrarUsuario', async (req, res) => {
         console.log('Datos del usuario recibidos:', userData);
 
         // Guardar el nuevo usuario en la base de datos
-        await usuarios.create(userData);
+        await Usuarios.create(userData);
 
         console.log('Usuario registrado correctamente en la base de datos.');
         res.redirect('/index.html');
@@ -118,7 +117,7 @@ app.post('/iniciarSesion', (req, res, next) => {
 app.get('/obtenerServicios', async (req, res) => {
     try {
         // Obtener todos los servicios de la base de datos
-        const serviciosObtenidos = await servicios.find();
+        const serviciosObtenidos = await Servicios.find();
         console.log("Servicios encontrados:", serviciosObtenidos);
         res.json(serviciosObtenidos);
     } catch (error) {
@@ -132,7 +131,7 @@ app.get('/obtenerServicio', async (req, res) => {
     try {
         const servicioId = req.query.id;
         // Buscar el servicio por su idServicio en lugar de _id
-        const servicio = await servicios.findOne({ idServicio: servicioId });
+        const servicio = await Servicios.findOne({ idServicio: servicioId });
         if (!servicio) {
             // Si no se encuentra el servicio, enviar un mensaje de error
             return res.status(404).json({ success: false, message: 'Servicio no encontrado' });
@@ -149,7 +148,7 @@ app.get('/obtenerServicio', async (req, res) => {
 app.get('/obtenerProductos', async (req, res) => {
     try {
         // Obtener todos los productos de la base de datos
-        const productosObtenidos = await productos.find();
+        const productosObtenidos = await Productos.find();
         console.log("Productos encontrados:", productosObtenidos);
         res.json(productosObtenidos);
     } catch (error) {
@@ -215,12 +214,12 @@ app.post('/reservar', async (req, res) => {
     console.log('Datos de reserva:', { fecha, hora, idServicio });
 
     try {
-        const usuario = await usuarios.findById(req.user._id);
+        const usuario = await Usuarios.findById(req.user._id);
         if (!usuario) {
             return res.status(500).json({ success: false, message: 'Error al encontrar el usuario' });
         }
 
-        const servicio = await servicios.findOne({ idServicio });
+        const servicio = await Servicios.findOne({ idServicio });
         if (!servicio) {
             return res.status(404).json({ success: false, message: 'Servicio no encontrado' });
         }

@@ -1,286 +1,323 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Tienda - HairLab</title>
-    <meta property="og:title" content="Tienda - Vigilant Insubstantial Marten" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-        html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth; }
-    </style>
-    <style data-tag="default-style-sheet">
-        html {
-            font-family: Noto Sans;
-            font-size: 16px;
-        }
-
-        body {
-            font-weight: 400;
-            font-style:normal;
-            text-decoration: none;
-            text-transform: none;
-            letter-spacing: normal;
-            line-height: 1.15;
-            color: var(--dl-color-theme-neutral-dark);
-            background-color: var(--dl-color-theme-neutral-light);
-
-            fill: var(--dl-color-theme-neutral-dark);
-        }
-    </style>
-    <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap" data-tag="font" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
-    <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
-</head>
-<body>
-<link rel="stylesheet" href="./css/style.css" />
-<div>
-    <link href="./css/tienda.css" rel="stylesheet" />
-
-    <div class="tienda-container">
-        <div class="tienda-navbar1">
-            <div class="crear-usuario-navbar1">
-                <div class="navbar4-container">
-                    <img alt="image" src="./logo-400w.png" class="navbar4-image" />
-                    <header data-thq="thq-navbar" class="navbar4-navbar-interactive">
-                        <div data-thq="thq-navbar-nav" class="navbar4-desktop-menu">
-                            <nav class="navbar4-links">
-                                <a
-                                        href="index.html"
-                                        class="navbar4-link1 thq-link thq-body-small"
-                                >
-                                    <span>Inicio</span>
-                                </a>
-                                <a
-                                        href="servicios.html"
-                                        class="navbar4-link2 thq-link thq-body-small"
-                                >
-                                    <span>Servicios</span>
-                                </a>
-                                <a
-                                        href="tienda.html"
-                                        class="navbar4-link3 thq-link thq-body-small"
-                                >
-                                    <span>Tienda</span>
-                                </a>
-                                <a
-                                        href="about-us.html"
-                                        class="navbar4-link4 thq-link thq-body-small"
-                                >
-                                    <span>Sobre nosotros</span>
-                                </a>
-                                <a
-                                        href="contacto.html"
-                                        class="navbar4-link5 thq-link thq-body-small"
-                                >
-                                    <span>Contacto</span>
-                                </a>
-                            </nav>
+<html lang="es">
+   <head>
+      <title>HairLab - Boutique</title>
+      <meta property="og:title" content="HairLab - Boutique" />
+      <meta name="viewport" content="width=device-width, initial-scale=0.75" />
+      <meta charset="utf-8" />
+      <meta property="twitter:card" content="summary_large_image" />
+      <style data-tag="reset-style-sheet">
+         html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      </style>
+      <style data-tag="default-style-sheet">
+         html {
+         font-family: Noto Sans;
+         font-size: 16px;
+         }
+         body {
+         font-weight: 400;
+         font-style:normal;
+         text-decoration: none;
+         text-transform: none;
+         letter-spacing: normal;
+         line-height: 1.15;
+         color: var(--dl-color-theme-neutral-dark);
+         background-color: var(--dl-color-theme-neutral-light);
+         fill: var(--dl-color-theme-neutral-dark);
+         zoom: 75%;
+         }
+      </style>
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+         data-tag="font"
+         />
+   </head>
+   <body>
+      <link rel="stylesheet" href="./css/style.css" />
+      <div>
+         <link href="./css/tienda.css" rel="stylesheet" />
+         <div class="tienda-container">
+            <!-- Cabecera inicial-->
+            <div class="top-bar">
+               <nav class="nav">
+                  <ul class="nav-list">
+                     <li class="nav-item"><a href="about-us.html">Conócenos</a></li>
+                     <li class="nav-item"><a href="contacto.html">Contacto</a></li>
+                     <li class="nav-item"><a href="servicios.html">Nuestros servicios</a></li>
+                     <li class="nav-item"><a href="tienda.html">Nuestros productos</a></li>
+                  </ul>
+               </nav>
+            </div>
+            <!-- Cabecera barra navegable -->
+            <div class="home-navbar1">
+               <div class="navbar4-container">
+                  <a href="./index.html">
+                  <img alt="image" src="./images/logo/logo-400w.png" class="navbar4-image" />
+                  </a>
+                  <header class="navbar4-navbar-interactive">
+                     <div class="navbar4-desktop-menu">
+                        <nav class="navbar4-links">
+                           <!-- Primer link con submenu -->
+                           <div class="navbar4-link-wrapper">
+                              <a href="peluqueria.html" class="navbar4-link1 interfaz-link interfaz-body-small">
+                              <span>Peluquería</span>
+                              </a>
+                              <div class="navbar4-submenu">
+                                 <!-- Contenidos submenu -->
+                                 <div class="submenu-column">
+                                    <a href="cortes.html">
+                                       <h4>Cortes</h4>
+                                       <img src="https://haircutday.com/img/categorias/serv/20210730093127_2_pelqueria-corte-cabello.jpg" alt="Cortes">
+                                    </a>
+                                    <hr>
+                                    <a href="mas-info.html?id=8">Corte de barba</a>
+                                    <a href="mas-info.html?id=1">Corte de pelo masculino</a>
+                                    <a href="mas-info.html?id=2">Corte de pelo femenino</a>
+                                 </div>
+                                 <div class="submenu-column">
+                                    <a href="peinados.html">
+                                       <h4>Peinados</h4>
+                                       <img src="https://www.atipe.es/wp-content/uploads/2022/07/female-hairdresser-making-hairstyle-to-blonde-woman-in-beauty-salon-1-scaled.jpg" alt="Peinados">
+                                    </a>
+                                    <hr>
+                                    <a href="mas-info.html?id=9">Alisado de cabello</a>
+                                    <a href="mas-info.html?id=20">Extensiones de cabello</a>
+                                    <a href="mas-info.html?id=5">Peinado para evento</a>
+                                    <a href="mas-info.html?id=18">Recogido para evento</a>
+                                 </div>
+                                 <div class="submenu-column">
+                                    <a href="novias.html">
+                                       <h4>Novias</h4>
+                                       <img src="https://cdn0.bodas.net/vendor/80218/3_2/640/jpeg/d7885a41-9c6d-4fda-b8d7-3abf493fe6f4_1_180218-163195959187992.jpeg" alt="Novias">
+                                    </a>
+                                    <hr>
+                                    <a href="mas-info.html?id=31">Corona trasera trenzada</a>
+                                    <a href="mas-info.html?id=28">Moño alto bailarina</a>
+                                    <a href="mas-info.html?id=29">Moño bajo con tocado</a>
+                                    <a href="mas-info.html?id=30">Moño messy trenzado</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Segundo link con submenu -->
+                           <div class="navbar4-link-wrapper">
+                              <a href="coloracion.html" class="navbar4-link1 interfaz-link interfaz-body-small">
+                              <span>Coloración</span>
+                              </a>
+                              <div class="navbar4-submenu">
+                                 <!-- Contenidos submenu -->
+                                 <div class="submenu-column">
+                                    <a href="babylight.html">
+                                       <h4>Babylight</h4>
+                                       <img src="https://marcopm.com/wp-content/uploads/2021/11/Babylight-en-Pamplona-peluqueria-MarcoPM-3.jpg" alt="Babylight">
+                                    </a>
+                                    <hr>
+                                    <a href="mas-info.html?id=26">Babylight caramelo</a>
+                                    <a href="mas-info.html?id=25">Babylight chocolate</a>
+                                    <a href="mas-info.html?id=27">Babylight rubio cenizo</a>
+                                 </div>
+                                 <div class="submenu-column">
+                                    <a href="balayage.html">
+                                       <h4>Balayage</h4>
+                                       <img src="https://www.mobiliariopeluquerias.com/wp-content/uploads/2022/08/blog-tecnicas-mechas.jpg" alt="Balayage">
+                                    </a>
+                                    <hr>
+                                    <a href="mas-info.html?id=22">Balayage Brondé</a>
+                                    <a href="mas-info.html?id=24">Mechas Ombré</a>
+                                    <a href="mas-info.html?id=23">Mechas Sombré</a>
+                                 </div>
+                                 <div class="submenu-column">
+                                    <a href="tintes.html">
+                                       <h4>Tintes</h4>
+                                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYvQAJXDT_PMUpYrInppcP-yaXUaqHiu0d0cnzXtNBMg&s" alt="Tintes">
+                                    </a>
+                                    <hr>
+                                    <a href="mas-info.html?id=17">Reflejos en el cabello</a>
+                                    <a href="mas-info.html?id=3">Tinte de cabello</a>
+                                    <a href="mas-info.html?id=21">Tinte semipermanente</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Tercer link con submenu -->
+                           <div class="navbar4-link-wrapper">
+                              <a href="estetica.html" class="navbar4-link1 interfaz-link interfaz-body-small">
+                              <span>Estética</span>
+                              </a>
+                              <div class="navbar4-submenu">
+                                 <!-- Contenidos submenu -->
+                                 <div class="submenu-column">
+                                    <a href="depilacion.html">
+                                       <h4>Depilación</h4>
+                                       <img src="https://bettypeluquerias.com/wp-content/uploads/2021/05/servicios-depilacion-cera-betty-peluquerias.jpg" alt="Depilación">
+                                    </a>
+                                    <hr>
+                                    <a href="mas-info.html?id=14">Depilación de axilas</a>
+                                    <a href="mas-info.html?id=12">Depilación de cejas</a>
+                                    <a href="mas-info.html?id=13">Depilación de piernas</a>
+                                 </div>
+                                 <div class="submenu-column">
+                                    <a href="maquillajes.html">
+                                       <h4>Maquillajes</h4>
+                                       <img src="https://www.escueladesarts.com/wp-content/uploads/tipos-maquillaje.jpg" alt="Maquillajes">
+                                    </a>
+                                    <hr>
+                                    <a href="mas-info.html?id=15">Maquillaje de novia</a>
+                                    <a href="mas-info.html?id=6">Maquillaje para evento</a>
+                                 </div>
+                                 <div class="submenu-column">
+                                    <a href="tratamientos.html">
+                                       <h4>Tratamientos</h4>
+                                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGamjclHi7atAlgvgp6Oth8zFu14Lg6oj6OSAun1dyNQ&s" alt="Tratamientos">
+                                    </a>
+                                    <hr>
+                                    <a href="mas-info.html?id=7">Lavado de cabello</a>
+                                    <a href="mas-info.html?id=4">Tratamiento capilar</a>
+                                    <a href="mas-info.html?id=19">Tratamiento de keratina</a>
+                                    <a href="mas-info.html?id=16">Tratamiento facial</a>
+                                 </div>
+                                 <div class="submenu-column">
+                                    <a href="cuidados.html">
+                                       <h4>Cuidados</h4>
+                                       <img src="https://centrodebellezahyb.com/blog/wp-content/uploads/2021/03/manicura-pedicura.jpg" alt="Cuidados">
+                                    </a>
+                                    <hr>
+                                    <a href="mas-info.html?id=10">Manicura</a>
+                                    <a href="mas-info.html?id=11">Pedicura</a>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- Otros enlaces sin submenu -->
+                           <a href="tienda.html" class="navbar4-link4 interfaz-link interfaz-body-small">
+                           <span>Boutique</span>
+                           </a>
+                           <a href="area_usuarios.html" class="navbar4-link5 interfaz-link interfaz-body-small">
+                           <span>Área de Usuarios</span>
+                           </a>
+                        </nav>
+                        <div class="navbar4-usuario">
+                           <div class="usuario-icon" id="usuario-icon">
+                              <img src="https://cdn-icons-png.flaticon.com/512/6861/6861326.png" alt="Usuario">
+                           </div>
+                           <div class="usuario-dropdown" id="usuario-dropdown">
+                              <a href="./iniciar-sesion.html" class="dropdown-link">Iniciar sesión</a>
+                              <a href="./crear-usuario.html" class="dropdown-link">Crear cuenta</a>
+                           </div>
                         </div>
-                        <div data-thq="thq-burger-menu" class="navbar4-burger-menu">
-                            <svg viewBox="0 0 1024 1024" class="navbar4-icon">
-                                <path
-                                        d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-                                ></path>
-                            </svg>
+                     </div>
+                  </header>
+               </div>
+            </div>
+            <script src="./js/tienda.js"></script> 
+
+            <div class="crear-usuario-hero2">
+               <div class="hero92-header30 interfaz-section-padding">
+                  <img alt="Salón de peluquería elegante" src="https://images.unsplash.com/photo-1493775379751-a6c3940f3cbc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNTQ5ODk2MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080" class="hero92-image" />
+                  <div class="hero92-container">
+                     <div class="hero92-max-width interfaz-section-max-width">
+                        <div class="hero92-content">
+                           <h1 class="hero92-text interfaz-heading-1">
+                              <span>Nuestra boutique de productos</span>
+                           </h1>
+                           <p class="hero92-text1 interfaz-body-large">
+                              <span>Aqui puedes encontrar el material con el que trabajamos.</span>
+                           </p>
                         </div>
-                        <div data-thq="thq-mobile-menu" class="navbar4-mobile-menu">
-                            <div class="navbar4-nav">
-                                <div class="navbar4-top">
-                                    <img
-                                            alt="Logo de la peluquería"
-                                            src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&amp;force_format=original"
-                                            class="navbar4-logo"
-                                    />
-                                    <div data-thq="thq-close-menu" class="navbar4-close-menu">
-                                        <svg viewBox="0 0 1024 1024" class="navbar4-icon2">
-                                            <path
-                                                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                                            ></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <nav class="navbar4-links1">
-                                    <span class="thq-link thq-body-small">
-                                        <span>Inicio</span>
-                                    </span>
-                                    <span class="thq-link thq-body-small">
-                                        <span>Servicios</span>
-                                    </span>
-                                    <span class="thq-link thq-body-small">
-                                        <span>Tienda</span>
-                                    </span>
-                                    <span class="thq-link thq-body-small">
-                                        <span>Sobre nosotros</span>
-                                    </span>
-                                    <span class="thq-link thq-body-small">
-                                        <span>Contacto</span>
-                                    </span>
-                                </nav>
-                            </div>
-                            <div class="navbar4-buttons1">
-                                <button class="thq-button-filled">Login</button>
-                                <button class="thq-button-outline">Register</button>
-                            </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Sección de la tienda -->
+            <div class="tienda-section">
+               <h2 class="tienda-title">Nuestra Tienda</h2>
+               <div class="search-container">
+                  <input type="text" id="search-input" class="search-input" placeholder="Buscar productos...">
+               </div>
+               <div class="filters">
+                  <div class="dropdowns">
+                     <div class="dropdown">
+                        <button class="dropdown-toggle" id="category-dropdown">Categoría <i class="fas fa-caret-down"></i></button>
+                        <div class="dropdown-content" id="category-dropdown-content">
+                           <div data-category="Todos">Todos</div>
+                           <div data-category="Herramientas de Corte y Peinado">Herramientas de Corte y Peinado</div>
+                           <div data-category="Herramientas de Estilizado">Herramientas de Estilizado</div>
+                           <div data-category="Productos de Cuidado Capilar">Productos de Cuidado Capilar</div>
+                           <div data-category="Productos de Coloración y Fijación">Productos de Coloración y Fijación</div>
+                           <div data-category="Equipos y Accesorios de Trabajo">Equipos y Accesorios de Trabajo</div>
                         </div>
-                    </header>
-                </div>
-            </div>
-        </div>
-
-        <div class="crear-usuario-hero2">
-            <div class="hero92-header30 thq-section-padding">
-                <img
-                        alt="Salón de peluquería elegante"
-                        src="https://images.unsplash.com/photo-1493775379751-a6c3940f3cbc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNTQ5ODk2MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080"
-                        class="hero92-image"
-                />
-                <div class="hero92-container"></div>
-                <div class="hero92-max-width thq-section-max-width">
-                    <div class="hero92-content">
-                        <h1 class="hero92-text thq-heading-1">
-                            <span>Nuestra boutique de productos</span>
-                        </h1>
-                        <p class="hero92-text1 thq-body-large">
-                            <span>
-                                Selecciona el botón de compra del producto deseado para pasar a formalizar el pago.
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Sección de la tienda -->
-        <div class="tienda-section">
-            <h2 class="tienda-title">Nuestra Tienda</h2>
-            <div class="search">
-                <input type="text" id="search-input" placeholder="Buscar productos...">
+                     </div>
+                     <div class="dropdown">
+                        <button class="dropdown-toggle" id="subcategory-dropdown">Subcategoría <i class="fas fa-caret-down"></i></button>
+                        <div class="dropdown-content" id="subcategory-dropdown-content">
+                           <!-- Subcategorías se cargarán dinámicamente -->
+                        </div>
+                     </div>
+                     <div class="dropdown">
+                        <button class="dropdown-toggle" id="price-dropdown">Rango de Precio <i class="fas fa-caret-down"></i></button>
+                        <div class="dropdown-content" id="price-dropdown-content">
+                           <label for="min-price">Mínimo:</label>
+                           <input type="number" id="min-price" placeholder="Mínimo">
+                           <label for="max-price">Máximo:</label>
+                           <input type="number" id="max-price" placeholder="Máximo">
+                           <button id="apply-price-filter">Aplicar</button>
+                        </div>
+                     </div>
+                  </div>
+                  <button id="cart-icon" class="cart-icon">
+                     <img src="./images/varias/cart.png" alt="Carrito de Compras" class="cart-image">
+                     <span id="cart-count">0</span>
+                 </button>
+               </div>
+               <div class="products" id="product-list">
+                  <!-- Aquí se insertarán los productos -->
+               </div>
             </div>
 
-            <div class="categories">
-                <div class="category-select active" data-category="Todos">Todos</div>
-                <div class="category-select" data-category="Tijeras">Tijeras</div>
-                <div class="category-select" data-category="Planchas">Planchas</div>
-                <div class="category-select" data-category="Secadores">Secadores</div>
-                <div class="category-select" data-category="Cepillos">Cepillos</div>
-                <div class="category-select" data-category="Tratamientos capilares">Tratamientos capilares</div>
-                <div class="category-select" data-category="Coloración">Coloración</div>
-                <div class="category-select" data-category="Fijadores">Fijadores</div>
-                <div class="category-select" data-category="Capas de corte">Capas de corte</div>
-                <div class="category-select" data-category="Máquinas de cortar">Máquinas de cortar</div>
-                <div class="category-select" data-category="Accesorios">Accesorios</div>
-                <div class="category-select" data-category="Rizadores">Rizadores</div>
-                <div class="category-select" data-category="Acondicionadores">Acondicionadores</div>
+            <!-- Carrito modal -->
+            <div id="cart-modal" class="cart-modal">
+               <div class="cart-modal-content">
+                  <span id="close-cart" class="close-cart">&times;</span>
+                  <h2>Carrito de Compras</h2>
+                  <div id="cart-items">
+                     <!-- Aquí se añadirán los productos del carrito -->
+                  </div>
+                  <div class="cart-footer">
+                     <button id="checkout-button">Formalizar Compra</button>
+                  </div>
+               </div>
             </div>
+            <script src="./js/tienda.js"></script>
 
-            <div class="products" id="product-list">
-                <!-- Aquí se insertarán los productos -->
-            </div>
-        </div>
-
-        <div class="home-footer11">
-            <div class="footer15-container thq-section-padding">
-                <img
-                        alt="Logo de HairLab"
-                        src="./logo-1500h.png"
-                        class="footer15-image1"
-                />
-                <div class="footer15-max-width thq-section-max-width">
-                    <div class="footer15-credits">
+            <!--Footer-->
+            <div class="home-footer11">
+               <div class="footer15-container interfaz-section-padding">
+                  <img
+                     src="./images/logo/logo-1500h.png"
+                     class="footer15-image1"
+                     />
+                  <div class="footer15-max-width interfaz-section-max-width">
+                     <div class="footer15-credits">
                         <div class="footer15-row">
-                            <div class="footer15-credits1">
-                                <a href="./terminos.html" class="thq-body-small">
-                                    <span>Política de Privacidad</span>
-                                </a>
-                                <a href="./terminos.html" class="thq-body-small">
-                                    <span>Términos y Condiciones</span>
-                                </a>
-                            </div>
-                            <div class="footer15-credits2">
-                                <span class="thq-body-small">
-                                    <span>© 2023 HairLab. Todos los derechos reservados.</span>
-                                </span>
-                            </div>
+                           <div class="footer15-credits1">
+                              <a href="./terminos.html" class="interfaz-body-small">
+                              <span>Enlace de privacidad</span>
+                              </a>
+                              <a href="./terminos.html" class="interfaz-body-small">
+                              <span>Enlace de términos y condiciones</span>
+                              </a>
+                              <a href="./terminos.html" class="interfaz-body-small">
+                              <span>Enlace de cookies</span>
+                              </a>
+                           </div>
                         </div>
-                    </div>
-                </div>
+                        <span class="footer15-content3 interfaz-body-small">
+                        <span>© 2024 HairLab</span>
+                        </span>
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-</div>
-<script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
-<script>
-  window.onload = async function() {
-      const productList = document.getElementById('product-list');
-      const categorySelects = document.querySelectorAll('.category-select');
-      const searchInput = document.getElementById('search-input');
-
-      // Función para obtener los productos desde el servidor
-      async function obtenerProductos(categoria, filtro) {
-          try {
-              const response = await fetch('/obtenerProductos');
-              const productos = await response.json();
-              let productosFiltrados = productos;
-              if (categoria !== 'Todos') {
-                  productosFiltrados = productos.filter(producto => producto.categoria === categoria);
-              }
-              if (filtro) {
-                  const filtroMinusculas = filtro.toLowerCase();
-                  productosFiltrados = productosFiltrados.filter(producto => producto.nombre.toLowerCase().includes(filtroMinusculas));
-              }
-              return productosFiltrados;
-          } catch (error) {
-              console.error('Error al obtener los productos:', error);
-          }
-      }
-// Función para mostrar los productos
-async function mostrarProductos(categoria, filtro) {
-    const productos = await obtenerProductos(categoria, filtro);
-
-    // Limpiar la lista de productos
-    productList.innerHTML = '';
-
-    // Mostrar los productos obtenidos
-    productos.forEach(producto => {
-        const productoElement = document.createElement('div');
-        productoElement.classList.add('product');
-        productoElement.innerHTML = `
-            <h3>${producto.nombre}</h3>
-            <img src="${producto.imagen}" alt="${producto.nombre}" class="product-image">
-            <p><strong>Categoría:</strong> ${producto.categoria}</p>
-            <p>${producto.descripcion}</p>
-            <p><strong>Precio:</strong> $${producto.precio.toFixed(2)}</p>
-        `;
-        productList.appendChild(productoElement);
-    });
-}
-
-
-      // Mostrar todos los productos al cargar la página
-      mostrarProductos('Todos', '');
-
-      // Evento click para cambiar la categoría
-      categorySelects.forEach(select => {
-          select.addEventListener('click', () => {
-              categorySelects.forEach(item => item.classList.remove('active'));
-              select.classList.add('active');
-              const categoria = select.dataset.category;
-              const filtro = searchInput.value.trim();
-              mostrarProductos(categoria, filtro);
-          });
-      });
-
-      // Evento input para buscar productos
-      searchInput.addEventListener('input', () => {
-          const categoriaSeleccionada = document.querySelector('.category-select.active').dataset.category;
-          const filtro = searchInput.value.trim();
-          mostrarProductos(categoriaSeleccionada, filtro);
-      });
-  };
-</script>
-
-</body>
+         </div>
+      </div>
+   </body>
 </html>
