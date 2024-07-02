@@ -157,6 +157,24 @@ app.get('/obtenerProductos', async (req, res) => {
     }
 });
 
+// Ruta para manejar las solicitudes GET para obtener un producto por su ID
+app.get('/obtenerProducto', async (req, res) => {
+    try {
+        const productoId = req.query.id;
+        // Buscar el producto por su idProducto en lugar de _id
+        const producto = await Productos.findOne({ idProducto: productoId });
+        if (!producto) {
+            // Si no se encuentra el producto, enviar un mensaje de error
+            return res.status(404).json({ success: false, message: 'Producto no encontrado' });
+        }
+        // Si se encuentra el producto, enviarlo como respuesta
+        res.json(producto);
+    } catch (error) {
+        console.error('Error al obtener el producto:', error);
+        res.status(500).json({ success: false, message: 'Error interno del servidor' });
+    }
+});
+
 // Ruta para manejar la página mas-info.html
 app.get('/mas-info.html', (req, res) => {
     // Ruta del archivo HTML solicitado

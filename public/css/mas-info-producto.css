@@ -1,0 +1,535 @@
+/**
+  Cabecera inicial
+*/
+.top-bar {
+  width: 100%;
+  background-color: var(--dl-color-theme-primary1);
+  padding: 10px 0;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--dl-color-theme-neutral-light);
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: var(--dl-color-theme-accent1);
+}
+
+/* Cabecera principal */
+.navbar4-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+
+.navbar4-image {
+  width: 320px;
+  height: 172px;
+  align-self: center;
+  object-fit: cover;
+}
+
+.navbar4-navbar-interactive {
+  width: 1306px;
+  height: 194px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+
+.navbar4-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar4-links {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar4-link1,
+.navbar4-link2,
+.navbar4-link3,
+.navbar4-link4,
+.navbar4-link5 {
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Estilo para el hover en los enlaces principales del menú */
+.navbar4-link1:hover,
+.navbar4-link2:hover,
+.navbar4-link3:hover,
+.navbar4-link4:hover,
+.navbar4-link5:hover {
+  background-color: #e0e0e0; /* Cambia este color según tu preferencia */
+  border-radius: 8px; /* Ajusta el borde redondeado si lo deseas */
+}
+
+.navbar4-usuario {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.usuario-icon img {
+  width: 100px; /* Ajusta el tamaño del icono de usuario */
+  height: 100px; /* Ajusta el tamaño del icono de usuario */
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.usuario-dropdown {
+  display: none;
+  position: absolute;
+  top: 150px; /* Ajusta la posición vertical del desplegable */
+  left: 50%; /* Centra horizontalmente el desplegable */
+  transform: translateX(-50%); /* Ajusta la posición horizontal del desplegable */
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  display: flex; /* Cambia el display para que las opciones se dispongan en fila */
+  flex-direction: row; /* Las opciones se disponen en fila */
+  justify-content: center; /* Centra las opciones horizontalmente */
+  align-items: center; /* Centra las opciones verticalmente */
+}
+
+.usuario-dropdown .dropdown-link {
+  display: block;
+  padding: 20px; /* Ajusta el padding de las opciones del desplegable */
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 24px; /* Ajusta el tamaño del texto de las opciones */
+}
+
+.usuario-dropdown .dropdown-link:hover {
+  background-color: #f1f1f1;
+  border-radius: 8px; /* Añade un borde redondeado al hacer hover */
+}
+
+@media(max-width: 767px) {
+  .navbar4-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .navbar4-desktop-menu {
+    display: none;
+  }
+  .navbar4-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media(max-width: 479px) {
+  .navbar4-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+}
+
+.navbar4-link-wrapper {
+  position: relative;
+}
+
+.navbar4-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%; /* Centra horizontalmente el submenu */
+  transform: translateX(-50%); /* Ajusta la posición del submenu */
+  background-color: var(--dl-color-theme-neutral-light);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 998;
+  width: 600px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.submenu-column {
+  padding: 20px;
+}
+
+.submenu-column h4 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.submenu-column img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.submenu-column a {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.submenu-column a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para el hover en los enlaces dentro del submenu */
+.navbar4-submenu a:hover {
+  background-color: #f1f1f1; /* Cambia este color según tu preferencia */
+  border-radius: 4px; /* Ajusta el borde redondeado si lo deseas */
+}
+
+.navbar4-link-wrapper:hover .navbar4-submenu {
+  display: flex;
+  width: auto;
+}
+
+
+
+/**
+Footer
+*/
+.footer15-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer15-image1 {
+  width: var(--dl-size-size-xxlarge);
+  height: 100%;
+}
+.footer15-max-width {
+  display: flex;
+  flex-direction: column;
+}
+.footer15-credits {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer15-row {
+  flex: 1;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.footer15-credits1 {
+  gap: var(--dl-space-space-twounits);
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.footer15-content3 {
+  align-self: center;
+}
+@media(max-width: 991px) {
+  .footer15-image1 {
+    height: 4rem;
+  }
+  .footer15-credits {
+    flex-direction: column;
+  }
+  .footer15-row {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer15-content3 {
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .footer15-credits {
+    flex-direction: column;
+  }
+  .footer15-row {
+    padding: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+  }
+  .footer15-credits1 {
+    width: auto;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+}
+@media(max-width: 479px) {
+  .footer15-image1 {
+    height: 3rem;
+  }
+  .footer15-row {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer15-credits1 {
+    gap: var(--dl-space-space-oneandhalfunits);
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-navbar1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-hero2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-logos3 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-gallery4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-features5 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-features6 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-features7 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-cta8 {
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-faq9 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-contact10 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-footer11 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para los marcos */
+#infoProducto {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los marcos */
+#infoProducto {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Marco Principal */
+.marco-principal {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Title Styles */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Paragraph Styles */
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+/* Image Styles */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Uniform Image Size */
+img.uniform-size {
+  width: 100%;
+  height: 300px; /* Set a larger height */
+  object-fit: contain; /* Ensures the image fits within the box without distorting */
+}
+
+/* Group Containers */
+.group-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Rounded Boxes for Tools and Products */
+.rounded-box {
+  flex: 1 1 calc(50% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional Images Container */
+.additional-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.additional-images img {
+  flex: 1 1 calc(33% - 10px);
+  height: 300px; /* Set a larger height */
+  object-fit: contain; /* Ensures the image fits within the box without distorting */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* Lists */
+ol, ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .rounded-box {
+      flex: 1 1 100%;
+  }
+
+  .additional-images img {
+      flex: 1 1 100%;
+  }
+}

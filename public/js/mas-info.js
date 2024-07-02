@@ -104,7 +104,7 @@ function mostrarInformacionServicio(servicio) {
 
     // Duración y Precio
     const duracionPrecio = document.createElement('p');
-    duracionPrecio.textContent = `Duración: ${servicio.duracion} minutos / Precio: $${servicio.precio}`;
+    duracionPrecio.textContent = `Duración: ${servicio.duracion} minutos / Precio: ${servicio.precio}€`;
     marco.appendChild(duracionPrecio);
 
     // Dificultad
