@@ -74,6 +74,43 @@ passport.deserializeUser(async (id, done) => {
     }
 });
 
+// Ruta para manejar la formalización de la compra
+app.post('/formalizarCompra', async (req, res) => {
+    const { usuarioDNI, venta } = req.body;
+    console.log('Formalizando compra para el usuario con DNI:', usuarioDNI);
+    console.log('Detalles de la venta:', venta);
+
+    try {
+        const usuario = await Usuarios.findOne({ dni: usuarioDNI });
+        if (!usuario) {
+            return res.status(404).json({ success: false, message: 'Usuario no encontrado' });
+        }
+
+        const productos = venta.productos.map(producto => ({
+            idProducto: producto.idProducto,
+            nombre: producto.nombre,
+            categoria: producto.categoria,
+            descripcion: producto.descripcion,
+            precio: producto.precio
+        }));
+
+        usuario.ventas.push({
+            idVenta: venta.idVenta,
+            fecha: new Date(venta.fecha),
+            total: venta.total,
+            estado: venta.estado,
+            productos: productos
+        });
+
+        await usuario.save();
+
+        res.json({ success: true, message: 'Compra registrada con éxito' });
+    } catch (error) {
+        console.error('Error al registrar la compra:', error);
+        res.status(500).json({ success: false, message: 'Error interno del servidor' });
+    }
+});
+
 // Ruta para manejar el registro de usuarios
 app.post('/registrarUsuario', async (req, res) => {
     try {

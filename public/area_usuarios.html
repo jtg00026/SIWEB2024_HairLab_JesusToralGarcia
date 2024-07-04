@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
    <head>
-      <title>HairLab - Formalizar compra</title>
-      <meta property="og:title" content="HairLab - Página principal" />
+      <title>HairLab - Peluquería > Cortes</title>
+      <meta property="og:title" content="HairLab - Area de Usuarios" />
       <meta name="viewport" content="width=device-width, initial-scale=0.75" />
       <meta charset="utf-8" />
       <meta property="twitter:card" content="summary_large_image" />
@@ -36,7 +36,7 @@
    <body>
       <link rel="stylesheet" href="./css/style.css" />
       <div>
-         <link href="./css/formalizar-compra.css" rel="stylesheet" />
+         <link href="./css/area_usuarios.css" rel="stylesheet" />
          <div class="home-container">
             <!-- Cabecera inicial-->
             <div class="top-bar">
@@ -207,45 +207,51 @@
                   </header>
                </div>
             </div>
-            <script src="./js/formalizar-compra.js"></script>
+            <script src="./js/area_usuarios.js"></script>
             
-<!-- Cuerpo de página -->
-    <div class="checkout-container">
-        <div class="checkout-form">
-            <h2>Información de Facturación</h2>
-            <form id="billing-form">
-                <label for="name">Nombre Completo</label>
-                <input type="text" id="name" name="name" required>
-                <label for="address">Dirección</label>
-                <input type="text" id="address" name="address" required>
-                <label for="city">Ciudad</label>
-                <input type="text" id="city" name="city" required>
-                <label for="state">Estado/Provincia</label>
-                <input type="text" id="state" name="state" required>
-                <label for="zip">Código Postal</label>
-                <input type="text" id="zip" name="zip" required>
-                <h2>Método de Pago</h2>
-                <label for="card-number">Número de Tarjeta</label>
-                <input type="text" id="card-number" name="card-number" required>
-                <label for="expiry-date">Fecha de Expiración</label>
-                <input type="text" id="expiry-date" name="expiry-date" required>
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" required>
-                <button type="submit" id="pay-button">Pagar</button>
-            </form>
-        </div>
-        <div class="checkout-separator"></div>
-        <div class="checkout-summary">
-            <h2>Resumen del Pedido</h2>
-            <div id="product-summary">
-                <!-- Aquí se mostrarán los productos del carrito -->
+            <div class="hero92-header30 interfaz-section-padding">
+               <img alt="Salón de peluquería elegante" src="https://images.unsplash.com/photo-1493775379751-a6c3940f3cbc?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNTQ5ODk2MHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080" class="hero92-image" />
+               <div class="hero92-container">
+                 <div class="hero92-max-width interfaz-section-max-width">
+                   <div class="hero92-content">
+                     <h1 class="hero92-text interfaz-heading-1">
+                       <span>Área de Usuario</span>
+                     </h1>
+                     <p class="hero92-text1 interfaz-body-large">
+                       <span>En este apartado puedes consultar tu historial de citas y tus pedidos.</span>
+                     </p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+            <!-- Cuerpo de página -->
+            <div class="peluqueria-cop">
+               <div class="breadcrumb">
+                  <nav class="nav1">
+                     <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Área de Usuario</li>
+                     </ol>
+                  </nav>
+               </div>
+
+               <div class="container">
+                  <div class="frame">
+                  <a href="mis-reservas.html">
+                     <img src="https://cdn2.iconfinder.com/data/icons/productivity/256/Working_Schedule-512.png" alt="Corte de barba">
+                     <div class="text">Mis reservas</div>
+                  </a>
+                  </div>
+                  
+                  <div class="frame">
+                  <a href="mis-compras.html">
+                     <img src="https://media.istockphoto.com/id/1130436548/vector/vector-seamless-monochrome-pattern-for-hairdresser-tools-for-the-master-in-the-beauty-salon.jpg?s=612x612&w=0&k=20&c=ubTEK_qfKddQXvVwrJhQwl-MMCTXBGmv_7yP8a9O8J8=" alt="Corte de pelo femenino">
+                     <div class="text">Mis compras</div>
+                  </a>
+                  </div>
+               </div>
             </div>
-            <div id="total-price">
-                Total: $0.00
-            </div>
-        </div>
-    </div>
-    <script src="./js/formalizar-compra.js"></script>  
 
             <!--Footer-->
             <div class="home-footer11">

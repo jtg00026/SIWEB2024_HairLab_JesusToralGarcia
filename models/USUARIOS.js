@@ -46,13 +46,13 @@ const UsuarioSchema = new mongoose.Schema({
         fecha: Date,
         total: Number,
         estado: String,
-        productos: {
+        productos: [{
             idProducto: Number,
             nombre: String,
             categoria: String,
             descripcion: String,
             precio: Number
-        }
+        }]
     }]
 });
 

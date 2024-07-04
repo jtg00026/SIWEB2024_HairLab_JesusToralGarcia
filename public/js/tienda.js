@@ -118,10 +118,23 @@ document.addEventListener('DOMContentLoaded', async function() {
             <button class="buy-button" data-id="${producto.idProducto}">Comprar ahora</button>
           </div>
         `;
+        
+        // Añadir event listener para abrir más información del producto
+        productoElement.addEventListener('click', () => {
+          window.location.href = `mas-info-producto.html?id=${producto.idProducto}`;
+        });
+
+        // Prevenir la propagación del evento click para los botones dentro del producto
         productoElement.querySelector('.add-to-cart-button').addEventListener('click', (event) => {
           event.stopPropagation();
           agregarAlCarrito(producto);
         });
+
+        productoElement.querySelector('.buy-button').addEventListener('click', (event) => {
+          event.stopPropagation();
+          window.location.href = `formalizar-compra.html?ids=${producto.idProducto}`;
+        });
+
         productList.appendChild(productoElement);
       });
     }
@@ -300,6 +313,14 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
     if (!priceDropdown.contains(e.target)) {
       priceDropdownContent.classList.remove('show');
+    }
+  });
+
+  // Event listener para formalizar compra del carrito
+  checkoutButton.addEventListener('click', () => {
+    if (cart.length > 0) {
+      const ids = cart.map(producto => producto.idProducto).join(',');
+      window.location.href = `formalizar-compra.html?ids=${ids}`;
     }
   });
 });
