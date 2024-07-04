@@ -51,7 +51,8 @@ const UsuarioSchema = new mongoose.Schema({
             nombre: String,
             categoria: String,
             descripcion: String,
-            precio: Number
+            precio: Number,
+            imagen: String
         }]
     }]
 });

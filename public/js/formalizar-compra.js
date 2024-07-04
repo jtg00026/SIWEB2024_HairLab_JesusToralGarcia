@@ -167,7 +167,8 @@ document.addEventListener('DOMContentLoaded', async function() {
                   nombre: producto.nombre,
                   categoria: producto.categoria,
                   descripcion: producto.descripcion,
-                  precio: producto.precio
+                  precio: producto.precio,
+                  imagen: producto.imagen
               });
           }
       }

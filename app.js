@@ -91,7 +91,8 @@ app.post('/formalizarCompra', async (req, res) => {
             nombre: producto.nombre,
             categoria: producto.categoria,
             descripcion: producto.descripcion,
-            precio: producto.precio
+            precio: producto.precio,
+            imagen: producto.imagen
         }));
 
         usuario.ventas.push({
@@ -148,6 +149,23 @@ app.post('/iniciarSesion', (req, res, next) => {
             return res.json({ success: true });
         });
     })(req, res, next);
+});
+
+// Ruta para manejar las solicitudes GET para obtener los servicios
+app.get('/obtenerVentas', async (req, res) => {
+    const { dni } = req.query;
+
+    try {
+        const usuario = await Usuarios.findOne({ dni: dni });
+        if (!usuario) {
+            return res.status(404).send({ message: 'Usuario no encontrado' });
+        }
+
+        res.send(usuario.ventas);
+    } catch (error) {
+        console.error('Error al obtener las ventas del usuario:', error);
+        res.status(500).send({ message: 'Error interno del servidor' });
+    }
 });
 
 // Ruta para manejar las solicitudes GET para obtener los servicios

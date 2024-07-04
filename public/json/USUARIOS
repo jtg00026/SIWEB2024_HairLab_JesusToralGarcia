@@ -59,7 +59,8 @@
                     "nombre": "Máquina de afeitar eléctrica",
                     "categoria": "Máquinas de cortar",
                     "descripcion": "Máquina recargable para afeitar el vello facial con precisión.",
-                    "precio": 34.99
+                    "precio": 34.99,
+                    "imagen": "https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/08/17/16607245172899.jpg"
                 }
             }
         ]
