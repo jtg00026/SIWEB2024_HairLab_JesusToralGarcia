@@ -61,143 +61,163 @@ document.addEventListener("DOMContentLoaded", function() {
  * Metodos de pagina
  */
 document.addEventListener('DOMContentLoaded', async function() {
-  const productSummary = document.getElementById('product-summary');
-  const totalPriceElement = document.getElementById('total-price');
-  const urlParams = new URLSearchParams(window.location.search);
+    const productSummary = document.getElementById('product-summary');
+    const totalPriceElement = document.getElementById('total-price');
+    const urlParams = new URLSearchParams(window.location.search);
 
-  // Obtener los IDs de los productos desde el parámetro 'ids'
-  const productIdsParam = urlParams.get('ids');
-  const productIds = productIdsParam ? productIdsParam.split(',') : [];
+    // Obtener los IDs de los productos desde el parámetro 'ids'
+    const productIdsParam = urlParams.get('ids');
+    const productIds = productIdsParam ? productIdsParam.split(',') : [];
 
-  // Función para obtener los detalles del producto por su ID
-  async function obtenerDetallesProducto(id) {
-      try {
-          const response = await fetch(`/obtenerProducto?id=${id}`);
-          if (!response.ok) {
-              throw new Error(`HTTP error! status: ${response.status}`);
-          }
-          return await response.json();
-      } catch (error) {
-          console.error('Error al obtener el producto:', error);
-          return null;
-      }
-  }
+    async function obtenerDetallesProducto(id) {
+        try {
+            const response = await fetch(`/obtenerProducto?id=${id}`);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return await response.json();
+        } catch (error) {
+            console.error('Error al obtener el producto:', error);
+            return null;
+        }
+    }
 
-  // Mostrar los productos en el resumen
-  async function mostrarProductos() {
-      let totalPrice = 0;
-      const fragment = document.createDocumentFragment();
+    async function mostrarProductos() {
+        let totalPrice = 0;
+        const fragment = document.createDocumentFragment();
+        const uniqueProductIds = [...new Set(productIds)];
 
-      // Utilizar un conjunto para evitar productos duplicados
-      const uniqueProductIds = [...new Set(productIds)];
+        for (const id of uniqueProductIds) {
+            const producto = await obtenerDetallesProducto(id);
+            if (producto) {
+                const productoElement = document.createElement('div');
+                productoElement.classList.add('product-summary-item');
+                productoElement.innerHTML = `
+                    <img src="${producto.imagen}" alt="${producto.nombre}" class="product-summary-image">
+                    <div class="product-summary-content">
+                        <h3>${producto.nombre}</h3>
+                        <p>Precio: $${producto.precio.toFixed(2)}</p>
+                    </div>
+                `;
+                fragment.appendChild(productoElement);
+                totalPrice += producto.precio;
+            } else {
+                const errorElement = document.createElement('div');
+                errorElement.textContent = `Error al cargar el producto con ID ${id}.`;
+                fragment.appendChild(errorElement);
+            }
+        }
 
-      for (const id of uniqueProductIds) {
-          const producto = await obtenerDetallesProducto(id);
-          if (producto) {
-              const productoElement = document.createElement('div');
-              productoElement.classList.add('product-summary-item');
-              productoElement.innerHTML = `
-                  <img src="${producto.imagen}" alt="${producto.nombre}" class="product-summary-image">
-                  <div class="product-summary-content">
-                      <h3>${producto.nombre}</h3>
-                      <p>Precio: $${producto.precio.toFixed(2)}</p>
-                  </div>
-              `;
-              fragment.appendChild(productoElement);
-              totalPrice += producto.precio;
-          } else {
-              const errorElement = document.createElement('div');
-              errorElement.textContent = `Error al cargar el producto con ID ${id}.`;
-              fragment.appendChild(errorElement);
-          }
-      }
+        productSummary.innerHTML = '';
+        productSummary.appendChild(fragment);
+        totalPriceElement.textContent = `Total: $${totalPrice.toFixed(2)}`;
+    }
 
-      productSummary.innerHTML = ''; // Limpiar el contenedor antes de agregar los productos
-      productSummary.appendChild(fragment);
-      totalPriceElement.textContent = `Total: $${totalPrice.toFixed(2)}`;
-  }
+    await mostrarProductos();
 
-  await mostrarProductos(); // Esperar a que los productos se muestren antes de continuar
+    let isProcessing = false;
 
-  // Variable para controlar el estado del proceso de compra
-  let isProcessing = false;
+    document.getElementById('billing-form').addEventListener('submit', async function(event) {
+        event.preventDefault();
 
-  // Event listener para procesar la compra
-  document.getElementById('billing-form').addEventListener('submit', async function(event) {
-      event.preventDefault();
+        if (isProcessing) return;
+        isProcessing = true;
 
-      // Prevenir múltiple procesamiento
-      if (isProcessing) return;
-      isProcessing = true;
+        const submitButton = document.querySelector('button[type="submit"]');
+        submitButton.disabled = true;
 
-      // Deshabilitar el botón de envío
-      const submitButton = document.querySelector('button[type="submit"]');
-      submitButton.disabled = true;
+        const formData = new FormData(this);
+        const billingInfo = {
+            nombre: formData.get('name'),
+            direccion: formData.get('address'),
+            ciudad: formData.get('city'),
+            estado: formData.get('state'),
+            codigoPostal: formData.get('zip'),
+            numeroTarjeta: formData.get('card-number'),
+            fechaExpiracion: formData.get('expiry-date'),
+            cvv: formData.get('cvv')
+        };
 
-      // Obtener datos del formulario
-      const formData = new FormData(this);
-      const billingInfo = {
-          nombre: formData.get('name'),
-          direccion: formData.get('address'),
-          ciudad: formData.get('city'),
-          estado: formData.get('state'),
-          codigoPostal: formData.get('zip'),
-          numeroTarjeta: formData.get('card-number'),
-          fechaExpiracion: formData.get('expiry-date'),
-          cvv: formData.get('cvv')
-      };
+        const venta = {
+            idVenta: Math.floor(Math.random() * 10000),
+            fecha: new Date().toISOString().slice(0, 10),
+            total: parseFloat(totalPriceElement.textContent.replace('Total: $', '')),
+            estado: "Completada",
+            productos: []
+        };
 
-      // Ejecutar la acción de pagar
-      const venta = {
-          idVenta: Math.floor(Math.random() * 10000), // Generar un ID de venta aleatorio
-          fecha: new Date().toISOString().slice(0, 10),
-          total: parseFloat(totalPriceElement.textContent.replace('Total: $', '')),
-          estado: "Completada",
-          productos: []
-      };
+        const uniqueProductIds = [...new Set(productIds)];
 
-      // Utilizar el conjunto uniqueProductIds para evitar productos duplicados
-      const uniqueProductIds = [...new Set(productIds)];
+        for (const id of uniqueProductIds) {
+            const producto = await obtenerDetallesProducto(id);
+            if (producto) {
+                venta.productos.push({
+                    idProducto: producto.idProducto,
+                    nombre: producto.nombre,
+                    categoria: producto.categoria,
+                    descripcion: producto.descripcion,
+                    precio: producto.precio,
+                    imagen: producto.imagen
+                });
+            }
+        }
 
-      for (const id of uniqueProductIds) {
-          const producto = await obtenerDetallesProducto(id);
-          if (producto) {
-              venta.productos.push({
-                  idProducto: producto.idProducto,
-                  nombre: producto.nombre,
-                  categoria: producto.categoria,
-                  descripcion: producto.descripcion,
-                  precio: producto.precio,
-                  imagen: producto.imagen
-              });
-          }
-      }
+        try {
+            const response = await fetch('/formalizarCompra', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    usuarioDNI: '28745373A',
+                    venta: venta
+                })
+            });
+            const result = await response.json();
+            if (result.success) {
+                generarFacturaPDF(billingInfo, venta);
+                alert('Compra realizada con éxito!');
+                window.location.href = 'index.html';
+            } else {
+                alert('Error al realizar la compra: ' + result.message);
+            }
+        } catch (error) {
+            console.error('Error al formalizar la compra:', error);
+            alert('Error al realizar la compra.');
+        } finally {
+            isProcessing = false;
+            submitButton.disabled = false;
+        }
+    });
 
-      // Llamar a la función en app.js para agregar la venta
-      try {
-          const response = await fetch('/formalizarCompra', { // Asegúrate de que la URL sea correcta
-              method: 'POST',
-              headers: {
-                  'Content-Type': 'application/json'
-              },
-              body: JSON.stringify({
-                  usuarioDNI: '28745373A',
-                  venta: venta
-              })
-          });
-          const result = await response.json();
-          if (result.success) {
-              alert('Compra realizada con éxito!');
-              window.location.href = 'index.html';
-          } else {
-              alert('Error al realizar la compra: ' + result.message);
-          }
-      } catch (error) {
-          console.error('Error al formalizar la compra:', error);
-          alert('Error al realizar la compra.');
-      } finally {
-          isProcessing = false;
-          submitButton.disabled = false;
-      }
-  });
+    function generarFacturaPDF(billingInfo, venta) {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+
+        doc.setFontSize(12);
+        doc.text('Factura de Compra', 105, 10, null, null, 'center');
+        doc.text(`Fecha: ${venta.fecha}`, 10, 20);
+        doc.text(`ID de Venta: ${venta.idVenta}`, 10, 30);
+
+        doc.text('Información de Facturación:', 10, 40);
+        doc.text(`Nombre: ${billingInfo.nombre}`, 10, 50);
+        doc.text(`Dirección: ${billingInfo.direccion}`, 10, 60);
+        doc.text(`Ciudad: ${billingInfo.ciudad}`, 10, 70);
+        doc.text(`Estado/Provincia: ${billingInfo.estado}`, 10, 80);
+        doc.text(`Código Postal: ${billingInfo.codigoPostal}`, 10, 90);
+
+        doc.text('Productos:', 10, 110);
+        let yPosition = 120;
+        venta.productos.forEach((producto) => {
+            doc.text(`Nombre: ${producto.nombre}`, 10, yPosition);
+            doc.text(`Precio: $${producto.precio.toFixed(2)}`, 10, yPosition + 10);
+            // Añadir la imagen del producto
+            doc.addImage(producto.imagen, 'JPEG', 160, yPosition - 10, 40, 30);
+            yPosition += 40;
+        });
+
+        doc.text(`Total: $${venta.total.toFixed(2)}`, 10, yPosition + 20);
+
+        doc.save('Factura.pdf');
+    }
 });

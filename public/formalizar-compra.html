@@ -32,6 +32,9 @@
          href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
          data-tag="font"
          />
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.16/jspdf.plugin.autotable.min.js"></script>
    </head>
    <body>
       <link rel="stylesheet" href="./css/style.css" />
@@ -209,43 +212,43 @@
             </div>
             <script src="./js/formalizar-compra.js"></script>
             
-<!-- Cuerpo de página -->
-    <div class="checkout-container">
-        <div class="checkout-form">
-            <h2>Información de Facturación</h2>
-            <form id="billing-form">
-                <label for="name">Nombre Completo</label>
-                <input type="text" id="name" name="name" required>
-                <label for="address">Dirección</label>
-                <input type="text" id="address" name="address" required>
-                <label for="city">Ciudad</label>
-                <input type="text" id="city" name="city" required>
-                <label for="state">Estado/Provincia</label>
-                <input type="text" id="state" name="state" required>
-                <label for="zip">Código Postal</label>
-                <input type="text" id="zip" name="zip" required>
-                <h2>Método de Pago</h2>
-                <label for="card-number">Número de Tarjeta</label>
-                <input type="text" id="card-number" name="card-number" required>
-                <label for="expiry-date">Fecha de Expiración</label>
-                <input type="text" id="expiry-date" name="expiry-date" required>
-                <label for="cvv">CVV</label>
-                <input type="text" id="cvv" name="cvv" required>
-                <button type="submit" id="pay-button">Pagar</button>
-            </form>
-        </div>
-        <div class="checkout-separator"></div>
-        <div class="checkout-summary">
-            <h2>Resumen del Pedido</h2>
-            <div id="product-summary">
-                <!-- Aquí se mostrarán los productos del carrito -->
+            <!-- Cuerpo de página -->
+            <div class="checkout-container">
+               <div class="checkout-form">
+                     <h2>Información de Facturación</h2>
+                     <form id="billing-form">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="address">Dirección</label>
+                        <input type="text" id="address" name="address" required>
+                        <label for="city">Ciudad</label>
+                        <input type="text" id="city" name="city" required>
+                        <label for="state">Estado/Provincia</label>
+                        <input type="text" id="state" name="state" required>
+                        <label for="zip">Código Postal</label>
+                        <input type="text" id="zip" name="zip" required>
+                        <h2>Método de Pago</h2>
+                        <label for="card-number">Número de Tarjeta</label>
+                        <input type="text" id="card-number" name="card-number" required>
+                        <label for="expiry-date">Fecha de Expiración</label>
+                        <input type="text" id="expiry-date" name="expiry-date" required>
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" required>
+                        <button type="submit" id="pay-button">Pagar</button>
+                     </form>
+               </div>
+               <div class="checkout-separator"></div>
+               <div class="checkout-summary">
+                     <h2>Resumen del Pedido</h2>
+                     <div id="product-summary">
+                        <!-- Aquí se mostrarán los productos del carrito -->
+                     </div>
+                     <div id="total-price">
+                        Total: $0.00
+                     </div>
+               </div>
             </div>
-            <div id="total-price">
-                Total: $0.00
-            </div>
-        </div>
-    </div>
-    <script src="./js/formalizar-compra.js"></script>  
+            <script src="./js/formalizar-compra.js"></script>  
 
             <!--Footer-->
             <div class="home-footer11">
